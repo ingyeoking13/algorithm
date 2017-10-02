@@ -1,8 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/home/adkb/bj/easy'
-let g:netrw_dirhist_2='/home/adkb/bj'
-let g:netrw_dirhist_3='/home/adkb/hs/ch1'
-let g:netrw_dirhist_4='/home/adkb/bj/p1000'
-let g:netrw_dirhist_5='/home/adkb/bj/algorithm/BFS'
-let g:netrw_dirhist_6='/home/adkb/cf/palindrome'
