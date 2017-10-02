@@ -1,8 +1,6 @@
 # algorithm
 알고리즘할수재밌쥬? 할수있쥬?
 
-README.md
-
 Hi, Welcome.
 This repository is for anyone who wants to study algorithm.
 below is my blog.
