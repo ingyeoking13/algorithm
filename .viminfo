@@ -8,7 +8,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~Msle0~/\<include\>
+~Msle0~/}
 
 # Last Substitute Search Pattern:
 ~MSle0&for
@@ -19,9 +19,10 @@ $
 # 명령 줄 히스토리 (새것부터 오래된 것 순):
 :wq
 :w
-:%le
-:q!
 :set nonu
+:set 
+:q!
+:%le
 :q
 :set nonu]
 :r bubblesort.c
@@ -66,19 +67,18 @@ $
 :ㅈ
 :Lw
 :r ./pthread.c
-:r ./sched_param.c
 
 # 찾을 문자열 히스토리 (새것부터 오래된 것 순):
+? }
+?/force
 ? \<include\>
 ?/PS
 ?/PS1
-?/force
 ?/force_color
 ? \<strcp\>
 ? @$
 ?//i
 ?//
-? }
 ? >
 ? \<2d\>
 ?/cnt
@@ -114,43 +114,84 @@ $
 
 # 레지스터:
 "0	LINE	0
-	int mycmp(const void* a, const void* b){ return *(int *) a - *(int *) b; }
-""1	LINE	0
-	
+				printf("a : %d\n", ansa);
+"1	LINE	0
+		for (int i=0; i< numa; i++) printf("a : %d %d %d\n", Pa[i].slice, Pa[i].a, Pa[i].b);
+	  for (int i=0; i< numb; i++) printf("b : %d %d %d\n", Pb[i].slice, Pb[i].a, Pb[i].b);
 "2	LINE	0
-	README.md
+		
 "3	LINE	0
-		for(int i=0; i<n; i++) printf("%c\n", str[i]);
-		printf("%d\n", ans);
+		else return (sa->a-sa->b);
 "4	LINE	0
 	
 "5	LINE	0
-	
+		p
 "6	LINE	0
-	
+	int n, s;
 "7	LINE	0
-	
-	
+		printf("%d %d %d\n", piza, pizb, ans);
 "8	LINE	0
 	
 "9	LINE	0
-	
-"-	CHAR	0
-	now
+		for (int i=0; i<numa; i++) printf("a : %d %d %d\n", Pa[i].slice, Pa[i].a, Pa[i].b);
+		for (int i=0; i<numb; i++) printf("b : %d %d %d\n", Pb[i].slice, Pb[i].a, Pb[i].b);
+""-	CHAR	0
+	++;
 
 # 파일 마크:
-'0  4  0  ~/README.md
-'1  9  0  ~/README.md
-'2  1  1  ~/README.md
-'3  1  0  ~/test.c
-'4  1  0  ~/cf/p867a.c
-'5  25  1  ~/cf/p867a.c
-'6  25  46  ~/cf/p867a.c
-'7  25  12  ~/cf/p867a.c
-'8  18  8  ~/cf/p867a.c
-'9  21  3  ~/cf/p867a.c
+'0  63  0  ~/cf/sortsearch/p865B.c
+'1  51  3  ~/cf/sortsearch/p865B.c
+'2  1  0  ~/cf/sortsearch/p865B.c
+'3  13  22  ~/cf/sortsearch/p865B.c
+'4  41  2  ~/cf/sortsearch/p865B.c
+'5  60  0  ~/cf/sortsearch/p865B.c
+'6  42  37  ~/cf/sortsearch/p865B.c
+'7  55  0  ~/cf/sortsearch/p865B.c
+'8  56  10  ~/cf/sortsearch/p865B.c
+'9  53  24  ~/cf/sortsearch/p865B.c
 
 # 점프목록 (새것이 먼저):
+-'  63  0  ~/cf/sortsearch/p865B.c
+-'  59  11  ~/cf/sortsearch/p865B.c
+-'  1  0  ~/cf/sortsearch/p865B.c
+-'  40  0  ~/cf/sortsearch/p865B.c
+-'  2  0  ~/cf/sortsearch/p865B.c
+-'  51  3  ~/cf/sortsearch/p865B.c
+-'  13  22  ~/cf/sortsearch/p865B.c
+-'  41  2  ~/cf/sortsearch/p865B.c
+-'  62  1  ~/cf/sortsearch/p865B.c
+-'  16  0  ~/cf/sortsearch/p865B.c
+-'  60  0  ~/cf/sortsearch/p865B.c
+-'  42  37  ~/cf/sortsearch/p865B.c
+-'  23  8  ~/cf/sortsearch/p865B.c
+-'  9  0  ~/cf/sortsearch/p865B.c
+-'  55  0  ~/cf/sortsearch/p865B.c
+-'  57  3  ~/cf/sortsearch/p865B.c
+-'  65  3  ~/cf/sortsearch/p865B.c
+-'  52  2  ~/cf/sortsearch/p865B.c
+-'  44  0  ~/cf/sortsearch/p865B.c
+-'  45  1  ~/cf/sortsearch/p865B.c
+-'  70  1  ~/cf/sortsearch/p865B.c
+-'  71  0  ~/cf/sortsearch/p865B.c
+-'  47  1  ~/cf/sortsearch/p865B.c
+-'  56  10  ~/cf/sortsearch/p865B.c
+-'  53  24  ~/cf/sortsearch/p865B.c
+-'  66  27  ~/cf/sortsearch/p865B.c
+-'  64  13  ~/cf/sortsearch/p865B.c
+-'  58  23  ~/cf/sortsearch/p865B.c
+-'  61  5  ~/cf/sortsearch/p865B.c
+-'  67  13  ~/cf/sortsearch/p865B.c
+-'  54  0  ~/cf/sortsearch/p865B.c
+-'  29  2  ~/cf/sortsearch/p865B.c
+-'  33  6  ~/cf/sortsearch/p865B.c
+-'  32  25  ~/cf/sortsearch/p865B.c
+-'  8  8  ~/cf/sortsearch/p865B.c
+-'  49  5  ~/cf/sortsearch/p865B.c
+-'  36  12  ~/cf/sortsearch/p865B.c
+-'  31  2  ~/cf/sortsearch/p865B.c
+-'  19  11  ~/cf/sortsearch/p865B.c
+-'  4  14  ~/cf/sortsearch/p865B.c
+-'  6  7  ~/cf/sortsearch/p865B.c
 -'  4  0  ~/README.md
 -'  1  0  ~/README.md
 -'  9  0  ~/README.md
@@ -203,54 +244,113 @@ $
 -'  1  0  ~/bj/p1000/p7576.c
 -'  9  1  ~/bj/p1000/p7576.c
 -'  10  23  ~/bj/p1000/p7576.c
--'  11  12  ~/bj/p1000/p7576.c
--'  22  0  ~/bj/p1000/p7576.c
--'  20  14  ~/bj/p1000/p7576.c
--'  18  13  ~/bj/p1000/p7576.c
--'  39  2  ~/bj/p1000/p2309.c
--'  1  0  ~/bj/p1000/p2309.c
--'  43  5  ~/bj/p1000/p2309.c
--'  49  0  ~/bj/p1000/p2309.c
--'  2  0  ~/bj/p1000/p2309.c
--'  44  1  ~/bj/p1000/p2309.c
--'  46  14  ~/bj/p1000/p2309.c
--'  38  5  ~/bj/p1000/p2309.c
--'  4  16  ~/bj/p1000/p2309.c
--'  18  1  ~/bj/p1000/p2309.c
--'  9  1  ~/bj/p1000/p2309.c
--'  1  0  ~/bj/p1000/p1065.c
--'  16  12  ~/bj/p1000/p1065.c
--'  1  0  ~/bj/p1000/p2609.c
--'  17  0  ~/bj/p1000/p2609.c
--'  6  0  ~/bj/p1000/p1026.c
--'  1  0  ~/bj/p1000/p1026.c
--'  17  31  ~/bj/p1000/p1026.c
--'  23  0  ~/bj/p1000/p1026.c
--'  1  0  ~/bj/p1000/p1932.c
--'  28  53  ~/bj/p1000/p1932.c
--'  17  15  ~/bj/p1000/p1932.c
--'  38  20  ~/bj/p1000/p1932.c
--'  16  3  ~/bj/p1000/p1932.c
--'  1  1  ~/bj/p1000/p1260.c
--'  3  0  ~/bj/p1000/p1260.c
--'  10  9  ~/bj/p1000/p1260.c
--'  20  0  ~/bj/p1000/p1260.c
--'  43  0  ~/bj/p1000/p1260.c
--'  37  21  ~/bj/p1000/p1260.c
--'  38  10  ~/bj/p1000/p1260.c
--'  28  7  ~/bj/p1000/p1260.c
--'  13  7  ~/bj/p1000/p1260.c
--'  12  23  ~/bj/p1000/p1260.c
--'  9  10  ~/bj/p1000/p1260.c
--'  1  0  ~/bj/p1000/p14717.c
--'  12  26  ~/bj/p1000/p14717.c
--'  17  0  ~/bj/p1000/p14717.c
--'  11  27  ~/bj/p1000/p14717.c
--'  4  9  ~/bj/p1000/p14717.c
--'  18  0  ~/bj/p1000/p14717.c
--'  1  0  ~/bj/p1000/p14717.c
 
 # 파일내의 마크 히스토리 (새것부터 오래된 순):
+
+> ~/cf/sortsearch/p865B.c
+	"	63	0
+	^	43	2
+	.	43	0
+	+	63	14
+	+	64	16
+	+	69	37
+	+	56	12
+	+	58	15
+	+	59	18
+	+	66	0
+	+	58	3
+	+	66	3
+	+	58	4
+	+	66	4
+	+	59	13
+	+	67	13
+	+	66	3
+	+	67	8
+	+	59	8
+	+	58	3
+	+	64	9
+	+	56	9
+	+	69	22
+	+	70	22
+	+	61	5
+	+	58	21
+	+	47	36
+	+	47	51
+	+	47	0
+	+	47	0
+	+	47	79
+	+	47	52
+	+	47	65
+	+	47	65
+	+	47	74
+	+	47	74
+	+	38	49
+	+	38	49
+	+	47	49
+	+	47	49
+	+	58	0
+	+	38	76
+	+	47	67
+	+	38	0
+	+	58	23
+	+	54	10
+	+	56	10
+	+	63	10
+	+	64	10
+	+	58	13
+	+	69	16
+	+	70	17
+	+	66	26
+	+	64	13
+	+	66	0
+	+	70	0
+	+	69	35
+	+	58	0
+	+	47	0
+	+	47	0
+	+	58	14
+	+	66	27
+	+	53	24
+	+	56	0
+	+	56	0
+	+	58	0
+	+	66	0
+	+	53	0
+	+	47	0
+	+	55	0
+	+	19	9
+	+	45	31
+	+	46	6
+	+	61	12
+	+	41	40
+	+	42	37
+	+	8	0
+	+	17	1
+	+	17	0
+	+	40	0
+	+	41	1
+	+	40	85
+	+	40	0
+	+	40	0
+	+	41	2
+	+	13	20
+	+	14	0
+	+	13	5
+	+	13	57
+	+	14	0
+	+	13	21
+	+	14	0
+	+	14	0
+	+	13	1
+	+	14	0
+	+	13	22
+	+	40	0
+	+	27	15
+	+	32	15
+	+	54	9
+	+	59	24
+	+	42	55
+	+	43	0
 
 > ~/README.md
 	"	4	0
@@ -4491,40 +4591,3 @@ $
 	+	12	0
 	+	7	21
 	+	6	8
-
-> ~/bj/algorithm/dp/palindrome10942_memo.c
-	"	6	21
-	^	8	28
-	.	6	18
-	+	26	0
-	+	13	0
-	+	11	0
-	+	3	27
-	+	15	11
-	+	3	0
-	+	14	0
-	+	15	43
-	+	26	0
-	+	17	4
-	+	4	19
-	+	17	10
-	+	12	0
-	+	26	0
-	+	20	5
-	+	19	16
-	+	25	0
-	+	23	6
-	+	22	24
-	+	23	31
-	+	25	0
-	+	24	6
-	+	25	0
-	+	26	0
-	+	5	19
-	+	6	23
-	+	7	30
-	+	10	0
-	+	9	7
-	+	10	0
-	+	8	27
-	+	6	18

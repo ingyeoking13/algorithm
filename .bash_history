@@ -1,276 +1,3 @@
-gcc p1038.c -o p1038.out
-./p1038.out 
-vi p1038.c
-gcc p1038.c -o p1038.out
-./p1038.out 
-vi p1038.c
-gcc p1038.c -o p1038.out
-vi p1038.c
-gcc p1038.c -o p1038.out
-./p1038.out 
-vi p1038.c
-gcc p1038.c -o p1038.out
-./p1038.out 
-vi p1038.c
-gcc p1038.c -o p1038.out
-
-gcc p1038.c -o p1038.out
-52
-gcc p1038.c -o p1038.out
-
-vi p1038.c
-gcc p1038.c -o p1038.out
-vi p1038.c
-gcc p1038.c -o p1038.out
-./p1038.out 
-gcc p1038.c -o p1038.out
-./p1038.out 2
-vi p1038.c
-gcc p1038.c -o p1038.out
-./p1038.out 2
-vi p1038.c
-gcc p1038.c -o p1038.out
-./p1038.out 2
-vi p1038.c
-gcc p1038.c -o p1038.out
-./p1038.out 2
-vi p1038.c
-./p1038.out 2
-./p1038.out 250
-./p1038.out
-./p1038.out 250
-vi p1038.c
-gcc p1038.c -o p1038.out
-./p1038.out 
-vi p1038.c
-gcc p1038.c -o p1038.out
-./p1038.out 
-vi p1038.c
-gcc p1038.c -o p1038.out
-./p1038.out 
-./p1038.out
-gcc p1038.c -o p1038.out
-./p1038.out
-vi p1038.c
-./p1038.out
-vi p1038.c
-gcc p1038.c -o p1038.out
-./p1038.out
-vi p1038.c
-gcc p1038.c -o p1038.out
-./p1038.out
-vi p1038.c
-gcc p1038.c -o p1038.out
-./p1038.out
-vi p1038.c
-ils
-ls
-cd ..
-ls
-cd ..
-ls
-cd cf/
-ls
-mkdir palindrome
-ls
-cd palindrome/
-ls
-vi Quasi-palindrome.c
-gcc Quasi-palindrome.c -o Quasi-palindrome.out
-./Quasi-palindrome.out 
-gcc Quasi-palindrome.c -o Quasi-palindrome.out
-vi Quasi-palindrome.c
-gcc Quasi-palindrome.c -o Quasi-palindrome.out
-./Quasi-palindrome.out 
-vi Quasi-palindrome.c
-gcc Quasi-palindrome.c -o Quasi-palindrome.out
-./Quasi-palindrome.out 
-vi Quasi-palindrome.c
-exit
-ls
-cd sysp/
-ls
-cd ch13
-mkdir ch13
-ls
-cd ch13/
-ls
-vi posix_shem_create1.c
-ls
-vi posix_sem_acquire.c 
-vi posix_header.h
-cd ..
-ls
-cd ch13/
-ls
-vi posix_header.h 
-gcc posix_shem_create1.c -o posix_shem_create1.out
-vi posix_header.h 
-gcc posix_shem_create1.c -o posix_shem_create1.out
-clear
-gcc posix_shem_create1.c -o posix_shem_create1.out
-man -s3 pthread_mutexattr_setprotocol
-ipcmk -Q
-vi ipc1.c
-gcc ipc1.c -o ipc1.out
-./ipc1.out 
-mknod /tmp/pipe p
-ls -l /tmp/pipe 
-more pipe
-more /tmp/pipe
-man -s2 pipe
-man mkfifo
-man -s3 mkfifo
-man mkfifo
-vi pipe_test1.c
-exit
-echo "TGIF" > /tmp/pipe 
-exit
-ls
-cd bj/
-ls
-cd algorithm/
-ls
-cd BFS/
-ls
-cd ..
-ls
-cd ..
-ls
-cd p1000/
-ls
-cd .
-ls
-cd ..
-ls
-cd ..
-ls
-cd cf/
-ls
-vi palindrome/
-cd palindrome/
-ls
-vi Quasi-palindrome.
-vi Quasi-palindrome.c
-gcc Quasi-palindrome.c -o Quasi-palindrome.out
-./Quasi-palindrome.out 
-vi Quasi-palindrome.c
-./Quasi-palindrome.out 
-vi Quasi-palindrome.c
-exit
-ls
-cd cf/
-ls
-cd palindrome/
-ls
-vi Quasi-palindrome.c
-ls
-vi 1_2_3.c
-gcc 1_2_3.c -o 1_2_3.out
-vi 1_2_3.c
-gcc 1_2_3.c -o 1_2_3.out
-clear
-gcc 1_2_3.c -o 1_2_3.out
-vi 1_2_3.c 
-clear
-gcc 1_2_3.c -o 1_2_3.out
-vi 1_2_3.c 
-gcc 1_2_3.c -o 1_2_3.out
-vi 1_2_3.c 
-gcc 1_2_3.c -o 1_2_3.out
-vi 1_2_3.c 
-gcc 1_2_3.c -o 1_2_3.out
-./1_2_3.out 
-vi 1_2_3.c 
-gcc 1_2_3.c -o 1_2_3.out
-./1_2_3.out 
-vi 1_2_3.c 
-gcc 1_2_3.c -o 1_2_3.out
-./1_2_3.out 
-vi 1_2_3.c 
-./1_2_3.out 
-vi 1_2_3.c 
-gcc 1_2_3.c -o 1_2_3.out
-./1_2_3.out 
-vi 1_2_3.c 
-gcc 1_2_3.c -o 1_2_3.out
-./1_2_3.out 
-vi 1_2_3.c 
-gcc 1_2_3.c -o 1_2_3.out
-./1_2_3.out 
-vi 1_2_3.c 
-gcc 1_2_3.c -o 1_2_3.out
-vi 1_2_3.c 
-gcc 1_2_3.c -o 1_2_3.out
-vi 1_2_3.c 
-gcc 1_2_3.c -o 1_2_3.out
-./1_2_3.out 
-vi 1_2_3.c 
-gcc 1_2_3.c -o 1_2_3.out
-./1_2_3.out 
-vi 1_2_3.c 
-gcc 1_2_3.c -o 1_2_3.out
-./1_2_3.out 
-vi 1_2_3.c 
-gcc 1_2_3.c -o 1_2_3.out
-./1_2_3.out 
-vi 1_2_3.c 
-gcc 1_2_3.c -o 1_2_3.out
-./1_2_3.out 
-vi 1_2_3.c 
-gcc 1_2_3.c -o 1_2_3.out
-./1_2_3.out 
-10 2 1
-1 1 1
-2 2 2
-./1_2_3.out 
-vi 1_2_3.c 
-gcc 1_2_3.c -o 1_2_3.out
-./1_2_3.out 
-vi 1_2_3.c 
-gcc 1_2_3.c -o 1_2_3.out
-./1_2_3.out 
-vi 1_2_3.c 
-gcc 1_2_3.c -o 1_2_3.out
-./1_2_3.out 
-vi 1_2_3.c 
-gcc 1_2_3.c -o 1_2_3.out
-./1_2_3.out 
-vi 1_2_3.c
-gcc 1_2_3.c -o 1_2_3.out
-./1_2_3.out 
-vi 1_2_3.c
-gcc 1_2_3.c -o 1_2_3.out
-./1_2_3.out 
-vi 1_2_3.c
-./1_2_3.out 
-vi 1_2_3.c
-gcc 1_2_3.c -o 1_2_3.out
-./1_2_3.out 
-vi 1_2_3.c
-gcc 1_2_3.c -o 1_2_3.out
-vi 1_2_3.c
-gcc 1_2_3.c -o 1_2_3.out
-vi 1_2_3.c
-gcc 1_2_3.c -o 1_2_3.out
-clear
-gcc 1_2_3.c -o 1_2_3.out
-vi 1_2_3.c
-gcc 1_2_3.c -o 1_2_3.out
-clear
-./1_2_3.out 
-vi 1_2_3.c
-gcc 1_2_3.c -o 1_2_3.out
-./1_2_3.out 
-vi 1_2_3.c
-gcc 1_2_3.c -o 1_2_3.out
-./1_2_3.out 
-vi 1_2_3.c
-gcc 1_2_3.c -o 1_2_3.out
-vi 1_2_3.c
-gcc 1_2_3.c -o 1_2_3.out
-vi 1_2_3.c
-ls
 cd ..
 ls
 cd 
@@ -1997,4 +1724,277 @@ gcc p867a.c
 ./a.out 
 F
 ./a.out 
+exit
+ls
+cd bj/
+ls
+cd ..
+ls
+git reset --hard HEAD
+git commit -m 'reset'
+git add .
+git commit -m 'reset'
+su
+git branch
+git branch -d master
+su
+git init
+ls
+rm .git/
+rm -r .git/
+rm -ry .git/
+rm -rf .git/
+su
+ls
+git init
+git clone https://github.com/ingyeoking13/algorithm.git
+git add .
+git commit -m 'init'
+git clone https://github.com/ingyeoking13/algorithm.git adkb
+git pull adkb
+git push origin adkb
+git push adkb
+git push adkb master
+git add .
+git push adkb
+git push adkb master
+su
+clear
+ls
+git clone https://github.com/ingyeoking13/algorithm.git origin
+git pull origin
+git pull origin master
+git push origin 
+rm -rf .git/
+git init
+git clone https://github.com/ingyeoking13/algorithm.git adkb
+rm -rf .git/
+ls
+git add 
+git add .
+ls
+clear
+git remote add adkb https://github.com/ingyeoking13/algorithm.git
+git init
+git add README.md
+ls
+vi README.md
+vi test.c
+vi README.md 
+ls
+chmod README.md 
+ll README.md 
+chmod 666 README.md 
+su
+ls
+chmod 666 README.md 
+ls
+git add README.md 
+git commit -m 'commit'
+git remote add adkb https://github.com/ingyeoking13/algorithm.git
+git push -u adkb master
+vi README.md 
+git add .
+git commit -m 'commit'
+git push adkb master
+vi README.md 
+git edit README.md
+git --help
+git add README.md 
+git commit 
+git ocmmit -m 'asdf'
+git commit -m 'asdf'
+git push  adkb master
+ls
+ll
+git rm --cached .ssh/
+git rm -r --cached .ssh/
+ll 
+git rm -r --cached .vim/
+git rm  -r --cached .vim*
+git rm  -r --cached .vimrc
+git rm  -r --cached .viminfo
+ll
+git rm -r --cached .bash*
+git add .
+git commit -m 'rm security file'
+git push adkb master
+git diff
+git diff adkb
+git add .
+git commit -m 'asdf'
+git push adkb master
+git pull adkb master
+ls
+ll
+git reset 
+
+git reset HEAD
+ll
+ls
+ll
+ls
+ll
+clear
+ls
+cd cf/
+ls
+mkdir sortsearch
+ls
+cd sortsearch/
+ls
+vi p865B.c
+cd ..
+cd implementation/
+ls
+cd ..
+ls
+cd sortsearch/
+ls
+cd ..
+find -name p865
+find -name p865
+find / -name p865
+find /home/adkb -name p865
+ls
+clear
+cd sortsearch/
+ls
+vi p865B.c 
+exit
+cd cf/
+ls
+cd sortsearch/
+ls
+vi p865B.c 
+gcc p865B.c 
+vi p865B.c 
+gcc p865B.c 
+vi p865B.c 
+gcc p865B.c 
+vi p865B.c 
+gcc p865B.c 
+./a.out 
+vi p865B.c 
+gcc p865B.c 
+./a.out 
+vi p865B.c 
+gcc p865B.c 
+./a.out 
+vi p865B.c 
+gcc p865B.c 
+./a.out 
+vi p865B.c 
+gcc p865B.c 
+./a.out 
+vi p865B.c 
+gcc p865B.c 
+vi p865B.c 
+gcc p865B.c 
+vi p865B.c 
+gcc p865B.c 
+./a.out 
+vi p865B.c 
+gcc p865B.c 
+vi p865B.c 
+gcc p865B.c 
+vi p865B.c 
+gcc p865B.c 
+./a.out 
+vi p865B.c 
+gcc p865B.c 
+./a.out 
+vi p865B.c 
+gcc p865B.c 
+vi p865B.c 
+gcc p865B.c 
+./a.out 
+vi p865B.c 
+gcc p865B.c 
+./a.out 
+vi p865B.c 
+gcc p865B.c 
+./a.out 
+vi p865B.c 
+gcc p865B.c 
+./a.out 
+vi p865B.c 
+gcc p865B.c 
+./a.out 
+vi p865B.c 
+clear
+./a.out 
+vi p865B.c \
+vi p865B.c
+gcc p865B.c 
+./a.out 
+vi p865B.c
+gcc p865B.c 
+./a.out 
+vi p865B.c
+clear
+./a.out 
+vi p865B.c 
+clear
+gcc p865B.c
+./a.out 
+vi p865B.c 
+gcc p865B.c
+./a.out 
+vi p865B.c 
+gcc p865B.c
+./a.out 
+vi p865B.c 
+gcc p865B.c
+./a.out 
+vi p865B.c 
+gcc p865B.c
+./a.out 
+vi p865B.c 
+gcc p865B.c
+./a.out 
+vi p865B.c 
+gcc p865B.c
+./a.out 
+vi p865B.c 
+gcc p865B.c
+./a.out 
+vi p865B.c 
+gcc p865B.c
+./a.out 
+vi p865B.c 
+gcc p865B.c
+vi p865B.c 
+gcc p865B.c
+./a.out 
+3 4
+2 1 10
+1 2 1
+./a.out 
+vi p865B.c 
+./a.out 
+vi p865B.c 
+gcc p865B.c
+./a.out 
+vi p865B.c 
+gcc p865B.c
+./a.out 
+vi p865B.c 
+gcc p865B.c
+./a.out
+vi p865B.c 
+gcc p865B.c
+./a.out
+7 4 7
+5 8 8
+12 5 8
+5 9 6
+3 3 7
+vi p865B.c 
+gcc p865B.c 
+./a.out 
+vi p865B.c 
+gcc p865B.c 
+./a.out 
+vi p865B.c 
 exit
