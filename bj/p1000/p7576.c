@@ -1,23 +1,39 @@
 #include <stdio.h>
 
-int a[1000][1000];
-char s[2100];
+int a[1001][1001], d[1001][1001] ,q[1002002], h, t, ans, chk=1;
+int dx[4]={-1, 1, 0, 0}, dy[4]={0, 0, -1, 1};
+
 int main(){
-	int r, c, chk=0;
-	scanf("%d %d", &c, &r);
-	getchar();
-	for (int i=0; i<r; i++){
-		fgets(s, 2100, stdin);
-		for (int j=0; j<c; j++){
-			a[i][j]=s[2*j]-'0';
+	int row, col;
+	scanf("%d %d",&col, &row);
+	for (int i=0; i<row; i++){
+		for (int j=0; j<col; j++){
+			scanf("%d", &a[i][j]);
+			if (a[i][j]==1) q[t++]= i*col+j;
 		}
 	}
 
-	for (int i=0; i<r; i++){
-		for (int j=0; j<c; j++){
-			printf("%d ", a[i][j]);
+	while(h<t) {
+		int now=q[h++];
+		int x=now/col, y= now%col;
+		for (int i=0; i<4; i++){
+			int nx=x+dx[i], ny= y+dy[i];
+			if (nx>=0 && ny>=0 && nx<row && ny<col){
+				if (a[nx][ny]==0){
+					a[nx][ny]=1;
+					q[t++]=nx*col+ny;
+					d[nx][ny]=d[x][y]+1;
+				}
+			}
 		}
-		printf("\n");
 	}
 
+	for (int i=0; i<row; i++){
+		for (int j=0; j<col; j++){
+			if (d[i][j]>ans) ans=d[i][j];
+			if (a[i][j]==0) chk=0; 
+		}
+	}
+	if (chk) printf("%d\n", ans);
+	else printf("-1\n");
 }

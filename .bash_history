@@ -1,330 +1,3 @@
-cd ..
-ls
-cd 
-ls
-cd bj/
-ls
-cd algorithm/
-ls
-cd dp/
-ls
-vi coin1_2293.c
-ls
-cd ..
-ls
-cd ..
-ls
-cd algorithm/
-ls
-cd ..
-ls
-git init
-ls
-ll -a
-git add *
-git commit -m 'baekjoon'
-git status
-ls
-rm .git/
-cd .git/
-ls
-cd ..
-ls
-ll -a
-ls
-git remote add origin https://github.com/ingyeoking13/algorithm
-git push origin master
-git rm -f *
-git rm -r *
-ls
-ll
-cd ..
-ls
-cd bj/
-ls
-git pull
-ls
-git pull remote origin
-ll
-git pull
-git pull remote
-git pull remote origin
-git
-git pull 
-git@github.com:ingyeoking13/algorithm.git
-git pull git@github.com:ingyeoking13/algorithm.git
-git pull https://github.com/ingyeoking13/algorithm.git
-ls
-git fetch https://github.com/ingyeoking13/algorithm.git
-ls
-cd ..
-ls
-cd bj/
-ls
-git checkout 
-ls
-git checkout -- *
-ls
-ll
-git fetch origin
-ls
-git fetch https://github.com/ingyeoking13/algorithm.git
-ls
-cd ..
-ls
-cd ..
-ls
-cd adkb/
-ls
-cd bj/
-ls
-l
-sl
-l
-sl
-l
-ll =a
-ll a
-ll -a
-clear
-ls
-git pull
-git remote add origin https://github.com/ingyeoking13/algorithm.git
-git remote rm origin
-git remot add origin https://github.com/ingyeoking13/algorithm.git
-git remote add origin https://github.com/ingyeoking13/algorithm.git
-ls
-git fetch origin
-ls
-git pull
-git add *
-git add
-git add .
-ls
-git pull
-ls
-rm -r .git/
-rm -ry .git/
-rm -y .git/
-rm -r .git/
-rm -rf .git/
-ls
-ll -a
-cd ..
-ls
-cd ..
-ls
-cd adkb/
-ls
-git rm --cached *
-git init
-ls
-rm .git/ 
-rm -r .git/
-ls
-cd ..
-ls
-cd adkb/
-ls
-cd bj/
-ls
-git rm --cached
-ls
-cd ..
-ls
-git init
-git remote add origin https://github.com/ingyeoking13/algorithm.git
-git push
-clear
-git commit
-git add .
-git commit -m "hello"
-git push
-git push origin 
-git push origin https://github.com/ingyeoking13/algorithm.git
-git push https://github.com/ingyeoking13/algorithm.git
-clear
-ls
-git rm --cached kaillera/
-git rm -r --cached kaillera/
-ls
-git push
-git push origin
-git push origin https://github.com/ingyeoking13/algorithm.git
-git push https://github.com/ingyeoking13/algorithm.git
-git rm -r kaillera/
-ls
-git rm -r kaillera/
-ls
-git commit -m "remove kaillera"
-git push https://github.com/ingyeoking13/algorithm.git
-ls
-clear
-ls
-exit
-ls
-cd bj/
-ls
-cd p1000/
-ls
-vi p1004.c
-cd
-ls
-git commit -m 'little prince'
-ls
-cd bj/
-ls
-cd p1000/
-ls
-git add p1004.c 
-commit
-git commit
-git commit -m 'little prince'
-ls
-git add .
-git commit -m '123'
-git push origin
-git remote add origin https://github.com/ingyeoking13/algorithm.git
-git remote del origin
-git remote remove origin
-git remote add origin https://github.com/ingyeoking13/algorithm.git
-git push origin
-git push https://github.com/ingyeoking13/algorithm.git
-ls
-cd ..
-ls
-cd 
-ls
-cd nhn/
-ls
-vi p1.c
-gcc p1.c -o p1.out
-vi p1.c 
-gcc p1.c -o p1.out
-./p1.out 
-vi p1.c 
-gcc p1.c -o p1.out
-./p1.out 
-vi p1.c 
-gcc p1.c -o p1.out
-./p1.out 
-vi p1.c 
-gcc p1.c -o p1.out
-./p1.out 
-vi p1.c 
-vi p2.c
-gcc p2.c -o p2.out
-./p2.out 
-vi p2.c
-gcc p2.c -o p2.out
-./p2.out 
-vi p2.c
-gcc p2.c -o p2.out
-./p2.out 
-vi p2.c
-./p2.out 
-vi p2.c
-gcc p2.c -o p2.out
-vi p2.c
-gcc p2.c -o p2.out
-./p2.out 
-vi p2.c
-gcc p2.c -o p2.out
-./p2.out 
-vi p2.c
-gcc p2.c -o p2.out
-./p2.out 
-vi p2.c
-gcc p2.c -o p2.out
-./p2.out 
-vi p2.c
-gcc p2.c -o p2.out
-./p2.out 
-vi p2.c
-gcc p2.c -o p2.out
-./p2.out 
-vi p2.c
-gcc p2.c -o p2.out
-./p2.out 
-vi p2.c
-gcc p2.c -o p2.out
-./p2.out 
-vi p2.c
-gcc p2.c -o p2.out
-./p2.out 
-vi p2.c
-gcc p2.c -o p2.out
-./p2.out 
-vi p2.c
-gcc p2.c -o p2.out
-./p2.out 
-vi p2.c
-gcc p2.c -o p2.out
-./p2.out 
-vi p2.c
-vi p4.c
-gcc p4.c -o p4.out
-vi p4.c
-gcc p4.c -o p4.out
-./p4.out 
-vi p4.c
-vi p2.c
-gcc p4.c -o p4.out
-vi p2.c
-gcc p4.c -o p4.out
-vi p2.c
-gcc p4.c -o p4.out
-./p4.out 
-vi p2.c
-gcc p4.c -o p4.out
-./p4.out 
-vi p2.c
-gcc p4.c -o p4.out
-./p4.out 
-vi p2.c
-gcc p4.c -o p4.out
-gcc p2.c -o p2.out
-./p2.out 
-vi p2.c
-gcc p2.c -o p2.out
-vi p2.c
-gcc p2.c -o p2.out
-./p2.out 
-vi p2.c
-gcc p2.c -o p2.out
-./p2.out 
-vi p2.c
-gcc p2.c -o p2.out
-./p2.out 
-vi p2.c
-gcc p2.c -o p2.out
-./p2.out 
-vi p2.c
-gcc p2.c -o p2.out
-./p2.out 
-vi p2.c
-gcc p2.c -o p2.out
-./p2.out 
-vi p2.c
-gcc p2.c -o p2.out
-./p2.out 
-decrypt secretword 1 cspkfcgzin
-./p2.out 
-vi p2.c
-decrypt secretword 1 cspkfcgzin
-gcc p2.c -o p2.out
-./p2.out 
-vi p2.c
-./p2.out 
-./p2.c
-vi p2.c
-vi p5.c
-vi p2.c
-gcc p2.c -o p2.out
-vi p2.c
-gcc p2.c -o p2.out
-./p2.out 
-vi p2.c
 gcc p2.c -o p2.out
 ./p2.out 
 vi p2.c
@@ -1997,4 +1670,331 @@ vi p865B.c
 gcc p865B.c 
 ./a.out 
 vi p865B.c 
+exit
+ls
+cd a
+cd adkb/
+ls
+cd ..
+rm adkb/
+ls
+rm -r adkb/
+rm -rf adkb/
+ls
+rm test.c
+rm test.out 
+ls
+cd cf/
+ls
+cd sortsearch/
+ls
+vi p865B.c 
+cd 
+ls
+git add .
+git commit -m 'pizza'
+git push adkb master
+exit
+ls
+cd cf/
+ls
+cd sortsearch/
+ls
+vi p865B.c 
+ls
+cd ..
+ls
+cd ..
+ls
+cd bj/
+ls
+cd p1000/
+ls
+vi p14500.c
+vi p1717.c
+vi p7576.c
+exit
+ls
+cd bj/
+lls
+ls 
+ls
+cd p1000/
+ls
+cd p7576.c
+vi p7576.c 
+ls
+cd bj/
+ls
+cd p1000/
+ls
+vi p7576.c 
+vi p7579,c
+vi p7579.c
+gcc p7579.c 
+./a.out 
+mv p7579.c p7569.c
+vi p7569.c 
+ls
+c bj/
+ls
+cd c
+cd bj/
+ls
+cd p1000/
+ls
+vi p1074.c
+ls
+vi p1056.c
+gcc p1056.c 
+vi p1056.c
+gcc p1056.c 
+vi p1056.c
+gcc p1056.c 
+clear
+gcc p1056.c 
+vi p1056.c
+gcc p1056.c 
+vi p1056.c
+rm p1056.c 
+vi p1309.c
+gcc p1309.c 
+./a.out 
+vi p1309.c
+gcc p1309.c 
+./a.out 
+vi p1309.c
+gcc p1309.c 
+./a.out 
+vi p1309.c
+gcc p1309.c 
+./a.out 
+ls
+vi p1076.c
+gcc p1076.c 
+vi p1076.c
+gcc p1076.c 
+./a.out 
+vi p1076.c
+./a.out 
+vi p1076.c
+gcc p1076.c 
+./a.out 
+vi p1076.c
+vi p10872.c
+gcc p10872.c 
+./a.out 
+vi p10872.c
+vi p9020.c
+cd
+ls
+cd cf/
+ls
+vi bark.c
+gcc bark.c 
+vi bark.c
+gcc bark.c 
+./a.out 
+vi bark.c 
+gcc bark.c 
+./a.out 
+vi bark.c 
+gcc bark.c 
+vi bark.c 
+gcc bark.c 
+vi bark.c 
+gcc bark.c 
+./a.out 
+hp
+./a.out 
+vi bark.c 
+gcc bark.c 
+./a.out 
+vi bark.c 
+gcc bark.c 
+./a.out 
+vi bark.c 
+vi race.c
+gcc race.c 
+./a.out 
+vi race.c
+gcc race.c 
+./a.out 
+vi race.c
+gcc race.c 
+./a.out 
+vi race.c
+gcc race.c 
+./a.out 
+vi race.c
+gcc race.c 
+./a.out 
+vi race.c
+gcc race.c 
+./a.out 
+vi race.c
+gcc race.c 
+./a.out 
+vi race.c
+gcc race.c 
+./a.out 
+vi race.c
+gcc race.c 
+./a.out 
+vi race.c
+gcc race.c 
+./a.out 
+vi race.c
+gcc race.c 
+./a.out 
+clear
+./a.out 
+vi race.c
+clear
+gcc race.c 
+vi race.c
+./a.out 
+vi race.c
+gcc race.c 
+./a.out 
+vi race.c
+gcc race.c 
+./a.out 
+gcc race.c 
+./a.out 
+vi race.c
+gcc race.c 
+./a.out 
+gcc race.c 
+./a.out 
+vi race.c
+gcc race.c 
+./a.out 
+vi race.c
+gcc race.c 
+./a.out 
+vi race.c
+gcc race.c 
+./a.out 
+vi race.c
+vi qualifi.c
+gcc qualifi.c 
+./a.out 
+3 2
+1 0
+1 1
+./a.out 
+vi qualifi.c
+gcc qualifi.c 
+./a.out 
+vi qualifi.c
+gcc qualifi.c 
+./a.out 
+vi qualifi.c
+gcc qualifi.c 
+./a.out 
+vi qualifi.c
+gcc qualifi.c 
+./a.out 
+vi qualifi.c
+gcc qualifi.c 
+./a.out 
+1 0
+1 1
+0 1
+./a.out 
+./a.out 3 2
+3 2
+1 0
+1 1
+./a.out 3 2
+vi qualifi.c
+gcc qualifi.c 
+./a.out 3 2
+vi qualifi.c
+gcc qualifi.c 
+./a.out 3 2
+./a.out
+vi qualifi.c
+gcc qualifi.c 
+./a.out
+vi qualifi.c
+gcc qualifi.c 
+./a.out
+vi qualifi.c
+exit
+ls
+cd cf/
+ls
+cd cf/
+ls
+vi expedient.c 
+ls
+mv expedient.c implementation/
+cd implementation/
+ls
+mv expedient.c p869a.c
+ls
+cd ..
+ls
+cd d0919/
+ls
+mv * ../
+ls
+cd ..
+ls
+rm -r d0919/
+ls
+cd d0920/
+ls
+mv * ../
+ls
+cd ..
+ls
+rm -r d0920/
+ls
+mkdir math
+ls
+cd math/
+ls
+vi p869b.c
+gcc p869b.c 
+./a.out 
+vi p869b.c
+gcc p869b.c 
+./a.out 
+vi p869b.c
+gcc p869b.c 
+./a.out 
+vi p869b.c
+gcc p869b.c 
+./a.out 
+vi p869b.c
+gcc p869b.c 
+./a.out 
+vi p869b.c
+gcc p869b.c 
+./a.out 
+vi p869b.c
+gcc p869b.c 
+./a.out 
+vi p869b.c
+gcc p869b.c 
+vi p869b.c
+gcc p869b.c 
+./a.out 
+vi p869b.c
+gcc p869b.c 
+vi p869b.c
+gcc p869b.c 
+vi p869b.c
+gcc p869b.c 
+./a.out 
+vi p869b.c
+gcc p869b.c 
+./a.out 
+vi p869b.c
+gcc p869b.c 
+./a.out 
+vi p869b.c
 exit
