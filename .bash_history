@@ -1,23 +1,4 @@
 gcc p2.c -o p2.out
-./p2.out 
-vi p2.c
-gcc p2.c -o p2.out
-./p2.out 
-vi p2.c
-gcc p2.c -o p2.out
-vi p2.c\
-vi p2.c
-gcc p2.c -o p2.out
-./p2.out 
-gcc p2.c -o p2.out
-vi p2.c
-gcc p2.c -o p2.out
-./p2.out 
-vi p2.c
-gcc p2.c -o p2.out
-./p2.out 
-vi p2.c
-gcc p2.c -o p2.out
 vi p2.c
 gcc p2.c -o p2.out
 ./p2.out 
@@ -1997,4 +1978,23 @@ vi p869b.c
 gcc p869b.c 
 ./a.out 
 vi p869b.c
+exit
+ls
+cd cf/
+ls
+mv bark.c implementation/
+ls
+cd implementation/
+ls
+vi bark.c 
+mv bark.c p868a.c
+ls
+vi p868a.c 
+cd
+ls
+git push origin master
+git push adkb master
+git add .
+git commit -m 'bark'
+git push adkb master
 exit
