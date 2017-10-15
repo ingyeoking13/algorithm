@@ -6,7 +6,7 @@ void swap(int* a, int* b){ *a^=*b; *b^=*a; *a^=*b; }
 int main(){
 
 	int i=6;
-	while (a>0 && a[i-1] > a[i]) i--;
+	while (i>0 && a[i-1] > a[i]) i--;
 	if (i==0) { printf("Invalid\n"); return -1;}
 	int j=6;
 	while (a[i-1] >a[j]) j--;

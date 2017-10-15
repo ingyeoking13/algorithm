@@ -1,14 +1,14 @@
 #include <stdio.h>
 
-int a[9] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+int a[9] = {9, 8, 7, 6, 5, 4, 3, 2, 1};
 void swap(int* a, int* b){ *a^=*b; *b^=*a; *a^=*b; }
 
 int perm(){
 	int i=8;
-	while (i>0 && a[i-1] > a[i]) i--;
+	while (i>0 && a[i-1] < a[i]) i--;
 	if (i==0) { printf("End of permutation...\n"); return 0;}
 	int j=8;
-	while (a[i-1] >a[j]) j--;
+	while (a[i-1] <a[j]) j--;
 	swap(&a[i-1], &a[j]);
 	j=8;
 	while(i<j){
