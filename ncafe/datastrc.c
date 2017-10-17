@@ -35,7 +35,6 @@ element pop(LinkedStackType *s) {
 	}
 }
 
-
 void display(LinkedStackType* s){
 	for (StackNode* now=s->top; now; now=now->link){
 		printf("%d ", now->item);
@@ -85,10 +84,10 @@ int main(){
 
 	printf("pop all items from s \n");
 	for (int i=0; i<10; i++) 
-		printf("popped item: %d, height: %d\n" ,pop(s), get_height(s));
+		if(s->top) printf("popped item: %d, height: %d\n" ,pop(s), get_height(s));
 
 	printf("pop all items from t \n");
 	for (int i=0; i<15; i++) 
-		printf("popped item: %d, height: %d\n" ,pop(t), get_height(t));
+		if(t->top) printf("popped item: %d, height: %d\n" ,pop(t), get_height(t));
 
 }
