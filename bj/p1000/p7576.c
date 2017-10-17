@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int a[1001][1001], d[1001][1001] ,q[1002002], h, t, ans, chk=1;
+int a[1001][1001],q[1002002], h, t, ans, chk=1;
 int dx[4]={-1, 1, 0, 0}, dy[4]={0, 0, -1, 1};
 
 int main(){
@@ -22,7 +22,7 @@ int main(){
 				if (a[nx][ny]==0){
 					a[nx][ny]=1;
 					q[t++]=nx*col+ny;
-					d[nx][ny]=d[x][y]+1;
+					a[nx][ny]=a[x][y]+1;
 				}
 			}
 		}
@@ -30,10 +30,10 @@ int main(){
 
 	for (int i=0; i<row; i++){
 		for (int j=0; j<col; j++){
-			if (d[i][j]>ans) ans=d[i][j];
+			if (a[i][j]>ans) ans=a[i][j];
 			if (a[i][j]==0) chk=0; 
 		}
 	}
-	if (chk) printf("%d\n", ans);
+	if (chk) printf("%d\n", ans-1);
 	else printf("-1\n");
 }

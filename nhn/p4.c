@@ -40,6 +40,4 @@ int main(){
 	for (int i=0; i<t; i++){
 		printf(i==t-1?"%d\n":"%d ",ans[i]);
 	}
-
 }
-

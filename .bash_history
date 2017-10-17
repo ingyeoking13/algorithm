@@ -1,955 +1,3 @@
-gcc p5.c 
-./a.out 
-vi p5.c 
-vi queue3.c 
-gcc queue3.c 
-vi queue3.c 
-gcc queue3.c 
-./a.out 
-vi queue3.c 
-gcc queue3.c 
-vi queue3.c 
-gcc queue3.c 
-vi queue3.c 
-gcc queue3.c 
-vi queue3.c 
-gcc queue3.c 
-vi queue3.c 
-gcc queue3.c 
-./a.out 
-vi queue3.c 
-gcc queue3.c -o queue3.out
-./queue3.out 
-vi queue3.c 
-cd ..
-ls
-cd 
-gic add .
-git add .
-commit -m 'sk commit'
-git commit -m 'sk commit'
-git push  origin
-git push master
-clear
-git push master
-git push origin master
-ls
-cd s
-cd sk/
-ls
-vi queue3.c
-gcc queue3.c -o queue3.out
-vi queue3.c
-gcc queue3.c -o queue3.out
-./queue3.out 
-vi queue3.c
-cd
-ls
-rm -r kaillera/
-ls
-git add .
-git commit -m 'sk'
-git push origin master
-ls
-cd sk/
-ls
-vi p5.c 
-gcc p5.c -o p5.out
-./p5.out 
-vi p5.c 
-gcc p5.c -o p5.out
-./p5.out 
-vi p5.c 
-gcc p5.c -o p5.out
-./p5.out 
-vi p5.c 
-gcc p5.c -o p5.out
-vi p5.c 
-gcc p5.c -o p5.out
-./p5.out 
-vi p5.c 
-gcc p5.c -o p5.out
-./p5.out 
-vi p5.c 
-ls
-cd
-ls
-ll
-vi .bashrc 
-source ./.bashrc 
-vi .bashrc 
-vi /etc/skel/.bashrc 
-exit
-ls
-cd bj/
-ls
-cd p1000/
-ls
-vi p9012.c
-gcc p9012.c
-./a.out 
-vi p9012.c
-gcc p9012.c
-./a.out 
-vi p9012.c
-gcc p9012.c
-./a.out 
-vi p9012.c
-gcc p9012.c
-./a.out 
-vi p9012.c
-gcc p9012.c
-vi p9012.c
-gcc p9012.c
-./a.out 
-(()((())()(
-vi p9012.c
-gcc p9012.c
-(()((())()(
-./a.out 
-vi p9012.c
-gcc p9012.c
-./a.out 
-vi p9012.c
-gcc p9012.c 
-./a.out 
-vi p9012.c
-gcc p9012.c 
-./a.out 
-vi p9012.c
-gcc p9012.c 
-./a.out 
-vi p9012.c
-gcc p9012.c 
-./a.out 
-vi p9012.c
-gcc p9012.c 
-./a.out 
-()()()()(()()())()
-vi p9012.c
-gcc p9012.c 
-./a.out 
-()()()()(()()())()
-vi p9012.c
-gcc p9012.c 
-vi p9012.c
-gcc p9012.c 
-./a.out 
-int main(){
-}
-./a.out 
-vi p9012.c 
-gcc p9012.c 
-./a.out 
-vi p9012.c 
-gcc p9012.c 
-./a.out 
-vi p9012.c 
-gcc p9012.c 
-vi p9012.c 
-gcc p9012.c 
-./a.out 
-#include <string.h>
-int main(){
-}
-./a.out 
-vi p9012.c 
-gcc p9012.c 
-./a.out 
-vi p9012.c 
-gcc p9012.c 
-./a.out 
-#include <string.h>
-int main(){
-}
-./a.out 
-vi p9012.c 
-vi p10799.c
-vi p9012.c 
-vi p10799.c 
-gcc p10799.c 
-./a.out 
-vi p10799.c 
-./a.out 
-vi p10799.c 
-./a.out 
-vi p10799.c 
-gcc p10799.c 
-./a.out 
-vi p10799.c 
-gcc p10799.c 
-./a.out 
-vi p10799.c 
-gcc p10799.c 
-./a.out 
-vi p10799.c 
-gcc p10799.c 
-./a.out 
-vi p10799.c 
-./a.out 
-vi p10799.c 
-gcc p10799.c 
-vi p10799.c 
-gcc p10799.c 
-./a.out 
-vi p10799.c 
-ls
-clear
-los
-sl
-ls
-clear
-vi p1406.c
-exit
-ls
-cd bj/
-ls
-cd p1000/
-ls
-vi p1406.c
-gcc p1406.c 
-vi p1406.c 
-gcc p1406.c 
-./a.out 
-vi p1406.c 
-gcc p1406.c 
-./a.out 
-vi p1406.c 
-gcc p1406.c 
-./a.out 
-vi p1406.c 
-gcc p1406.c 
-vi p1406.c 
-gcc p1406.c 
-./a.out 
-vi p1406.c 
-mv p1406.c p1406.cc
-ls
-vi p1406.cc 
-exit
-ls
-cd bj/
-ls
-cd p1000/
-ls
-mv p1406.cc p1406.c
-ls
-vi p1406.c 
-gcc p1406.c 
-vi p1406.c 
-gcc p1406.c 
-clear
-gcc p1406.c 
-vi p1406.c 
-gcc p1406.c 
-./a.out 
-vi p1406.c 
-gcc p1406.c 
-./a.out 
-vi p1406.c 
-gcc p1406.c 
-./a.out 
-vi p1406.c 
-gcc p1406.c 
-vi p1406.c 
-gcc p1406.c 
-./a.out 
-vi p1406.c 
-gcc p1406.c 
-./a.out 
-vi p1406.c 
-gcc p1406.c 
-./a.out 
-vi p1406.c 
-gcc p1406.c 
-vi p1406.c 
-gcc p1406.c 
-./a.out 
-vi p1406.c 
-ls
-vi p1158.c
-ls
-cd bj/
-ls
-cd p1000/
-ls
-vi p14716.c
-gcc p14716.c 
-./a.out 
-vi p14716.c
-ls
-clear
-ls
-vi p14717.c
-gcc p14717.c 
-vi p14717.c 
-gcc p14717.c 
-./a.out 
-vi p14717.c 
-rm p14717.c 
-ls
-vi p1019.c
-gcc p1019.c 
-./a.out 
-vi p1019.c 
-gcc p1019.c 
-./a.out 
-vi p1019.c 
-gcc p1019.c 
-./a.out 
-ls
-vi p2748.c
-gcc p2748.c 
-vi p2748.c
-gcc p2748.c 
-./a.out 
-vi p2748.c
-gcc p2748.c 
-./a.out 
-vi p2748.c
-gcc p2748.c 
-./a.out 
-vi p2748.c
-vi p10866.c
-apt-get install python
-su
-exit
-ls
-cd bj/
-ls
-cd p1000/
-ls
-vi p10866.
-vi p10866.c
-exit
-ls
-cd bj/
-ls
-cd p1000/
-ls
-vi p10866.c 
-gcc p10866.c 
-vi p10866.c 
-gcc p10866.c 
-./a.out 
-vi p10866.c 
-gcc p10866.c 
-./a.out 
-vi p10866.c 
-gcc p10866.c 
-./a.out 
-vi p10866.c 
-gcc p10866.c 
-./a.out 
-vi p10866.c 
-gcc p10866.c 
-./a.out 
-vi p10866.c 
-./a.out 
-vi p10866.c 
-exit
-ls
-cd bj/
-ls
-cd p1000/
-ls
-ll -a
-vi p2447.c 
-vi p10866.c 
-gcc p10866.c 
-./a.out 
-vi p10866.cc
-gcc p10866.cc -lstdc++14
-vi p10866.cc
-gcc p10866.cc -lstdc++14
-vi p10866.cc
-clear
-vi p10866.cc
-gcc p10866.cc -lstdc++14
-gcc p10866.cc -stdc++14
-gcc p10866.cc -lstdc++
-./a.out 
-gcc p10866.cc -stdc++14
-vi p10866.cc
-gcc p10866.cc -stdc++14
-gcc p10866.cc -stdc++gcc p10866.cc -stdc++
-gcc p10866.cc -stdc++
-gcc p10866.cc -lstdc++
-./a.out 
-vi p10866.cc
-gcc p10866.cc -lstdc++
-./a.out 
-vi p10866.cc
-gcc p10866.cc -lstdc++
-./a.out 
-vi p10866.cc
-gcc p10866.cc -lstdc++
-./a.out 
-vi p10866.cc
-vi p1149.c
-gcc p1149.c 
-./a.out 
-vi p1149.c
-gcc p1149.c 
-./a.out 
-vi p1149.c
-vi p1260.c
-gcc p1260.c 
-vi p1260.c
-gcc p1260.c 
-./a.out 
-vi p1260.c
-gcc p1260.c 
-./a.out 
-vi p1260.c
-gcc p1260.c 
-./a.out 
-vi p1260.c
-gcc p1260.c 
-vi p1260.c
-gcc p1260.c 
-clear
-gcc p1260.c 
-clear
-vi p1260.c
-gcc p1260.c 
-./a.out 
-vi p1260.c
-gcc p1260.c 
-./a.out 
-vi p1260.c
-gcc p1260.c 
-./a.out 
-vi p1260.c
-gcc p1260.c 
-./a.out 
-vi p1260.c
-gcc p1260.c 
-./a.out 
-vi p1260.c
-gcc p1260.c 
-./a.out 
-vi p1260.c
-gcc p1260.c 
-./a.out 
-vi p1260.c
-gcc p1260.c 
-./a.out 
-vi p1260.c
-./a.out 
-vi p1260.c
-gcc p1260.c 
-./a.out 
-vi p1260.c
-gcc p1260.c 
-./a.out 
-vi p1260.c
-gcc p1260.c 
-./a.out 
-vi p1260.c
-gcc p1260.c 
-./a.out 
-vi p1100.c
-gcc p1100.c 
-./a.out 
-vi p1100.c
-gcc p1100.c 
-./a.out 
-vi p1100.c
-vi p1260.c 
-gcc p1260.c 
-./a.out 
-vi p1260.c 
-gcc p1260.c 
-./a.out 
-vi p1260.c 
-gcc p1260.c 
-./a.out 
-vi p1260.c 
-gcc p1260.c 
-./a.out 
-vi p1260.c 
-gcc p1260.c 
-./a.out 
-vi p1260.c 
-gcc p1260.c 
-./a.out 
-vi p1260.c 
-gcc p1260.c 
-./a.out 
-vi p1260.c 
-gcc p1260.c 
-./a.out 
-vi p1260.c 
-gcc p1260.c 
-./a.out 
-vi p1260.c 
-gcc p1260.c 
-./a.out 
-vi p1260.c 
-gcc p1260.c 
-./a.out 
-vi p1260.c 
-gcc p1260.c 
-./a.out 
-vi p1260.c
-gcc p1260.c 
-./a.out 
-vi p1260.c
-gcc p1260.c 
-./a.out 
-vi p1260.c
-gcc p1260.c 
-vi p1260.c
-./a.out 
-vi p1260.c
-gcc p1260.c 
-./a.out 
-vi p1260.c
-gcc p1260.c 
-./a.out 
-vi p1260.c
-gcc p1260.c 
-./a.out 
-vi p1260.c
-gcc p1260.c 
-vi p1260.c
-gcc p1260.c 
-./a.out 
-vi p1260.c
-gcc p1260.c 
-./a.out 
-vi p1260.c
-gcc p1260.c 
-vi p1260.c
-gcc p1260.c 
-./a.out 
-vi p1260.c
-vi p1932.c
-vi p1932.c 
-gcc p1932.c 
-vi p1932.c
-gcc p1932.c 
-./a.out 
-vi p1932.c
-gcc p1932.c 
-./a.out 
-vi p1932.c
-vi p1026.c
-wget https://github.com/Baekjoon/submit-tool.git
-subimit.py 
-python submit.py 1260 p1260.c
-su
-apt-get install submit-tool
-su
-git pull https://github.com/Baekjoon/submit-tool.git
-su
-python submit.py
-su
-ls
-python submit.py 1260 p1260.c
-rm submit.py 
-ls
-ll -a
-clear
-vi p1026.c
-gcc p1026.c 
-vi p1026.c
-gcc p1026.c 
-vi p1026.c
-gcc p1026.c 
-./a.out 
-vi p1026.c
-vi p2609.c
-gcc p2609.c 
-./a.out 
-vi p2609.c
-exit
-ls
-rm README.md 
-rm submit.py 
-ls
-cd bj/
-ls
-cd p1000/
-ls
-vi p1065.c
-gcc p1065.c 
-./a.out 
-vi p1065.c
-gcc p1065.c 
-./a.out 
-vi p1065.c
-vi p2309.c
-gcc p2309.c 
-vi p2309.c
-gcc p2309.c 
-vi p2309.c
-gcc p2309.c 
-clear
-gcc p2309.c 
-clear
-gcc p2309.c 
-vi p2309.c
-gcc p2309.c 
-./a.out 
-vi p2309.c
-gcc p2309.c 
-./a.out 
-vi p2309.c
-gcc p2309.c 
-./a.out 
-vi p2309.c
-gcc p2309.c 
-./a.out 
-vi p2309.c
-gcc p2309.c 
-./a.out 
-vi p2309.c
-./a.out 
-vi p2309.c
-clear
-vi p7576.c
-gcc p7576.c 
-vi p7576.c
-gcc p7576.c 
-./a.out 
-0 0 0 0 0 0
-vi p7576.c
-./a.out 
-vi p7576.c
-gcc p7576.c 
-./a.out 
-vi p7576.c
-gcc p7576.c 
-./a.out 
-vi p7576.c
-gcc p7576.c 
-./a.out 
-vi p7576.c
-gcc p7576.c 
-./a.out 
-vi p7576.c
-gcc p7576.c 
-./a.out 
-vi p7576.c
-gcc p7576.c 
-./a.out 
-vi p7576.c
-gcc p7576.c 
-./a.out 
-vi p7576.c
-gcc p7576.c 
-./a.out 
-vi p7576.c
-gcc p7576.c 
-./a.out 
-vi p7576.c
-gcc p7576.c 
-./a.out 
-vi p7576.c
-gcc p7576.c 
-./a.out 
-vi p7576.c
-gcc p7576.c 
-./a.out 
-ex
-ls
-cd b
-ls
-cd b
-ls
-mv -r blog/  tistory
-mv blog/ tistory
-ls
-cd bj/
-ls
-cd p1000/l
-l
-cd p1000/
-ls
-vi p14717c
-vi p14717.c
-gcc p14717.c 
-./a.out 
-vi p14717.c
-gcc p14717.c 
-./a.out 
-vi p14717.c
-gcc p14717.c 
-./a.out 
-vi p14717.c
-./a.out 
-vi p14717.c
-./a.out 
-gcc p14717.c 
-./a.out 
-vi p14717.c
-ls
-cd ..
-ls
-cd 
-ls
-cd cf/
-ls
-
-gcc p867a.c 
-./a.out 
-F
-./a.out 
-exit
-ls
-cd bj/
-ls
-cd ..
-ls
-git reset --hard HEAD
-git commit -m 'reset'
-git add .
-git commit -m 'reset'
-su
-git branch
-git branch -d master
-su
-git init
-ls
-rm .git/
-rm -r .git/
-rm -ry .git/
-rm -rf .git/
-su
-ls
-git init
-git clone https://github.com/ingyeoking13/algorithm.git
-git add .
-git commit -m 'init'
-git clone https://github.com/ingyeoking13/algorithm.git adkb
-git pull adkb
-git push origin adkb
-git push adkb
-git push adkb master
-git add .
-git push adkb
-git push adkb master
-su
-clear
-ls
-git clone https://github.com/ingyeoking13/algorithm.git origin
-git pull origin
-git pull origin master
-git push origin 
-rm -rf .git/
-git init
-git clone https://github.com/ingyeoking13/algorithm.git adkb
-rm -rf .git/
-ls
-git add 
-git add .
-ls
-clear
-git remote add adkb https://github.com/ingyeoking13/algorithm.git
-git init
-git add README.md
-ls
-vi README.md
-vi test.c
-vi README.md 
-ls
-chmod README.md 
-ll README.md 
-chmod 666 README.md 
-su
-ls
-chmod 666 README.md 
-ls
-git add README.md 
-git commit -m 'commit'
-git remote add adkb https://github.com/ingyeoking13/algorithm.git
-git push -u adkb master
-vi README.md 
-git add .
-git commit -m 'commit'
-git push adkb master
-vi README.md 
-git edit README.md
-git --help
-git add README.md 
-git commit 
-git ocmmit -m 'asdf'
-git commit -m 'asdf'
-git push  adkb master
-ls
-ll
-git rm --cached .ssh/
-git rm -r --cached .ssh/
-ll 
-git rm -r --cached .vim/
-git rm  -r --cached .vim*
-git rm  -r --cached .vimrc
-git rm  -r --cached .viminfo
-ll
-git rm -r --cached .bash*
-git add .
-git commit -m 'rm security file'
-git push adkb master
-git diff
-git diff adkb
-git add .
-git commit -m 'asdf'
-git push adkb master
-git pull adkb master
-ls
-ll
-git reset 
-
-git reset HEAD
-ll
-ls
-ll
-ls
-ll
-clear
-ls
-cd cf/
-ls
-mkdir sortsearch
-ls
-cd sortsearch/
-ls
-vi p865B.c
-cd ..
-cd implementation/
-ls
-cd ..
-ls
-cd sortsearch/
-ls
-cd ..
-find -name p865
-find -name p865
-find / -name p865
-find /home/adkb -name p865
-ls
-clear
-cd sortsearch/
-ls
-vi p865B.c 
-exit
-cd cf/
-ls
-cd sortsearch/
-ls
-vi p865B.c 
-gcc p865B.c 
-vi p865B.c 
-gcc p865B.c 
-vi p865B.c 
-gcc p865B.c 
-vi p865B.c 
-gcc p865B.c 
-./a.out 
-vi p865B.c 
-gcc p865B.c 
-./a.out 
-vi p865B.c 
-gcc p865B.c 
-./a.out 
-vi p865B.c 
-gcc p865B.c 
-./a.out 
-vi p865B.c 
-gcc p865B.c 
-./a.out 
-vi p865B.c 
-gcc p865B.c 
-vi p865B.c 
-gcc p865B.c 
-vi p865B.c 
-gcc p865B.c 
-./a.out 
-vi p865B.c 
-gcc p865B.c 
-vi p865B.c 
-gcc p865B.c 
-vi p865B.c 
-gcc p865B.c 
-./a.out 
-vi p865B.c 
-gcc p865B.c 
-./a.out 
-vi p865B.c 
-gcc p865B.c 
-vi p865B.c 
-gcc p865B.c 
-./a.out 
-vi p865B.c 
-gcc p865B.c 
-./a.out 
-vi p865B.c 
-gcc p865B.c 
-./a.out 
-vi p865B.c 
-gcc p865B.c 
-./a.out 
-vi p865B.c 
-gcc p865B.c 
-./a.out 
-vi p865B.c 
-clear
-./a.out 
-vi p865B.c \
-vi p865B.c
-gcc p865B.c 
-./a.out 
-vi p865B.c
-gcc p865B.c 
-./a.out 
-vi p865B.c
-clear
-./a.out 
-vi p865B.c 
-clear
-gcc p865B.c
-./a.out 
-vi p865B.c 
-gcc p865B.c
-./a.out 
-vi p865B.c 
-gcc p865B.c
-./a.out 
-vi p865B.c 
-gcc p865B.c
-./a.out 
-vi p865B.c 
-gcc p865B.c
-./a.out 
-vi p865B.c 
-gcc p865B.c
-./a.out 
-vi p865B.c 
-gcc p865B.c
-./a.out 
-vi p865B.c 
-gcc p865B.c
-./a.out 
-vi p865B.c 
-gcc p865B.c
-./a.out 
-vi p865B.c 
-gcc p865B.c
-vi p865B.c 
-gcc p865B.c
-./a.out 
-3 4
-2 1 10
-1 2 1
-./a.out 
-vi p865B.c 
-./a.out 
-vi p865B.c 
-gcc p865B.c
-./a.out 
-vi p865B.c 
 gcc p865B.c
 ./a.out 
 vi p865B.c 
@@ -1997,4 +1045,956 @@ int main(){
 }
 ./a.out
 vi p12174.c 
+exit
+ls
+cd bj/
+ls
+cd ..
+ls
+cd tistory/
+ls
+pwd
+cd algorithm/
+ls
+cd ..
+ls
+mkdir ch6
+ls
+cd ch6/
+ls
+vi example9.c
+gcc example9.c 
+./a.out 
+echo $?
+vi example9.c
+gcc example9.c 
+./a.out 
+vi example9.c
+gcc example9.c 
+vi example9.c
+./a.out 
+echo $?
+vi example9.c
+gcc example9.c 
+vi example9.c
+gcc example9.c 
+./a.out 
+echo $?
+vi example9.c
+ls
+cd ..
+ls
+cd ..
+ls
+cd bj/
+ls
+cd p1000/
+ls
+vi p10818.c
+gcc p10818.c 
+./a.out 
+vi p10818.c
+ls
+vi p2522.c
+gcc p2522.c 
+./a.out 
+vi p2522.c
+gcc p2522.c 
+./a.out 
+vi p2522.c
+gcc p2522.c 
+vi p2522.c
+gcc p2522.c 
+./a.out 
+vi p2522.c
+gcc p2522.c 
+./a.out 
+vi p2522.c
+gcc p2522.c 
+./a.out 
+vi p2522.c
+ls
+cd ..
+ls
+cd p10
+cd p1000/
+ls
+vi p1463.c
+gcc p1463.c 
+./a.out 
+vi p1463.c
+gcc p1463.c 
+vi p1463.c
+gcc p1463.c 
+./a.out 
+vi p1463.c
+gcc p1463.c 
+./a.out 
+vi p1463.c
+./a.out 
+vi p1463.c
+gcc p1463.c 
+./a.out 
+gcc p1463.c 
+vi p1463.c
+gcc p1463.c 
+./a.out 
+vi p1463.c
+cd ..
+ls
+cd 
+ls
+git add .
+git commit -m 'makeone'
+git push adkb master
+ls
+cd bj/
+ls
+cd p1000/
+ls
+vi p11726.c
+exit
+ls
+cd bj/
+ls
+cd p1000/
+ls
+vi p11726.c
+gcc p11726.c 
+./a.out 
+vi p11726.c
+gcc p11726.c 
+./a.out 
+vi p11726.c
+gcc p11726.c 
+vi p11726.c
+gcc p11726.c 
+./a.out 
+vi p11726.c
+vi p11726.c 
+git add p11726.c 
+git commit -m 'tile'
+git push adkb master 
+vi p11727.c
+gcc p11727.c 
+./a.out 
+vi p11727.c
+git add p11727.c 
+git commit -m 'tile2'
+git push adkb master 
+vi p9095.c
+gcc p9095.c 
+./a.out 
+vi p9095.c
+./a.out 
+vi p9095.c
+./a.out 
+gcc p9095.c 
+./a.out 
+exit
+ls
+cd bj/
+ls
+cd p1000/
+ls
+vi p11726.c 
+vi p9095.c 
+git add p9095.c 
+git commit -m '9095'
+git push adkb master
+git push adkb master
+ls
+cd bj/
+ls
+cd p1000/
+ls
+cd 
+ls
+cd bj/
+ls
+cd algorithm/
+ls
+cd graph/
+ls
+
+ls
+vi floid.c
+mv floid.c floyd.c
+ls
+vi floyd.c 
+gcc floyd.c 
+vi floyd.c 
+gcc floyd.c 
+vi floyd.c 
+gcc floyd.c 
+./a.out 
+vi floyd.c 
+gcc floyd.c 
+./a.out 
+vi floyd.c 
+gcc floyd.c 
+./a.out 
+vi floyd.c 
+gcc floyd.c 
+./a.out 
+vi floyd.c 
+gcc floyd.c 
+vi floyd.c 
+gcc floyd.c 
+vi floyd.c 
+gcc floyd.c 
+./a.out 
+vi floyd.c 
+clear
+ls
+vi virus2606.c
+gcc virus2606.c 
+./a.out 
+vi virus2606.c
+gcc virus2606.c 
+./a.out 
+vi virus2606.c
+gcc virus2606.c 
+vi virus2606.c
+gcc virus2606.c 
+./a.out 
+gcc virus2606.c 
+vi virus2606.c
+gcc virus2606.c 
+./a.out 
+vi virus2606.c
+exit
+ls
+cd bj/
+ls
+cd p1000/
+ls
+cd ..
+ls
+cd algorithm/
+ls
+cd graph/
+ls
+vi find11403.c
+gcc find11403.c 
+./
+./a
+./a.out 
+vi find11403.c
+gcc find11403.c 
+./a.out 
+vi find11403.c
+./a.out 
+vi find11403.c
+exit
+ls
+cd bj/
+cd ..
+ls
+cd tistory/
+ls
+cd ch6/
+ls
+vi e14.c
+gcc e14.c 
+./a
+./a.out 
+vi e14.c
+exi
+exit
+ls
+cd bj/
+ls
+cd algorithm/
+lss
+ls al
+ls
+cd graph/
+ls
+vi party1238.c
+gcc party1238.c 
+vi party1238.c 
+gcc party1238.c 
+./a.out 
+vi party1238.c 
+gcc party1238.c 
+./a.out 
+vi party1238.c 
+ls
+vi find11403.c 
+vi floyd.c 
+vi party1238.c 
+gcc party1238.c 
+./a.out 
+vi party1238.c 
+gcc party1238.c 
+./a.out 
+vi party1238.c 
+exit
+ls
+cd bj/
+ls
+cd ..
+ls
+cd tistory/
+ls
+cd ch6/
+ls
+cd ..
+ls
+cd ..
+ls
+cd bj/
+ls
+cd p1000/
+ls
+vi p1115
+vi p1115.c
+rm p1115.c 
+bpcopy
+ls
+cd bj/
+ls
+vi p1000/
+ls
+cd p1000/
+ls
+vi p13460.c
+exit
+ls
+cd bj/
+ls
+cd ..
+ls
+cd algorithm/
+ls
+cd ..
+ls
+cd algorithm/
+pwd
+ls
+cd 
+ls
+cd algorithm/
+ls
+cd ...
+cd ..
+ls
+rm -r algorithm/
+ls
+cd bj/
+ls
+cd algorithm/
+ls
+cd ..
+ls
+cd p1000/
+ls
+vi p13460.c 
+ls
+vi bj/
+cd bj/
+ls
+cd p1000/
+ls
+vi p13460.c 
+rm .p13460.c.swp 
+vi p13460.c 
+gcc p13
+gcc p13460.c 
+./a.out 
+vi p13460.c 
+gcc p13460.c 
+./a.out 
+vi p13460.c 
+gcc p13460.c 
+./a.out 
+vi p13460.c 
+exit
+ls
+cd bj/
+ls
+cd p1000/
+ls
+rm test.out 
+rm test.o
+ls
+vi p13460.c 
+clear
+virsh list
+virsh
+libvirt-bin
+apt-get install libvirt-bin
+su
+clear
+ls
+vi p13460.c 
+vi p13460.c 
+skl
+ls
+cd bj/
+ls
+cd p1000/
+ls
+vi p13460.c 
+gcc p13460.c 
+./a.out 
+gcc p13460.c 
+vi p13460.c 
+gcc p13460.c 
+./a.out 
+vi p13460.c 
+gcc p13460.c 
+./a.out 
+vi p13460.c 
+./a.out 
+vi p13460.c 
+gcc p13460.c 
+./a.out 
+vi p13460.c 
+gcc p13460.c 
+./a.out 
+vi p13460.c 
+gcc p13460.c 
+vi p13460.c 
+gcc p13460.c 
+clear
+gcc p13460.c 
+vi p13460.c 
+gcc p13460.c 
+./a.out 
+vi p13460.c 
+gcc p13460.c 
+clear
+./a.out 
+vi p13460.c 
+gcc p13460.c 
+./a.out 
+#######
+#...RB#
+#.#####
+#.....#
+#####.#
+#O....#
+#######
+
+r
+ll
+clear
+vi p13460.c 
+./a.out 
+vi p13460.c 
+gcc p13460.c 
+ce;lar
+clear
+./a.out 
+vi p13460.c 
+gcc p13460.c 
+clear
+./a.out 
+vi p13460.c 
+gcc p13460.c 
+vi p13460.c 
+gcc p13460.c 
+clear
+./a.out 
+#...RB#          0
+#.#####          0
+#.....#          0
+#####.#          0
+#O....#          0
+#######          0
+./a.out 
+#...RB#          0
+#.#####          0
+#.....#          0
+#####.#          0
+#O....#          0
+#######          0
+./a.out 
+clear
+./a.out 
+vi p13460.c 
+gcc p13460.c 
+./a.out 
+vi p13460.c 
+celar
+clear
+gcc p13460.c 0
+gcc p13460.c
+./a.out 
+vi p13460.c 
+gcc p13460.c
+./a.out 
+vi p13460.c 
+gcc p13460.c 
+./a.out 
+vi p13460.c 
+gcc p13460.c 
+./a
+./a.out 
+vi p13460.c 
+./a.out 
+vi p13460.c 
+./a.out 
+vi p13460.c 
+./a.out 
+vi p13460.c 
+gcc p13460.c 
+vi p13460.c 
+gcc p13460.c 
+.a
+./a.out 
+vi p13460.c 
+gcc p13460.c 
+./a.out 
+vi p13460.c 
+exit
+ls
+cd cf/
+ls
+cd ..
+ls
+vi cg/
+cd cg/
+ls
+vi p1frog.c 
+exit
+ls
+cd bj/
+ls
+cd p1000/
+ls
+vi p7576.c 
+exit
+ls
+cd bj/
+ls
+cd p1000/
+ls
+vi p13460.c 
+gcc p13460.c 
+./a.out 
+vi p13460.c 
+gcc p13460.c 
+./a.out 
+vi p13460.c 
+gcc p13460.c 
+./a.out 
+#....B#
+#.#####
+#.....#
+#####.#
+#O....#
+#######          1
+vi p13460.c 
+gcc p13460.c 
+./a.out 
+vi p13460.c 
+gcc p13460.c 
+./a.out 
+vi p13460.c \
+vi p13460.c 
+gcc p13460.c 
+./a.out 
+vi p13460.c 
+gcc p134
+gcc p13460.c 
+./a
+./a.out 
+vi p13460.c 
+gcc p13460.c 
+./a.out 
+vi p13460.c 
+gcc p13460.c 
+./a.out 
+vi p13460.c 
+clear
+ls
+cd ..
+ls
+cd 
+ls
+cd tistory/
+ls
+cd ch6/
+ls
+vi BFS.c
+vi brute.c
+gcc brute.c 
+./a.out 
+vi brute.c
+gcc brute.c 
+./a.out 
+vi brute.c
+git add brute.c 
+git commit -m 'brute hacking?'
+git push adkb master
+ls
+vi brute2.c
+gcc brute2.c 
+./a.out 
+vi brute2.c
+vi brute2.c 
+git add brute2.c 
+git commit -m 'brute?'
+git push adkb master
+./a.out 
+exit
+ls
+cd bj/
+ls
+cd p1000/
+vi p9095.c
+vi p9095_brute.c
+gcc p9095_brute.c 
+./a.out 
+vi p9095_brute.c
+git add p9095_brute.c 
+git commit -m 'brute!'
+git push adkb master
+clear
+ls
+clear
+ls
+vi cg/
+cd cg/
+vi p1frog.c 
+exit
+ls
+cd tistory/
+ls
+cd ch6/
+ls
+vi next_perm.c
+gcc next_perm.c 
+vi next_perm.c
+gcc next_perm.c 
+./a.out 
+vi next_perm.c
+gcc next_perm.c 
+./a.out 
+vi next_perm.c
+gcc next_perm.c 
+./a.out 
+vi next_perm.c
+git add next_perm.c 
+git commit -m "next_perm"
+git push adkb master
+./a.out 
+vi next_perm.c
+vi next_perm_func.c
+gcc next_perm_func.c 
+./a.out 
+vi next_perm_func.c
+gcc next_perm_func.c 
+./a.out 
+git add next_perm_func.c 
+git commit -m "perm_func"
+git push adkb master
+vi prev_perm_func.c
+gcc prev_perm_func.c 
+./a.out 
+vi prev_perm_func.c
+gcc prev_perm_func.c 
+./a.out 
+vi prev_perm_func.c
+gcc prev_perm_func.c 
+./a.out 
+vi prev_perm_func.c
+gcc prev_perm_func.c 
+./a.out 
+vi prev_perm_func.c
+gcc prev_perm_func.c 
+./a.out 
+vi next_perm_func.c 
+gcc next_perm
+gcc next_perm_func.c 
+./a.out 
+vi next_perm_func.c 
+ls
+vi next_perm.c 
+gcc next_perm.c
+./a.out 
+git add ./
+git commit -m "perm"
+git push adkb master
+exit
+ls
+cd tistory/
+ls
+cd ch6/
+ls
+./a.out 
+gcc next_perm
+gcc next_perm.c
+./a.out 
+gcc next_perm_func.c
+./a.out 
+exit
+ls
+cd bj/
+ls
+cd p1000/
+ls
+vi p11559.c
+gcc p11559.c 
+vi p11559.c
+gcc p11559.c 
+./a.out 
+RRYGG.
+vi p11559.c
+gcc p11559.c 
+vi p11559.c
+gcc p11559.c 
+./a.out 
+RRYGG.
+vi p11559.c
+gcc p11559.c 
+./a.out 
+vi p11559.c
+gcc p11559.c 
+./a.out 
+vi p11559.c
+gcc p11559.c 
+./a.out 
+vi p11559.c
+gcc p11559.c 
+./a.out 
+vi p11559.c
+gcc p11559.c 
+./a.out 
+vi p11559.c
+......
+./a.out 
+vi p11559.c
+gcc p11559.c 
+vi p11559.c
+gcc p11559.c 
+./a.out 
+vi p11559.c
+gcc p11559.c 
+./a.out 
+vi p11559.c
+gcc p11559.c 
+./a.out 
+vi p11559.c
+gcc p11559.c 
+./a.out 
+vi p11559.c
+./a.out 
+vi p11559.c
+gcc p11559.c 
+./a.out 
+gcc p11559.c 
+vi p11559.c
+vi p11559.c 
+gcc p11559.c 
+vi p11559.c 
+gcc p11559.c 
+./a.out 
+vi p11559.c 
+gcc p11559.c 
+./a.out 
+vi p11559.c 
+gcc p11559.c 
+./a.out 
+vi p11559.c 
+gcc p11559.c 
+./a.out 
+vi p11559.c 
+gcc p11559.c 
+./a.out 
+vi p11559.c 
+gcc p11559.c 
+./a.out 
+vi p11559.c 
+gcc p11559.c 
+vi p11559.c 
+gcc p115
+gcc p11559.c 
+./a.out 
+gcc p115
+vi p11559.c 
+gcc p155
+gcc p11559.c 
+./a.out 
+vi p11559.c 
+gcc p11559.c 
+./a.out 
+vi p11559.c 
+gcc p11559.c 
+./a.out 
+vi p11559.c 
+gcc p11559.c 
+./a.out 
+vi p11559.c 
+gcc p11559.c 
+./a.out 
+vi p11559.c 
+gcc p11559.c 
+./a.out 
+vi p11559.c 
+gcc p11559.c 
+./a.out 
+vi p11559.c 
+gcc p11559.c 
+./a.out 
+vi p11559.c 
+./a.out 
+vi p11559.c 
+ls
+cd ..
+ls
+cd 
+ls
+cd cg/
+ls
+vi p18marathon.c
+cd 
+ls
+cd kakao/
+ls
+vi p18marathon.c
+ls
+cd cg
+ls
+cd cg
+ls
+cd ..
+ls
+cd chg
+cd cg/
+ls
+vi p18marathon.c 
+cd ..
+ls
+cd 
+ls
+cd bj/
+ls
+cd p1000/
+ls
+vi p1049.c
+gcc p1049.c 
+./a.out 
+vi p1049.c
+./a.out 
+vi p1049.c
+gcc p1049.c 
+./a.out 
+vi p1049.c
+gcc p1049.c 
+./a.out 
+vi p1049.c
+gcc p1049.c 
+./a.out 
+vi p1049.c
+gcc p1049.c 
+./a.out 
+vi p1049.c
+gcc p1049.c 
+./a.out 
+vi p1049.c
+ls
+vi p14503.c 
+exit
+ls
+cd tistory/
+ls
+cd ch6/
+ls
+vi bitstring.c
+gcc bitstring.c 
+./a.out 
+vi bitstring.c
+gcc bitstring.c 
+./a.out 
+vi bitstring.c
+vi bitstring_func.c
+mv bitstring_func.c gen_bitstring_func.c
+ls
+mv bitstring.c next_bstring.c
+mv gen_bitstring_func.c gen_bstring_func.c
+ls
+vi gen_bstring_func.c 
+vi next_bstring.c 
+vi gen_bstring_func.c 
+gcc gen_bstring_func.c 
+./a.out 
+gcc next_bstring.c 
+./a.out 
+vi next_bstring.c 
+gcc gen_bstring_func.c 
+./a.out 
+clear
+./a.out 
+ls
+vi next_combi.c
+gcc next_combi.c 
+./a.out 
+vi next_combi.c
+gcc next_combi.c 
+./a.out 
+vi next_combi.c
+gcc next_
+gcc next_combi.c 
+./a.out 
+gcc next_
+vi next_combi.c
+gcc next_combi.c 
+./a.out 
+vi next_combi.c
+gcc next_
+gcc next_combi.c 
+./a.out 
+vi next_combi.c
+vi next_combi_application.c
+gcc next_combi_application.c 
+vi next_combi_application.c
+gcc next_combi_application.c 
+./a.out 
+vi next_combi_application.c
+gcc next_combi_application.c 
+./a.out 
+vi next_combi_application.c
+ls
+mkdir ncafe
+ls
+cd ncafe/
+ls
+vi 369298.c
+gcc 369298.c 
+./a.out 
+vi 369298.c
+gcc 369298.c 
+./a.out 
+git add 369298.c 
+git commit -m 'naver cafe q&a'
+git push adkb master 
+vi 369300.c
+rm 369300.c 
+vi 369304.cd
+gcc 369304.c 
+./a.out 
+git add 369304.c 
+git commit -m 'naver cafe'
+git push adkb master
+vi 369271.c
+sl
+ls
+cd ncafe/
+ls
+vi 369271.c 
+cd 
+ls
+cd sk/
+ls
+vi queue3.
+vi queue3.c
+cd ..
+ls
+cd ncafe/
+ls
+vi 369271.c 
 exit

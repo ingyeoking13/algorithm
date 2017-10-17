@@ -64,5 +64,3 @@ int main(){
 		printf("%d \n", pop(que));
 	}
 }
-
-
