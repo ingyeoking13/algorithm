@@ -145,18 +145,21 @@ $i
 	n
 
 # 파일 마크:
-'0  1  0  ~/ncafe/369271.c
-'1  56  1  ~/ncafe/369271.c
-'2  2  4  ~/ncafe/369271.c
-'3  60  0  ~/ncafe/369271.c
-'4  9  64  ~/ncafe/369271.c
-'5  32  19  ~/ncafe/369271.c
-'6  63  0  ~/ncafe/369271.c
-'7  20  1  ~/ncafe/369307.cc
-'8  29  1  ~/ncafe/369307.cc
-'9  33  1  ~/ncafe/369307.cc
+'0  21  0  ~/tistory/ch6/next_combi_application.c
+'1  1  0  ~/tistory/ch6/next_bstring.c
+'2  1  0  ~/ncafe/369271.c
+'3  56  1  ~/ncafe/369271.c
+'4  2  4  ~/ncafe/369271.c
+'5  60  0  ~/ncafe/369271.c
+'6  9  64  ~/ncafe/369271.c
+'7  32  19  ~/ncafe/369271.c
+'8  63  0  ~/ncafe/369271.c
+'9  20  1  ~/ncafe/369307.cc
 
 # 점프목록 (새것이 먼저):
+-'  21  0  ~/tistory/ch6/next_combi_application.c
+-'  1  0  ~/tistory/ch6/next_combi_application.c
+-'  1  0  ~/tistory/ch6/next_bstring.c
 -'  1  0  ~/ncafe/369271.c
 -'  56  1  ~/ncafe/369271.c
 -'  54  0  ~/ncafe/369271.c
@@ -212,7 +215,6 @@ $i
 -'  21  6  ~/ncafe/369298.c
 -'  17  1  ~/ncafe/369298.c
 -'  23  0  ~/tistory/ch6/next_combi_application.c
--'  1  0  ~/tistory/ch6/next_combi_application.c
 -'  3  14  ~/tistory/ch6/next_combi_application.c
 -'  4  29  ~/tistory/ch6/next_combi_application.c
 -'  17  46  ~/tistory/ch6/next_combi_application.c
@@ -222,7 +224,6 @@ $i
 -'  13  0  ~/tistory/ch6/next_combi.c
 -'  3  0  ~/tistory/ch6/next_combi.c
 -'  22  0  ~/tistory/ch6/next_combi.c
--'  1  0  ~/tistory/ch6/next_bstring.c
 -'  9  1  ~/tistory/ch6/gen_bstring_func.c
 -'  1  0  ~/tistory/ch6/gen_bstring_func.c
 -'  7  0  ~/tistory/ch6/next_bstring.c
@@ -256,6 +257,26 @@ $i
 -'  24  1  ~/ncafe/369307.cc
 
 # 파일내의 마크 히스토리 (새것부터 오래된 순):
+
+> ~/tistory/ch6/next_combi_application.c
+	"	21	0
+	^	23	0
+	.	23	0
+	+	1	0
+	+	1	0
+	+	3	15
+	+	6	7
+	+	7	22
+	+	10	19
+	+	17	18
+	+	4	32
+	+	17	46
+	+	4	29
+	+	3	14
+	+	23	0
+
+> ~/tistory/ch6/next_bstring.c
+	"	1	0
 
 > ~/ncafe/369271.c
 	"	1	0
@@ -661,23 +682,6 @@ $i
 	+	38	18
 	+	22	11
 
-> ~/tistory/ch6/next_combi_application.c
-	"	23	0
-	^	23	0
-	.	23	0
-	+	1	0
-	+	1	0
-	+	3	15
-	+	6	7
-	+	7	22
-	+	10	19
-	+	17	18
-	+	4	32
-	+	17	46
-	+	4	29
-	+	3	14
-	+	23	0
-
 > ~/tistory/ch6/next_combi.c
 	"	15	2
 	^	18	22
@@ -714,9 +718,6 @@ $i
 	+	15	0
 	+	19	0
 	+	17	0
-
-> ~/tistory/ch6/next_bstring.c
-	"	1	0
 
 > ~/tistory/ch6/gen_bstring_func.c
 	"	9	1
