@@ -43,5 +43,5 @@ int main(){
 		if (tmp/10) over=1;
 		c[i]=tmp%10+'0';
 	}
-	for (int i=0; i<200; i++) printf(i!=10?"%c":"%c\n", c[i]); 
+	for (int i=0; i<200; i++) printf(i!=199?"%c":"%c\n", c[i]); 
 }
