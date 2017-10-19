@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-char a[11], b[11], c[11];
+char a[200], b[200], c[200];
 
 int chk(char ch1, char ch2){
 	ch1-='0', ch2-='0';
@@ -17,7 +17,7 @@ int main(){
 	int len=strlen(a);
 	for (int i=len-1 ; i>=0; i--){
 		int now=i; 
-		while (now+1<11 && a[now+1]==0) now++; 
+		while (now+1<200 && a[now+1]==0) now++; 
 		a[now]=a[i];
 		a[i]=0;
 	}
@@ -25,13 +25,13 @@ int main(){
 	len=strlen(b);
 	for (int i=len-1 ; i>=0; i--){
 		int now=i; 
-		while (now+1<11 && b[now+1]==0) now++; 
+		while (now+1<200 && b[now+1]==0) now++; 
 		b[now]=b[i];
 		b[i]=0;
 	}
 
 	int over=0;
-	for(int i=10; i>=0; i--){
+	for(int i=199; i>=0; i--){
 		int d=chk(a[i], b[i]), tmp=0;
 
 		if (d==1) tmp=a[i]-'0'+b[i]-'0'; 
@@ -43,5 +43,5 @@ int main(){
 		if (tmp/10) over=1;
 		c[i]=tmp%10+'0';
 	}
-	for (int i=0; i<11; i++) printf(i!=10?"%c":"%c\n", c[i]); 
+	for (int i=0; i<200; i++) printf(i!=10?"%c":"%c\n", c[i]); 
 }
