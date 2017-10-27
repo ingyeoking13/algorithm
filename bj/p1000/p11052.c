@@ -2,10 +2,13 @@
 
 int a[1001], d[1001], n;
 
-int dp(int now){
-	if (d[now]) return;
-	d[now]=max(a[now]+dp(now-n), dp(now-1)+d[now-n]);
-	return d[now];
+int max(int a, int b){ if (a<b) return b; return a;}
+int dp(int n){
+	if (n==1||n==0) return a[n];
+	if (d[n]) return d[n];
+	for (int i=1; i<=n; i++)
+		d[n]=max(d[n], dp(n-i)+a[i]);
+	return d[n];
 }
 
 int main(){
