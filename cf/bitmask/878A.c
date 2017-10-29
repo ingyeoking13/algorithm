@@ -1,41 +1,34 @@
 #include <stdio.h>
 
-char s1[100000];
-int s2[100000], t1, t2;
+int state[10];
 int main(){
-	int n, chk=0; scanf("%d", &n);
-	while(n--){
-		char o; int num;
-		scanf(" %c %d", &o, &num);
+	int n;
+	scanf("%d", &n);
+	for (int i=0; i<10; i++) state[i]=2;
 
-		if(o=='|'){
-			if (num==1) continue;
-			if(t1!=0 && s1[t1-1]=='|'){
-			 	s2[t2-1]|=num; 
-				if(s2[t2-1]==0) t2--,t1--;
-			}
-			else s1[t1++]='|', s2[t2++]=num;
+	for (int i=0; i<n; i++){
+		char ch; int tmp;
+		scanf(" %c %d", &ch, &tmp);
+		if(ch=='|'){
+			for (int j=0; j<10; j++)
+				if (tmp&(1<<j)) state[j]=1;
 		}
-		else if (o=='^') {
-			if(t1!=0 && s1[t1-1]=='^') {
-				s2[t2-1]^=num;
-				if(s2[t2-1]==0) t2--,t1--;
-			}
-			else s1[t1++]='^', s2[t2++]=num;
-			
+		if (ch=='&'){
+			for (int j=0; j<10; j++)
+				if ((tmp&(1<<j))==0) state[j]=0;
 		}
-		else if (o=='&') {
-			if(t1!=0 && s1[t1-1]=='&') {
-				s2[t2-1]&=num;
-				if(s2[t2-1]==0) t2--,t1--;
-			}
-			else s1[t1++]='&', s2[t2++]=num;
+		if (ch=='^'){
+			for (int j=0; j<10; j++)
+				if (tmp&(1<<j)) state[j]^=1;
 		}
 	}
-	printf("%d\n", t2);
-	int i=0;
-	while(i<t2){
-		printf("%c %d\n", s1[i], s2[i]);
-		i++;
+
+	int orv=0, xorv=0, andv=1023;
+	for (int i=0; i<10; i++){
+		if (state[i]==0) andv=andv-(1<<i);
+		else if (state[i]==1) orv+=(1<<i);
+		else if (state[i]==3) xorv+=(1<<i);
 	}
+	printf("3\n| %d\n& %d\n^ %d\n", orv, andv, xorv);
 }
+
