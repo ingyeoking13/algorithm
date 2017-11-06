@@ -1,7 +1,9 @@
 #include <stdio.h>
-struct CourseInfo{
+typedef struct {
 	int plan, category, grade;
-}course[90]={
+}CourseInfo;
+
+CourseInfo course[90]={
 	{ 0,1,2 }, //대학영어1
 	{ 0,1,2 }, //대학영어2
 	{ 0,1,2 }, //A.E. Reading
