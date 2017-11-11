@@ -8,7 +8,6 @@ int dfs(int now){
 			}
 			printf("\n");
 		}
-		chk=1;
 		return 1;
 	}
 	int x=now/9, y=now%9;

@@ -6,9 +6,17 @@ int mycmp(const void* a, const void* b) { return *(int *)a - *(int *)b;}
 void dfs(int i, int sum, int type){
 	if (type && i==n) {arr2[idx2++] = sum; return;}
 	else if (!type && i==n/2) {arr1[idx1++]= sum; return ; }
-
 	dfs(i+1, (sum+a[i])%m , type);
 	dfs(i+1, sum, type);
+}
+int lbound(int v){
+	int s=0, e=idx2;
+	while (e>s){
+		int mid=(s+e)/2;
+		if (arr2[mid] >= v) e=mid;
+		else s=mid+1;
+	}
+	return e;
 }
 int main(){
 	scanf("%d %d", &n, &m);
@@ -31,13 +39,10 @@ int main(){
 
 	int ans=0;
 	for (int i=0; i<idx1; i++){
-		for (int j=0; j<idx2; j++){
-			int tmp= (arr1[i]+arr2[j])%m;
-			if (tmp > ans) ans=tmp;
-			while(j<idx2-1 && arr2[j]==arr2[j+1]) j++;
-		}
-		while( i<idx1-1 && arr1[i]==arr1[i+1]) i++;
+		int j=lbound(m-arr1[i]);
+		j--;
+		int tmp=(arr1[i]+arr2[j])%m;
+		if ( j>=0) ans=tmp>ans?tmp:ans;
 	}
-
 	printf("%d\n", ans);
 }
