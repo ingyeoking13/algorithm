@@ -1,882 +1,59 @@
-vi 14889.c 
-gcc 14889.c 
+vi 888E.c 
+gcc 888E.c 
 ./a.out 
-vi 14889.c 
-vi 14889_2.c
-ls
-rm 14889_2.c 
-ls
-vi 14890.c
-ls
-vi test.c 
-vi 14890.c
-gcc 14890.c 
-vi 14890.c
-gcc 14890.c 
-vi 14890.c
-gcc 14890.c 
-vi 14890.c
-gcc 14890.c 
-./a.out 
-vi 14890.c
-gcc 14890.c 
-./a.out 
-vi 14890.c
-gcc 14890.c 
-./a.out 
-vi 14890.c
-gcc 14890.c 
-./a.out 
-vi 14890.c
-gcc 14890.c 
-./a.out 
-vi 14890.c
-gcc 14890.c 
-./a.out 
-vi 14890.c
-gcc 14890.c 
-./a.out 
-vi 14890.c
-gcc 14890.c 
-./a.out 
-vi 14890.c
-gcc 14890.c 
-vi 14890.c
-gcc 14890.c 
-./a.out 
-vi 14890.c
-gcc 14890.c 
-./a.out 
-vi 14890.c
-gcc 14890.c 
-./a.out 
-gcc 14890.c 
-vi 14890.c
-gcc 14890.c 
-clear
-vi 14890.c
-exit
-ls
-cd cf/
-ls
-vi 879B.c 
-gcc 879B.c 
-./a.out 
-vi 879B.c 
-gcc 879B.c 
-./a.out 
-vi 879B.c 
-vi 879C.c 
-mv 879C.c 878A.c
-exit
-ls
-cd bj/
-ls
-cd 
-ls
-cd cf
-ls
-mv 879A.c implementation/
-ls
-cd implementation/
-ls
-cd ..
-ls
-mv 879B.c implementation/
-ls
-cd imipl
-cd implementation/
-ls
-cd 
-ls
-cd cf/
-ls
-mkdir bitmask
-ls
-mv xor.c math/
-ls
-cd equ
-ls
-mv 878A.c bitmask/
-ls
-cd bitmask/
-ls
-cd
-ls
-git add .
-git commit -m 'asdf'
-git push adkb master
-ls
-cd cf/
+vi 888E.c 
 ls
 cd dp/
+cd
+ls
+cd algorithm/
+ls
+cd BFS/
+ls
+cd sudoku/
+ls
+vi sudoku2580.c
+vi sudoku2_2580.c 
 ls
 cd 
 ls
-cd cf/
+cd bj/
 ls
-cd implementation/
-ls
-vi 879A.c 
-git add 879A.c 
+cd p1000/
+vi 2580.c 
+git add 2580.c 
 git commit -m 'asdf'
 git push adkb master
-vi 878B
-vi 879B.c 
-ls
-clear
-ls
-cd ..
-ls
-cd bitmask/
-ls
-vi 878A.c 
-gcc 878A.c 
-vi 878A.c 
-gcc 878A.c 
-./a.out 
-vi 878A.c 
-exit
-ls
-cd cf/
-ls
-cd math/
-ls
-vi p869b.c 
-ls
-clr
-clear
-ls
-cd cf/
-ls
-cd bitmask/
-ls
-vi 878A.c 
-ls
-cd cf/
-ls
-cd bitmask/
-ls
-vi 878A.c 
-gcc 878A.c 
-vi 878A.c 
-gcc 878A.c 
-./a.out 
-./a.out 3
-gcc 878A.c 
-vi 878A.c 
-gcc 878A.c 
-./a.out 
-vi 878A.c 
-gcc 878A.c 
-./a.out 
-vi 878A.c 
-gcc 878A.c 
-./a.out 
-vi 878A.c 
-exit
-ls
-cd cf/
-ls
-cd bitmask/
-ls
-cd 
-ls
-cd cf/
-ls
-cd bitmask/
-ls
-vi 878A_2.c
-gcc 878A.c 
-./a.out 
-vi 878A_2.c
-vi 878A.c 
-vi 878A_2.c
-gcc 878A_2.c 
-./a.out 
-vi 878A_2.c
-gcc 878A_2.c 
-./a.out 
-vi 878A_2.c
-gcc 878A_2.c 
-./a.out 
+vi 2580.c 
+cd
 git add .
+ls
 git push adkb master
-git commit -m 'asdf'
+git add .
+git commit -m '171111'
 git push adkb master
-vl
 ls
-cd 
-ls
-cd cf/
-ls
-cd dp/
-ls
-cd 
-ls
-cd
 cd bj/
-ls
-cd p1
 cd p1000/
 ls
-vi 2869.c
-gcc 2869.c 
-./a.out 
-vi 2869.c
-gcc 2869.c 
-./a.out 
-vi 2869.c
-gcc 2869.c 
-./a.out 
-vi 2869.c
-gcc 2869.c 
-./a.out 
-vi 2869.c
-ls
-vi 1717.c
-gcc 1717.c 
-./a.out 
-vi 1717.c
-vi v2_1717.c
-ls
-vi 1717.c 
-ls
-git add 1717.c 
-git commit -m 'union find'
-git push adkb master
-vi 4195.c
-vi 1976.c
-gcc 1976.c 
-vi 1976.c
-gcc 976
-gcc 1976.c 
-vi 1976.c
-gcc 1976.c 
-clear
-./a.out a
-./a.out
-clear
-vi 1976.c
-gcc 1976.c 
-./a.out 
-vi 1976.c
-gcc 1976.c 
-./a.out 
-vi 1976.c
-gcc 1976.c 
-./a.out 
-vi 1976.c
-ls
-vi 1024c
-vi 1024.c
-ls
-vi 1024.c 
-vi 13698.c
-gcc 13698.c 
-./a.out 
-vi 13698.c
-./a.out 
-vi 13698.c
-gcc 13698.c 
-./a.out 
-vi 13698.c
-gcc 13698.c 
-./a.out 
-vi 13698.c
-gcc 13698.c 
-./a.out 
-vi 13698.c
-gcc 13698.c 
-./a.out 
-vi 13698.c
-gcc 13698.c 
-vi 13698.c
-gcc 13698.c 
-./a.out 
-vi 13698.c
-gcc 13698.c 
-./a.out 
-vi 13698.c
-vi 13699.c
-gcc 13699.c 
-vi 13699.c
-gcc 13699.c 
-./a.out 
-vi 13699.c
-gcc 13699.c 
-./a.out 
-gcc 13699.c 
-./a.out 
-vi 13699.c
-exit
-ls
-cd bj/
-ls
-cd p1000/
-ls
-vi 13701.c
-exit
-ls
-cd bj/
-ls
-cd p1000/
-ls
-vi 1890.c 
-ls
-cd 
-ls
-cd cf/
-ls
-vi 884C.c
-ls
-cd
-ls
-cd bj/
-ls
-cd p1000/
-ls
-vi 10835.c
-gcc 10835.c 
-./a.out 
-vi 10835.c
-gcc 10835.c 
-./a.out 
-vi 10835.c
-gcc 10835.c 
-./a.out 
-vi 10835.c
-gcc 10835.c 
-./a.out 
-vi 10835.c
-gcc 10835.c 
-./a.out 
-vi 10835.c
-exit
-ls
-cd bj/
-ls
-cd p1000/
-ls
-vi 9517.c
-gcc 9517.c 
-vi 9517.c
-gcc 9517.c 
-./a.out 
-vi 9517.c
-gcc 9517.c 
-./a.out 
-vi 9517.c
-gcc 9517.c 
-./a.out 
-vi 9517.c
-gcc 9517.c 
-./a.out 
-vi 9517.c
-vi 1152.c
-gcc 1152
-gcc 1152.c 
-./a.out 
-gcc 1152
-vi 1152.c
-gcc 1152.c 
-./a.out 
-gcc 1152.c 
-./a.out 
-vi 1152.c
-gcc 1152.c 
-vi 1152.c
-gcc 1152.c 
-./a.out 
-vi 1152.c
-gcc 1152.c 
-./a.out 
-vi 1152.c
-./a.out 
-vi 1152.c
-gcc 1152.c 
-vi 1152.c
-gcc 1152.c 
-./a.out 
-vi 1152.c
-gcc 1152.c 
-./a.out 
-vi 1152.c
-gcc 1152.c 
-./a.out 
-vi 1152.c
-gcc 1152.c 
-./a.out 
-vi 1152.c
-gcc 1152.c 
-./a.out 
-vi 1152.c
-gcc 1152.c 
-./a.out 
-vi 1152.c
-gcc 1152.c 
-vi 1152.c
-gcc 1152.c 
-vi 1152.c
-gcc 1152.c 
-./a.out 
-vi 1152.c
-./a.out 
-vi 1152.c
-gcc 1152.c 
-./a.out 
-vi 1152.c
-./a.out 
-vi 1152.c
-gcc 1152.c 
-./a.out 
-vi 1152.c
-gcc 1152.c 
-./a.out 
-vi 1152.c
-gcc 1152.c 
-./a.out 
-vi 1152.c
-gcc 1152.c 
-./a.out 
-vi 1152.c
-gcc 1152.c 
-./a.out 
-vi 1152.c
-./a.out 
-vi 1152.c
-gcc 1152.c 
-./a.out 
-vi 1152.c
-./a.out 
-vi 1152.c
-gcc 1152.c 
-./a.out 
-vi 1152.c
-ls
-cd cf/
-ls
-mkdir dfs
-ls
-cd dfs/
-ls
-vi 884C.c
-gcc 884C.c 
-./a.out 
-vi 884C.c
-gcc 884C.c 
-./a.out 
-i 884C.c
-vi 884C.c 
-gcc 884C.c 
-./a.out 
-vi 884C.c 
-gcc 884C.c 
-vi 884C.c 
-gcc 884C.c 
-./a.out 
-vi 884C.c 
-gcc 884C.c 
-./a.out 
-vi 884C.c 
-gcc 884C.c 
-./a.out 
-vi 884C.c 
-gcc 884C.c 
-vi 884C.c 
-gcc 884C.c 
-vi 884C.c 
-gcc 884C.c 
-./a.out 
-vi 884C.c 
-gcc 884C.c 
-./a.out 
-vi 884C.c 
-gcc 884C.c 
-./a.out 
-vi 884C.c 
-gcc 884C.c 
-./a.out 
-vi 884C.c 
-ls
-cd
-ls
-cd 
-ls
-cd bj/
-ls
-cd p1000/
-ls
-vi 1890.c 
-ls
-vi 10942.c
-exit
-ls
-cd bj/
-ls
-cd p1000/
-ls
-vi 10942.c 
-exit
-ls
-cd bj/
-ls
-cd p1000/
-ls
-vi 10942.c 
-ls
-cd bj/
-ls
-cd p1000/
-ls
-vi 1509.c 
-gcc 1509.c 
-./a.out 
-vi 1509.c 
-ls
-rm 1
-ls
-vi 1509.c 
-./a.out 
-vi 1509.c 
-gcc 1509.c 
-./a.out 
-vi 1509.c 
-gcc 1509.c 
-./a.out 
-vi 1509.c 
-gcc 1509.c 
-./a.out 
-vi 1509.c 
-gcc 1509.c 
-./a.out 
-./a.out 21
-./a.out
-vi 1509.c 
-gcc 1509.c 
-./a.out 
-vi 1509.c 
-gcc 1509.c 
-./a.out a
-./a.out
-vi 1509.c 
-./a.out
-vi 1509.c 
-gcc 1509.c 
-./a.out 
-vi 1509.c 
-gcc 1509.c 
-./a.out 
-vi 1509.c 
-gcc 1509.c 
-./a.out 
-vi 1509.c 
-gcc 1509.c /
-gcc 1509.c
-./a.out 
-vi 1509.c 
-gcc 1509.c
-./a.out 
-vi 1509.c 
-./a.out 
-vi 1509.c 
-gcc 1509.c
-vi 1509.c 
-gcc 1509.c
-./a.out 
-#include <string.h>
-char a[2501]; int d[2501];
-int p[2501][2501];
-int min(int x, int y) { if(x<y) return x; return y;}
-int chk(int n){
-}
-int palin(int f, int t){
-}
-int main(){
-}
-vi 1509.c 
-clear
-ls
-vi 2293.c
-exit
-ls
-cd bj/
-exit
-ls
-cd bj/
-ls
-cd p1000/
-ls
-vi 2293.c
-exit
-ls
-cd bj/
-ls
-cd p1000/
-vi 2293.c 
-ls
-gcc 2293.c 
-vi 2293.c 
-gcc 2293.c 
-vi 2293.c 
-ls
-gcc 2293.c 
-ls
-vi 2293.c 
-gcc 2293.c 
-./a.out 
-vi 2293.c 
-cd
-ls
-cd swex/
-ls
-vi 2105.c
-gcc 2105.c 
-./a.out 
-vi 2105.c
-gcc 2105.c 
-./a.out 
-vi 2105.c
-gcc 2105.c 
-./a.out 
-vi 2105.c
-gcc 2105.c 
-./a.out 
-vi 2105.c
-gcc 2105.c 
-./a.out 
-vi 2105.c
-gcc 2105.c 
-vi 2105.c
-gcc 2105.c 
-./a.out 
-vi 2105.c
-gcc 2105.c 
-./a.out 
-vi 2105.c
-gcc 2105.c 
-./a.out 
-vi 2105.c
-gcc 2105.c 
-./a.out 
-vi 2105.c
-gcc 2105.c 
-./a.out 
-vi 2105.c
-gcc 2105.c 
-./a.out 
-vi 2105.c
-exit
-ls
-cd bj/
-ls
-cd p1
-cd p1000/
-ls
-vi 2293.c 
-ls
-vi 2294.c
-gcc 2294.c 
-vi 2294.c
-gcc 2294.c 
-vi 2294.c
-gcc 2294.c 
-vi 2294.c
-gcc 2294.c 
-./a.out 
-vi 2294.c
-gcc 2294.c 
-./a.out 
-vi 2294.c
-gcc 2294.c 
-./a.out 
-vi 2294.c
-gcc 2294.c 
-./a.out 
-vi 2294.c
-gcc 2294.c 
-./a.out 
-vi 2294.c
-gcc 2294.c 
-./a.out 
-vi 2294.c
-gcc 2294.c 
-./a.out 
-vi 2294.c
-gcc 2294.c 
-./a.out 
-vi 2294.c
-gcc 2294.c 
-./a.out 
-vi 2294.c
-gcc 2294.c 
-./a.out 
-vi 2294.c
-gcc 2294.c 
-./a.out 
-vi 2294.c
-gcc 2294.c 
-./a.out 
-vi 2294.c
-gcc 2294.c 
-vi 2294.c
-gcc 2294.c 
-./a.out 
-vi 2294.c
-gcc 2294.c 
-./a.out 
-vi 2294.c
-gcc 2294.c 
-vi 2294.c
-gcc 2294.c 
-./a.out 
-vi 2294.c
-gcc 2294.c 
-./a.out 
-vi 2294.c
-gcc 2294.c 
-./a.out 
-vi 2294.c
-gcc 2294.c 
-./a.out 
-gcc 2294.c 
-vi 2294.c
-./a.out 
-gcc 2294.c 
-./a.out 
-vi 2294.c
-gcc 2294.c 
-./a.out 
-vi 2294.c
-gcc 2294.c 
-./a.out 
-vi 2294.c
-gcc 2294.c 
-./a.out 
-vi 2294.c
-gcc 2294.c 
-./a.out 
-vi 2294.c
-gcc 2294.c 
-./a.out 
-vi 2294.c
-gcc 2294.c 
-./a.out 
-vi 2294.c
-gcc 2294.c 
-./a.out 
-vi 2294.c
-gcc 2294.c 
-./a.out 
-vi 2294.c
-gcc 2294.c 
-./a.out 
-vi 2294.c
-gcc 2294.c 
-./a.out 
-vi 2294.c
-gcc 2294.c 
-./a.out 
-vi 2294.c
-gcc 2294.c 
-./a.out 
-vi 2294.c
-vi 1520.c
+vi 1520.c 
 gcc 1520.c 
 ./a.out 
-vi 1520.c
-gcc 1502
+vi 1520.c 
 gcc 1520.c 
 ./a.out 
-vi 1520.c
-ls
-cd
-ls
-cd cf/
-ls
-vi 887A.c
-gcc 887A.c 
+vi 1520.c 
 ./a.out 
-vi 887A.c
-gcc 887A.c 
+vi 1520.c 
+gcc 1520.c 
 ./a.out 
-vi 887A.c
-gcc 887A.c 
+vi 1520.c 
+gcc 1520.c 
 ./a.out 
-vi 887A.c
-gcc 887A.c 
-./a.out 
-vi 887A.c
-gcc 887A.c 
-./a.out 
-vi 887A.c
-gcc 887A.c 
-./a.out 
-vi 887A.c
-gcc 887A.c 
-./a.out 
-vi 887A.c
-gcc 887A.c 
-./a.out 
-vi 887A.c
-gcc 887A.c 
-./a.out 
-vi 887A.c
-vi 887B.c
-gcc 887A.c 
-./a.out 
-vi 887B.c
-gcc 887A.c 
-gcc 888A.c
-gcc 887B.c 
-./a.out 
-vi 887B.c
-gcc 887B.c 
-./a.out 
-vi 887B.c
-gcc 887B.c 
-./a.out 
-vi 887B.c
-gcc 887B.c 
-./a.out 
-vi 887B.c
-gcc 887B.c 
-./a.out 
-vi 887B.c
-gcc 887B.c 
-./a.out 
-vi 887B.c
-gcc 887B.c 
-./a.out 
-vi 887B.c
-gcc 887B.c 
-./a.out 
-vi 887B.c
-gcc 887B.c 
-./a.out 
-vi 887B.c
-gcc 887B.c 
-./a.out 
-vi 887B.c
-gcc 887B.c 
-./a.out 
-iexit
+vi 1520.c 
 exit
 ls
 cd cf/
-ls
-vi 887B.c 
-gcc 887B.c 
-./a.out 
-vi 887B.c 
-gcc 887B.c 
-./a.out 
-vi 887B.c 
-gcc 887B.c 
-vi 887B.c 
-gcc 887B.c 
-./a.out 
-vi 887B.c 
 ls
 cd
 ls
@@ -885,206 +62,632 @@ ls
 cd p1000/
 ls
 vi 1520.c 
-cd
+gcc 1520.c 
+./a.out 
+vi 1520.c 
+gcc 1520.c 
+./a.out 
 ls
 cd bj/
-ls
-cd
-ls
-cd cf/
-ls
-vi 887A.c 
-exit
-ls
-man pow
-ls
-cd
-vi test.c 
-gcc test.c 
-vi test.c 
-gcc test.c 
-vi test.c 
-gcc test.c 
-vi test.c 
-gcc test.c 
-vi test.c 
-gcc test.c 
-vi test.c 
-gcc test.c -lm
-./a
-gcc test.c -lm
-ls
-./a.out 
-vi test.c 
-gcc test.c -lm
-vi test.c 
-gcc test.c -lm
-./a
-./a.out 
-vi test.c 
-./a.out 
-gcc test.c -lm
-./a.out 
-vi test.c 
-man rand
-man -3 rand
-man --help
-mand 3 randddi
-man 3 rand
-vi test.c 
-gcc test.c 
-vi test.c 
-gcc test.c 
-gcc test.c -lm
-./a.out 
-gcc test.c 
-gcc test.c -lm -Wconversion
-ls
-cd
-ls
-cd cf/
-ls
-cd palindrome/
-ls
-mv Quasi-palindrome.c 863A.c
-rm *.out
-ls
-vi 863A.c 
-ls
-cd 
-ls
-cd bj/
-ls
-cd
-ls
-cd cf/
-ls
-vi 863B.c
-ls
-exit
-ls
-cd cf/
-ls
-mv 884C.c dfs/
-ls
-cd dfs/
-ls
-vi 884C.c 
-gcc 884C.c 
-vi 884C.c 
-gcc 884C.c 
-./a.out 
-vi 884C.c 
-gcc 884C.c 
-./a.out 
-vi 884C.c 
-gcc 884C.c 
-./a.out 
-vi 884C.c 
-ls
-cd .
-ls
-cd
-ls
-cd cf/
-ls
-cd dfs/
-ls
-vi v2_884C.c
-cd
-git add .
-git push adkb master
-git add .
-git commmit -m 'asdf'
-git commit -m 'asdf'
-git push adkb master
-ls
-cd cf/
-ls
-vi 865A.c
-ls
-vi 863B.c
-gcc 863B.c 
-vi 863B.c
-gcc 863B.c 
-./a.out 
-vi 863B.c
-gcc 863B.c 
-./a.out 
-vi 863B.c
-gcc 863B.c 
-./a.out 
-vi 863B.c
-gcc 863B.c 
-./a.out 
-vi 863B.c
-gcc 863B.c 
-./a.out 
-vi 863B.c
-gcc 863B.c 
-vi 863B.c
-gcc 863B.c 
-./a.out 
-vi 863B.c
-gcc 863B.c 
-./a.out 
-vi 863B.c
-gcc 863B.c 
-vi 863B.c
-gcc 863B.c 
-./a.out 
-vi 863B.c
-gcc 863B.c 
-./a.out 
-vi 863B.c
-gcc 863B.c 
-./a.out 
-vi 863B.c
-gcc 863B.c 
-./a.out 
-vi 863B.c
-clear
-ls
-cd 
-ls
-cd cf/
-ls
-vi 884B.c 
-vi bruteforce/
-vi 863B.c 
-mv 863B.c bruteforce/
-cd bruteforce/
-ls
-cd
-ls
-git add .
-git commit -m 'asdf'
-git push adkb master
-ls
-cd
-cd bj/
-ls
-vi p1000/
-:q
 ls
 cd p1000/
 ls
-vi 14890.c 
+vi 1520.c 
+gcc 1520.c 
+./a.out 
+vi 1520.c 
+gcc 1520.c 
+./a.out 
+vi 1520.c 
+gcc 1520.c 
+./a.out 
+vi 1520.c 
+gcc 1520.c 
+./a.out 
+vi 1520.c 
+gcc 1520.c 
+./a.out 
+vi 1520.c 
+gcc 1520.c 
+./a.out 
+vi 1520.c 
+gcc 1520.c 
+./a.out 
+vi 1520.c 
+gcc 1520.c 
+./a.out 
+vi 1520.c 
+gcc 1520.c 
+./a.out 
+vi 1520.c 
+gcc 1520.c 
+./a.out 
+vi 1520.c 
 exit
 ls
-cd swtest/
+cd bj/
+ls
+cd p1000/
+ls
+vi 13703.c
+rm 13703.c 
+ls
+vi 1520.c 
+gcc 1520.c 
+./a.out 
+vi 1520.c 
+gcc 1520.c 
+./a.out 
+vi 1520.c 
+gcc 1520.c 
+./a.out 
+vi 1520.c 
+gcc 1520.c 
+./a.out 
+vi 1520.c 
+gcc 1520.c 
+./a.out 
+vi 1520.c 
+gcc 1520.c 
+./a.out 
+vi 1520.c 
+gcc 1520.c 
+./a.out 
+vi 1520.c 
+gcc 1520.c 
+./a.out 
+vi 1520.c 
+gcc 1520.c 
+vi 1520.c 
+gcc 1520.c 
+./a.out 
+vi 1520.c 
+ls
+cd bj/
+ls
+cd p1000/
+ls
+vi 1520.c 
+gcc 1520.c 
+./a.out 
+vi 1520.cc
+gcc 1520.cc
+vi 1520.c 
+gcc 1520.cc -lm
+vi 1520.c 
+vi 1520.cc
+gcc 1520.cc
+./a.out 
+vi 1520.cc
+gcc 1520.cc
+./a.out 
+vi 1520.c
+gcc 1520.c
+./a.out 
+gcc 1520.cc
+./a.out 
+vi 1520.cc
+gcc 1520.cc
+./a.out 
+vi 1520.cc
+rm 1520.cc
+vi 1520.c 
+gcc 1520.c
+./a.out 
+vi 1520.c 
+gcc 1520.c 
+./a.out 
+vi 1520.c 
+./a.out 
+vi 1520.c 
+gcc 1520.c 
+./a.out 
+vi 1520.c 
+gcc 1520.c 
+./a.out 
+vi 1520.c 
+gcc 1520.c 
+./a.out 
+vi 1520.c 
+gcc 1520.c 
+./a.out 
+vi 1520.c 
+gcc 1520.c 
+./a.out 
+vi 1520.c 
+gcc 1520.c 
+./a.out 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ls
+cd bj/
+ls
+cd p1000/
+vi 1520.c 
+gcc 1520.c 
+./a.out 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ls
+cd bj/
+ls
+cd p1000/
+./a.out 
+vi 1520.c 
+gcc 1520.c 
+./a.out 
+vi 1520.c 
+gcc 1520.c 
+./a.out 
+vi 1520.c 
+gcc 1520.c 
+vi 1520.c 
+gcc 1520.c 
+./a.out 
+vi 1520.c 
+./a.out 
+vi 1520.c 
+gcc 1520.c 
+./a.out 
+./a.out > 1
+vi 1
+vi 1520.c 
+gcc 1520.c 
+vi 1520.c 
+gcc 1520.c 
+./a
+./a.out > 1
+vi 1
+vi 1520.c 
+gcc 1520.c 
+./a.out  > 1
+vi 1
+vi 1520.c 
+gcc 1520.c 
+./a.out 
+vi 1520.c 
+exit
+ls
+cd bj/
+ls
+cd p1000/
 ls
 cd
 ls
-cd swex/
+cd swtest/
 ls
-vi 1204.c 
-vi 1206.c
-gcc 1206.c 
-vi 1206.c
-gcc 1206.c 
+cd sk/
+ls
+vi queue3.
+vi queue3.c
+ls
+exit
+ls
+cd cf/
+ls
+cd sortsearch/
+ls
+cd
+ls
+cd cf/
+ls
+mv 888E.c 
+mv 888E.c sortsearch/
+ls
+cd sortsearch/
+ls
+vi 888E.c 
+git add 888E.c 
+git commit -m 'asdf'
+git push adkb master
+ls
+cd 
+ls
+cd bj/
+ls
+cd p1000/
+ls
+vi 3036
+vi 3036.c
+gcc 3036.c 
 ./a.out 
-vi 1206.c
+vi 3036.c
+gcc 3036.c 
+vi 3036.c
+gcc 3036.c 
+vi 3036.c
+gcc 3036.c 
+./a.out 
+vi 3036.c
+./a.out 
+vi 3036.c
+vi 1707.c
+ls
+rm 1707.c 
+ls
+vi 9426.c
+gcc 9426.c 
+vi 9426.c
+gcc 9426.c 
+./a.out 
+vi 9426.c
+gcc 9426.c 
+./a.out 
+vi 9426.c
+./a.out 
+vi 9426.c
+vi 11066.c
+gcc 11066.c 
+vi 11066.c
+gcc 11066.c 
+vi 11066.c
+gcc 11066.c 
+vi 11066.c
+gcc 11066.c 
+./a.out 
+vi 11066.c
+gcc 11066.c 
+./a.out 
+vi 11066.c
+gcc 11066.c 
+./a.out 
+vi 11066.c
+gcc 11066.c 
+vi 11066.c
+gcc 11066.c 
+./a.out 
+vi 11066.c
+gcc 11066.c 
+./a.out 
+vi 11066.c
+exit
+vi 11066.c
+exit
+ls
+cd bj/
+ls
+cd p1000/
+ls
+vi 11066.c 
+gcc 11066.c 
+./a.out 
+vi 11066.c 
+gcc 11066.c 
+./a.out 
+vi 11066.c 
+./a.out 
+vi 11066.c 
+gcc 11066.c 
+./a.out 
+vi 11066.c 
+gcc 11066.c 
+./a.out 
+vi 11066.c 
+gcc 11066.c 
+./a.out 
+vi 11066.c 
+gcc 11066.c 
+./a.out 
+vi 11066.c 
+gcc 11066.c 
+./a.out 
+vi 11066.c 
+gcc 11066.c 
+./a.out 
+vi 11066.c 
+gcc 11066.c 
+./a.out 
+vi 11066.c 
+gcc 11066.c 
+./a.out 
+vi 11066.c 
+gcc 11066.c 
+./a.out 
+vi 11066.c 
+gcc 11066.c 
+./a.out 
+#include <string.h>
+int d[501][501], w[501], s[501];
+int min(int a, int b) { if (a< b) return a; return b;}
+int dfs(int f, int t){dd
+
+
+./a.out 
+vi 11066.c 
+gcc 11066.c 
+./a.out 
+vi 11066.c 
+gcc 11066.c 
+./a.out 
+vi 11066.c 
+clear
+ls
+vi 13700.c 
+gcc 13700.c 
+vi 13700.c 
+gcc 13700.c 
+./a.out 
+vi 13700.c 
+gcc 13700.c 
+./a.out 
+vi 13700.c 
+gcc 13700.c 
+./a.out 
+vi 13700.c 
+gcc 13700.c 
+./a.out 
+vi 13700.c 
+gcc 13700.c 
+./a.out 
+vi 13700.c 
+gcc 13700.c 
+./a.out 
+vi 13700.c 
+gcc 13700.c 
+vi 13700.c 
+gcc 13700.c 
+vi 13700.c 
+gcc 13700.c 
+vi 13700.c 
+gcc 13700.c 
+./a.out 
+vi 13700.c 
+gcc 13700.c 
+./a.out 
+vi 13700.c 
+gcc 13700.c 
+./a.out 
+vi 13700.c 
+gcc 13700.c 
+./a.out 
+vi 13700.c 
+gcc 13700.c 
+./a.out 
+vi 13700.c 
+gcc 13700.c 
+./a.out 
+vi 13700.c 
+gcc 13700.c 
+./a.out 
+vi 13700.c 
+gcc 13700.c 
+./a.out 
+vi 13700.c 
+gcc 13700.c 
+./a.out 
+vi 13700.c 
+gcc 13700.c 
+./a.out 
+vi 13700.c 
+gcc 13700.c 
+./a.out 
+vi 13700.c 
+gcc 13700.c 
+./a.out 
+vi 13700.c 
+gcc 13700.c 
+./a.out 
+vi 13700.c 
+gcc 13700.c 
+./a.out 
+vi 13700.c :wq
+gcc 13700.c 
+vi 13700.c 
+gcc 13700.c 
+./a.out 
+ls
+cd bj/
+ls
+cd p1000/
+ls
+vi 13700.c 
+gcc 13700.c 
+./a.out 
+vi 13700.c 
+gcc 13700.c 
+./a.out 
+vi 13700.c 
+gcc 13700.c 
+./a.out 
+vi 13700.c 
+vi test.cc
+gcc test.cc -lstdc++
+./a.out 
+vi test.cc
+gcc test.cc -lstdc++
+vi test.cc
+gcc test.cc -lstdc++
+./a.out 
+vi 13700.c 
+gcc 13700.c 
+./a.out 
+vi 13700.c 
+vi 2228.c
+vi 2743.c
+ls
+clear
+ls
+cd bj/
+ls
+cd p1000/
+ls
+vi 2228.c 
+exit
+ls
+cd bj/
+ls
+cd p1000/
+ls
+vi 
+vi 2228.c
+vi 10807.c
+gcc 10807.c 
+./a.out 
+vi 10807.c
+ls
+cd
+ls
+cd cf/
+ls
+vi 890A.c
+gcc 890A.c 
+./a.out 
+vi 890A.c
+gcc 890A.c 
+./a.out 
+vi 890A.c
+vi 890B.c
+gcc 890B.c 
+./a.out 
+vi 890B.c
+gcc 890B.c 
+./a.out 
+vi 890B.c
+gcc 890B.c 
+./a.out 
+vi 890B.c
+gcc 890B.c 
+./a.out 
+vi 890B.c
+gcc 890B.c 
+./a.out 
+vi 890B.c
+gcc 890B.c 
+./a.out 
+vi 890B.c
+gcc 890B.c 
+./a.out 
+vi 890B.c
+gcc 890B.c 
+./a.out 
+vi 890B.c
+gcc 890B.c 
+./a.out 
+vi 890B.c
+gcc 890B.c 
+./a.out 
+vi 890B.c
+gcc 890B.c 
+./a.out 
+vi 890B.c
+gcc 890B.c 
+./a.out 
+vi 890B.c
+gcc 890B.c 
+./a.out 
+vi 890B.c
+gcc 890B.c 
+./a.out 
+vi 890B.c
+gcc 890B.c 
+./a.out 
+vi 890B.c
+gcc 890B.c 
+./a.out 
+vi 890B.c
+gcc 890B.c 
+./a.out 
+vi 890B.c
+gcc 890B.c 
+./a.out 
+vi 890B.c
+ls
+cd  bj
+ls
+cd
+ls
+cd bj/
+ls
+cd p1000/
+ls
+vi 2228.c 
+cd
+ls
+cd cf/
+ls
+vi 890B.c 
+cd
+ls
+cd bj/
+ls
+cd p1000/
+ls
+vi 2228.c 
+vi .bashrc
+ls
+cd bj/
+ls
+cd p1000/
+ls
+vi 2228.c 
+ls
+vi 1208.c
+vi 1182.c
+git add 1182.c 
+git commit -m 'dfs'
+git push adkb master
+vi 1182v2.c
+rm 1182v2.c 
 exit
 ls
 cd bj/
@@ -1092,909 +695,1306 @@ ls
 cd p1
 cd p1000/
 ls
-p14890
-vi 14890.c 
-gcc 14890.c 
-vi 14890.c 
-gcc 14890.c 
+cd
+ls
+cd cf/
+ls
+cd bitmask/
+ls
+vi 868C.c
+exit
+ls
+cd cf/
+ls
+cd bitmask/
+ls
+cd
+ls
+cd cf/
+ls
+cd bitmask/
+ls
+vi 868C.c 
+exit
+ls
+cd cf/
+ls
+cd
+ls
+cd bj/
+ls
+d p1000/
+ls
+cd p1000/
+ls
+vi 2228.c
+cd
+ls
+cd cf/
+ls
+cd bitmask/
+vi 868C.c 
+ls
+cd 
+ls
+cd bj/
+ls
+d p1000/
+cd p1000/
+vi 2228.c 
+gcc 2228.c 
 ./a.out 
-vi 14890.c 
-gcc 14890.c 
+vi 2228.c 
+gcc 2228.c 
 ./a.out 
-vi 14890.c 
-gcc 14890.c 
+vi 2228.c 
+gcc 2228.c 
 ./a.out 
-vi 14890.c 
-gcc 1489
-gcc 14890.c 
-./a.out 
-gcc 1489
-vi 14890.c 
-gcc 14890.c 
-./a.out 
-vi 14890.c 
-gcc 14890.c 
-./a.out 
-vi 14890.c 
-gcc 14890.c 
-./a.out 
-vi 14890.c 
-gcc 14890.c 
-./a.out 
-vi 14890.c 
-gcc 14890.c 
-./a.out 
-vi 14890.c 
-gcc 14890.c 
-./a.out 
-vi 14890.c 
-gcc 14890.c 
-./a.out 
-vi 14890.c 
+vi 2228.c 
 exit
 ls
 cd bj/
 ls
 cd p1000/
+vi 6359.c
+gcc 6359.c 
+vi 6359.c
+gcc 6359.c 
+./a.out 
+vi 6359.c
+gcc 6359.c 
+vi 6359.c
+gcc 6359.c 
+./a.out 
+gcc 6359.c 
+5
+./a.out 
+vi 6359.c
+gcc 6359.c 
+./a.out 
+vi 6359.c
+gcc 6359.c 
+./a.out 
+vi 6359.c
+gcc 6359.c 
+./a.out 
+vi 6359.c
+vi 2661.c
+gcc 2661.c 
+vi 2661.c
+gcc 2661.c 
+vi 2661.c
+gcc 2661.c 
+./a.out 
+vi 2661.c
+gcc 2661.c 
+./a.out 
+vi 2661.c
+gcc 2661.c 
+./a.out 
+vi 2661.c
+gcc 2661.c 
+./a.out 
+vi 2661.c
+gcc 2661.c 
+./a.out 
+vi 2661.c
+gcc 2661.c 
+./a.out 
+vi 2661.c
+gcc 2661.c 
+./a.out 
+vi 2661.c
+gcc 2661.c 
+./a.out 
+vi 2661.c
+gcc 2661.c 
+./a.out 
+vi 2661.c
+gcc 2661.c 
+./a.out 
+vi 2661.c
+gcc 2661.c 
+./a.out 
+vi 2661.c
+gcc 2661.c 
+./a.out 
+vi 2661.c
+gcc 2661.c 
+./a.out 
+vi 2661.c
+gcc 2661.c 
+./a.out 
+vi 2661.c
+gcc 2661.c 
+./a.out 
+vi 2661.c
+gcc 2661.c 
+./a.out 
+vi 2661.c
+gcc 2661.c 
+./a.out 
+vi 2661.c
+gcc 2661.c 
+./a.out 
+vi 2661.c
+gcc 2661.c 
+./a.out 
+gcc 2661.c 
+./a.out 
+vi 2661.c
+gcc 2661.c 
+./a.out 
+gcc 2661.c 
+./a.out 
+vi 2661.c
+gcc 2661.c 
+./a.out 
+vi 2661.c
+gcc 2661.c 
+./a.out 
+vi 2661.c
+gcc 2661.c 
+./a.out 
+vi 2661.c
+gcc 2661.c 
+./a.out 
+vi 2661.c
+gcc 2661.c 
+./a.out 
+vi 2661.c
+exit
 ls
-vi 14890.c 
+ll
+tail .bash_history 
+cd bj/
+ls
+cd p1000/
+vi 2661.c 
+gcc 2661.c 
+./a.out 
+vi 2661.c 
+gcc 2661.c 
+./a.out 
+vi 2661.c 
+gcc 2661.c 
+./a.out 
+vi 2661.c 
+gcc 2661.c 
+./a.out 
+vi 2661.c 
+gcc 2661.c 
+./a.out 
+vi 2661.c 
+gcc 2661.c 
+./a.out 
+vi 2661.c 
+gcc 2661.c 
+./a.out 
+vi 2661.c 
+gcc 2661.c 
+vi 2661.c 
+gcc 2661.c 
+./a.out 
+vi 2661.c 
+gcc 2661.c 
+./a.out 
+vi 2661.c 
+gcc 2661.c 
+./a.out 
+vi 2661.c 
+gcc 2661.c 
+./a.out 
+vi 2661.c 
+gcc 2661.c 
+./a.out 
+vi 2661.c 
+gcc 2661.c 
+vi 2661.c 
+gcc 2661.c 
+./a.out 
+vi 2661.c 
+gcc 2661.c 
+./a.out 
+vi 2661.c 
+gcc 2661.c 
+vi 2661.c 
+gcc 2661.c 
+./a.out 
+vi 2661.c 
+gcc 2661.c 
+./a.out 
+vi 2661.c 
+gcc 2661.c 
+./a.out 
+vi 2661.c 
+gcc 2661.c 
+./a.out 
+vi 2661.c 
+gcc 2661.c 
+./a.out 
+vi 2661.c 
+gcc 2661.c 
+./a.out 
+vi 2661.c 
+gcc 2661.c 
+./a.out 
+vi 2661.c 
+gcc 2661.c 
+./a.out 
+vi 2661.c 
+gcc 2661.c 
+./a.out 
+vi 2661.c 
+gcc 2661.c 
+./a.out 
+vi 2661.c 
+gcc 2661.c 
+./a.out 
+vi 2661.c 
+gcc 2661.c 
+./a.out 
+vi 2661.c 
+gcc 2661.c 
+./a.out 
+vi 2661.c 
+gcc 2661.c 
+./a.out 
+gcc 2661.c 
+./a.out 
+vi 2661.c 
+gcc 2661.c 
+./a.out 
+vi 2661.c 
+gcc 2661.c 
+./a.out 
+vi 2661.c 
 exit
 ls
 cd bj/
 ls
 cd p1000/
-ls
-vi 14890.c 
-gcc 14890.c 
-ls
-vi 14890.c 
-gcc 14890.c 
-vi 14890.c 
-gcc 14890.c 
+vi 2661.c 
+gcc 2661.c 
 ./a.out 
-vi 14890.c 
-gcc 14890.c 
-vi 14890.c 
-gcc 14890.c 
-vi 14890.c 
-gcc 14890.c 
-vi 14890.c 
-gcc 14890.c 
-vi 14890.c 
+vi 2661.c 
+gcc 2661.c 
+./a.out 
+vi 2661.c 
 exit
 ls
-cd bj/
-ls
-vi p1000/
-:q
-ls
-cd p1000/
-ls
-vi 14890.c 
-gcc 1489
-gcc 14890.c 
-vi 14890.c 
-gcc 14890.c 
-./a.out 
-vi 14890.c 
-tail 14890.c 
-vi 14890.c 
-gcc 14890.c 
-vi 14890.c 
-gcc 14890.c 
-./a.out 
-vi 14890.c 
-gcc 14890.c 
-./a.out 
-vi 14890.c 
-gcc 14890.c 
-./a.out 
-gcc 14890.c 
-./a.out 
-gcc 14890.c 
-./a.out 
-gcc 14890.c 
-./a.out 
-gcc 14890.c 
-./a.out 
-gcc 14890.c 
-./a.out 
-clear
-./a.out 
-gcc 14890.c 
-./a.out 
-gcc 14890.c 
-./a.out 
-gcc 14890.c 
-./a.out 
-gcc 14890.c 
-./a.out 
-gcc 14890.c 
-./a.out 
-gcc 14890.c 
-/a
-./a.out 
-gcc 14890.c 
-./a.out 
-gcc 14890.c 
-./a.out 
-gcc 14890.c 
-./a.out 
-eixt
-exit
-la
-cd bj
+cd cf/
 ls
 cd
-la
-cd algorithm/
-ls
-cd 2BFS/
-ls
-cd ..
-ls
-cd BFS/
-ls
-cd sudoku/
-ls
-./sudoku2580.o
-vi sudoku2580.c 
-gcc sudoku2580.c
-./a.out 
-vi sudoku2580.c 
-sudoku258dd
-ls
-cd swex/
-ls
-cd
-ls
-swtest/
-cd swtest/
-ls
-cd cometrue/
-ls
-./a.out 
-ls
-cd swtest/
-ls
-cd cometrue/
-./a.out 
-ls
-vi 1024.c 
-ls
-cd swtest/
-ls
-mkdir cometrue
-ls
-cd cometrue/
-vi 1023.c
-vi 1025.c
-gcc 1025.c 
-./a.out 
-vi 1025.c
-./a.out 
-vi 1025.c
-gcc 1025.c 
-vi 1025.c
-vi 1024.c
-gcc 1024.c 
-vi 1024.c
-gcc 1024.c 
-./a.out 
-vi 1024.c
-gcc 1024.c 
-./a.out 
-vi 1024.c
-gcc 1024.c 
-vi 1024.c
-gcc 1024.c 
-vi 1024.c
-gcc 1024.c 
-./a.out 
-vi 1024.c
-gcc 1024.c 
-./a.out 
-vi 1024.c
-gcc 1024.c 
-vi 1024.c
-gcc 1024.c 
-./a.out 
-vi 1024.c
-gcc 1024.c 
-./a.out 
-vi 1024.c
-gcc 1024.c 
-vi 1024.c
-gcc 1024.c 
-vi 1024.c
-gcc 1024.c 
-./a.out 
-vi 1024.c
-gcc 1024.c 
-./a.out 
-vi 13698.c
-ls
-rm 1
-ls
-vi 1023.c
-gcc 1023.c 
-vi 1023.c
-gcc 1023.c 
-./a.out 
-vi 1023.c
-gcc 1023.c 
-./a.out 
-vi 1023.c
-gcc 1023.c 
-vi 1023.c
-gcc 1023.c 
-./a.out 
-vi 1023.c
-gcc 1023.c 
-./a.out 
-vi 1023.c
-gcc 1023.c 
-./a.out 
-#include <string.h>
-char in[5000], ans[1000];
-int chkspecial(int s){
-}
-int main(){
-}
-clear
-./a.out 
-vi 1023.c 
-gcc 1023.c 
-./a.out 
-vi 1023.c 
-gcc 1023.c 
-./a.out 
-vi 1023.c 
-gcc 1023.c 
-vi 1023.c 
-gcc 1023.c 
-./a.out 
-FOKQF
-vi 1023.c 
-gcc 1023.c 
-./a.out 
-vi 1023.c 
-gcc 1023.c 
-./a.out 
-vi 1023.c 
-gcc 1023.c 
-./a.out 
-vi 1023.c 
-gcc 1023.c 
-./a.out 
-vi 1023.c 
-gcc 1023.c 
-./a.out 
-vi 1023.c 
-gcc 1023.c 
-./a.out 
-vi 1023.c 
-gcc 1023.c 
-./a.out 
-vi 1023.c 
-gcc 1023.c 
-./a.out 
-vi 1023.c 
-gcc 1023.c 
-./a.out 
-vi 1023.c 
-gcc 1023.c 
-./a.out 
-vi 1023.c 
-gcc 1023.c 
-./a.out 
-vi 1023.c 
-gcc 1023.c 
-./a.out 
-vi 1023.c 
-gcc 1023.c 
-vi 1023.c 
-gcc 1023.c 
-./a.out 
-vi 1023.c 
-gcc 1023.c 
-./a.out 
-vi 1023.c 
-gcc 1023.c 
-./a.out 
-vi 1023.c 
-gcc 1023.c 
-./a.out 
-vi 1023.c 
-gcc 1023.c 
-./a.out 
-vi 1023.c 
-gcc 1023.c 
-./a.out 
-vi 1023.c 
-gcc 1023.c 
-./a.out 
-vi 1023.c 
-gcc 1023.c 
-./a.out 
-vi 1023.c 
-gcc 1023.c 
-./a.out 
-vi 1023.c 
-gcc 1023.c 
-./a.out 
-vi 1023.c 
-./a.out 
-vi 1023.c 
-gcc 1023.c 
-./a.out 
-vi 1023.c 
-gcc 1023.c 
-./a.out 
-vi 1023.c 
-gcc 1023.c 
-./a.out 
-gcc 1023.c 
-./a.out 
-vi 1023.c 
-ls
-vi 1024.c 
-exit
-ls
-cd bj/
-ls
-cd
-ls
-cd algorithm/
-ls
-cd BFS/
-ls
-vi makepassword1759.c 
-cd
-ls
-cd swtest/
-ls
-vi cometrue/
-cd
-cd swtest/
-cd cometrue/
-ls
-vi 1025.c 
-vi 1024.c 
-./a.out 
-gcc 1024.c 
-./a.out 
-gcc 1024.c 
-./a.out 
-gcc 1024.c 
-./a.out 
-gcc 1024.c 
-./a.out 
-gcc 1024.c 
-./a.out 
-gcc 1024.c 
-./a.out 
-gcc 1024.c 
-./a.out 
-gcc 1024.c 
-./a.out 
-gcc 1024.c 
-./a.out 
-vi 1
-exit
 ls
 cd bj/
 ls
 cd p1000/
 ls
-vi 3085.c
-gcc 3085.c 
-vi 3085.c
-gcc 3085.c 
+vi 2661.c 
+gcc 2661.c 
+vi 2661.c 
+gcc 2661.c 
 ./a.out 
-vi 3085.c
-gcc 3085.c 
+vi 2661.c 
+gcc 2661
+vi 2661.c 
 ./a.out 
-vi 3085.c
-gcc 3085.c 
+vi 2661.c 
+gcc 2661
+gcc 2661.c
 ./a.out 
-vi 3085.c
-gcc 3085.c 
-/A
+./a.out 9
+./a.out
+vi 2661.c 
+gcc 2661.c
 ./a.out 
-vi 3085.c
-/A
-gcc 3085.c 
+./a.out 5
+./a.out
+vi 2661.c
+gcc 2661.c
 ./a.out 
-vi 3085.c
-gcc 3085.c 
+./a.out 3
+./a.out
+vi 2661.c
+gcc 2661.c
 ./a.out 
-vi 3085.c
-gcc 3085.c 
+vi 2661.c
+gcc 2661.c
 ./a.out 
-vi 3085.c
-gcc 3085.c 
+vi 2661.c
+gcc 2661.c
 ./a.out 
-vi 3085.c
-gcc 3085.c 
+vi 2661.c
+gcc 2661.c
 ./a.out 
-gcc 3085.c 
+vi 2661.c
+gcc 2661.c
 ./a.out 
-vi 3085.c
-gcc 3085.c 
+vi 2661.c
+gcc 2661.c
+vi 2661.c
+gcc 2661.c
 ./a.out 
-CYZZP
-CCPPP
-CYYZC
-CPPZZ
-gcc 3085.c 
+vi 2661.c
+gcc 2661.c
 ./a.out 
-CPPZZ
-vi 3085.c 
-gcc 3085.c 
+vi 2661.c
+gcc 2661.c
 ./a.out 
-vi 3085.c 
-gcc 3085.c 
+vi 2661.c
+gcc 2661.c
 ./a.out 
-vi 3085.c 
-gcc 3085.c 
+vi 2661.c
+gcc 2661.c
 ./a.out 
-vi 3085.c 
-gcc 3085.c 
-./a.out 
-vi 3085.c 
-./a.out 
-vi 3085.c 
-./a.out 
-vi 3085.c 
-gcc 3085.c 
-./a.out 
-vi 3085.c 
-gcc 3085.c 
-./a.out 
-vi 3085.c 
-gcc 3085.c 
-./a.out 
-vi 3085.c 
-gcc 3085.c 
-./a.out 
-vi 3085.c 
-exit
+gcc 2661.c
+vi 2661.c
+gcc 2661.c
+vi 2661.c
+ls
 cd
-vi .vimrc 
 ls
 cd bj/
 ls
-cd p1000/
-ls
-./a.out 
-vi 3085.cs
-vi 3085.c
-ll -a
-vi 3085.c 
-vi 2580.c 
-gcc 2580.c 
-./a.out 
-vi 2580.c 
-vi test.c 
-gcc test.c 
-./a.out 
-vi test.c 
-gcc test.c 
-./a.out 
-vi test.c 
-gcc test.c 
-./a.out 
-vi test.c 
-gcc test.c 
-./a.out 
-vi test.c 
-gcc test.c 
-./a.out 
-vi test.c 
-gcc test.c 
-./a.out 
-ls
-vi 1085.c
-gcc 1085.c 
-vi 1085.c
-gcc 1085.c 
-vi 1085.c
-gcc 1085.c 
-./a.out 
-vi 1085.c
-vi 1212.c
-gcc 1212.c 
-vi 1212.c
-gcc 1212.c 
-./a.out 
-vi 1212.c
-gcc 1212.c 
-./a.out 
-vi 1212.c
-gcc 1212.c 
-./a.out 
-vi 1212.c
-gcc 1212.c 
-./a.out 
-vi 1212.c
-gcc 1212.c 
-./a.out 
-vi 1212.c
-vi 1292.c
-gcc 1292.c 
-vi 1292.c
-gcc 1292.c 
-./a.out 
-vi 1292.c
-gcc 1292.c 
-./a.out 
-vi 1292.c
-gcc 1292.c 
-./a.out 
-vi 1292.c
-gcc 1292.c 
-./a.out 
-vi 1292.c
-exit
-exit
+cd
 ls
 cd ncafe/
 ls
-vi 369937.c
-gcc 369937.c 
-vi 369937.c
-gcc 369937.c 
+vi 370122.c
+gcc 370122.c 
+vi 370122.c
+gcc 370122.c 
 ./a.out 
-gcc 369937.c 
-./a.out 
-vi 369937.c
-gcc 369937.c 
-./a.out 
-vi 369937.c
-gcc 369937.c 
-./a.out 
-vi 369937.c
-gcc 369937.c 
-./a.out 
-vi 369937.c
-gcc 369937.c 
-./a.out 
-vi 369937.c
-gcc 369937.c 
-./a.out 
-vi 369937.c
-gcc 369937.c 
-./a.out 
-git add 369937.c 
-git commit -m 'asdf'
-git push adkb
-git push adkb master
-vi 369938.c
-gcc 369938.c 
-vi 369938.c
-gcc 369938.c 
-./a.out 
-vi 369938.c
-gcc 369938.c 
-./a.out 
-vi 369938.c
-gcc 369938.c 
-./a.out 
-vi 369938.c
-gcc 369938.c 
-./a.out 
-vi 369938.c
-gcc 369937.c 
-./a.out 
-ls
-cd
+vi 370122.c
+exit
 ls
 cd bj/
 ls
 cd p1000/
 ls
-vi 1408.c
-gcc 1408.c 
+vi 2240
+vi 2240.c
+gcc 2240.c 0
+gcc 2240.c
+vi 2240.c
+gcc 2240.c
+clear
+gcc 2240.c
+vi 2240.c
+gcc 2240.c
 ./a.out 
-vi 1408.c
-gcc 1480
-gcc 1408.c 
+vi 2240.c
 ./a.out 
-vi 1408.c
-gcc 1408.c 
+gcc 2240.c
 ./a.out 
-vi 1408.c
-gcc 1408.c 
+vi 2240.c
+gcc 2240.c
 ./a.out 
-vi 1408.c
-gcc 1408.c 
+vi 2240.c
+gcc 2240.c
+6 2
 ./a.out 
-vi 1408.c
-
-vi 1063.c
-gcc 1063.c 
+vi 2240.c
+gcc 2240.c
 ./a.out 
-./a.out a
-gcc 1063.c 
-vi 1063.c
+vi 2240.c
+gcc 2240.c
+./a.out 
+vi 2240.c
+ls
+cd bj/
+ls
+cd p1000/
+ls
+vi 2661.c 
+vi 2240.c 
+rm .2240.c.swp 
+vi 2240.c 
+vi 2512.c
+gcc 2512.c 
+vi 2512.c
+gcc 2512.c 
+vi 2512.c
+gcc 2512.c 
+./a.out 
+vi 2512.c
+./a.out 
+vi 2512.c
+gcc 2512.c 
+./a.out 
+vi 2512.c
+gcc 2512.c 
+./a.out 
+vi 2512.c
+ls
+cd bj/
+ls
+cd p1000/
+ls
+vi 2231.c
+gcc 2231.c 
+./a.out 
+vi 2231.c
+vi 1051.c
+exit
+exit
+ls
+cd bj/
+ls
 cd 
 ls
 cd cf/
 ls
-vi 888A.c
-gcc 888A.c 
+cd bitmask/
+vi 868C.c 
+gcc 868C.c 
 ./a.out 
-vi 888A.c
-vi 888B.c
-gcc 888B.c 
+vi 868C.c 
+gcc 868C.c 
 ./a.out 
-vi 888B.c
-gcc 888B.c 
+vi 868C.c 
+ls
+cd
+ls
+cd bj/
+ls
+cd p1000/
+ls
+vi 1051.c 
+gcc 1051.c 
+vi 1051.c 
+gcc 1051.c 
 ./a.out 
-vi 888B.c
-gcc 888B.c 
+vi 1051.c 
+gcc 1051.c 
 ./a.out 
-vi 888B.c
-gcc 888B.c 
+vi 1051.c 
+gcc 1051.c 
 ./a.out 
-vi 888B.c
-gcc 888B.c 
+int a[51][51];
+int main(){
+}
 ./a.out 
-vi 888B.c
-gcc 888B.c 
+
+vi 1051.c 
+gcc 1051.c 
 ./a.out 
-vi 888B.c
-gcc 888B.c 
+vi 1051.c 
+gcc 1051.c 
 ./a.out 
-vi 888B.c
-gcc 888B.c 
-vi 888B.c
-gcc 888B.c 
+vi 1051.c 
+gcc 1051.c 
 ./a.out 
-vi 888B.c
-gcc 888B.c 
+vi 1051.c 
+exit
+ls
+cd bj/
+ls
+cd p1000/
+ls
+vi 10448.c
+ls
+cd
+ls
+cd cf/
+ls
+vi 892A.c
+gcc 892A.c 
+vi 892A.c
+gcc 892A.c 
 ./a.out 
-vi 888B.c
-gcc 888B.c 
+vi 892A.c
+gcc 892A.c 
 ./a.out 
-vi 888B.c
-gcc 888B.c 
+vi 892A.c
+gcc 892A.c 
 ./a.out 
-vi 888B.c
-gcc 888B.c 
+vi 892A.c
+gcc 892A.c 
 ./a.out 
-vi 888B.c
-gcc 888B.c 
+vi 892A.c
+vi 892B.c
+gcc 892B.c 
 ./a.out 
-vi 888B.c
-gcc 888B.c 
+vi 892B.c
+gcc 892B.c 
 ./a.out 
-vi 888B.c
-gcc 888B.c 
+vi 892B.c
+gcc 892B.c 
 ./a.out 
-vi 888B.c
-gcc 888B.c 
+vi 892B.c
+gcc 892B.c 
 ./a.out 
-vi 888B.c
-gcc 888B.c 
+vi 892B.c
+gcc 892B.c 
 ./a.out 
-vi 888B.c
-gcc 888B.c 
+vi 892B.c
+gcc 892B.c 
 ./a.out 
-vi 888B.c
-gcc 888B.c 
-vi 888B.c
-gcc 888B.c 
-vi 888B.c
-gcc 888B.c 
-vi 888B.c
+vi 892B.c
+gcc 892B.c 
+./a.out 
+vi 892B.c
+gcc 892B.c 
+./a.out 
+vi 892B.c
+gcc 892B.c 
+./a.out 
+vi 892B.c
+gcc 892B.c 
+./a.out 
+vi 892B.c
+$ vi 892B.c
+;s
+ls
+cd 
+ls
+cd bj/
+ls
+cd p1000/
+ls
+vi 10448.c 
+gcc 10448.c 
+./a.out 
+vi 10448.c 
+gcc 10448.c 
+./a.out 
+vi 10448.c 
+gcc 10448.c 
+./a.out 
+vi 10448.c 
+vi 14922.c
+gcc 14922.c 
+./a.out 
+vi 14922.c
+gcc 14922.c 
+./a.out 
+vi 14922.c
+gcc 14922.c 
+./a.out 
+vi 14922.c
+gcc 14922.c 
+./a.out 
+vi 14922.c
+gcc 14922.c 
+./a.out 
+vi 14922.c
+gcc 14922.c 
+./a.out 
+vi 14922.c
+gcc 14922.c 
+./a.out 
+vi 14922.c
+gcc 14922.c 
+./a.out 
+vi 14922.c
+rm 14922.c 
+vi 14918.c
+vi 14920.c
+gcc 14920.c 
+./a.out 
+vi 14920.c
+gcc 14920.c 
+./a.out 
+vi 14920.c
+gcc 14920.c 
+./a.out 
+vi 14920.c
+gcc 14920.c 
+./a.out 
+vi 14920.c
+gcc 14920.c 
+./a.out 
+vi 14920.c
+vi 14924.c
+gcc 14924.c 
+./a.out 
+vi 14924.c
+vi 14925.c
+gcc 14925.c 
+./a.out 
+vi 14925.c
+exit
+ls
+cd bj/
+ls
+cd p1000/
+ls
+vi 14927.c
+gcc 14927.c 
+./a.out 
+vi 14927.c
+gcc 14927.c 
+./a.out 
+vi 14927.c
+gcc 14927.c 
+./a.out 
+vi 14927.c
+exit
+ls
+cd bj/
+ls
+cd p1000/
+ls
+vi 2858.c
+gcc 2858.c 
+./a.out 
+vi 2858.c
+gcc 2858.c 
+./a.out 
+vi 2858.c
+gcc 2858.c 
+./a.out 
+vi 2858.c
+vi 1328.c
+gcc 1328.c 
+vi 1328.c
+gcc 1328.c 
+./a.out 
+vi 1328.c
+exit
+ls
+cd cf/
+ls
+vi 894A.c
+gcc 894A.c 
+./a.out 
+vi 894A.c
+ls
+vi 1.c
+gcc 1.c 
+vi 1.c
+gcc 1.c 
+vi 1.c
+gcc 1.c 
+./a.out 
+vi 1.c
+gcc 1.c 
+./a.out 
+vi 1.c
+./a.out 
+vi 1.c
+ls
+cd implementation/
+ls
+cd ..
+ls
+mv 1.c 1A.c
+mv 1A.c implementation/
+ls
+vi biparties.c 
+rm biparties.c 
+ls
+vi qualifi.c 
+rm qualifi.c 
+ls
+exit
+ls
+cd bj/q
+cd bj/
+ls
+cd p1000/
+ls
+vi 14923.c
+exit
+ls
+cd bj/
+ls
+cd p1000/
+vi 14927.c 
+ls
+vi 14923.c 
+gcc 14923.c 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 1429
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+1 1
+5 6
+0 1 1 1 0 0
+0 1 1 0 0 0
+0 1 0 0 1 0
+0 1 0 0 1 0 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+5 6
+1 1
+5 6
+0 1 1 1 0 0
+0 1 1 0 0 0
+0 1 0 0 1 0
+./a.out 
+vi 14923.c 
+0 1 0 0 1 0
+gcc 14923.c 
+./a.out 
+0 1 0 0 1 0
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+gcc 14923.c 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+exit
+ls
+cd bj/
+ls
+cd p1000/
+ls
+vi 14923.c 
+gcc 14923.c 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+vi 14923.c 
+gcc 14923.c 
+vi 14923.c 
+gcc 14923.c 
+vi 14923.c 
+gcc 14923.c 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+gcc 14923.c 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+./a.out 
+gcc 14923.c 
+vi 14923.c 
+./a.out 
+gcc 14923.c 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+vi 14923.c 
+gcc 14923.c 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
 clear
 ./a.out 
-gcc 888B.c 
-vi 888B.c
-gcc 888B.c 
+gcc 14923.c 
+vi 14923.c 
+clear
+2  0  0  6  0  0
+4  1  0  0  0  0
+2
+0  0  0  23  0  0
+1  0  23  0  0  0
+1  0  3  0  0  0
+1  0  7  0  0  0
+10  2  1  0  0  0
+3
+0  1  0  0  24  5
+1  2  1  24  23  4
+1  3  1  4  0  0
+0  4  1  8  0  0
+0  9  2  3  0  0
+1 40
+0  0  0  23  0  0
+0  0  0  3  0  0
+clear
+gcc 14923.c 
 ./a.out 
-vi 888B.c
-vi 888E.c
-vi 888E
-vi 888E.c
-gcc 888E.c 
-./a.out 
-vi 888E.c
-gcc 888E.c 
-vi 888E.c
-gcc 888E.c 
-./a.out 
-vi 888E.c
-gcc 888E.c 
-./a.out 
-vi 888E.c
-gcc 888E.c 
-./a.out 
-vi 888E.c
-gcc 888E.c 
-vi 888E.c
-gcc 888E.c 
-vi 888E.c
-gcc 888E.c 
-./a.out 
-vi 888E.c
-gcc 888E.c 
-./a.out 
-vi 888E.c
-gcc 888E.c 
-./a.out 
-vi 888E.c
-gcc 888E.c 
-./a.out 
-vi 888E.c
-gcc 888E.c 
-./a.out 
-vi 888E.c
-gcc 888E.c 
-./a.out 
-vi 888E.c
-gcc 888E.c 
-./a.out 
-vi 888E.c
 ls
-cd
+gcc 14923.c 
+./a.out 
+clear
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+clear
+./a.out 
+vi 14923.c 
+clear
+gcc 14923.c 
+./a.out 
+clear
+vi 14923.c 
+vi 14927.c 
+gcc 14927.c 
+vi 14927.c 
+gcc 14927.c 
+./a.out 
+1
+vi 14927.c 
+gcc 1492
+gcc 14927
+gcc 14927.c 
+vi 14927.c 
+gcc 14927.c 
+vi 14927.c 
+gcc 14927.c 
+vi 14927.c 
+gcc 14927.c 
+vi 14927.c 
+gcc 14927.c 
+vi 14927.c 
+gcc 14927.c 
+vi 14927.c 
+gcc 14927.c 
+vi 14927.c 
+gcc 14927.c 
+vi 14927.c 
+gcc 14927.c 
+vi 14927.c 
+gcc 14927.c 
+vi 14927.c 
+gcc 14927.c 
+vi 14927.c 
+gcc 14927.c 
+vi 14927.c 
+gcc 14927.c 
+vi 14927.c 
+exit
+vi 14927.c 
+ls
+rm 14927.c 
+cd bj/
+ls
+cd p1000/
+ls
+rm ":wq" 
+vi 14923.c 
+gcc 14923.c 
+vi 14923.c 
+gcc 14923.c 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+./a.out 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
+gcc 14923.c 
+./a.out 
 ls
 cd bj/
 ls
 cd p1000/
 ls
-vi 2902.c
-gcc 2902.c 
-vi 2902.c
-gcc 2902.c 
+vi 14923.c 
+gcc 14923.c 
 ./a.out 
-vi 2902.c
-vi 1063.c 
-gcc 1063.c 
-vi 1063.c 
-gcc 1063.c 
+vi 14923.c 
+gcc 14923.c 
 ./a.out 
-vi 1063.c 
-gcc 1063.c 
+vi 14923.c 
+gcc 14923.c 
 ./a.out 
-vi 1063.c 
-gcc 1063.c 
+vi 14923.c 
+gcc 14923.c 
 ./a.out 
-vi 1063.c 
-gcc 1063.c 
+vi 14923.c 
+gcc 14923.c 
 ./a.out 
-vi 1063.c 
-gcc 1063.c 
+vi 14923.c 
+gcc 14923.c 
 ./a.out 
-vi 1063.c 
-gcc 1063.c 
+vi 14923.c 
+gcc 14923.c 
 ./a.out 
-vi 1063.c 
-gcc 1063.c 
+vi 14923.c 
+gcc 14923.c 
 ./a.out 
-vi 1063.c 
-gcc 1063.c 
+ls
+vi 2206.c
+gcc 2206
+gcc 2206.c 
 ./a.out 
-vi 1063.c 
-gcc 1063.c 
-vi 1063.c 
-gcc 1063.c 
+gcc 14923.c 
 ./a.out 
-vi 1063.c 
-gcc 1063.c 
+gcc 14923.c 
 ./a.out 
-vi 1063.c 
-gcc 1063.c 
+vi 14923.c 
+gcc 14923.c 
 ./a.out 
-vi 1063.c 
-exi
+vi 14923.c 
+gcc 14923.c 
+./a.out 
+vi 14923.c 
 exit
-ls
-cd cf/
-ls
-vi 888E.c 
-gcc 888E.c 
-vi 888E.c 
-gcc 888E.c 
-,.a
-./a.out 
-3
-vi 888E.c 
-gcc 888E.c 
-vi 888E.c 
-gcc 888E.c 
-./a.out 
-3
-vi 888E.c 
-gcc 888E.c 
-./a.out 
-vi 888E.c 
-gcc 888E.c 
-./a.out 
-vi 888E.c 
-gcc 888E.c 
-./a.out 
-vi 888E.c 
-gcc 888E.c 
-./a.out 
-vi 888E.c 
-gcc 888E.c 
-./a.out 
-vi 888E.c 
-./a.out 
-e
-vi 888E.c 
-gcc 888E.c 
-./a.out 
-vi 888E.c 
-gcc 888E.c 
-./a.out 
-vi 888E.c 
-gcc 888E.c 
-./a.out 
-vi 888E.c 
-gcc 888E.c 
-./a.out 
-vi 888E.c 
-gcc 888E.c 
-./a.out 
-vi 888E.c 
-gcc 888E.c 
-./a.out 
-vi 888E.c 
-vi 888A.c 
-vi 888B.c 
-ls
-vi 888E.c 
-gcc 888E.c 
-./a.out 
-vi 888E.c 
-gcc 888E.c 
-./a.out 
-vi 888E.c 
-gcc 888E.c 
-./a.out 
-vi 888E.c 
-gcc 888E.c 
-vi 888E.c 
-gcc 888E.c 
-./a.out 
-vi 888E.c 
-gcc 888E.c 
-./a.out 
-35 982451653
-5253 7912 3641 7428 6138 9613 9059 6352 9070 89 9030 1686 3098 7852 3316 8158 7497 5804 130 6201 235 64 3451 6104 4148 3446 6059 6802 7466 8781 1636 8291 8874 8924 5997
-./a.out 
-vi 888E.c 
-git add 888E.c 
-git commit -m 'asdf'
-git push adkb
-git push adkb master
-vi 888E.c 
-exit
-ls
-cd cf/
-ls
-vi 888E.c 
-ls
-cd b
-cd
 ls
 cd bj/
 ls
 cd p1000/
-vi 2775.c
-gcc 2775.c 
+ls
+vi 6588.c
+gcc 6588.c 
 ./a.out 
-vi 2775.c
-gcc 2775.c 
+vi 6588.c
+gcc 6588.c 
 ./a.out 
-vi 2775.c
+ls
+vi 6588.c
+gcc 6588.c 
+./a.out 
+vi 6588.c
+ls
+vi 1402
+vi 1402.c
+ls
+vi 1402.c 
+ls
+rm 1402.c 
+vi 1720.c
+exit
+la
+cd bj/
+cd p1000/
+ll
+ls
+cd bj/
+cd p1000/
+ls
+vi 1720.c 
+ls
+cd bj/
+ls
 cd
 ls
-cd cf/
+mkdir myproject
 ls
-vi 888E.c 
+cd myproject/
+ls
+mkdir sudokuOpencv
+ls
+cd sudokuOpencv/
+mkdir sudoku
+ls
+sl
+cd sudoku/
+ls
+cd ..
+ls
+mkdir tutorial
+ls
+cd tutorial/
+ls
+vi grid_detection
+vi grid_detection 
+ls
+mv grid_detection grid_detection.cc
+ls
+vi grid_detection.cc
+exit
+ls
+cd myproject/
+ls
+cd sudokuOpencv/
+ls
+cd tutorial/
+ls
+vi grid_detection.cc 
+exit
+exit
+ls
+cd myproject/
+ls
+cd sudokuOpencv/
+ls
+cd tutorial/
+ls
+vi grid_detection.cc 
+
+vi grid_detection.cc 
+mv grid_detection.cc tutorial.cc
+ls
+vi tutorial.cc 
+exit
+ls
+cd myproject/
+ls
+cd sudokuOpencv/
+ls
+exit
+ls
+cd bj/
+ls
+cd 
+l;s
+cd myproject/
+ls
+cd sudokuOpencv/
+ls
+cd tutorial/
+ls
+rm ";"
+ls
+vi grid_detection.cc 
+vi tutorial.cc 
+dd
+eexit
 exit
