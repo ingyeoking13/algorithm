@@ -9,7 +9,7 @@ int main(){
 	for (int i=3; i<=30; i++){
 		long long b=0;
 		if (i%2) b=a[(i-1)/2];
-		else b=a[i/2]+2*a[(i-2)/2];
+		else b=a[i/2]+2LL*a[(i-2)/2];
 		d[i]=(a[i]+b)/2;
 	}
 	int n; scanf("%d", &n); 
