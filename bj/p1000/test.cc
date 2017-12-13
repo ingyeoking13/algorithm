@@ -1,31 +1,40 @@
-#include <iostream>
-#include <cstring>
-#include <algorithm>
-using namespace std;
-const int inf = 10000000;
-int a[50], d[50][250001], n;
-int go(int k, int diff) {
-	if (diff > 250000)  return -inf; 
-	if (k == n) {
-		if (diff == 0) return 0;
-		else return -inf; 
-	}
-	if (d[k][diff] != -1)  return d[k][diff]; 
-	d[k][diff] = go(k+1, diff);
-	d[k][diff] = max(d[k][diff], go(k+1, diff+a[k]));
-	if (a[k] > diff) {
-		d[k][diff] = max(d[k][diff], diff + go(k+1, a[k]-diff));
-	} else {
-		d[k][diff] = max(d[k][diff], a[k] + go(k+1, diff-a[k]));
-	}
-	return d[k][diff];
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+int count=0;
+bool primising(int level,int cols[]);
+void nQueen(int level,int cols[]);
+int main(){
+	int num=0;//testcase
+	int arr[50], cols[50];
+	scanf("%d",&num);
+
+	count=0;
+	nQueen(0,cols);
+	printf("%d\n",count);
 }
-int main() {
-	cin >> n;
-	for (int i=0; i<n; i++)  cin >> a[i]; 
-	memset(d,-1,sizeof(d));
-	int ans = go(0, 0);
-	if (ans == 0) { cout << -1 << '\n'; }
-	else { cout << ans << '\n'; }
-	return 0;
+bool promising(int row,int *cols){
+	for(int k=0;k<row;k++){
+		if(cols[k]==cols[row]){
+			return false;
+		}
+		else if(row-k==abs(cols[row]-cols[k])){
+//			printf("row %d : %d %d\n", row,  k,  cols[k]);
+			return false;
+		}
+	}
+	return true;
+}
+void nQueen(int row,int *cols){     
+	if(!promising(row-1,cols)) return ; 
+	else if(row==num){
+		count++;
+	}
+	else{
+		for(int j=0;j<num;j++){
+			cols[row]=j;
+//			printf("%d %d %d\n", row, a, cols[row]);
+			nQueen(row+1,cols,a);
+		}
+	}
 }

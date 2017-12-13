@@ -53,4 +53,3 @@ int check(string& line){ //CHECK EMAIL Line By Line
 		}
 	return 0;
 }
-
