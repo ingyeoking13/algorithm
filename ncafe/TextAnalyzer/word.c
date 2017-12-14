@@ -104,7 +104,6 @@ void analyzerSystem(){
 	}
 	fclose(fp);
 	printHead("System terminated...\n\n");
-	pause();
 }
 
 void alpha_count(FILE* fp, Char c[]){
