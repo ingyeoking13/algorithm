@@ -3,7 +3,7 @@
 #include <string.h>
 #include "word.h"
 
-#define MAXSIZE 70000 //max size of word that can save
+#define MAXSIZE 10000 //max size of word that can save
 
 //---------------------------------------------//
 //		     	Helper  			                     //
@@ -46,6 +46,8 @@ FILE* getFileName(int mode){
 		printf(mode?"Enter file name To Open\n":"Enter file name To Save\n");
 
 #if defined(_WIN32) || defined(_WIN64)
+		printf("*** Your OS is WINDOWS. ***\n"); 
+		printf("Make sure you execute this program as an Administrator.\n");
 		printf("Make sure file is in your C:\\\n");
 		printf("C:\\");
 		scanf("%500[^\n]", input);
@@ -175,7 +177,7 @@ void string_find(FILE *fp){
 	printHead("STRING FINDING RESULT");
 	printf("WORD           WORD POSITION          CHAR POSITION\n\n");
 
-	char tmp[51]; int wIdx=0, cIdx=0;
+	char tmp[51]; int wIdx=1, cIdx=1;
 	while(~fscanf(fp, "%s", tmp)){
 		int tmpLen= strlen(tmp);
 
@@ -183,7 +185,11 @@ void string_find(FILE *fp){
 
 			for (int i=0; i+tLen<=tmpLen; i++){
 
+#if defined(_WIN32) || defined(_WIN64)
+				if (!strnicmp(tStr, tmp+i, tLen)){
+#elif defined(__linux__)
 				if (!strncasecmp(tStr, tmp+i, tLen)){
+#endif
 					printf("%s               ", tmp);
 					for(int i=0; i<tmpLen; i++) printf("\b");
 					printf("%13d           %12d\n", wIdx, cIdx+i); 
@@ -236,5 +242,5 @@ void string_replace(FILE *fp){
 	}
 
 	fclose(fp2);
-	printf("%d words are rplaced\n", cnt);
+	printf("%d words are replaced\n", cnt);
 }

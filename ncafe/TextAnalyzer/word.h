@@ -1,5 +1,5 @@
-#ifndef HFILE_H_
-#define HFILE_H_
+#ifndef HWORD_H_
+#define HWORD_H_
 #include <stdio.h>
 
 //structure declaration
