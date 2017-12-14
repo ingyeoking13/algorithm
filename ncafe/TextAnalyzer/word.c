@@ -47,18 +47,16 @@ FILE* getFileName(int mode){
 
 #if defined(_WIN32) || defined(_WIN64)
 		printf("*** Your OS is WINDOWS. ***\n"); 
-		printf("Make sure you execute this program as an Administrator.\n");
-		printf("Make sure file is in your C:\\\n");
-		printf("C:\\");
+		printf("./");
 		scanf("%500[^\n]", input);
 		clrBuf();
-		sprintf(str, "C:\\%s", input);
+		sprintf(str, "%s", input);
 #elif defined(__linux__)
 		printf("Make sure file is in your directories: \n");
-		printf("/home/adkb/ncafe/TextAnalyzer/");
+		printf("./");
 		scanf("%500[^\n]", input);
 		clrBuf();
-		sprintf(str, "/home/adkb/ncafe/TextAnalyzer/%s", input); 
+		sprintf(str, "./%s", input); 
 #endif
 
 		fp = fopen(str, mode?"r":"wt");
