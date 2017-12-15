@@ -175,7 +175,7 @@ void string_find(FILE *fp){
 	printHead("STRING FINDING RESULT");
 	printf("WORD           WORD POSITION          CHAR POSITION\n\n");
 
-	char tmp[51]; int wIdx=1, cIdx=1;
+	char tmp[51]; int wIdx=1, cIdx=1, cnt=0;
 	while(~fscanf(fp, "%s", tmp)){
 		int tmpLen= strlen(tmp);
 
@@ -191,6 +191,7 @@ void string_find(FILE *fp){
 					printf("%s               ", tmp);
 					for(int i=0; i<tmpLen; i++) printf("\b");
 					printf("%13d           %12d\n", wIdx, cIdx+i); 
+					cnt++;
 				}
 			}
 
@@ -198,6 +199,8 @@ void string_find(FILE *fp){
 		wIdx++;
 		cIdx+=strlen(tmp)+1;
 	}
+	printf("%d words found.\n", cnt);
+	
 }
 
 void string_replace(FILE *fp){
@@ -230,6 +233,7 @@ void string_replace(FILE *fp){
 				strncpy(tmp+i, rStr, rLen);
 				sprintf(tmp+i+rLen, "%s", tmp2);
 
+				i+=rLen-1;
 				tmpLen+=rLen-tLen;
 				cnt++;
 			}
