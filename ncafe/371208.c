@@ -117,7 +117,6 @@ void DELETE(void) {
 
 				if (current == last) last = previous;
 				previous->next = current->next;
-				free(current);
 			}
 
 			if (first==NULL) last=0;
