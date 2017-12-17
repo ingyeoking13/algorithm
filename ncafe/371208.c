@@ -20,7 +20,7 @@ student* last=0;
 
 int main (void) {
 
-	FILE* fp = fopen("student.txt", "r");          //파일에서 데이터 읽어옴  
+	FILE* fp = fopen("student.txt", "a+");          //파일에서 데이터 읽어옴  
 
 	char name[30], ID[30], major[30];
 	while(~fscanf(fp, "%s %s %s", name, ID, major)){
