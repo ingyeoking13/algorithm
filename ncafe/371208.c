@@ -116,20 +116,17 @@ void DELETE(void) {
 			else {
 
 				previous->next = current->next;
-				current = previous->next;
-
+				free(current);
 			}
 
-			if (first== NULL) last= NULL;
 		}
-
-		previous = current;
+		else previous = current;
 		current = current->next;
 	}
 
 	FILE* fp = fopen("student.txt", "w");
 	current = first;
-	while(current->name != NULL) { 
+	while(current != NULL) { 
 
 		fprintf(fp, "%s %s %s\n", current->name, current->ID_num, current->major);
 		current = current->next;
