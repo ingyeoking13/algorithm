@@ -115,10 +115,12 @@ void DELETE(void) {
 			if(previous == NULL) first = current->next;
 			else {
 
+				if (current == last) last = previous;
 				previous->next = current->next;
 				free(current);
 			}
 
+			if (first==NULL) last=0;
 		}
 		else previous = current;
 		current = current->next;
