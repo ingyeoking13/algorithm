@@ -111,28 +111,28 @@ void DELETE(void) {
 	student* current = first,* previous=0;
 	while(current != NULL){
 
-	if(strcmp(name_del,current->name) == 0){
-		if(previous == NULL) first = current->next;
-		else {
+		if(strcmp(name_del,current->name) == 0){
+			if(previous == NULL) first = current->next;
+			else {
 
-			previous->next = current->next;
-			current = previous->next;
+				previous->next = current->next;
+				current = previous->next;
 
+			}
+
+			if (first== NULL) last= NULL;
 		}
 
-		if (first== NULL) last= NULL;
-	}
-
-	previous = current;
-	current = current->next;
+		previous = current;
+		current = current->next;
 	}
 
 	FILE* fp = fopen("student.txt", "w");
 	current = first;
 	while(current->name != NULL) { 
 
-	fprintf(fp, "%s %s %s\n", current->name, current->ID_num, current->major);
-	current = current->next;
+		fprintf(fp, "%s %s %s\n", current->name, current->ID_num, current->major);
+		current = current->next;
 
 	}
 

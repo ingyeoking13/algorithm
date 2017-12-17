@@ -1,4 +1,0 @@
-q f bb
-q w e
-w e r
-a s d
