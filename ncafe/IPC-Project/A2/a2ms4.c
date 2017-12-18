@@ -5,6 +5,7 @@
 void printSectionHeader(const char*);
 
 int main(void) {
+
 	printSectionHeader("ZFC");
 	ContactManagerSystem();
 	return 0;
