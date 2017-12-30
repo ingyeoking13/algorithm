@@ -1,0 +1,70 @@
+#include <stdio.h>
+#include <string.h>
+
+int cost, hotel, oneday;
+int a[100], b[100], aLen, bLen;
+int d[200][100][100][2][2];
+
+int min(int x, int y)  { return x>y?y:x; }
+int dfs(int n, int x, int y, int rx, int ry ){
+
+	if ( x==aLen && y == bLen ) return 0;
+	if ( n>aLen+bLen ) return 1<<20;
+	if ( x>aLen ) return 1<<20;
+
+	if (d[n][x][y][rx][ry] >= 0) return d[n][x][y][rx][ry];
+	d[n][x][y][rx][ry] = 0;
+
+
+	d[n][x][y][rx][ry] = dfs(n+1, x+1, y, 0, 1)
+											 + (ry?oneday:hotel)
+											 + cost;
+
+	d[n][x][y][rx][ry] = min(
+												d[n][x][y][rx][ry],
+												dfs(n+1, x, y+1, 1, 0) 
+												+ (rx?oneday:hotel)
+												+ cost
+											 );	
+
+  d[n][x][y][rx][ry] = min(
+												d[n][x][y][rx][ry],
+												dfs(n+1, x, y, 1, 1) 
+												+ (rx?oneday:hotel)
+												+ (ry?oneday:hotel)
+											 );
+
+	d[n][x][y][rx][ry] = min(
+												d[n][x][y][rx][ry],
+												dfs(n+1, x+1, y+1, 0, 0)
+												+ (a[x]==b[y])?cost:(2*cost)
+											 );
+	printf("%d %d %d %d %d total", n, x, y, rx, ry);
+	printf("cost %d \n", d[n][x][y][rx][ry]);
+
+	return d[n][x][y][rx][ry];
+}
+
+int main(){
+	int T; scanf("%d", &T);
+	while (T--){
+		memset(d, -1, sizeof(d));
+		scanf("%d %d %d", &cost, &hotel, &oneday);
+		int i=0;
+		while(1){
+			scanf("%d", &a[i]);
+			if (!a[i]) break;
+			i++;
+		}
+		aLen=i, i=0;
+
+		while(1){
+			scanf("%d", &b[i]);
+			if (!b[i]) break;
+			i++;
+		}
+		bLen=i;
+
+		printf("%d\n", dfs(0, 0, 0, 0, 0));
+	}
+}

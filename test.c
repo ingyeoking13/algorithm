@@ -1,10 +1,16 @@
-#include <stdio.h>
-#include <math.h>
-#include <stdlib.h>
-#include <time.h>
+#include<stdio.h>
 
 int main(){
-	srand(time(0));
-	int a=rand()%6, b = rand()%6, c =pow(a,b);
-	printf("%d %d %d\n", a, b,c );
+	int n; scanf("%d",&n);
+
+	while(n/10){
+		int tmp=n, ans=0;
+		while (tmp){
+			ans+=tmp%10;
+			tmp/=10;
+		}
+		n=ans;
+		printf("%d\n", ans);
+	}
+	return 0;
 }
