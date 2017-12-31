@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/home/adkb/bj/p1000'
 let g:netrw_dirhist_2='/home/adkb/swtest/cometrue'
 let g:netrw_dirhist_3='/home/adkb/bj'
@@ -8,3 +8,4 @@ let g:netrw_dirhist_5='/home/adkb/bj'
 let g:netrw_dirhist_6='/home/adkb/IPC-Project/A1'
 let g:netrw_dirhist_7='/home/adkb/cf'
 let g:netrw_dirhist_8='/home/adkb'
+let g:netrw_dirhist_9='/home/adkb/cf/implementation'
