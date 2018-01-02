@@ -36,6 +36,7 @@ void poker(){
     hallcard(player, man, &total);
     printGame(player, man, alive, table);
 		printLines("1turn...");
+		pause();
     if(!death(player, man, &alive)) {
 			printf("game over...\n");
 			return ;
@@ -44,6 +45,7 @@ void poker(){
     tableCard(3, &table, &total); //flop
     printGame(player, man, alive, table);
 		printLines("2turn...");
+		pause();
     if(!death(player, man, &alive)) {
 			printf("game over...\n");
 			return ;
@@ -52,6 +54,7 @@ void poker(){
     tableCard(1, &table, &total); //turn
     printGame(player, man, alive, table);
 		printLines("3turn...");
+		pause();
     if(!death(player, man, &alive)) {
 			printf("game over...\n");
 			return ;
@@ -59,6 +62,7 @@ void poker(){
 
     tableCard(1, &table, &total); //river
 		printGame(player, man, alive, table);
+		pause();
 }
 
 int getPlayer(int *alive){
@@ -169,9 +173,10 @@ int death(long long player[8], int man, int* alive){
     }
 
     printf("Total %d men dead.\n", d);
-    if (alive) return 1;
+		pause();
+    if (*alive) return 1;
     else {
-        printf("¿¿¿ All Player are dead. Game Over. ¿¿¿\n");
+        printf("*** All Player are dead. Game Over. ***\n");
         return 0;
     }
 }

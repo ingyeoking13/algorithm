@@ -67,3 +67,8 @@ void printLines(const char* str){
 	for (int i=0; i<50; i++) printf("/");
 	printf("\n");
 }
+
+void pause(){
+	printf("(Press Any key to Continue)\n");
+	clrbuf();
+}
