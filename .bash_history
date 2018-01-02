@@ -1,379 +1,3 @@
-./a.out 
-vi contactHelpers.c
-gcc -Wall a2ms4.c contactHelpers.c contacts.c 
-./a.out 
-vi contactHelpers.c
-vi contactHelpers.h
-vi contactHelpers.c
-gcc -Wall a2ms4.c contactHelpers.c contacts.c 
-vi contactHelpers.c
-gcc -Wall a2ms4.c contactHelpers.c contacts.c 
-./a.out 
-vi contactHelpers.c
-gcc -Wall a2ms4.c contactHelpers.c contacts.c 
-./a.out 
-vi contactHelpers.c
-gcc -Wall a2ms4.c contactHelpers.c contacts.c 
-vi contactHelpers.c
-gcc -Wall a2ms4.c contactHelpers.c contacts.c 
-./a.out 
-vi contactHelpers.c
-vi contacts.c
-gcc -Wall a2ms4.c contactHelpers.c contacts.c 
-./a.out 
-vi a2ms4.c 
-vi contactHelpers.c 
-gcc -Wall a2ms4.c contactHelpers.c contacts.c 
-./a.out 
-ls
-cd ..
-ls
-rm -r A1/
-ls
-cd A2/
-ls
-git add .
-git commit -m 'asdf
-'
-git push adkb master
-ls
-vi contacts.h
-vi contactHelpers.h
-ls
-cd ..
-ls
-cd 
-ls
-mv IPC-Project/ ncafe/
-ls
-git add .
-git commit -m 'asdf'
-git push adkb master
-ls
-cd ncafe/
-ls
-mkdir TextAnalyzer
-ls
-cd TextAnalyzer/
-ls
-vi main.c
-gcc main.c 
-vi main.c
-gcc main.c 
-vi main.c
-gcc main.c 
-./a.out 
-gcc main.c 
-vi main.c
-gcc main.c 
-./a.out 
-vi main.c
-gcc main.c 
-./a.out 
-vi main.c
-ls
-vi header.h
-mv header.h file.h
-ls
-vi file.h 
-mv file.h word.h
-vi word.h 
-exit
-exit
-ls
-cd ncafe/
-ls
-cd IPC-Project/A2
-ls
-./a.out 
-cd ..
-vi test.c
-gcc test.c 
-./a.out 
-vi test.c
-gcc test.c 
-./a.out 
-ls
-cd ..
-ls
-cd TextAnalyzer/
-ls
-vi word.h 
-vi main.c 
-gcc -Wall main.c word.c
-vi word.c 
-gcc -Wall main.c word.c
-clear
-gcc -Wall main.c word.c
-vi word.c
-gcc -Wall main.c word.c
-clear
-gcc -Wall main.c word.c
-vi word.h 
-gcc -Wall main.c word.c
-clear
-gcc -Wall main.c word.c
-vi word.c
-gcc -Wall main.c word.c
-vi word.c
-gcc -Wall main.c word.c
-clear
-gcc -Wall main.c word.c
-vi word.c
-gcc -Wall main.c word.c
-vi word.c
-gcc -Wall main.c word.c
-vi word.c
-gcc -Wall main.c word.c
-./a.out 
-vi word.c 
-ll
-pwd
-vi word.c 
-gcc -Wall main.c word.c
-./a.out 
-vi word.c 
-gcc -Wall main.c word.c
-./a.out 
-vi word.c 
-gcc -Wall main.c word.c
-./a.out 
-vi word.c 
-gcc -Wall main.c word.c
-./a.out 
-vi word.c 
-gcc -Wall main.c word.c
-ls
-vi input.txt
-gcc -Wall main.c word.c
-./a.out 
-vi word.c 
-gcc -Wall main.c word.c
-./a.out 
-vi word.c 
-gcc -Wall main.c word.c
-./a.out 
-vi word.c 
-gcc -Wall main.c word.c
-./a.out 
-vi word.c 
-gcc -Wall main.c word.c
-./a.out 
-gcc -Wall main.c word.c
-./a.out 
-vi main.c 
-vi word.c
-gcc -Wall main.c word.c
-./a.out 
-vi word.c
-gcc -Wall main.c word.c
-./a.out 
-vi word.c
-gcc -Wall main.c word.c
-./a.out 
-gcc -Wall main.c word.c
-vi word.c
-./a.out 
-gcc -Wall main.c word.c
-./a.out 
-vi word.c
-gcc -Wall main.c word.c
-./a.out 
-vi word.c
-gcc -Wall main.c word.c
-./a.out 
-vi word.c
-gcc -Wall main.c word.c
-./a.out 
-vi word.c
-gcc -Wall main.c word.c
-./a.out 
-vi word.c
-gcc -Wall main.c word.c
-./a.out 
-vi word.c
-gcc -Wall main.c word.c
-./a.out 
-vi word.c
-gcc -Wall main.c word.c
-./a.out 
-vi input.txt 
-gcc -Wall main.c word.c
-./a.out 
-vi input.txt 
-vi word.c
-gcc -Wall main.c word.c
-./a.out 
-vi word.c
-gcc -Wall main.c word.c
-./a.out 
-vi word.c
-gcc -Wall main.c word.c
-./a.out 
-vi word.c
-gcc -Wall main.c word.c
-./a.out 
-vi word.c
-gcc -Wall main.c word.c
-./a.out 
-vi word.c
-gcc -Wall main.c word.c
-vi word.c
-gcc -Wall main.c word.c
-./a.out 
-vi word.c
-gcc -Wall main.c word.c
-./a.out 
-vi word.c
-gcc -Wall main.c word.c
-./a.out 
-vi word.c
-gcc -Wall main.c word.c
-./a.out 
-vi word.c
-vi main.c 
-./a.out 
-vi word.c
-gcc -Wall main.c word.c
-./a.out 
-vi word.c
-gcc -Wall main.c word.c
-./a.out 
-vi word.c
-gcc -Wall main.c word.c
-./a.out 
-vi word.c
-gcc -Wall main.c word.c
-./a.out 
-gcc -Wall main.c word.c
-./a.out 
-vi word.c
-gcc -Wall main.c word.c
-vi word.c
-gcc -Wall main.c word.c
-vi word.c
-gcc -Wall main.c word.c
-./a.out 
-vi word.c
-gcc -Wall main.c word.c
-vi word.c
-gcc -Wall main.c word.c
-./a.out 
-vi word.c
-gcc -Wall main.c word.c
-./a.out 
-vi word.c
-gcc -Wall main.c word.c
-./a.out 
-vi word.c
-gcc -Wall main.c word.c
-./a.out 
-vi word.c
-clear
-vi word.c 
-gcc -Wall main.c word.c
-vi word.c 
-gcc -Wall main.c word.c
-./a.out 
-vi word.c 
-vi main.c 
-vi word.c 
-gcc -Wall main.c word.c
-./a.out 
-vi word.c 
-gcc -Wall main.c word.c
-./a.out 
-vi word.c 
-gcc -Wall main.c word.c
-vi word.c 
-gcc -Wall main.c word.c
-vi word.c 
-gcc -Wall main.c word.c
-vi word.c 
-gcc -Wall main.c word.c
-./a.out 
-vi word.c 
-gcc -Wall main.c word.c
-./a.out 
-vi word.c 
-gcc -Wall main.c word.c
-vi word.c 
-gcc -Wall main.c word.c
-clear
-gcc -Wall main.c word.c
-vi word.c 
-gcc -Wall main.c word.c
-clear
-gcc -Wall main.c word.c
-vi word.c
-gcc -Wall main.c word.c
-./a.out 
-vi output.txt 
-vi word.c
-gcc -Wall main.c word.c
-./a.out 
-vi input.txt 
-./a.out 
-vi output.txt 
-gcc -Wall main.c word.c
-ls
-vi main.c 
-vi word.c 
-./a.out 
-git add .
-git commit -m 'skku GEDB029'
-git push adkb master
-vi word.c 
-./a.out 
-vi word.c 
-git push adkb master
-./a.out 
-gcc -Wall main.c word.c
-./a.out 
-vi main.c 
-gcc -Wall main.c word.c
-vi main.c 
-gcc -Wall main.c word.c
-./a.out 
-vi main.c 
-vi word.c 
-gcc -Wall main.c word.c
-./a.out 
-vi output.txt 
-vi word.c 
-./a.out 
-vi output.txt 
-vi main.c 
-banner skku > o
-vi o
-rm o
-vi main.c 
-banner -w80 "a"
-banner -w
-banner "SKKU GEDB029"
-banner "SKKU" "GEDB029"
-banner "SKKU" "GEDB 029" > main.c 
-banner "SKKU" "GEDB 029" >> main.c 
-
-ls
-vi main.c 
-banner "SKKU" >> main.c
-vi main.c 
-gcc -Wall main.c word.c
-./a.out 
-git add .
-git commit -m 'asdf'
-git push adkb master
-vi main.c 
-vi word.c
-vi word.h
-vi word.c
-gcc -Wall main.c word.c
-./a.out 
-vi word.c 
-gcc -Wall main.c word.c
-vi word.c 
-git add .
 git commit -m 'asdf'
 git push adkb master
 exit
@@ -1997,4 +1621,380 @@ ls
 cd cf/
 ls
 vi 911D.c 
+exit
+ls
+cd cf/
+ls
+vi 908B.c
+ls
+rm 908B.c 
+vi implementation/
+cd implementation/
+ls
+vi 908B.c 
+gcc 908B.c 
+vi 908B.c 
+gcc 908B.c 
+./a.out 
+vi 908B.c 
+gcc 908B.c 
+./a.out 
+vi 908B.c 
+gcc 908B.c 
+./a.out 
+vi 908B.c 
+gcc 908B.c 
+./a.out 
+vi 908B.c 
+git add .
+git commit -m 'asdf'
+git push adkb master
+ls
+cd
+ls
+cd cf/
+ls
+cd math/
+ls
+vi 908C.c
+gcc 908C.c 
+vi 908C.c
+gcc 908C.c 
+gcc 908C.c -lm
+./a.out 
+vi 908C.c
+gcc 908C.c -lm
+./a.out 
+vi 908C.c
+ls
+cd
+git add .
+git commit -m 'asdf'
+git push adkb master
+ls
+cd cf/
+ls
+mkdir datastructure
+ls
+cd datastructure/
+ls
+ll
+pwd
+vi 911E.c
+vi test.c
+gcc test.c 
+vi test.c
+gcc test.c 
+./a.out 
+ls
+vi 911E.c 
+ls
+cd
+ls
+cd cf/
+ls
+cd
+ls
+cd swex/
+ls
+vi 1217.c
+gcc 1217.c 
+vi 1217.c
+gcc 1217.c 
+./a.out 
+vi 1217.c
+gcc 1217.c 
+./a.out 
+vi 1217.c
+gcc 1217.c 
+vi 1217.c
+gcc 1217.c 
+./a.out 
+vi 1217.c
+ls
+cd
+ls
+cd cf/
+ls
+cd datastructure/
+ls
+vi 911E.c 
+cd
+ls
+cd bj/
+ls
+cd p1000/
+ls
+vi 14922.c
+gcc 149
+gcc 14922.c 
+./a.out 
+gcc 149
+vi 14922.c
+gcc 149
+gcc 14922.c 
+./a.out 
+gcc 149
+vi 14922.c
+gcc 14922.c 
+./a.out 
+vi 14922.c
+gcc 14922.c 
+./a.out 
+vi 14922.c
+gcc 14922.c 
+./a.out 
+vi 14922.c
+gcc 14922.c 
+./a.out 
+vi 14922.c
+gcc 14922.c 
+./a.out 
+ls
+cd 
+ls
+cd cf/
+ls
+cd datastructure/
+ls
+vi 911E.c 
+exit
+ls
+cd bj/
+ls
+cd 
+ls
+cd tes
+vi test.c 
+gcc test.c 
+./a.out 
+vi test.c 
+gcc test.c 
+./a.out 
+vi test.c 
+gcc test.c 
+./a.out 
+ls
+cd
+ls
+cd cf/
+ls
+cd datastructure/
+ls
+mv 911E.c 911E.cc
+vi 911E.cc 
+gcc 911E.cc 
+vi 911E.cc 
+gcc 911E.cc 
+g++ 911E.cc 
+gcc 911E.cc -xc++ -lstdc++ -shared-libgcc
+ls
+vi test.c 
+gcc test.c 
+./a.out 
+vi test.c 
+gcc test.c 
+vi test.c 
+gcc test.c 
+vi test.c 
+gcc test.c 
+./a.out 
+vi test.c 
+vi 911E.cc 
+g++ 911E.cc 
+vi 911E.cc 
+g++ 911E.cc 
+vi 911E.cc 
+g++ 911E.cc 
+./a.out 
+vi 911E.cc 
+g++ 911E.cc 
+./a.out 
+vi 911E.cc 
+g++ 911E.cc 
+./a.out 
+vi 911E.cc 
+g++ 911E.cc 
+./a.out 
+vi 911E.cc 
+g++ 911E.cc 
+./a.out 
+vi 911E.cc 
+g++ 911E.cc 
+./a.out 
+exit
+ls
+cd cf/
+ls
+cd datastructure/
+ls
+vi 911E.cc 
+exit
+ls
+cd myproject/
+ls
+mkdir poker
+cd poker/
+ls
+cd ..
+ls
+cd project/
+ls
+cd ..
+ls
+cd project/
+ls
+./main 
+cd ..
+ls
+mv project/ minigame
+ls
+cd poker/
+ls
+vi main.c
+ls
+cd myproject/
+ls
+cd
+ls
+cd ncafe/
+ls
+cd IPC-Project/
+ls
+cd A2/
+ls
+vi contactHelpers.c 
+vi contacts.c
+vi contactHelpers.c
+ls
+cd
+ls
+cd myproject/
+ls
+cd poker/
+ls
+./m
+rm main.exe 
+ls
+rm *.o
+gcc game.c iohelper.c main.c 
+./a.out 
+vi main.c 
+vi game.c 
+vi main.c 
+vi game.c 
+gcc game.c iohelper.c main.c 
+vi game.c 
+vi main.c 
+gcc game.c iohelper.c main.c 
+./a.out 
+gcc game.c iohelper.c main.c 
+./a.out 
+3
+vi main.c 
+vi iohelper.c 
+vi main.c 
+ls
+cd ..
+ls
+cd 
+ls
+cd ncafe/
+ls
+cd IPC-Project/
+ls
+cd A2/
+ls
+vi contacts.c 
+vi contactHelpers.c 
+cd
+ls
+cd myproject/
+lcd
+ls
+cd poker/
+ls
+vi main.c 
+vi game.c 
+gcc *.c
+./a.out 
+ls
+gcc main.c game.c iohelper.c 
+./a.out 
+vi game.c 
+ls
+cd
+ls
+cd ncafe/
+ls
+cd IPC-Project/
+ls
+cd A2/
+ls
+vi contactHelpers.c
+exit
+ls
+vi test.c 
+exit
+ls
+cd cf/
+ls
+cd 
+ls
+cd myproject/
+ls
+cd poker/
+sl
+ls
+vi game.c 
+ls
+cd myproject/
+ls
+cd poker/
+ls
+gcc *.c
+./a.out 
+gcc *.c
+./a.out 
+gcc *.c
+./a.out 
+gcc *.c
+./a.out 
+gcc *.c
+./a.out 
+clear
+./a.out 
+clear
+./a.out 
+gcc *.c
+./a.out 
+gcc *.c
+./a.out 
+gcc *.c
+clear
+./a.out 
+gcc *.c
+./a.out 
+gcc *.c
+./a.out 
+gcc *.c
+./a.out 
+gcc *.c
+./a.out 
+gcc *.c
+./a.out 
+gcc *.c
+./a.out 
+gcc *.c
+./a.out 
+gcc *.c
+./a.out 
+gcc *.c
+./a.out 
+gcc *.c
+./a.out 
+gcc *.c
+./a.out 
+clear
+./a.out 
 exit

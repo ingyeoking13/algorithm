@@ -1,16 +1,15 @@
 #include<stdio.h>
 
-int main(){
-	int n; scanf("%d",&n);
+int oddnum(int num)        //홀수값만 원함
+{
+	 if (num % 2 == 0) return 0; 
+	else return printf("%d\n", num);
+}
 
-	while(n/10){
-		int tmp=n, ans=0;
-		while (tmp){
-			ans+=tmp%10;
-			tmp/=10;
-		}
-		n=ans;
-		printf("%d\n", ans);
-	}
+int main(){
+
+	oddnum(3);
+	oddnum(2);
+
 	return 0;
 }
