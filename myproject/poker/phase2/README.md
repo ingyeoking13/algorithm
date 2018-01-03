@@ -1,14 +1,15 @@
 # poker game
-## phase 1
-### 1. generate random card
-### 2. make decision to continue game
-### 3. that's all
+## phase 1 
+### check here: <https://github.com/ingyeoking13/algorithm/tree/master/myproject/poker/phase1>
 
-# what functions will be implemented during phase 2?
-## I'm thinking about two ways.
-### 1. calculating probability
-#### 1. 1. just for one player. that is, he knows only community card and his own hand.
-#### 1. 2. for all player cards. that is, all in mode (case all players know others hands)
-### 2. find winner.
+## phase 2
+### 1. calculate probability
+### 2. that's all
+#### ps1-1. it only works for player 1. he is the man you play as. 
+#### ps1-2. so, probability is derived from the information, only player 1 and community card. others hands doesn't count.
+#### ps2. it may contents some mistakes... but I'm working on it.
 
-### I don't know which one should be built first right now.
+# what functions will be implemented during **phase 3?**
+## 1. find winner.
+## 2. make plausible ui
+
