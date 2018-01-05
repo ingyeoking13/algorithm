@@ -189,7 +189,7 @@ void tableCard(int n, long long * table, long long *total){
         else{
             cnt++;
             *table |=1LL<<tmp;
-            *total |=1<<tmp;
+            *total |=1LL<<tmp;
         }
         if (cnt==n) break;
     }
