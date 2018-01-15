@@ -11,7 +11,7 @@ void merge(int* arr, int l, int m, int r){
 
 	while ( i<len1 && j<len2 ){
 		if ( tmpa[i] > tmpb[j] ) arr[k++] = tmpb[j++];
-		else 										 arr[k++] = tmpa[i++];
+		else 			 arr[k++] = tmpa[i++];
 	}
 
 	while ( i<len1 ) arr[k++] = tmpa[i++];
