@@ -1,10 +1,18 @@
 #include <stdio.h>
+void heapify(){
 
-void printF(int a){
-	printf("------%d\n", a);
+
+}
+
+void heapsort(int a[], ){
+
 }
 
 int main(){
-	int data=printF;
-	((void(*)(int))data)(10);
+	int a[100], b[100];
+	int n; scanf("%d", &n);
+	for (int i=0; i<n; i++) scanf("%d", &a[i]);
+	for (int i=0; i<n; i++) scanf("%d", &b[i]);
+	heapsort(a, n), heapsort(b, n);
+
 }

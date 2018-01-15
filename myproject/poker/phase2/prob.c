@@ -1,15 +1,17 @@
 #include <stdio.h>
+#include <string.h>
 #include "prob.h"
 #include "iohelper.h"
 
 int (*func[8])(long long, long long ) = {
 	onePair, twoPair, triple, straight,
-	flush, fullhouse , fourCard, /*straightFlush*/
+	flush, fullhouse , fourCard, straightFlush
 };
 char* str[8]={
-	"OnePair : ", "TwoPair : ", "Triple : ", "Straight : ",
-	"Flush : ", "Full House : ", "Four Card : ", "Straight Flush : "
+	"OnePair", "TwoPair", "Triple", "Straight",
+	"Flush", "Full House", "Four Card", "Straight Flush"
 };
+int len[8] ={7, 7, 6, 8, 5, 10, 9, 14};
 
 void calcProb(int n, long long player[8], int man, long long table , int turn){
 	long long other=0;
@@ -23,7 +25,7 @@ void calcProb(int n, long long player[8], int man, long long table , int turn){
 
 	if (turn ==1){ 	//0 community card
 
-		for (int f=0; f<7; f++){
+		for (int f=0; f<8; f++){
 			printf("%s probability :> ", str[f]); 
 			double cnt=0;
 
@@ -71,12 +73,14 @@ void calcProb(int n, long long player[8], int man, long long table , int turn){
 				}
 			}
 
+			for (int i=0; i<20; i++) printf(" ");
+			for (int i=0; i<len[f]-len[4]; i++) printf("\b");
 			printf("%.03lf\n", cnt*120/(50*49*48*47*46)*100);
 		}
 	}
 	else if (turn ==2){ //3 community card
 
-		for(int f=0; f<7; f++){
+		for(int f=0; f<8; f++){
 			printf("%s probability :> ", str[f]);
 			double cnt=0;
 
@@ -98,12 +102,14 @@ void calcProb(int n, long long player[8], int man, long long table , int turn){
 				}
 			}
 
+			for (int i=0; i<20; i++) printf(" ");
+			for (int i=0; i<len[f]-len[4]; i++) printf("\b");
 			printf("%.03lf\n", cnt/(47*46)*100);
 		}
 	}	
 	else if (turn ==3 || turn ==4){ //4 community card
 
-		for (int f=0; f<7; f++){
+		for (int f=0; f<8; f++){
 			printf("%s probability :> ", str[f]);
 			double cnt=0;
 
@@ -118,6 +124,8 @@ void calcProb(int n, long long player[8], int man, long long table , int turn){
 				}
 			}
 
+			for (int i=0; i<20; i++) printf(" ");
+			for (int i=0; i<len[f]-len[4]; i++) printf("\b");
 			printf ("%.03lf\n", turn==3?cnt/46*100:cnt/45*100);
 		}
 	}
@@ -258,6 +266,18 @@ int fourCard(long long mystate, long long other){
 }
 
 int straightFlush(long long mystate, long long other){
+	int s1 = mystate%(1LL<<13);
+	int s2 = (mystate/(1LL<<13))%(1LL<<13);
+	int s3 = (mystate/(1LL<<26))%(1LL<<13);
+	int s4 = (mystate/(1LL<<39))%(1LL<<13);
+	int a[4] = {s1, s2, s3, s4};
 
-
+	int score=0;
+	for (int i=0; i<4; i++){
+		for (int j=0; j<9; j++){
+			int tmp= a[i]/(1LL<<j)%(1<<5);
+			if (tmp==31)  score|=1<<(j+4);
+		}
+	}
+	return score;
 }

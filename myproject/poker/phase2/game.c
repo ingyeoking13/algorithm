@@ -167,11 +167,11 @@ int death(long long player[8], int man, int* alive){
 				printf("\n");
 
 #if defined(__linux__)
-				printf(GREEN "Player %d'" RESET "s would continue the game? :> ", i+1); 
+				printf(GREEN "Player %d'" RESET "s would continue the game? [Yy/Nn] :> ", i+1); 
 #else
 				setColor(GREEN); printf("Player %d'", i+1);
 				setColor(RESET);
-				printf("s would continue the game? :> "); 
+				printf("s would continue the game? [Yy/Nn] :> "); 
 #endif
 				if ( !yes()) *alive &=~(1<<i), d++;
 			}

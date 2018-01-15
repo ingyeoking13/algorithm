@@ -12,7 +12,7 @@ void init(int u){
 	head[u]=(stack *)malloc(sizeof(stack));
 	head[u]->next=0;
 }
-voi push(int u, Data t){
+void push(int u, Data t){
 	stack *n=head[u];
 	head[u]= (stack *)malloc(sizeof(stack));
 	head[u]->data=t;
@@ -59,4 +59,5 @@ int main(){
 		else printf("%d\n", d[i]);
 	}
 }
+
 

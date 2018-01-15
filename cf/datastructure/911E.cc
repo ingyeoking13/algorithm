@@ -8,7 +8,7 @@ int a[(int)2e5+1];
 int main(){
 	int n, k; scanf("%d %d", &n, &k);
 	int cur=1;
-	st.push(2e5+2); st.push(n+1);
+	st.push(2e5+3); st.push(n+1);
 
 	for (int i=0; i<n; i++){
 		if (i<k) scanf("%d", &a[i]);
