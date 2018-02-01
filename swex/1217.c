@@ -12,6 +12,5 @@ int main(){
 			ans*=a;
 		}
 		printf("#%d %d\n", t, ans);
-
 	}
 }

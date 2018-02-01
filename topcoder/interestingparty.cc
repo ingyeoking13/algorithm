@@ -20,4 +20,4 @@ class InterestingParty{
         }
     	return ans;
     }
-}
+};
