@@ -1,42 +1,46 @@
 #include <stdio.h>
 #include <vector>
 #include <queue>
-#define INF 987654321
 
 using namespace std;
 typedef struct { int v, w; }node;
-vector<node> E[1001];
-queue<node> q;
+vector<node> e[1001];
+priority_queue<pair<int, int> > pq;
+int d[1001];
 
-vector<int> dijikstra(int s){
-	vector<node> d(1001, INF);
-	vector<bool> v(1001, 0);
-	d[s]=0, v[s]=1;
-
-	while(1){
-		for (int i=1; i<=1000; i++){
-			if (d[i] <  && (!v[i]))
-		}
-	}
-}
 
 int main(){
 	int n, m; scanf("%d %d", &n, &m);
-	for (int i=0; i<m; i++){
+	while(m--){
 		int u, v, w;
 		scanf("%d %d %d", &u, &v, &w);
-		E[u].push_back({v, w});
-	}
-	int s, e;
-	scanf("%d %d", &s, &e);
-	
-	for (int i=0; i<=1000; i++){
-		for (int j=0; j<E[i].size(); j++){
-			printf("%d %d %d\n", i, E[i][j].v, E[i][j].w);
-		}
+		e[u].push_back({v, w});
 	}
 
-	vector<int> d = dijikstra(s);
-	printf("%d\n", d[e]);
+	int s, E;
+	scanf("%d %d", &s, &E);
+
+	for (int i=0; i<=1000; i++) d[i]=1e3*1e5+1;
+	d[s]=0;
+	pq.push(make_pair(0, s));
+
+	while (!pq.empty()){
+		int cost = -pq.top().first;
+		int now = pq.top().second;
+		pq.pop();
+		if ( d[now] < cost ) continue;
+
+		for (int i=0; i<e[now].size(); i++){
+			if ( d[e[now][i].v] > cost + e[now][i].w) {
+				d[e[now][i].v] = cost + e[now][i].w;
+				pq.push(make_pair(-cost-e[now][i].w, e[now][i].v));
+
+			}
+
+		}
+
+	}
+
+	printf("%d\n", d[E]);
 
 }

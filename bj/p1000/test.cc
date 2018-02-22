@@ -1,17 +1,19 @@
-#include <bits/stdc++.h>
-
+#include <iostream>
+#include <algorithm>
 using namespace std;
-vector<int> a;
-int main(){
+bool arr[1000001];
+int n, tmp;
+int main() {
+		cin >> n;
+   for (int i = 0; i < n; i++) {
+			cin >> tmp;
+      arr[tmp] = true;
+   }
 
-	for (int i=0; i<100; i++) a.push_back(i);
-	for (int i=0; i<a.size(); i++) printf("%d ", a[i]);
-	printf("\n");
-	printf("\n");
+   for (int i = 1; i <= 1000; i++) {
+      if (arr[n]) 
+         cout << i << endl;
+   }
 
-	a.clear();
-
-	for (int i=0; i<a.size(); i++) printf("%d ", a[i]);
-	printf("\n");
-
+   return 0;
 }
