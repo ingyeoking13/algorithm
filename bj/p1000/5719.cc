@@ -21,29 +21,29 @@ void dfsdel(int now, int next){
 }
 
 void dijkstra(){
-		for (int i=0; i<n; i++) d[i]=500*1000+1;
-		for (int i=0; i<n; i++) pred[i].clear();
+	for (int i=0; i<n; i++) d[i]=500*1000+1;
+	for (int i=0; i<n; i++) pred[i].clear();
 
-		d[st]=0;
-		pq.push(make_pair(0, st));
+	d[st]=0;
+	pq.push(make_pair(0, st));
 
-		while(!pq.empty()){
-			int cost = -pq.top().first;
-			int now = pq.top().second;
-			pq.pop();
-			if ( d[now] < cost ) continue;
+	while(!pq.empty()){
+		int cost = -pq.top().first;
+		int now = pq.top().second;
+		pq.pop();
+		if ( d[now] < cost ) continue;
 
-			for (int i=0; i< e[now].size(); i++){
-				if (d[e[now][i].v] >= d[now] + e[now][i].w){
-					if (d[e[now][i].v] > d[now] + e[now][i].w){
-					 	pred[e[now][i].v].clear();
-					}
-					d[e[now][i].v] = d[now] + e[now][i].w;
-					pred[e[now][i].v].push_back(now);
-					pq.push({-d[e[now][i].v], e[now][i].v});
+		for (int i=0; i< e[now].size(); i++){
+			if (d[e[now][i].v] >= d[now] + e[now][i].w){
+				if (d[e[now][i].v] > d[now] + e[now][i].w){
+					pred[e[now][i].v].clear();
 				}
+				d[e[now][i].v] = d[now] + e[now][i].w;
+				pred[e[now][i].v].push_back(now);
+				pq.push({-d[e[now][i].v], e[now][i].v});
 			}
 		}
+	}
 }
 
 int main(){
