@@ -14,7 +14,7 @@ int perm(int n){
 	while (i >0 && a[i-1] > a[i] ) i--;
 	if (i==0) return 0;
 	int j=n-1;
-	while (j>0 && a[i-1] > a[j]) j--;
+	while (a[i-1] > a[j]) j--;
 	swp(&a[i-1], &a[j]);
 
 	j=n-1;
