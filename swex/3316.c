@@ -15,13 +15,13 @@ int main(){
 
 		d[0][8]=1;
 		for (int i=1; i<=days; i++){
-			int key;
-			if (str[i]=='A') key=8;
-			else if (str[i]=='B') key=4;
-			else if (str[i]=='C') key=2;
-			else key=1;
+			int auth;
+			if (str[i]=='A') auth=8;
+			else if (str[i]=='B') auth=4;
+			else if (str[i]=='C') auth=2;
+			else auth=1;
 			for (int j=0; j<16; j++){
-				if (j & key){
+				if (j & auth){
 					for (int k=0; k<16; k++){
 						if (j & k){
 							d[i][j]+=d[i-1][k];
