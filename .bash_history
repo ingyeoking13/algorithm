@@ -1,478 +1,3 @@
-g++ 4195.cc 
-./a.out 
-vi 4195.cc
-./a.out 
-vi 4195.cc
-g++ 4195.cc 
-./a.out 
-vi 4195.cc
-g++ 4195.cc 
-./a.out 
-vi 4195.cc
-g++ 4195.cc 
-./a.out 
-vi 4195.cc
-g++ 4195.cc 
-./a.out 
-vi 4195.cc
-g++ 4195.cc 
-./a.out 
-g++ 4195.cc 
-vi 4195.cc
-g++ 4195.cc 
-vi 4195.cc
-vi 4195.cc -std=c++11
-gcc 4195.cc -std=c++11
-vi 4195.cc
-g++ 4195.cc 
-gcc 4195.cc -std=c++11
-g++ 4195.cc 
-gcc 4195.cc -std=c++11
-g++ 4195.cc 
-vi 4195.cc
-g++ 4195.cc 
-gcc 4195.cc -std=c++11
-vi 4195.cc
-ls
-cd bj/
-ls
-cd p1000/
-ls
-vi 4195.cc 
-g++ 4195.cc 
-vi 4195.cc 
-g++ 4195.cc -
-g++ 4195.cc -std=c++11
-vi 4195.cc 
-g++ 4195.cc 
-vi 4195.cc 
-g++ 4195.cc 
-vi 4195.cc 
-g++ 4195.cc 
-vi 4195.cc 
-g++ 4195.cc 
-./a.out 
-vi 4195.cc 
-g++ 4195.cc 
-./a.out 
-vi 4195.cc 
-./a.out 
-vi 4195.cc 
-g++ 4195.cc -std=c++11
-./a.out 
-vi 4195.cc 
-g++ 4195.cc -std=c++11
-./a.out 
-vi 4195.cc 
-g++ 4195.cc -std=c++11
-./a.out 
-vi 4195.cc 
-g++ 4195.cc -std=c++11
-./a.out 
-vi 4195.cc 
-g++ 4195.cc -std=c++11
-vi 4195.cc 
-g++ 4195.cc -std=c++11
-./a.out 
-vi 4195.cc 
-vi 5522.c
-gcc 5522.c 
-./a.out 
-vi 5522.c
-exit
-ls
-cd bj/
-ls
-cd p1000/
-vi 2589.c
-gcc 2589.c 
-./a.out 
-vi 2589.c
-gcc 2589.c 
-./a.out 
-vi 2589.c
-gcc 2589.c 
-./a.out 
-vi 2589.c
-gcc 2589.c 
-./a.out 
-vi 2589.c
-gcc 2589.c 
-vi 2589.c
-gcc 2589.c 
-./a.out 
-vi 2589.c
-gcc 2589.c 
-./a.out 
-vi 2589.c
-./a.out 
-vi 2589.c
-gcc 2589.c 
-./a.out 
-vi 2589.c
-gcc 2589.c 
-./a.out 
-vi 2589.c
-gcc 2589.c 
-vi 2589.c
-gcc 2589.c 
-./a.out 
-vi 2589.c
-gcc 2589.c 
-./a.out 
-vi 2589.c
-gcc 2589.c 
-./a.out 
-vi 2589.c
-gcc 2589.c 
-./a.out 
-vi 2589.c
-gcc 2589.c 
-./a.out 
-vi 2589.c
-gcc 2589.c 
-vi 2589.c
-gcc 2589.c 
-./a.out 
-vi 2589.c
-gcc 2589.c 
-./a.out 
-vi 2589.c
-gcc 2589.c 
-./a.out 
-vi 2589.c
-gcc 2589.c 
-./a.out 
-vi 2589.c
-gcc 2589.c 
-./a.out 
-vi 2589.c
-gcc 2589.c 
-./a.out 
-vi 2589.c
-vi 2589.cc
-g++ 2589.c
-g++ 2589.cc
-vi 2589.cc
-g++ 2589.cc
-vi 2589.cc
-g++ 2589.cc
-vi 2589.cc
-g++ 2589.cc
-./a.out 
-vi 2589.cc
-vi 2589.c
-rm 2589.c
-vi 9938.c
-gcc 9938.c 
-./a.out 
-vi 9938.c
-exit
-cd
-ls
-cd bj/
-ls
-cd p1000/
-ls
-cd
-ls
-cd cf/
-ls
-cd implementation/
-ls
-vi 922A.c
-g++ 922A.c 
-./a.out 
-vi 922A.c
-g++ 922A.c 
-./a.out 
-vi 922A.c
-g++ 922A.c 
-./a.out 
-vi 922A.c
-g++ 922A.c 
-./a.out 
-vi 922A.c
-g++ 922A.c 
-./a.out 
-vi 922A.c
-vi 922B.c
-gcc 922B.c 
-./a.out 
-vi 922B.c
-gcc 922B.c 
-./a.out 
-vi 922B.c
-gcc 922B.c 
-./a.out 
-vi 922B.c
-ls
-cd topcoder/
-ls
-vi 428A.c
-mv 428A.c 428A.cc
-vi 428A.cc 
-g++ 428A.cc 
-vi 428A.cc 
-g++ 428A.cc 
-vi 428A.cc 
-g++ 428A.cc 
-./a
-vi 428A.cc 
-g++ 428A.cc 
-clear
-g++ 428A.cc 
-vi 428A.cc 
-g++ 428A.cc 
-clear
-g++ 428A.cc 
-clear
-vi 428A.cc 
-g++ 428A.cc 
-vi 428A.cc 
-g++ 428A.cc 
-vi 428A.cc 
-g++ 428A.cc 
-clear
-g++ 428A.cc 
-vi 428A.cc 
-g++ 428A.cc 
-clear
-lcear
-clear
-g++ 428A.cc 
-vi 428A.cc 
-g++ 428A.cc 
-clear
-g++ 428A.cc 
-vi 428A.cc 
-g++ 428A.cc 
-vi 428A.cc 
-g++ 428A.cc 
-./a.out 
-vi 428A.cc 
-g++ 428A.cc 
-./a.out 
-vi 428A.cc 
-g++ 428A.cc 
-./a.out 
-vi 428A.cc 
-g++ 428A.cc 
-./a.out 
-vi 428A.cc 
-g++ 428A.cc 
-./a.out 
-vi 428A.cc 
-g++ 428A.cc 
-vi 428A.cc 
-g++ 428A.cc 
-./a.out 
-vi 428A.cc 
-g++ 428A.cc 
-./a.out 
-vi 428A.cc 
-g++ 428A.cc 
-./a.out 
-vi 428A.cc 
-g++ 428A.cc 
-./a.out 
-vi 428A.cc 
-g++ 428A.cc 
-./a.out 
-vi 428A.cc 
-g++ 428A.cc 
-./a.out 
-vi 428A.cc 
-g++ 428A.cc 
-vi 428A.cc 
-g++ 428A.cc 
-./a.out 
-vi 428A.cc 
-g++ 428A.cc 
-./a.out 
-vi 428A.cc 
-g++ 428A.cc 
-./a.out 
-vi 428A.cc 
-ls
-cd bj/
-ls
-cd p1000/
-ls
-cd
-ls
-cd cf/
-ls
-vi 938A.c
-g++ 938A.c 
-vi 938A.c
-g++ 938A.c 
-./a.out 
-vi 938A.c
-g++ 938A.c 
-./a.out 
-vi 938A.c
-g++ 938A.c 
-./a.out 
-vi 938A.c
-g++ 938A.c 
-vi 938A.c
-g++ 938A.c 
-./a.out 
-vi 938A.c
-:set nonu
-vi 938A.c
-vi 938B.c
-gcc 938B.c 
-vi 938B.c
-gcc 938B.c 
-./a.out 
-vi 938B.c
-gcc 938B.c 
-./a.out 
-vi 938B.c
-vi 938C.c
-rm 938C.c 
-vi 938D.c
-rm 938D.c 
-vi 938D.cc
-ls
-cd dp/
-ls
-vi 933A.c
-rm 933A.c 
-ls
-cd
-ls
-cd bj/
-ls
-cd p1000/
-ls
-cd
-ls
-cd bj/
-ls
-cd
-ls
-cd algorithm/
-ls
-cd graph/
-ls
-vi bipartie.c
-mv bipartie.c bipartie.cc
-vi bipartie.cc 
-g++ bipartie.cc 
-./a.out 
-vi bipartie.cc 
-g++ bipartie.cc 
-./a.out 
-vi bipartie.cc 
-g++ bipartie.cc 
-./a.out 
-vi bipartie.cc 
-g++ bipartie.cc 
-./a.out 
-vi bipartie.cc 
-g++ bipartie.cc 
-./a.out 
-vi bipartie.cc 
-g++ bipartie.cc 
-./a.out 
-vi bipartie.cc 
-g++ bipartie.cc 
-./a.out 
-vi bipartie.cc 
-g++ bipartie.cc 
-./a.out 
-vi bipartie.cc 
-g++ bipartie.cc 
-vi bipartie.cc 
-g++ bipartie.cc 
-./a.out 
-vi bipartie.cc 
-g++ bipartie.cc 
-./a.out 
-vi bipartie.cc 
-g++ bipartie.cc 
-./a.out 
-vi bipartie.cc 
-g++ bipartie.cc 
-./a.out 
-vi bipartie.cc 
-vi bipartiebool.cc
-g++ bipartiebool.cc 
-./a.out 
-vi bipartiebool.cc
-g++ bipartiebool.cc 
-./a.out 
-vi bipartiebool.cc
-g++ bipartiebool.cc 
-./a.out 
-vi bipartiebool.cc
-./a.out 
-vi bipartiebool.cc
-cd
-ls
-cd bj/
-ls
-cd p1000/
-ls
-vi 10451.cc
-g++ 10451.cc 
-./a.out 
-vi 10451.cc
-g++ 10451.cc 
-vi 10451.cc
-g++ 10451.cc 
-./a.out 
-vi 10451.cc
-ls
-cd bj/
-ls
-cd p1000/
-ls
-vi 2331.cc
-vi test.cc
-g++ test.c
-g++ test.cc
-vi test.cc
-./a
-./a.
-g++ test.cc
-./a.out 
-vi test.cc
-int 2331.cc
-vi 2331.cc 
-g++ 2331.cc 
-vi 2331.cc 
-g++ 2331.cc 
-./a.out 
-vi 2331.cc 
-exit
-cd bj/
-ls
-cd p1000/
-ls
-vi 9466.c
-gcc 9466.c
-./a.out 
-vi 9466.c
-vi 2146.c
-gcc 2146.c 
-vi 2146.c
-gcc 2146.c 
-./a.out 
-vi 2146.c
-./a.out 
-gcc 2146.c 
-./a.out 
-vi 2146.c
-gcc 2146.c 
-./a.out 
-vi 2146.c
-gcc 2146.c 
-./a.out 
-vi 2146.c
 gcc 2146.c 
 ./a.out 
 vi 2146.c
@@ -1998,3 +1523,478 @@ ls
 vi ROOTS.c
 mv ROOTS.c ROOTS.cc
 vi ROOTS.cc 
+ls
+cd algospot/
+ls
+vi ROOTS.cc 
+ls
+cd
+ls
+cd bj/
+ls
+cd p1000/
+ls
+vi 9465.c
+gcc 9465.c 
+./a.out 
+ls
+./a.out 
+vi 9465.c
+gcc 9465.c 
+./a.out 
+vi 9465.c
+vi 2475.c 
+vi 2745.c
+gcc 2745.c 
+./a.out 
+vi 2745.c
+gcc 2745.c 
+./a.out 
+vi 2745.c
+gcc 2745.c 
+./a.out 
+vi 2745.c
+gcc 2745.c 
+./a.out 
+vi 2745.c
+gcc 2745.c 
+./a.out 
+vi 2745.c
+gcc 2745.c 
+./a.out 
+vi 2745.c
+gcc 2745.c 
+./a.out 
+vi 2745.c
+./a.out 
+vi 2745.c
+gcc 2745.c 
+./a.out 
+vi 2745.c
+./a.out 
+vi 2745.c
+vi 11725.c
+gcc 11725.c 
+./a.out 
+vi 11725.c
+gcc 11725.c 
+./a.out 
+4
+234
+vi 11725.c
+gcc
+gcc 1172
+gcc 11725.c 
+./a.out 
+vi 11725.c
+mv 11725.c 11725.cc
+vi 11725.cc 
+g++ 11725.cc 
+./a.out 
+vi 11725.cc 
+vi 1167.cc
+g++ 1167.cc 
+vi 1167.cc
+g++ 1167.cc -std=c++11
+vi 1167.cc
+g++ 1167.cc -std=c++11
+./a.out 
+vi 1167.cc
+g++ 1167.cc -std=c++11
+./a.out 
+vi 1167.cc
+./a.out 
+vi 1167.cc
+g++ 1167.cc -std=c++11
+./a.out 
+vi 1167.cc
+g++ 1167.cc -std=c++11
+./a.out 
+using namespace std;
+vector <pair<int, int> > e[100001];
+queue <int> q;
+int d[100001];
+int ans;
+int main(){
+}
+./a.out 
+vi 1167.cc 
+g++ 1167.cc 
+vi 1167.cc 
+g++ 1167.cc 
+g++ 1167.cc -std=c++11
+./a.out 
+vi 1167.cc 
+g++ 1167.cc -std=c++11
+./a.out 
+vi 1167.cc 
+vi 10162.c
+gcc 10162.c 
+./a.out 
+vi 10162.c
+gcc 10162.c 
+./a.out 
+vi 10162.c
+ls
+cd
+ls
+cd bj/
+ls
+cd p1000/
+cd
+git add .
+git commit -m 'asdf'
+git push adkb master
+cd bj/
+ls
+cd p1000/
+vi 11657.cc 
+git add .
+git commit -m 'asdf'
+git push adkb master
+vi 11657.cc 
+exit
+ls
+cd bj/
+ls
+cd ..
+ls
+cd swex/
+ls
+vi 1767.c 
+vi 1768.cc 
+exit
+ls
+cd bj/
+ls
+cd p1000/
+ls
+vi 2295.cc
+ls
+cd codility/
+ls
+vi MinAbsSum.cc
+exit
+ls
+cd codility/
+ls
+vi MinAbsSum.cc 
+gcc MinAbsSum.cc 
+vi MinAbsSum.cc 
+gcc MinAbsSum.cc -lm
+vi MinAbsSum.cc 
+g++ MinAbsSum.cc 
+vi MinAbsSum.cc 
+g++ MinAbsSum.cc 
+vi MinAbsSum.cc 
+g++ MinAbsSum.cc 
+g++ MinAbsSum.cc -lm
+vi MinAbsSum.cc 
+g++ MinAbsSum.cc -lm
+g++ MinAbsSum.cc
+vi MinAbsSum.cc 
+g++ MinAbsSum.cc
+g++ MinAbsSum.cc -lm
+gcc MinAbsSum.cc -lm
+mv MinAbsSum.cc  MinAbsSum.c
+gcc MinAbsSum.c 
+vi MinAbsSum.cc 
+vi MinAbsSum.c
+gcc MinAbsSum.c 
+gcc MinAbsSum.c -lm
+vi MinAbsSum.c
+gcc MinAbsSum.c -lm
+gcc MinAbsSum.c
+./a.out 
+vi MinAbsSum.c
+gcc MinAbsSum.c
+./a.out 
+vi MinAbsSum.c
+gcc MinAbsSum.c
+./a.out 
+vi MinAbsSum.c
+gcc MinAbsSum.c
+./a.out 
+vi MinAbsSum.c
+gcc MinAbsSum.c
+./a.out 
+vi MinAbsSum.c
+gcc MinAbsSum.c
+./a.out 
+vi MinAbsSum.c
+ls
+cd bj/
+ls
+cd p1000/
+ls
+vi 9251.c
+exi
+te
+exit
+ls
+cd bj/
+ls
+cd p1000/
+vi 9251.c 
+gcc 9251.c 
+./a.out 
+vi 9251.c 
+gcc 9251.c 
+./a.out 
+vi 9251.c 
+gcc 9251.c 
+./a.out 
+vi 9251.c 
+gcc 9251.c 
+./a.out 
+vi 9251.c 
+gcc 9251.c 
+./a.out 
+vi 9251.c 
+gcc 9251.c 
+./a.out 
+vi 9251.c 
+gcc 9251.c 
+./a.out 
+vi 9251.c 
+gcc 9251.c 
+./a.out 
+vi 9251.c 
+gcc 9251.c 
+./a.out 
+vi 9251.c 
+vi 2576.c
+gcc 2576.c 
+./a.out 
+vi 2576.c
+vi 5565.c
+vi 2042.c
+gcc 2042.c 
+./a.out 
+vi 2042.c
+gcc 2042.c 
+./a.out 
+vi 2042.c
+vi 7567.c
+gcc 7567.c 
+vi 2042.c
+vi 7567.c
+gcc 7567.c 
+./a.out 
+vi 7567.c
+vi 11650.cc
+g++ 1165
+g++ 11650.cc 
+vi 11650.cc
+g++ 11650.cc 
+vi 11650.cc
+g++ 11650.cc 
+./a.out 
+vi 11650.cc
+vi 11051.c
+gcc 11051.c 
+./a.out 
+vi 11051.c
+vi 10798.c
+gcc 10798.c 
+./a.out 
+vi 10798.c
+vi 2501.c
+gcc 2501.c 
+./a.out 
+vi 2501.c
+vi 2523.c
+./a.out 
+gcc 2523.c 
+./a.out 
+vi 2523.c
+gcc 2523.c 
+./a.out 
+vi 2523.c
+vi 1992.c
+gcc 1992.c 
+./a.out 
+vi 1992.c
+gcc 1992.c 
+./a.out 
+vi 1992.c
+gcc 1992.c 
+./a.out 
+vi 1992.c
+vi 2096.c
+gcc 2096.c 
+./a.out 
+vi 2096.c
+gcc 2096.c 
+./a.out 
+vi 2096.c
+gcc 2096.c 
+./a.out 
+vi 2096.c
+gcc 2096.c 
+./a.out 
+vi 2096.c
+gcc 2096.c 
+./a.out 
+vi 2096.c
+gcc 2096.c 
+./a.out 
+vi 2096.c
+gcc 2096.c 
+./a.out 
+vi 2096.c
+gcc 2096.c 
+./a.out 
+vi 2096.c
+gcc 2096.c 
+./a.out 
+vi 2096.c
+gcc 2096.c 
+./a.out 
+vi 2096.c
+gcc 2096.c 
+./a.out 
+vi 2096.c
+gcc 2096.c 
+./a.out 
+vi 2096.c
+exit
+ls
+cd bj/
+ls
+cd p1000/
+ls
+vi 2096.c 
+gcc 2096.c 
+./a.out 
+vi 2096.c 
+gcc 2096.c 
+./a.out 
+vi 2096.c 
+gcc 2096.c 
+vi 2096.c 
+gcc 2096.c 
+./a.out 
+vi 2096.c 
+gcc 2096.c 
+./a.out 
+vi 2096.c 
+gcc 2096.c 
+./a.out 
+vi 2096.c 
+gcc 2096.c 
+./a.out 
+vi 2096.c 
+vi 2420.c
+gcc 2420.c 
+./a.out 
+vi 2420.c
+gcc 2420.c 
+./a.out 
+vi 2420.c
+vi 10886.c
+gcc 10886.c 
+./a.out 
+vi 10886.c
+vi 10991.c
+gcc 10991.c 
+./a.out 
+vi 10991.c
+gcc 10991.c 
+./a.out 
+vi 10991.c
+vi 11655.c
+gcc 11655.c 
+./a.out 
+vi 11655.c
+gcc 11655.c 
+./a.out 
+vi 11655.c
+gcc 11655.c 
+./a.out 
+vi 11655.c
+gcc 11655.c 
+./a.out 
+vi 11655.c
+gcc 11655.c 
+./a.out 
+vi 11655.c
+./a.out 
+vi 11655.c
+gcc 11655.c 
+./a.out 
+vi 11655.c
+gcc 11655.c 
+./a.out 
+vi 11655.c
+gcc 11655.c 
+./a.out 
+vi 11655.c
+vi 2587.c
+gcc 2587.c 
+./a.out 
+vi 2587.c
+mv 2587.c 2587.cc
+vi 2587.cc 
+gcc 2587.cc 
+vi 2587.cc 
+gcc 2587.cc 
+g++ 2587.cc 
+./a.out 
+vi 2587.cc 
+vi 7568.cc
+g++ 7568.cc 
+./a.out 
+vi 7568.cc
+g++ 7568.cc 
+./a.out 
+vi 7568.cc
+g++ 7568.cc 
+./a.out 
+vi 7568.cc
+g++ 7568.cc 
+./a.out 
+vi 7568.cc
+g++ 7568.cc 
+./a.out 
+vi 7568.cc
+g++ 7568.cc 
+./a.out 
+vi 7568.cc
+g++ 7568.cc 
+./a.out 
+vi 7568.cc
+g++ 7568.cc 
+./a.out 
+vi 7568.cc
+g++ 7568.cc 
+./a.out 
+vi 7568.cc
+g++ 7568.cc 
+./a.out 
+vi 7568.cc
+g++ 7568.cc 
+./a.out 
+using namespace std;
+typedef struct {int w, h;}peo;
+peo a[50], b[50];
+int c[50];
+int mycmp(peo x, peo y){ return x.w > y.w && x.h > y.h; }
+int main(){
+}
+vi 7568.cc
+./a.out 
+vi 7568.cc 
+g++ 7568.cc 
+./a.out 
+vi 7568.cc 
+g++ 7568.cc 
+./a.out 
+vi 7568.cc 
+gcc 7568.cc 
+gcc 7568.c
+g++ 7568.cc 
+./a.out 
+gcc 7568.c
+vi 7568.cc 
+exit
