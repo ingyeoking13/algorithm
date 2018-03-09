@@ -1,347 +1,3 @@
-gcc 2146.c 
-./a.out 
-vi 2146.c
-gcc 2146.c 
-./a.out 
-vi 2146.c
-gcc 2146.c 
-./a.out 
-vi 2146.c
-gcc 2146.c 
-./a.out 
-vi 2146.c
-gcc 2146.c 
-./a.out 
-vi 2146.c
-gcc 2146.c 
-./a.out 
-vi 2146.c
-gcc 2146.c 
-./a.out 
-vi 2146.c
-gcc 2146.c 
-./a.out 
-vi 2146.c
-gcc 2146.c 
-./a.out 
-vi 2146.c
-exit
-ls
-cd bj/
-ls
-cd p1000/
-vi 1991.c
-gcc 1991.c 
-./a.out 
-vi 1991.c
-gcc 1991.c 
-vi 1991.c
-gcc 1991.c 
-./a.out 
-vi 1991.c
-gcc 1991.c 
-./a.out 
-vi 1991.c
-gcc 1991.c 
-./a.out 
-vi 1991.c
-gcc 1991.c 
-./a.out 
-vi 1991.c
-gcc 1991.c 
-./a.out 
-vi 1991.c
-gcc 1991.c 
-./a.out 
-vi 1991.c
-exit
-ls
-cd cf/
-ls
-vi 935A.c
-gcc 935A.c 
-./a.out 
-vi 935A.c
-vi 935B.c
-gcc 935B.c 
-./a.out 
-vi 935B.c
-gcc 935B
-gcc 935B.c 
-gcc 935B
-vi 935B.c
-gcc 935B.c
-./a.out 
-vi 935B.c
-gcc 935B.c 
-./a.out 
-vi 935B.c
-gcc 935B.c 
-./a.out 
-vi 935B.c
-./a.out 
-vi 935C.c
-exit
-ls
-cd cf/
-ls
-vi 935C.c
-gcc 935C.c 
-vi 935C.c
-gcc 935C.c 
-gcc 935C.c -lm
-./a.out 
-gcc 935C.c 
-vi 935C.c
-./a.out 
-gcc 935C.c -lm
-./a.out 
-vi 935C.c
-gcc 935C.c -lm
-./a.out 
-vi 935C.c
-gcc 935C.c -lm
-./a.out 
-vi 935C.c
-gcc 935C.c -lm
-./a.out 
-vi 935C.c
-./a.out 
-gcc 935C.c -lm
-./a.out 
-vi 935C.c
-gcc 935C.c -lm
-./a.out 
-vi 935C.c
-gcc 935C.c -lm
-./a.out 
-vi 935C.c
-gcc 935C.c -lm
-./a.out 
-vi 935C.c
-gcc 935C.c -lm
-./a.out 
-vi 935C.c
-gcc 935C.c -lm
-./a.out 
-vi 935C.c
-gcc 935C.c -lm
-./a.out 
-vi 935C.c
-gcc 935C.c -lm
-./a.out 
-vi 935C.c
-gcc 935C.c -lm
-./a.out 
-#include <math.h>
-double maxd( double a, double b) { return a<b?b:a; }
-int main(){
-}
-vi 935C.c 
-gcc 935C.c 
-gcc 935C.c -lm
-./a.out 
-vi 935C.c 
-gcc 935C.c -lm
-./a.out 
-vi 935C.c 
-exit
-ls
-cd cf/
-ls
-vi 935C.c 
-ls
-cd
-ls
-cd bj/
-ls
-cd p1000/
-vi 1753.cc
-g++ 1753.cc 
-vi 1753.cc
-g++ 1753.cc 
-g++ 1753.cc -std=c++11
-vi 1753.cc
-g++ 1753.cc -std=c++11
-vi 1753.cc
-g++ 1753.cc -std=c++11
-./a.out 
-vi 1753.cc
-g++ 1753.cc -std=c++11
-./a.out 
-vi 1753.cc
-g++ 1753.cc -std=c++11
-./a.out 
-vi 1753.cc
-g++ 1753.cc -std=c++11
-vi 1753.cc
-g++ 1753.cc -std=c++11
-./a.out 
-vi 1753.cc
-g++ 1753.cc -std=c++11
-./a.out 
-vi 1753.cc
-g++ 1753.cc -std=c++11
-./a.out 
-vi 1753.cc
-g++ 1753.cc -std=c++11
-vi 1753.cc
-g++ 1753.cc -std=c++11
-./a.out 
-vi 1753.cc
-g++ 1753.cc -std=c++11
-./a.out 
-vi 1753.cc
-g++ 1753.cc -std=c++11
-vi 1753.cc
-g++ 1753.cc -std=c++11
-vi 1753.cc
-g++ 1753.cc -std=c++11
-vi 1753.cc
-g++ 1753.cc -std=c++11
-./a.out 
-vi 1753.cc
-g++ 1753.cc -std=c++11
-./a.out 
-vi 1753.cc
-g++ 1753.cc -std=c++11
-./a.out 
-#include <stdio.h>
-#include <queue>
-using namespace std;
-typedef struct {int u, v, w; }vertex;
-struct cmp{
-};
-vector <vertex>e[20001];
-priority_queue <vertex, vector<vertex>, cmp >pq;
-int d[20001];
-int main(){
-}
-./a.out 
-vi 1753.cc
-g++ 1753.cc -std=c++11
-./a.out 
-vi 1753.cc
-exit
-ls
-cd bj/
-ls
-cd p1000/
-ls
-vi 1753.cc 
-g++ 1753.cc 
-vi 1753.cc 
-g++ 1753.cc 
-g++ 1753.cc -std=c++11
-vi 1753.cc 
-exit
-ls
-cd bj/
-ls
-cd p1000/
-ls
-vi 1753.cc 
-g++ 1753.cc 
-g++ 1753.cc -std=c++11
-vi 1753.cc 
-g++ 1753.cc -std=c++11
-vi 1753.cc 
-g++ 1753.cc -std=c++11
-vi 1753.cc 
-g++ 1753.cc -std=c++11
-vi 1753.cc 
-g++ 1753.cc -std=c++11
-./a.out 
-vi 1753.cc 
-vi 1916.cc
-g++ 1916.cc 
-g++ 1916.cc -std=c++11
-vi 1916.cc
-g++ 1916.cc -std=c++11
-vi 1916.cc
-g++ 1916.cc -std=c++11
-vi 1916.cc
-g++ 1916.cc -std=c++11
-vi 1916.cc
-g++ 1916.cc -std=c++11
-./a
-./a.out 
-g++ 1916.cc -std=c++11
-vi 1916.cc
-vi 1504.cc
-g++ 1504.cc -std=c++11
-./a.out 
-vi 1504.cc
-g++ 1504.cc -std=c++11
-./a.out 
-vi 1504.cc
-g++ 1504.cc -std=c++11
-./a.out 
-vi 1504.cc
-g++ 1504.cc -std=c++11
-./a.out 
-vi 1504.cc
-g++ 1504.cc -std=c++11
-./a.out 
-vi 1504.cc
-g++ 1504.cc -std=c++11
-./a.out 
-vi 1504.cc
-g++ 1504.cc -std=c++11
-./a.out 
-vi 1504.cc
-g++ 1504.cc -std=c++11
-./a.out 
-vi 1504.cc
-g++ 1504.cc -std=c++11
-./a.out 
-vi 1504.cc
-g++ 1504.cc -std=c++11
-./a.out 
-vi 1504.cc
-g++ 1504.cc -std=c++11
-./a.out 
-vi 1504.cc
-g++ 1504.cc -std=c++11
-./a.out 
-vi 1504.cc
-exit
-ls
-cdb
-cd bj/
-ls
-cd p1000/
-ls
-vi 1504.cc 
-g++ 1504.cc -std=c++11
-vi 1504.cc 
-g++ 1504.cc -std=c++11
-./a.out 
-vi 1504.cc 
-g++ 1504.cc -std=c++11
-./a.out 
-vi 1504.cc 
-g++ 1504.cc -std=c++11
-./a.out 
-vi 1504.cc 
-g++ 1504.cc -std=c++11
-./a.out 
-vi 1504.cc 
-g++ 1504.cc -std=c++11
-./a.out 
-vi 1504.cc 
-./a.out 
-vi 1504.cc 
-g++ 1504.cc -std=c++11
-vi 1504.cc 
-g++ 1504.cc -std=c++11
-vi 1504.cc 
-g++ 1504.cc -std=c++11
-vi 1504.cc 
-g++ 1504.cc -std=c++11
-vi 1504.cc 
-g++ 1504.cc -std=c++11
-./a.out 
 vi 1504.cc 
 ./a.out 
 vi 1504.cc 
@@ -1998,3 +1654,347 @@ g++ 7568.cc
 gcc 7568.c
 vi 7568.cc 
 exit
+ls
+cd cf/
+ls
+vi 931C.cc 
+ls
+cd
+ls
+cd bj/
+ls
+cd p1000/
+ls
+vi 15552.c
+gcc 15552.c 
+./a.out 
+vi 15552.c
+gcc 15552.c 
+vi 15552.c
+gcc 15552.c 
+./a.out 
+vi 15552.c
+vi 1436.c
+gcc 1436.c 
+./a.out 
+vi 1436.c
+./a.out 
+vi 1436.c
+gcc 1436.c 
+./a.out 
+vi 1436.c
+gcc 1436.c 
+./a.out 
+./a.out 3
+./a.out
+vi 1436.c
+gcc 1436.c 
+./a.out 
+vi 1436.c
+gcc 1436.c 
+./a.out 
+vi 11729.c
+gcc 11729.c 
+./a.out 
+vi 11729.c
+gcc 11729.c 
+./a.out 
+vi 11729.c
+gcc 11729.c 
+./a.out 
+vi 11729.c
+gcc 11729.c 
+./a.out 
+vi 11729.c
+gcc 11729.c 
+./a.out 
+vi 11729.c
+gcc 11729.c 
+./a.out 
+vi 11729.c
+gcc 11729.c 
+./a.out 
+vi 11729.c
+gcc 11729.c 
+./a.out 
+vi 11729.c
+gcc 11729.c 
+./a.out 
+vi 11729.c
+gcc 11729.c 
+./a.out 
+vi 11729.c
+vi 2447.c
+gcc 2447.c 
+vi 11729.c
+vi 2447.c 
+vi 11729.c
+gcc 2447.c 
+vi 11729.c
+vi 2447.c 
+gcc 2447.c 
+./a.out 
+vi 2447.c 
+gcc 2447.c 
+./a.out 
+vi 2447.c 
+gcc 2447.c 
+./a.out 
+vi 2447.c 
+gcc 2447.c 
+./a.out 
+vi 2447.c 
+./a.out 
+vi 2447.c 
+gcc 2447.c 
+./a.out 
+vi 2447.c 
+gcc 2447.c 
+./a.out 
+vi 2447.c 
+cd
+ls
+git add .
+git commit -m 'asdf'
+git push adkb master
+ls
+cd bj/
+ls
+cd p1000/
+ls
+vi 2108.c
+mv 2108.c 2108.cc
+vi 2108.cc 
+mv 2108.cc 2108.c
+vi 2108.c 
+gcc 2108.c 
+./a.out 
+vi 2108.c 
+gcc 2108.c 
+./a.out 
+vi 2108.c 
+./a.out 
+vi 2108.c 
+ls
+vi 4948.c
+gcc 4948.c 
+vi 4948.c
+gcc 4948.c 
+./a.out 
+vi 4948.c
+gcc 4948.c 
+./a.out 
+vi 4948.c
+gcc 4948.c 
+./a.out 
+vi 4948.c
+gcc 4948.c 
+./a.out 
+vi 4948.c
+ls
+cd bj/
+ls
+cd 
+ls
+cd cf/
+ls
+vi 931C.cc 
+gcc 931C.cc 
+vi 931C.cc 
+gcc 931C.cc 
+g++ 931C.cc 
+./a.out 
+gcc 931C.cc 
+vi 931C.cc 
+gcc 931C.cc 
+g++ 931C.cc 
+vi 931C.cc 
+./a.out 
+vi 931C.cc 
+cd
+ls
+cd bj/
+ls
+cd p1000/
+ls
+vi 9020.c
+gcc 9020.c 
+./a.out 
+vi 9020.c
+gcc 9020.c 
+./a.out 
+vi 9020.c
+gcc 9020.c 
+./a.out 
+vi 9020.c
+exit
+ls
+cd bj/
+ls
+s
+cd
+ls
+cd swex/
+ls
+vi 3319.c 
+vi 3347.c 
+vi 3459.c
+mv 3459.c 3459.cc
+vi 3459.cc 
+mv 3459.cc 3459.c
+vi 3459.c 
+vi 1768.cc 
+vi 1768.cc
+mv 1768main.cc
+mv 1768.cc 1768main.cc
+vi 1768user.cc
+gcc 1768main.cc 
+g++ 1768main.cc 
+vi 1768main.cc 
+g++ 1768main.cc 1768user.cc 
+vi 1768user.cc 
+vi 1768main.cc 
+vi 1768user.cc 
+g++ 1768main.cc 1768user.cc 
+vi 1768user.cc 
+g++ 1768main.cc 1768user.cc 
+vi 1768user.cc 
+g++ 1768main.cc 1768user.cc 
+./a.out 
+vi 1768user.cc 
+g++ 1768main.cc 1768user.cc 
+./a.out 
+vi 1768user.cc 
+g++ 1768main.cc 1768user.cc 
+./a.out 
+vi 1768user.cc 
+exit
+ls
+cd c
+cd codility/
+ls
+vi Cobalitum2018.cc
+g++ Cobalitum2018.cc 
+vi Cobalitum2018.cc
+g++ Cobalitum2018.cc 
+vi Cobalitum2018.cc
+g++ Cobalitum2018.cc 
+vi Cobalitum2018.cc
+g++ Cobalitum2018.cc 
+vi Cobalitum2018.cc
+g++ Cobalitum2018.cc 
+vi Cobalitum2018.cc
+g++ Cobalitum2018.cc 
+vi Cobalitum2018.cc
+g++ Cobalitum2018.cc 
+vi Cobalitum2018.cc
+g++ Cobalitum2018.cc 
+vi Cobalitum2018.cc
+g++ Cobalitum2018.cc 
+./a.out 
+vi Cobalitum2018.cc
+g++ Cobalitum2018.cc 
+./a.out 
+2
+vi Cobalitum2018.cc
+./a.out 
+g++ Cobalitum2018.cc 
+./a.out 
+vi Cobalitum2018.cc
+g++ Cobalitum2018.cc 
+./a.out 
+vi Cobalitum2018.cc
+g++ Cobalitum2018.cc 
+./a.out 
+vi Cobalitum2018.cc
+g++ Cobalitum2018.cc 
+./a.out 
+vi Cobalitum2018.cc
+g++ Cobalitum2018.cc 
+./a.out 
+vi Cobalitum2018.cc
+g++ Cobalitum2018.cc 
+./a.out 
+vi Cobalitum2018.cc
+g++ Cobalitum2018.cc 
+vi Cobalitum2018.cc
+g++ Cobalitum2018.cc 
+./a.out 
+vi Cobalitum2018.cc
+g++ Cobalitum2018.cc 
+./a.out 
+vi Cobalitum2018.cc
+g++ Cobalitum2018.cc 
+./a.out 
+vi Cobalitum2018.cc
+g++ Cobalitum2018.cc 
+./a.out 
+vi Cobalitum2018.cc
+./a.out 
+vi Cobalitum2018.cc
+./a.out 
+vi Cobalitum2018.cc
+g++ Cobalitum2018.cc 
+./a.out 
+vi Cobalitum2018.cc
+g++ Cobalitum2018.cc 
+./a.out 
+vi Cobalitum2018.cc
+g++ Cobalitum2018.cc 
+./a.out 
+vi Cobalitum2018.cc
+./a.out ex
+exit
+ls
+cd bj/
+ls
+cd p1000/
+vi 1937.c
+gcc 1937.c 
+vi 1937.c
+gcc 1937.c 
+vi 1937.c
+gcc 1937.c 
+./a.out 
+vi 1937.c
+gcc 1937.c 
+./a.out 
+vi 1937.c
+vi 10824.c
+gcc 10824.c 
+vi 10824.c
+gcc 10824.c 
+./a.out 
+vi 10824.c
+gcc 10824.c 
+./a.out 
+vi 10824.c
+gcc 10824.c 
+vi 2460.c
+gcc 2460.c 
+./a.out 
+vi 2460.c
+cd
+ls
+cd cf/
+ls
+vi 946D.cc 
+ls
+cd cf/
+ls
+vi 946D.cc 
+exit
+ls
+cd bj/
+ls
+cd 
+ls
+cd cf/
+ls
+vi 946D.cc 
+ls
+cd cf/
+ls
+vi 946D.cc 
+rm .946D.cc.swp 
+vi 946D.cc 
