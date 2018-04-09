@@ -131,43 +131,46 @@ $
 "0	LINE	0
 			printf("a[%d] : %d a[%d] %d\n", now, a[now],  i, a[i]);
 "1	LINE	0
-		}
-		else dfs(now+1, sum, cost, a);
+	This repository is for anyone who wants to study algorithm.
 "2	LINE	0
-		if ( a[now] ) {
+	ingyeoking13.tistory.com/93
 "3	LINE	0
+	철권 태그 1 을 하고싶으면 아래로
 	
 "4	LINE	0
-	
+		}
+		else dfs(now+1, sum, cost, a);
 "5	LINE	0
-		dfs(now+1, sum+a[1
+		if ( a[now] ) {
 "6	LINE	0
-	
 	
 "7	LINE	0
 	
 "8	LINE	0
-	#include <
+		dfs(now+1, sum+a[1
 "9	LINE	0
+	
 	
 "l	CHAR	0
 	w
 ""-	CHAR	0
-	 mn=0x3f3f3f3f;
+	 남겨둔 
 
 # File marks:
-'0  30  12  ~/swex/1952.cc
-'1  18  1  ~/swex/1952.cc
-'2  19  19  ~/swex/1952.cc
-'3  28  2  ~/swex/1952.cc
-'4  1  9  ~/swex/1952.c
-'5  1  0  ~/swex/1952.cc]
-'6  36  0  ~/swex/1952.cc
-'7  34  25  ~/swex/1952.cc
-'8  37  12  ~/swex/1244.cc
-'9  31  2  ~/swex/1244.cc
+'0  10  71  ~/README.md
+'1  30  12  ~/swex/1952.cc
+'2  18  1  ~/swex/1952.cc
+'3  19  19  ~/swex/1952.cc
+'4  28  2  ~/swex/1952.cc
+'5  1  9  ~/swex/1952.c
+'6  1  0  ~/swex/1952.cc]
+'7  36  0  ~/swex/1952.cc
+'8  34  25  ~/swex/1952.cc
+'9  37  12  ~/swex/1244.cc
 
 # Jumplist (newest first):
+-'  10  71  ~/README.md
+-'  1  0  ~/README.md
 -'  30  12  ~/swex/1952.cc
 -'  1  0  ~/swex/1952.cc
 -'  18  1  ~/swex/1952.cc
@@ -265,9 +268,19 @@ $
 -'  8  0  ~/
 -'  8  0  ~/bj
 -'  1  0  ~/kmong/job2.c
--'  77  0  ~/kmong/job2.c
 
 # History of marks within files (newest to oldest):
+
+> ~/README.md
+	"	10	71
+	^	10	72
+	.	10	71
+	+	15	0
+	+	10	62
+	+	5	9
+	+	7	26
+	+	13	26
+	+	10	71
 
 > ~/swex/1952.cc
 	"	30	12
@@ -5263,44 +5276,3 @@ $
 	+	8	18
 	+	22	12
 	+	7	38
-
-> ~/leetcode/506.cc
-	"	13	32
-	^	13	19
-	.	13	32
-	+	19	1
-	+	3	0
-	+	18	0
-	+	1	0
-	+	17	0
-	+	17	0
-	+	17	0
-	+	17	0
-	+	6	0
-	+	17	0
-	+	5	21
-	+	17	0
-	+	17	7
-	+	8	11
-	+	17	0
-	+	17	0
-	+	14	0
-	+	17	0
-	+	13	18
-	+	10	45
-	+	11	51
-	+	12	42
-	+	13	23
-	+	8	0
-	+	14	0
-	+	16	13
-	+	13	23
-	+	10	0
-	+	9	28
-	+	10	39
-	+	11	46
-	+	12	47
-	+	13	36
-	+	4	16
-	+	5	33
-	+	13	32
