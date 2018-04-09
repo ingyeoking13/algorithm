@@ -21,7 +21,7 @@ void dfs(int now, int sum, int* cost, int* a){
 int main(){
 	int T; scanf("%d", &T);
 
-	for (int t=1; t<=10; t++){
+	for (int t=1; t<=T; t++){
 
 		int cost[4], a[12];
 		for (int i=0; i<4; i++) scanf("%d", &cost[i]);
