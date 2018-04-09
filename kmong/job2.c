@@ -76,7 +76,6 @@
 		 만약 존재한다면 해당 반복자 i를 출력하면 됩니다.
 	 
 	 void show_C(coup*) : void show_P(pers*) 참고
-
 */
 #include <stdio.h>
 #include <stdlib.h>
@@ -88,7 +87,7 @@ void getir(int *n, char *s){ scanf("%d %s", n, s);}
 void gete(char *s){ scanf("%s", s);}
 void getg(int *n){ scanf("%d", n);}
 
-typedef struct coup{int num; struct pers* p[NG+1];}coup;
+typedef struct coup{int num; struct pers* p[NG+1]; }coup;
 typedef struct pers{int num; struct coup* c[NE+1]; }pers;
 
 coup* create_C(int num){
@@ -143,8 +142,6 @@ int main(){
 	pers* person[NG+1];
 	for (int i=1; i<=NG; i++) person[i] = create_P(i);
 
-//  아래 함수를 통해 미리 작성된 input  데이터파일로
-//	입력 스트림을 redirecting 할 수 있습니다.
 //	freopen("in.in","r", stdin); 
 
 	while(1){
