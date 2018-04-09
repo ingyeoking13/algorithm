@@ -10,7 +10,6 @@ void dfs(int now, int sum, int* cost, int* a){
 		return ;
 	}
 
-	dfs(now+12, sum+cost[3], cost, a);
 	if(a[now]){
 		dfs(now+1, sum+cost[1], cost, a);
 		dfs(now+1, sum+cost[0]*a[now], cost, a);
