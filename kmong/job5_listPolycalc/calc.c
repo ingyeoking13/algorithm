@@ -87,7 +87,7 @@ void printP(poly* now){
   return ;
 }
 
-void PaddP(poly* now, poly* a, poly* b){
+void PaddP(poly* now, poly* a, poly* b, int type){
   node* nowa = a->front, *nowb = b->front;
 
   while(nowa && nowb){
@@ -95,15 +95,15 @@ void PaddP(poly* now, poly* a, poly* b){
     int an = nowa->num, bn = nowb->num;
 
     if (ap == bp){
-      push(now, an+bn, ap);
+			if (an+(type)*bn) push(now, an+(type)*bn, ap);
       nowa=nowa->next, nowb=nowb->next;
     }
     else if (ap > bp) push(now, an, ap), nowa=nowa->next;
-    else push(now, bn, bp), nowb=nowb->next;
+    else push(now, (type)*bn, bp), nowb=nowb->next;
   }
 
   while(nowa) push(now, nowa->num, nowa->pow), nowa=nowa->next;
-  while(nowb) push(now, nowb->num, nowb->pow), nowb=nowb->next;
+  while(nowb) push(now, (type)*(nowb->num), nowb->pow), nowb=nowb->next;
 }
 
 int makeP(poly* now, char* s){ // make polynomials from input
@@ -123,7 +123,6 @@ int makeP(poly* now, char* s){ // make polynomials from input
 					coef+=(s[i]-'0');
 				}
 				else if ( s[i] =='-' || s[i] == '+'){  // if we get another +, - then coef input is over
-					if ( pm*tmp > coef) return !printf("상수계수 > 다항식 error!!!\n");
 					push(now, pm*tmp, coef);						//push it!!
 					tmp=0, st=0,coef=0;
 					if (s[i] =='-' ) pm = -1;          //next ary +, - 
@@ -143,17 +142,15 @@ int makeP(poly* now, char* s){ // make polynomials from input
 		}
 	}
 
-	if (pm*tmp > coef ) return !printf("error\n"); //input last ary... after for done
 	push(now, pm*tmp, coef);
 
 	return 1;
 }
 
 int main(){
-  poly* a,* b,* c;
+  poly* a,* b;
   a = newPoly();
   b = newPoly();
-  c = newPoly();
 
 	char s[201];
 	printf("A 다항식 입력해주세요(200byte) : "); scanf("%s", s);
@@ -170,8 +167,14 @@ int main(){
 	printf("your A polynomials : ");
   printP(b);
 
-  PaddP(c, a, b);
+  poly* c = newPoly(),* d =newPoly();
+
+  PaddP(c, a, b, 1);
 	printf("your A+B = C polynomials : ");
   printP(c);
+
+  PaddP(d, a, b, -1);
+	printf("your A-B = D polynomials : ");
+  printP(d);
 }
 
