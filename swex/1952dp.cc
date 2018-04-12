@@ -11,7 +11,7 @@ int main(){
 	for (int t=1; t<=T; t++){
 
 		int cost[4], a[13], d[14], paylen[4]={1, 1, 3, 12};
-		memset(d, 0x3f, sizeof(d);						//each memory byte set "0x3f" byte -> 1billions
+		memset(d, 0x3f, sizeof(d));						//each memory byte set "0x3f" byte -> 1billions
 		for (int i=0; i<4; i++) scanf("%d", &cost[i]);
 		for (int i=1; i<=12; i++) scanf("%d", &a[i]);
 
