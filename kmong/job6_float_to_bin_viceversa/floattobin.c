@@ -38,15 +38,16 @@ float getfloat(char* s, int len, int sign, int coef){
 }
 
 void convtE(float b_to_f){ // E 로 양식 변환 출력
-		int cnt=0;
-		if (b_to_f>=1e-6 ) { // if b_to_f smaller than 10^-6....
-			while(absd(b_to_f)>=10 || absd(b_to_f)<1) {
-				if ( absd(b_to_f)<1 ) b_to_f*=10, cnt--;
-				else b_to_f/=10, cnt++;
-			}
+	printf("%lf\n", b_to_f);
+	int cnt=0;
+	if (b_to_f>=1e-6 ) { // if b_to_f smaller than 10^-6....
+		while(absd(b_to_f)>=10 || absd(b_to_f)<1) {
+			if ( absd(b_to_f)<1 ) b_to_f*=10, cnt--;
+			else b_to_f/=10, cnt++;
 		}
-		if(cnt) printf("%fE%d\n",b_to_f, cnt);
-		else printf("%f\n", b_to_f);
+	}
+	if(cnt) printf("%fE%d\n",b_to_f, cnt);
+	else printf("%f\n", b_to_f);
 }
 
 void ftb(){ // make binary number to float number xxxx xxxx xxxx... input type
@@ -120,7 +121,7 @@ void btf(){ //make float number to binary number .... real hard work
 	union floating myf;
 	myf.fnum = tmp;
 
-	printf(" your input : %f\n", myf.fnum);
+	printf("your input : %f\n", myf.fnum);
 
 	// we  store [32bits    32<< |sign | exp | mant | >>0  ] ...
 	if ( myf.bits.sign & 1<<0) printf("1"); //first we check  
@@ -141,12 +142,32 @@ void btf(){ //make float number to binary number .... real hard work
 }
 
 int main(){
-	printf("input [d,i] : ");
-	char type[3];
-	scanf("%s", type);
+	while(1){
+		printf("===========program select===========\n");
+		printf("[dD] : float input and retrieve binary number\n");
+		printf("[iI] : binary input and retrieve float number\n");
+		printf("[qQ] : quit program\n");
+		printf("===========program select===========\n\n");
+		printf("input [dDiIqQ] :");
+		char type[3];
+		scanf("%s", type);
 
-	if (type[0]=='i'){ //we are going to make float num from binary
-		ftb();
+		if (type[0]=='i' || type[0] =='I'){ //we are going to make float num from binary
+			printf("please input binary number\n");
+			printf("your input should obey next input rule\n");
+			printf("xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx\n\n");
+			printf("your input: ");
+			ftb();
+		}
+		else if(type[0]=='d' || type[0] == 'D') {
+			printf("please input float number\n");
+			printf("your input should obey next input rule\n");
+			printf("123.12321 or you can use word E-> 1.2312321E2\n\n");
+			printf("your input: ");
+			btf();
+		}
+		else if(type[0]=='q' || type[0]=='Q') break;
+		else printf("invalid input\n\n");
+		printf("\n");
 	}
-	else btf();
 }
