@@ -1,4 +1,6 @@
 // this subject is very interesting ...
+// float  to binary  and binary to float conversion
+// you can have word E <--- 2E5 means 2* 10^5 , 2E-5 means 2 * (10^-5)
 #include <stdio.h>
 #include <math.h>
 #include <string.h>
