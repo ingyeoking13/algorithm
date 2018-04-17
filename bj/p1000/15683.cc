@@ -42,7 +42,6 @@ void dfs(int now, int sz, int n, int m){
 				mymv precalc = pre(d[now.type][j], nowdir);
 				int xmove = precalc.dx;
 				int ymove = precalc.dy;
-//				printf("cma %d, type %d dir %d  %d %d %d %d\n", i, now.type, nowdir, x, y, xmove, ymove);
 				x+=xmove, y+=ymove;
 
 				while(0<= x && x< n && 0<= y && y < m){
@@ -52,26 +51,6 @@ void dfs(int now, int sz, int n, int m){
 				}
 			}
 		}
-
-		/*
-		printf("sz : %d\n", sz);
-		for (int i=0; i<sz; i++){
-			printf("%d %d ,", cam[i].x, cam[i].y);
-		}
-		printf("\n");
-		for (int i=0; i<sz; i++){
-			printf("%d ,", dir[i]);
-		}
-
-		printf("\n");
-
-		for (int i=0; i<n; i++){
-			for (int j=0; j<m; j++){
-				printf("%d ", a[i][j]);
-			}
-			printf("\n");
-		}
-		*/
 
 		int tmp=0;
 		for (int i=0; i<n; i++ ){
@@ -93,7 +72,6 @@ void dfs(int now, int sz, int n, int m){
 
 int main(){
 	int n, m; scanf("%d %d", &n, &m);
-	int cnt=0;
 
 	d[1].push_back({0,1});
 	d[2].push_back({0,1}); d[2].push_back({0,-1});
