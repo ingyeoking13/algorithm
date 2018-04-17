@@ -30,6 +30,7 @@
                   만약 a1>b1 이라면 push(dest,A1, a1) 을 호출하고 A항의 노드
                   interator를 한 단계 전진시킵니다.
 */
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -37,8 +38,6 @@ typedef struct node{
   int num, pow;
   struct node* next;
 }node;
-
-
 typedef struct poly{ node* front,* tail; }poly;
 
 poly* newPoly(){
@@ -46,7 +45,6 @@ poly* newPoly(){
   newP->front=newP->tail=0;
   return newP;
 };
-
 
 void push(poly* now, int num, int pow){
   node* newN =  (node*)malloc(sizeof(node));
@@ -63,6 +61,7 @@ void push(poly* now, int num, int pow){
 
 void sortPoly(poly* a){ //using nearly bubble
   for (node* i = a->front; i; i=i->next){
+
     int chk=0;
     for (node* j= a->front; j->next; j=j->next){
       if ( j->pow < j->next->pow){
@@ -105,6 +104,7 @@ void PaddP(poly* now, poly* a, poly* b){
 }
 
 int main(){
+
   poly* a,* b,* c;
   a = newPoly();
   b = newPoly();
@@ -121,5 +121,3 @@ int main(){
   PaddP(c, a, b);
   printP(c);
 }
-
-
