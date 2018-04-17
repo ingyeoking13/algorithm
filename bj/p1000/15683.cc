@@ -15,7 +15,7 @@ mymv pre(mymv now, int nowdir){
 	if (nowdir ==0);
 	else if ( nowdir == 1){
 		int tmp = now.dy;
-		now.dy =  now.dx;
+		now.dy =  -now.dx;
 		now.dx = tmp;
 	}
 	else if ( nowdir == 2){
@@ -24,7 +24,7 @@ mymv pre(mymv now, int nowdir){
 	}
 	else {
 		int tmp = now.dy;
-		now.dy = -now.dx;
+		now.dy = now.dx;
 		now.dx = -tmp;
 	}
 	return now;
@@ -43,6 +43,7 @@ void dfs(int now, int sz, int n, int m){
 				int xmove = precalc.dx;
 				int ymove = precalc.dy;
 //				printf("cma %d, type %d dir %d  %d %d %d %d\n", i, now.type, nowdir, x, y, xmove, ymove);
+				x+=xmove, y+=ymove;
 
 				while(0<= x && x< n && 0<= y && y < m){
 					if (!a[x][y]) a[x][y]=7;
@@ -103,7 +104,7 @@ int main(){
 	for (int i=0; i<n; i++){
 		for (int j=0; j<m; j++){
 			scanf("%d", &a[i][j]);
-			if ( a[i][j] ) cam.push_back({i, j, a[i][j]});
+			if ( a[i][j]!=6  && a[i][j]!=0) cam.push_back({i, j, a[i][j]});
 		}
 	}
 	dfs(0, cam.size(), n, m);
