@@ -1,1683 +1,3 @@
-vi 954D.cc
-g++ 954D.cc -std=c++11
-./a.out 
-vi 954D.cc
-g++ 954D.cc -std=c++11
-./a.out 
-vi 954D.cc
-g++ 954D.cc -std=c++11
-./a.out 
-vi 954D.cc
-g++ 954D.cc -std=c++11
-./a.out 
-<재홍> 하 야마도네
-<잔챙이> 형님
-<잔챙이> 죄송합니다
-<잔챙이> 너무깝?습니까?
-<재홍> 너나
-<재홍> 좋아하지
-<재홍> 좋아한다 쳐
-<잔챙이> 네형니
-<재홍> 시발롬아
-<잔챙이> 형님
-<잔챙이> 좋아합니다
-<잔챙이> 사랑하고말고요
-<재홍> ㅇㅇ
-<재홍> 맞아
-<재홍> 사랑이랑 다른
-<재홍> 좋아하는거
-<재홍> 음
-<재홍> 너가 나한테 끄지라고 햇어
-<잔챙이> ㅇㅇ
-<재홍> 야 화해하자
-<재홍> 끄지라
-<재홍> 이상황이야
-<잔챙이> ㅇㅇ
-<재홍> 다음날아침
-<재홍> 너가
-<잔챙이> ㅇㅇ
-<재홍> 나한테 화해하고시퍼졌어
-<재홍> 어캐할거야
-<잔챙이> 나같으면 그냥 평소처럼 장난칠거같은데
-<재홍> 더 심각한
-<재홍> 상황임
-<잔챙이> 음
-<재홍> 너 차단당했음
-<재홍> 모든 연락
-<잔챙이> 그냥전화루 화해하자고 해야지글머
-<잔챙이> 그럼
-<재홍> 화해하자고 했어만약
-<재홍> 끄지라며 개놈아 꺼졋잖아
-<재홍> 이러면 뭐라함
-<잔챙이> 미안 내가 상황판단 잘못한것같아
-<잔챙이> 이럼되는거아님?
-<재홍> 더 납득되게
-<재홍> 말못하냐 잔챙아 ?
-<잔챙이> 네
-<잔챙이> 죄송합니다
-<재홍> 내가 이러려고 너 키웠냐?
-<잔챙이> 아닙니다
-<누렁이> 너가 큰자지 좋아하는줄 알고 삐졌다말하면 되지
-./a.out 
-vi 954D.cc 
-<누렁이> 너가 큰자지 좋아하는줄 알고 삐졌다말하면 되지
-g++ 954D.cc -std=c+11
-g++ 954D.cc -std=c++11
-./a.out 
-vi 954D.cc 
-g++ 954D.cc -std=c++11
-./a.out 
-vi 954D.cc 
-g++ 954D.cc -std=c++11
-./a.out 
-vi 954D.cc 
-g++ 954D.cc -std=c++11
-./a.out 
-vi 954D.cc 
-./a.out 
-vi 954D.cc 
-g++ 954D.cc -std=c++11
-./a.out 
-vi 954D.cc 
-g++ 954D.cc -std=c++11
-./a.out 
-vi 954D.cc 
-ls
-cd sockprg/
-ls
-gcc socks.c 
-./a.out 
-vi socks.c 
-gcc socks.c 
-./a.out 
-vi socks.c 
-gcc socks.c 
-./a.out 
-gcc socks.c 
-./a.out 
-vi socks.c 
-g++ socks.c 
-gcc socks.c 
-./a.out 
-vi socks.c 
-./a.out 
-gcc socks.c 
-./a.out 
-vi socks.c 
-./a.out 
-gcc socks.c 
-./a.out 
-vi socks.c 
-gcc socks.c 
-./a.out 
-vi socks.c 
-./a.out 
-vi socks.c 
-telnet 127.0.0.1 80
-./a.out 
-vi socks.c 
-telnet 127.0.0.1 80
-gcc socks.c 
-vi socks.c 
-gcc socks.c 
-vi socks.c 
-gcc socks.c 
-vi socks.c 
-gcc socks.c 
-./a.out 
-vi socks.c 
-gcc socks.c 
-./a.out 
-vi socks.c 
-gcc socks.c 
-./a.out 
-vi socks.c 
-./a.out 
-vi socks.c 
-gcc socks.c 
-./a.out 
-vi socks.c 
-gcc -o server socks.c 
-./server 
-vi socks.c 
-gcc socks.c 
-vi socks.c 
-gcc socks.c 
-vi socks.c 
-gcc socks.c 
-vi socks.c 
-gcc socks.c 
-vi socks.c 
-gcc socks.c 
-vi socks.c 
-gcc socks.c 
-vi socks.c 
-gcc socks.c 
-./a.out 
-vi socks.c 
-gcc socks.c 
-gcc sockc.c 
-telnet localhost 9000
-ls
-./server 
-gcc -o server socks.c 
-./server 
-vi socks.c 
-gcc -o server socks.c
-./server 
-vi sockc.c 
-./server 
-vi socks.c 
-gcc -o server socks.c
-./server 
-vi socks.c 
-gcc -o server socks.c
-./server 
-vi socks.c 
-gcc -o server socks.c
-./server 
-gcc -o server socks.c
-./server 
-vi socks.c 
-gcc -o server socks.c
-./server 
-vi socks.c 
-lsl
-ll
-vi socks.c 
-ls
-mkdir chapter1
-mv * ./chapter1/
-mkdir ch2
-ls
-mv chapter1/ ch1
-l
-cd ch2/
-ll
-more /etc/services 
-ll
-vi getservent.c
-gcc getservent.c 
-./a.out 
-man servent
-vi getservent.c
-./a.out 
-gcc getservent.c 
-./a.out 
-cd
-ls
-cd cf/
-ls
-vi 959A.c
-gcc 959A.c 
-./a.out 
-vi 959A.c
-vi 959B.cc
-g++ 959B.cc 
-vi 959B.cc
-g++ 959B.cc 
-vi 959B.cc
-g++ 959B.cc 
-vi 959B.cc
-g++ 959B.cc 
-vi 959B.cc
-g++ 959B.cc 
-clear
-g++ 959B.cc 
-vi 959B.cc
-g++ 959B.cc 
-clear
-vi 959B.cc
-g++ 959B.cc 
-./a.out 
-vi 959B.cc
-g++ 959B.cc 
-./a.out 
-vi 959B.cc
-g++ 959B.cc 
-./a.out 
-vi 959B.cc
-g++ 959B.cc 
-./a.out 
-vi 959B.cc
-g++ 959B.cc 
-vi 959B.cc
-g++ 959B.cc 
-vi 959B.cc
-g++ 959B.cc 
-vi 959B.cc
-g++ 959B.cc 
-clear
-vi 959B.cc
-g++ 959B.cc -std=c++11
-vi 959B.cc
-g++ 959B.cc -std=c++11
-vi 959B.cc
-g++ 959B.cc -std=c++11
-vi 959B.cc
-g++ 959B.cc -std=c++11
-vi 959B.cc
-g++ 959B.cc -std=c++11
-./a.out 
-vi 959B.cc
-g++ 959B.cc -std=c++11
-./a.out 
-vi 959B.cc
-vi 959B.cc 
-./a.out 
-vi 959B.cc
-g++ 959B.cc -std=c++11
-./a.out 
-vi 959B.cc
-g++ 959B.cc -std=c++11
-./a.out 
-vi 959B.cc
-g++ 959B.cc -std=c++11
-vi 959B.cc
-g++ 959B.cc -std=c++11
-./a.out 
-vi 959B.cc
-vi 959C.cc
-gcc 959C.cc 
-./a.out 
-vi 959C.cc
-gcc 959C.cc 
-./a.out 
-vi 959C.cc
-gcc 959C.cc 
-./a.out 
-vi 959C.cc
-gcc 959C.cc 
-./a.out 
-vi 959C.cc
-gcc 959C.cc 
-./a.out 
-vi 959C.cc
-gcc 959C.cc 
-./a.out 
-vi 959C.cc
-vi 959E.cc
-gcc 959E.cc 
-./a.out 
-vi 959E.cc
-exit
-ls
-cd cf/
-cd 
-ls
-cd sockprg/
-ls
-ll
-cd ch2/
-ll
-vi ordering.c
-gcc ordering.c 
-./a.out 
-vi ordering.c
-vi noth_hton.c
-gcc noth_hton.c 
-vi noth_hton.c
-gcc noth_hton.c 
-vi noth_hton.c
-gcc noth_hton.c 
-vi noth_hton.c
-gcc noth_hton.c 
-vi noth_hton.c
-gcc noth_hton.c 
-./a.out 
-vi noth_hton.c
-vi inet_aton.c
-gcc inet_aton.c 
-vi inet_aton.c
-gcc inet_aton.c 
-./a.out 
-vi inet_aton.c
-./a.out 
-gcc inet_aton.c 
-./a.out 
-vi inet_aton.c
-vi gethostbyname.c
-gcc gethostbyname.c 
-vi gethostbyname.c
-gcc gethostbyname.c 
-clear
-gcc gethostbyname.c 
-vi gethostbyname.c
-gcc gethostbyname.c 
-vi gethostbyname.c
-gcc gethostbyname.c 
-./a.out 
-vi remote_addr.c
-gcc remote_addr.c 
-vi remote_addr.c
-gcc remote_addr.c 
-vi remote_addr.c
-gcc remote_addr.c 
-vi remote_addr.c
-gcc remote_addr.c 
-vi remote_addr.c
-gcc remote_addr.c 
-vi remote_addr.c
-gcc remote_addr.c 
-vi remote_addr.c
-gcc remote_addr.c 
-vi remote_addr.c
-gcc remote_addr.c 
-vi remote_addr.c
-cd
-ls
-cd cf/
-ls
-vi 9exi
-exit
-ls
-cd sockprg/
-telnet localhost 9000
-grep echo /etc/services 
-telnet localhost 7
-echo 
-echo
-echo asdf
-netstat -a -n |morer
-netstat -a -n |more
-./ser
-ll
-cd ch2/
-./server 
-vi server 
-vi echo_server.c 
-gcc echo_server.c -o server
-./server 
-exit
-netstat
-netstat -a |more
-ll
-ls
-cd sockprg/
-ll
-cd ch1/
-ls
-vi socks.c 
-cd
-ls
-cd sockprg/
-ls
-cd ch2/
-ll
-vi echo_server.c
-gcc echo_server.c 
-vi echo_server.c
-gcc echo_server.c 
-vi echo_server.c
-gcc echo_server.c 
-./a.out 
-vi echo_server.c
-gcc echo_server.c 
-vi echo_server.c
-gcc echo_server.c 
-./a.out 
-vi echo_server.c
-gcc echo_server.c 
-vi echo_server.c
-vi echo_client.c
-gcc echo_server.c -o server
-gcc echo_client.c -o client
-vi echo_client.c
-gcc echo_client.c -o client
-vi echo_client.c
-gcc echo_client.c -o client
-vi echo_client.c
-gcc echo_client.c -o client
-vi echo_client.c
-gcc echo_client.c -o client
-vi echo_client.c
-gcc echo_client.c -o client
-./client 
-vi echo_client.c
-gcc echo_client.c -o client
-./a.out 
-./client 
-vi echo_client.c
-gcc echo_client.c -o client
-./client 
-vi echo_client.c
-gcc echo_client.c -o client
-./client 
-vi echo_client.c
-gcc echo_client.c -o client
-./client 
-vi echo_client.c
-gcc echo_client.c -o client
-./a.out 
-./client 
-vi echo_client.c
-./a.out 
-gcc echo_client.c -o client
-./client 
-./a.out 
-vi echo_client.c
-gcc echo_client.c -o client
-./client 
-vi echo_client.c
-gcc echo_client.c -o client\
-gcc echo_client.c -o client
-./client 
-vi echo_client.c
-gcc echo_client.c -o client
-./client 
-vi echo_client.c
-gcc echo_client.c -o client
-./client 
-vi echo_client.c
-gcc echo_client.c -o client
-./client 
-vi echo_client.c
-gcc echo_client.c -o client
-./client 
-vi echo_client.c
-./client 
-vi echo_client.c
-gcc echo_client.c -o client
-./client 
-vi echo_client.c
-gcc echo_client.c -o client
-./client 
-vi echo_client.c
-exit
-ll
-cd sockprg/
-cd ch2/
-./client 
-cd ch2/ex
-exit
-cd sockprg/
-ll
-cd ch2/
-ll
-./server 
-cd sockprg/
-ll
-cd ch2/
-./client 
-netstat -t -n
-./client 
-netstat -t -n
-ls
-cd c
-cd cf/
-ls
-ll
-vi 961A.c
-mv 961A.c 961A.cc
-vi 961A.cc 
-g++ 961A.cc 
-vi 961A.cc 
-g++ 961A.cc 
-./a.out 
-vi 961A.cc 
-vi 961B.cc
-g++ 961B.cc 
-vi 961B.cc
-g++ 961B.cc 
-vi 961B.cc
-g++ 961B.cc 
-./a.out 
-vi 961B.cc
-g++ 961B.cc 
-./a.out 
-vi 961B.cc
-./a.out 
-g++ 961B.cc 
-./a.out 
-vi 961B.cc
-g++ 961B.cc 
-./a.out 
-vi 961B.cc
-g++ 961B.cc 
-./a.out 
-}
-./a.out 
-vi 961B.cc
-vi 961C.cc
-g++ 961C.cc 
-vi 961C.cc
-g++ 961C.cc 
-./a.out 
-vi 961C.cc
-g++ 961C.cc 
-./a.out 
-vi 961C.cc
-g++ 961C.cc 
-./a.out 
-vi 961C.cc
-g++ 961C.cc 
-./a.out 
-vi 961C.cc
-g++ 961C.cc 
-vi 961C.cc
-g++ 961C.cc 
-./a.out 
-vi 961C.cc
-g++ 961C.cc 
-./a.out 
-vi 961C.cc
-g++ 961C.cc 
-./a.out 
-vi 961C.cc
-./a.out 
-g++ 961C.cc 
-./a.out 
-vi 961C.cc
-./a.out 
-g++ 961C.cc 
-vi 961C.cc
-g++ 961C.cc 
-./a.out 
-vi 961C.cc
-g++ 961C.cc 
-./a.out 
-vi 961C.cc
-g++ 961C.cc 
-./a.out 
-vi 961C.cc
-g++ 961C.cc 
-./a.out 
-vi 961C.cc
-vi 961D.cc
-vi 961E.cc
-ll
-cd bj/
-ls
-cd p1000/
-ll
-vi 11014.cc
-g++ 11014.cc 
-vi 11014.cc
-g++ 11014.cc 
-vi 11014.cc
-g++ 11014.cc 
-./a.out 
-vi 11014.cc
-g++ 11014.cc 
-./a.out 
-vi 11014.cc
-g++ 11014.cc 
-./a.out 
-vi 11014.cc
-g++ 11014.cc 
-./a.out 
-vi 11014.cc
-g++ 11014.cc 
-./a.out 
-vi 11014.cc
-g++ 11014.cc 
-./a.out 
-vi 11014.cc
-./a.out 
-vi 11014.cc
-g++ 11014.cc 
-./a.out 
-vi 11014.cc
-g++ 11014.cc 
-./a.out 
-vi 11014.cc
-g++ 11014.cc 
-./a.out 
-vi 11014.cc
-g++ 11014.cc 
-./a.out 
-g++ 11014.cc 
-./a.out 
-g++ 11014.cc 
-vi 11014.cc
-exit
-ll
-cd bj/
-ll
-cd p1000/
-ll
-vi 11405.cc 
-g++ 11405.cc 
-vi 11405.cc 
-g++ 11405.cc 
-vi 11405.cc 
-g++ 11405.cc 
-clear
-g++ 11405.cc 
-vi 11405.cc 
-clear
-g++ 11405.cc 
-vi 11405.cc 
-g++ 11405.cc 
-vi 11405.cc 
-g++ 11405.cc 
-g++ 11405.cc -std=c++11
-vi 11405.cc 
-g++ 11405.cc -std=c++11
-vi 11405.cc 
-g++ 11405.cc -std=c++11
-./a.out 
-vi 11405.cc 
-g++ 11405.cc -std=c++11
-./a.out 
-vi 11405.cc 
-g++ 11405.cc -std=c++11
-./a.out 
-vi 11405.cc 
-g++ 11405.cc -std=c++11
-./a.out 
-vi 11405.cc 
-g++ 11405.cc -std=c++11
-./a.out 
-vi 11405.cc 
-g++ 11405.cc -std=c++11
-./a.out 
-vi 11405.cc 
-vi 11407.cc
-g++ 11407.cc 
-vi 11407.cc
-g++ 11407.cc 
-vi 11407.cc
-g++ 11407.cc 
-vi 11407.cc
-g++ 11407.cc 
-vi 11407.cc
-g++ 11407.cc 
-./a.out 
-vi 11407.cc
-./a.out 
-g++ 11407.cc 
-vi 11407.cc
-g++ 11407.cc 
-./a.out 
-vi 11407.cc
-g++ 11407.cc 
-./a.out 
-vi 11407.cc
-g++ 11407.cc 
-./a.out 
-vi 11407.cc
-g++ 11407.cc 
-./a.out 
-vi 11407.cc
-g++ 11407.cc 
-./a.out 
-vi 11407.cc
-g++ 11407.cc 
-./a.out 
-vi 11407.cc
-g++ 11407.cc 
-./a.out 
-vi 11407.cc
-vi 11407.cc 
-g++ 11407.cc 
-./a.out 
-vi 11407.cc 
-ll
-ls
-mkdir codejam
-ll
-cd codejam/
-ll
-vi saving.cc
-exit
-ll
-cd codejam/
-ll
-vi saving.cc 
-cd codejam/
-g++ saving.cc 
-./a.out 
-vi saving.cc 
-g++ saving.cc 
-./a.out 
-vi saving.cc 
-g++ saving.cc 
-./a.out 
-vi saving.cc 
-g++ saving.cc 
-./a.out 
-vi saving.cc 
-g++ saving.cc 
-./a.out 
-vi saving.cc 
-g++ saving.cc 
-./a.out 
-vi saving.cc 
-vi troublesort.cc 
-g++ troublesort.cc 
-./a.out 
-vi troublesort.cc 
-g++ troublesort.cc 
-./a.out 
-vi troublesort.cc 
-g++ troublesort.cc 
-./a.out 
-vi troublesort.cc 
-vi saving.cc 
-g++ saving.cc 
-./a.out 
-vi saving.cc 
-g++ saving.cc 
-./a.out 
-vi saving.cc 
-exit
-cd
-cdll
-ll
-cd bj/
-ll
-cd ..
-ll
-cd cod
-cd codejam/
-ll
-vi saving.cc 
-ll
-cd
-ll
-ls
-mkdir kmong
-ll
-cd kmong/
-ll
-vi 
-vi job1.c
-g++ job1.c 
-vi job1.c
-g++ job1.c 
-gcc job1.c 
-clear
-gcc job1.c 
-vi job1.c
-gcc job1.c 
-vi job1.c
-gcc job1.c 
-vi job1.c
-gcc job1.c 
-vi job1.c
-gcc job1.c 
-./a.out 
-vi job1.c
-gcc job1.c 
-vi job1.c
-gcc job1.c 
-./a.out 
-vi job1.c
-gcc job1.c 
-vi job1.c
-gcc job1.c 
-vi job1.c
-gcc job1.c 
-./a.out 
-vi job1.c
-gcc job1.c 
-./a.out 
-vi job1.c
-./a.out 
-vi job1.c
-./a.out 
-vi job1.c
-gcc job1.c 
-./a.out 
-vi job1.c
-gcc job1.c 
-./a.out 
-vi job1.c
-gcc job1.c 
-vi job1.c
-gcc job1.c 
-./a.out 
-vi job1.c
-gcc job1.c 
-./a.out 
-vi job1.c
-gcc job1.c 
-./a.out 
-vi job1.c
-gcc job1.c 
-./a.out 
-vi job1.c
-gcc job1.c 
-./a.out 
-vi job1.c
-gcc job1.c 
-./a.out 
-vi job1.c
-exit
-ll
-cd algo
-cd algorithm/
-ll
-cd sort/
-ls
-vi quicksort.c
-ll
-cd
-ll
-vi leetcode/
-cd leetcode/
-ll
-vi 812.cc
-vi 814.cc
-vi 813.cc
-vi 813.cc 
-vi 815.cc
-ll
-cd
-ll
-cd kmong/
-ll
-vi job1.c 
-ll
-cd
-ll
-cd leetcode/
-ll
-vi 814.cc 
-vi 813.cc 
-vi 812.cc 
-ll
-cd kmong/
-ll
-vi job1.c 
-gcc job1.c 
-./a.out 
-vi job1.c 
-gcc job1.c 
-vi job1.c 
-gcc job1.c 
-./a.out 
-vi job1.c 
-gcc job1.c 
-./a.out 
-vi job1.c 
-ll
-cd
-ll
-cd swex/
-ll
-vi 4050.cc
-g++ 4050.cc 
-vi 4050.cc
-g++ 4050.cc 
-./a.out 
-vi 4050.cc
-g++ 4050.cc 
-./a.out 
-vi 4050.cc
-ll
-cd
-ll
-cd bj/
-ll
-cd p1000/
-ll
-vi 1769.cc
-g++ 1769.cc 
-vi 1769.cc
-g++ 1769.cc 
-./a.out 
-vi 1769.cc
-gcc 1769.cc 
-./a.out 
-vi 1769.cc
-gcc 1769.cc 
-./a.out 
-vi 1769.cc
-gcc 1769.cc 
-./a.out 
-vi 1769.cc
-gcc 1769.cc 
-./a.out 
-vi 1769.cc
-gcc 1769.cc 
-./a.out 
-vi 1769.cc
-gcc 1769.cc 
-./a.out 
-vi 1769.cc
-gcc 1769.cc 
-vi 1769.cc
-gcc 1769.cc 
-./a.out 
-vi 1769.cc
-gcc 1769.cc 
-./a.out 
-vi 1769.cc
-gcc 1769.cc 
-./a.out 
-vi 1769.cc
-gcc 1769.cc 
-./a.out 
-vi 1769.cc
-gcc 1769.cc 
-./a.out 
-vi 1769.cc
-gcc 1769.cc 
-./a.out 
-vi 1769.cc
-gcc 1769.cc 
-./a.out 
-vi 1769.cc
-vi 12785.cc
-gcc 12785.cc 
-./a.out 
-vi 12785.cc
-gcc 12785.cc 
-./a.out 
-vi 12785.cc
-gcc 12785.cc 
-./a.out 
-vi 12785.cc
-gcc 12785.cc 
-./a.out 
-vi 12785.cc
-gcc 12785.cc 
-./a.out 
-vi 12785.cc
-gcc 12785.cc 
-./a.out 
-vi 12785.cc
-gcc 12785.cc 
-vi 12785.cc
-gcc 12785.cc 
-vi 12785.cc
-gcc 12785.cc 
-./a.out 
-vi 12785.cc
-./a.out 
-vi 12785.cc
-gcc 12785.cc 
-vi 12785.cc
-gcc 12785.cc 
-./a.out 
-vi 12785.cc
-vi 12779.cc
-g++ 12779.cc 
-vi 12779.cc
-g++ 12779.cc 
-vi 12779.cc
-g++ 12779.cc 
-g++ 12779.cc -lm
-vi 12779.cc
-g++ 12779.cc -lm
-g++ 12779.cc
-vi 12779.cc
-g++ 12779.cc
-./a.out 
-vi 12779.cc
-g++ 12779.cc
-./a.out 
-vi 12779.cc
-g++ 12779.cc
-./a.out 
-vi 12779.cc
-g++ 12779.cc
-./a.out 
-vi 12779.cc
-g++ 12779.cc
-./a.out 
-vi 12779.cc
-g++ 12779.cc
-./a.out 
-vi 12779.cc
-g++ 12779.cc
-./a.out 
-vi 12779.cc
-g++ 12779.cc
-./a.out 
-vi 12779.cc
-g++ 12779.cc
-./a.out 
-vi 12779.cc
-g++ 12779.cc
-./a.out 
-vi 12779.cc
-g++ 12779.cc
-./a.out 
-vi 12779.cc
-g++ 12779.cc
-./a.out 
-vi 12779.cc
-g++ 12779.cc
-./a.out 
-vi 12779.cc
-g++ 12779.cc
-./a.out 
-vi 12779.cc
-g++ 12779.cc
-./a.out 
-vi 12779.cc
-g++ 12779.cc
-./a.out 
-vi 12779.cc
-g++ 12779.cc
-./a.out 
-vi 12779.cc
-g++ 12779.cc
-vi 12779.cc
-g++ 12779.cc
-./a.out 
-vi 12779.cc
-g++ 12779.cc
-./a.out 
-vi 12779.cc
-g++ 12779.cc
-./a.out 
-vi 12779.cc
-g++ 12779.cc
-./a.out 
-vi 12779.cc
-g++ 12779.cc
-./a.out 
-vi 12779.cc
-g++ 12779.cc
-./a.out 
-vi 12779.cc
-g++ 12779.cc
-./a.out 
-vi 12779.cc
-g++ 12779.cc
-./a.out a
-vi 12779.cc
-g++ 12779.cc
-./a.out 
-vi 12779.cc
-cd
-ll
-cd kmong/
-ll
-vi job2.c
-gcc job2.c 
-vi job2.c
-gcc job
-gcc job2.c 
-./a.out 
-gcc job
-vi job2.c
-./a.out 
-vi job2.c
-gcc job2.c 
-vi job2.c
-gcc job2.c 
-vi job2.c
-gcc job2.c 
-vi job2.c
-gcc job2.c 
-vi job2.c
-gcc job2.c 
-vi job2.c
-gcc job2.c 
-vi job2.c
-gcc job2.c 
-vi job2.c
-gcc job2.c 
-vi job2.c
-gcc job2.c 
-./a.out 
-vi job2.c
-./a.out 
-gcc job2.c 
-./a.out 
-vi job2.c
-gcc job2.c 
-vi job2.c
-gcc job2.c 
-./a.out 
-vi job2.c
-gcc job2.c 
-./a.out 
-vi job2.c
-gcc job2.c 
-./a.out 
-vi job2.c
-gcc job2.c 
-./a.out 
-vi job2.c
-gcc job2.c 
-vi job2.c
-gcc job2.c 
-./a.out 
-vi job2.c
-vi in.in
-gcc job2.c 
-./a.out 
-vi in.in
-vi job2.c 
-gcc job2.c 
-./a.out 
-vi job2.c 
-gcc job2.c 
-./a.out 
-vi job2.c 
-gcc job2.c 
-./a.out 
-vi job2.c 
-gcc job2.c 
-./a.out 
-vi job2.c 
-gcc job2.c 
-./a.out 
-vi job2.c 
-gcc job2.c 
-./a.out 
-vi job2.c 
-gcc job2.c 
-./a.out 
-vi job2.c 
-gcc job2.c 
-./a.out 
-vi job2.c 
-gcc job2.c 
-./a.out 
-vi job2.c 
-gcc job2.c 
-./a.out 
-vi job2.c 
-gcc job2.c 
-./a.out 
-vi job2.c 
-gcc job2.c 
-./a.out 
-vi job2.c 
-gcc job2.c 
-./a.out 
-vi job2.c 
-cd
-ll
-cd kmong/
-ll
-vi job2.c 
-ll
-cd 
-ll
-vi bj/
-cd bj/
-ll
-cd p1000/
-ll
-rm ":w"
-ll
-vi 10179.c
-gcc 10179.c 
-./a.out 
-vi 10179.c
-gcc 10179.c 
-./a.out 
-vi 10179.c
-ll
-vi 1938.cc
-g++ 1938.cc 
-vi 1938.cc
-g++ 1938.cc 
-vi 1938.cc
-g++ 1938.cc 
-clear
-g++ 1938.cc 
-vi job2.c 
-vi 1938.cc
-vi job2.c 
-g++ 1938.cc 
-vi job2.c 
-vi 1938.cc 
-g++ 1938.cc 
-g++ 1938.cc -std=c++11
-vi 1938.cc 
-g++ 1938.cc 
-g++ 1938.cc -std=c++11
-clear
-g++ 1938.cc -std=c++11
-vi 1938.cc 
-g++ 1938.cc -std=c++11
-vi 1938.cc 
-g++ 1938.cc -std=c++11
-vi 1938.cc 
-g++ 1938.cc -std=c++11
-./a.out 
-vi 1938.cc 
-g++ 1938.cc -std=c++11
-./a.out 
-vi 1938.cc 
-ll
-cd bj/j
-cd bj/
-ll
-
-ll
-vi 1938.cc 
-g++ 1938.cc 
-vi 1938.cc 
-g++ 1938.cc -std=c++11
-vi 1938.cc 
-g++ 1938.cc -std=c++11
-vi 1938.cc 
-g++ 1938.cc -std=c++11
-vi 1938.cc 
-g++ 1938.cc -std=c++11
-./a.out 
-vi 1938.cc 
-g++ 1938.cc -std=c++11
-./a.out 
-vi 1938.cc 
-g++ 1938.cc -std=c++11
-./a.out 
-vi 1938.cc 
-g++ 1938.cc -std=c++11
-./a.out 
-vi 1938.cc 
-g++ 1938.cc -std=c++11
-./a.out 
-vi 1938.cc 
-g++ 1938.cc -std=c++11
-./a.out 
-g++ 1938.cc -std=c++11
-./a.out 
-vi 1938.cc 
-g++ 1938.cc -std=c++11
-./a.out 
-}
-./a.out 
-vi 1938.cc 
-}
-g++ 1938.cc -std=c++11
-vi 1938.cc 
-g++ 1938.cc -std=c++11
-./a.out 
-g++ 1938.cc -std=c++11
-./a.out 
-vi 1938.cc 
-g++ 1938.cc -std=c++11
-vi 1938.cc 
-./a.out 
-vi 1938.cc 
-g++ 1938.cc -std=c++11
-vi 1938.cc 
-g++ 1938.cc -std=c++11
-./a.out 
-vi 1938.cc 
-g++ 1938.cc -std=c++11
-vi 1938.cc 
-g++ 1938.cc -std=c++11
-./a.out 
-vi 1938.cc 
-g++ 1938.cc -std=c++11
-vi 1938.cc 
-g++ 1938.cc -std=c++11
-./a.out 
-vi 1938.cc 
-g++ 1938.cc -std=c++11
-./a.out 
-vi 1938.cc 
-g++ 1938.cc -std=c++11
-./a.out 
-vi 1938.cc 
-g++ 1938.cc -std=c++11
-./a.out 
-vi 1938.cc 
-g++ 1938.cc -std=c++11
-vi 1938.cc 
-g++ 1938.cc -std=c++11
-./a.out 
-vi 1938.cc 
-g++ 1938.cc -std=c++11
-./a.out 
-2 1 1
-2 1 0
-1 1 0
-0 1 0
-ll
-cd
-ll
-ls
-cd swtest/
-ll
-cd
-ll
-cd swex/
-ll
-vi 1244.cc
-g++ 1244
-g++ 1244.cc 
-vi 1244.cc
-g++ 1244.cc 
-vi 1244.cc
-g++ 1244.cc 
-vi 1244.cc
-g++ 1244.cc 
-./a.out 
-vi 1244.cc
-g++ 1244.cc 
-./a.out 
-vi 1244.cc
-g++ 1244.cc 
-./a.out 
-vi 1244.cc
-g++ 1244.cc 
-./a.out 
-./a.out 3
-./a.out
-./a.out 
-vi 1244.cc
-g++ 1244.cc 
-./a.out 
-vi 1244.cc
-g++ 1244.cc 
-./a.out 
-vi 1244.cc
-g++ 1244.cc 
-./a.out 
-vi 1244.cc
-g++ 1244.cc 
-./a.out 
-vi 1244.cc
-g++ 1244.cc 
-./a.out 
-vi 1244.cc
-g++ 1244.cc 
-./a.out 
-vi 1244.cc
-g++ 1244.cc 
-./a.out 
-vi 1244.cc
-g++ 1244.cc 
-./a.out 
-vi 1244.cc
-:wq
-vi 1244.cc
-g++ 1244.cc 
-./a.out 
-vi 1244.cc
-g++ 1244.cc 
-./a.out 
-vi 1244.cc
-g++ 1244.cc 
-./a.out 
-vi 1244.cc
-g++ 1244.cc 
-vi 1244.cc
-g++ 1244.cc 
-./a.out 
-vi 1244.cc
-g++ 1244.cc 
-./a.out 
-vi 1244.cc
-g++ 1244.cc 
-./a.out 
-vi 1244.cc
-g++ 1244.cc 
-./a.out 
-vi 1244.cc
-./a.out 
-vi 1244.cc
-g++ 1244.cc 
-./a.out 
-vi 1244.cc
-g++ 1244.cc 
-./a.out 
-vi 1244.cc
-./a.out 
-g++ 1244.cc 
-./a.out 
-vi 1244.cc
-g++ 1244.cc 
-./a.out 
-vi 1244.cc
-g++ 1244.cc 
-vi 1244.cc
-g++ 1244.cc 
-./a.out 
-g++ 1244.cc 
-./a.out 
-vi 1244.cc
-g++ 1244.cc 
-./a.out 
-vi 1244.cc
-g++ 1244.cc 
-./a.out 
-g++ 1244.cc 
-./a.out 
-vi 1244.cc
-g++ 1244.cc 
-./a.out 
-vi 1244.cc
-g++ 1244.cc 
-./a.out 
-2737 1
-757148 1
-78466 2
-32888 2
-777770 5
-436659 2
-431159 7
-112233 3
-vi 1244.cc
-431159 7
-g++ 1244.cc 
-./a.out 
-10
-123 1
-2737 1
-757148 1
-78466 2
-32888 2
-777770 5
-436659 2
-431159 7
-112233 3
-./a.out 
-431159 7
-vi 1244.cc 
-g++ 1244.cc 
-./a.out 
-vi 1244.cc 
-g++ 1244.cc 
-./a.out 
-vi 1244.cc 
-g++ 1244.cc 
-./a.out 
-#include <string.h>
-#include <algorithm>
-using namespace std;
-int n, m, mx, a[6], len;
-int swap(int &a, int &b) {int tmp=b; b=a, a=tmp;}
-void dfs(int now, int cnt){
-};
-int main(){
-}
-./a.out 
-vi 1244.cc 
-g++ 1244.cc 
-./a.out 
-vi 1244.cc 
-g++ 1244.cc 
-./a.out 
-vi 1244.cc 
-g++ 1244.cc 
-./a.out 
-vi 1244.cc 
-g++ 1244.cc 
-./a.out 
-vi 1244.cc 
-g++ 1244.cc 
-./a.out 
-vi 1244.cc 
-g++ 1244.cc 
-./a.out 
-vi 1244.cc 
-g++ 1244.cc 
-./a.out 
-vi 1244.cc 
-g++ 1244.cc 
-./a.out 
-vi 1244.cc 
-g++ 1244.cc 
-./a.out 
-vi 1244.cc 
-vi 1952.cc
-g++ 1952.c
-./a.out 
-vi 1952.cc
-g++ 1952.c
-g++ 1952.cc 
-vi 1952.cc
-g++ 1952.cc 
-vi 1952.cc
-g++ 1952.cc 
-./a.out 
-#include <algorithm>
-using namespace std;
-int mn;
-void dfs(int now, int sum, int* cost, int* a){
-};
-int main(){
-}
-./a.out 
-vi 1952.cc]
-vi 1952.c
-vi 1952.cc
-g++ 1952.c
-g++ 1952.cc
-./a.out 
-vi 1952.cc
-g++ 1952.cc
-./a.out 
-vi 1952.cc
-g++ 1952.cc
-./a.out 
-vi 1952.cc
-g++ 1952.cc
-./a.out 
-vi 1952.cc
-ll
-cd
-git add .
-git commit -m 'asdf'
-git push adkb master`dd
-cd
-vi README.md 
-git add .
-git push adkb maste
-git add .
-git commit -m 'asdf'
-git push adkb master
-cd swex/
-ll
-vi 1952.cc
-git add .
-git commit -m 'asdf'
-git push adkb master
-vi 1952.cc
-git add .
-git commimt -m 'asdf'
-git commit -m 'asdf'
-git push adkb master
-ll
-cd
-ll
-cd kmong/
-ll
-vi job2.c 
-git add .
-git commit -m 'asdf'
-git push adkb master
-ll
-vi kmong/
-cd kmong/
-ll
-vi job2.c 
-vi job2_upgrade.c
-g++ job2_upgrade.c 
-vi job2_upgrade.c
-g++ job2_upgrade.c 
-vi job2_upgrade.c
-g++ job2_upgrade.c 
-clear
-vi job2_upgrade.c
-g++ job2_upgrade.c 
-vi job2_upgrade.c
-g++ upg
-gcc job2_upgrade.c 
-vi job2_upgrade.c
-gcc job2_upgrade.c 
-vi job2_upgrade.c
-gcc job2_upgrade.c 
-vi job2_upgrade.c
-gcc job2_upgrade.c 
-vi job2_upgrade.c
-gcc job2_upgrade.c 
-vi job2_upgrade.c
-gcc job2_upgrade.c 
-vi job2_upgrade.c
-gcc job2_upgrade.c 
-./a.out 
-vi job2_upgrade.c
-gcc job2_upgrade.c 
-./a.out 
-vi job2_upgrade.c
-gcc job2_upgrade.c 
-./a.out 
-vi job2_upgrade.c
-gcc job2_upgrade.c 
-vi job2_upgrade.c
-gcc job2_upgrade.c 
-./a.out 
-vi job2_upgrade.c
-gcc job2_upgrade.c 
-./a.out 
-vi job2_upgrade.c
-gcc job2_upgrade.c 
-./a.out 
-vi job2_upgrade.c
-gcc job2_upgrade.c 
-./a.out 
-vi job2_upgrade.c
-gcc job2_upgrade.c 
-./a.out 
-vi job2_upgrade.c
-gcc job2_upgrade.c 
-./a.out 
-vi job2_upgrade.c
-gcc job2_upgrade.c 
-./a.out 
-vi job2_upgrade.c
-gcc job2_upgrade.c 
-./a.out 
-vi job2_upgrade.c
-gcc job2_upgrade.c 
-./a.out 
-vi job2_upgrade.c
-gcc job2_upgrade.c 
-./a.out 
-vi job2_upgrade.c
-gcc job2_upgrade.c 
-./a.out 
-vi job2_upgrade.c
-gcc job2_upgrade.c 
-./a.out 
-vi job2_upgrade.c
-gcc job2_upgrade.c 
-./a.out 
-vi job2_upgrade.c
-gcc job2_upgrade.c 
-./a.out 
-vi job2_upgrade.c
-gcc job2_upgrade.c 
-./a.out 
-vi job2_upgrade.c
-gcc job2_upgrade.c 
-./a.out 
-vi job2_upgrade.c
-gcc job2_upgrade.c 
-./a.out 
-vi job2_upgrade.c
-gcc job2_upgrade.c 
-./a.out 
-vi job2_upgrade.c
-gcc job2_upgrade.c 
-vi job2_upgrade.c
-gcc job2_upgrade.c 
-./a.out 
 vi job2_upgrade.c
 gcc job2_upgrade.c 
 vi job2_upgrade.c
@@ -1998,3 +318,1683 @@ vi in.in
 ll
 vi k_heap.c
 exit
+ll
+cd
+ll
+cd kmong/
+ll
+mkdir job1
+cd job1/
+ll
+vi calc.c
+gcc calc.c
+vi calc.c
+ls
+cd
+l
+cd swex/
+ll
+cd 
+ll
+cd kmong/
+ll
+cd job3_kary_heap_radixsort/
+ll
+vi k_heap.c 
+gcc k_heap.c 
+./a.out 
+vi in.in 
+gcc k_heap.c 
+:w
+vi in.in 
+vi k_heap.c 
+gcc k_heap.c 
+./a.out 
+vi in.in 
+vi k_heap.c 
+./a.out 
+:wq
+gcc k_heap.c 
+./a.out 
+vi k_heap.c 
+gcc k_heap.c 
+./a.out 
+vi k_heap.c 
+vi in2.in
+gcc k_heap.c 
+./a.out  << in2.in 
+./a.out << in2.in 
+./a.out < in2.in 
+vi in2.in
+vi k_heap.c 
+gcc k_heap.c 
+./a.out < in2.in 
+vi k_heap.c 
+gcc k_heap.c 
+./a.out 
+./a.out < in2.in 
+vi k_heap.c 
+gcc k_heap.c 
+vi k_heap.c 
+gcc k_heap.c 
+./a.out 
+./a.out < in2.in 
+vi in2.in 
+./a.out 
+vi k_heap.c 
+./a.out < in2.in 
+gcc k_heap.c 
+./a.out < in2.in 
+vi k_heap.c 
+gcc k_heap.c 
+./a.out < in.in 
+vi k_heap.c 
+gcc k_heap.c 
+./a.out < in.in 
+ll
+vi k_heap.c 
+ll
+vi radix_hex.c
+vi k_heap.c 
+vi radix_hex.c 
+gcc radix_hex.c 
+vi radix_hex.c 
+gcc radix_hex.c 
+vi radix_hex.c 
+gcc radix_hex.c 
+vi radix_hex.c 
+gcc radix_hex.c 
+vi radix_hex.c 
+gcc radix_hex.c 
+vi radix_hex.c 
+gcc radix_hex.c 
+vi radix_hex.c 
+gcc radix_hex.c 
+vi radix_hex.c 
+gcc radix_hex.c 
+clear
+gcc radix_hex.c 
+vi radix_hex.c ddi
+gcc radix_hex.c 
+./a.out 
+vi in3.in
+gcc radix_hex.c 
+./a.out < in3.in 
+gcc radix_hex.c 
+vi in3.in
+vi in3.in 
+vi radix_hex.c 
+gcc radix_hex.c 
+./a.out 
+./a.out < in3.in 
+vi radix_hex.c 
+gcc radix_hex.c 
+./a.out < in3.in 
+vi radix_hex.c 
+gcc radix_hex.c 
+./a.out < in3.in 
+vi radix_hex.c 
+gcc radix_hex.c 
+./a.out < in3.in 
+vi radix_hex.c 
+gcc radix_hex.c 
+./a.out < in3.in 
+vi radix_hex.c 
+gcc radix_hex.c 
+./a.out < in3.in 
+vi radix_hex.c 
+gcc radix_hex.c 
+./a.out < in3.in 
+vi radix_hex.c 
+gcc radix_hex.c 
+./a.out < in3.in 
+vi radix_hex.c 
+gcc radix_hex.c 
+./a.out < in3.in 
+vi radix_hex.c 
+./a.out < in3.in 
+gcc radix_hex.c 
+./a.out < in3.in 
+vi radix_hex.c 
+gcc radix_hex.c 
+./a.out < in3.in 
+vi radix_hex.c 
+gcc radix_hex.c 
+./a.out < in3.in 
+vi radix_hex.c 
+gcc radix_hex.c 
+./a.out < in3.in 
+vi radix_hex.c 
+gcc radix_hex.c 
+./a.out < in3.in 
+vi radix_hex.c 
+gcc radix_hex.c 
+./a.out < in3.in 
+vi radix_hex.c 
+gcc radix_hex.c 
+vi radix_hex.c 
+gcc radix_hex.c 
+./a.out < in3.in 
+vi radix_hex.c 
+gcc radix_hex.c 
+./a.out < in3.in 
+vi radix_hex.c 
+gcc radix_hex.c 
+./a.out < in3.in 
+vi radix_hex.c 
+gcc radix_hex.c 
+./a.out < in3.in 
+vi radix_hex.c 
+gcc radix_hex.c 
+./a.out < in3.in 
+vi radix_hex.c 
+gcc radix_hex.c 
+./a.out < in3.in 
+vi radix_hex.c 
+gcc radix_hex.c 
+./a.out < in3.in 
+gcc radix_hex.c 
+vi radix_hex.c 
+gcc radix_hex.c 
+./a.out < in3.in 
+vi radix_hex.c 
+gcc radix_hex.c 
+./a.out < in3.in 
+vi radix_hex.c 
+gcc radix_hex.c 
+./a.out < in3.in 
+vi radix_hex.c 
+gcc radix_hex.c 
+./a.out < in3.in 
+vi radix_hex.c 
+gcc radix_hex.c 
+./a.out < in3.in 
+vi radix_hex.c 
+gcc radix_hex.c 
+./a.out < in3.in 
+vi radix_hex.c 
+git add .
+git commit -m 'asdf'
+git push adkb master
+cd
+ll
+git add .
+git commit -m 'asdf'
+git push adkb master
+ll
+cd kmong/
+ll
+cd job4_BTree/
+ll
+ls
+exptre-sample
+./exptree-sample
+ll
+./exptree-sample
+ll
+vi LinkedBinaryTree.h 
+exit
+ls
+ll
+cd swex/
+ls
+rm "1952.cc]"
+ll
+ls
+vi 4013.cc
+g++ 4013.cc 
+vi 4013.cc
+g++ 4013.cc 
+vi 4013.cc
+g++ 4013.cc 
+./a.out 
+3 -1
+2
+1 0 0 1 0 0 0 0
+0 1 1 1 1 1 1 1
+0 1 0 1 0 0 1 0
+0 1 0 0 1 1 0 1
+3 1
+1 1
+5
+0 0 1 1 1 1 1 1
+1 1 1 1 1 0 1 0
+0 0 0 0 1 0 0 1
+0 1 0 1 0 1 0 1
+4 -1
+3 1
+4 -1
+3 -1
+1 -1
+2
+1 0 1 0 0 1 0 1
+0 0 1 0 1 1 1 1
+0 0 1 1 0 0 0 1
+0 1 0 1 1 0 0 0
+2 -1
+1 1
+7
+0 0 1 1 0 1 1 1
+0 1 0 1 1 0 0 0
+./a.out 
+vi 4013.cc 
+0 1 0 1 1 0 0 0
+g++ 4013.cc 
+./a.out 
+vi 4013.cc 
+g++ 4013.cc 
+./a.out 
+./a.out
+vi 4013.cc 
+./a.out 
+g++ 4013.cc 
+./a.out 
+vi 4013.cc 
+g++ 4013.cc 
+./a.out 
+vi 4013.cc 
+g++ 4013.cc 
+./a.out 
+vi 4013.cc 
+g++ 4013.cc 
+./a.out 
+vi 4013.cc 
+g++ 4013.cc 
+./a.out 
+vi 4013.cc 
+g++ 4013.cc 
+./a.out 
+vi 4013.cc 
+g++ 4013.cc 
+./a.out 
+vi 4013.cc 
+g++ 4013.cc 
+./a.out 
+vi 4013.cc 
+g++ 4013.cc 
+./a.out 
+vi 4013.cc 
+g++ 4013.cc 
+./a.out 
+vi 4013.cc 
+g++ 4013.cc 
+vi 4013.cc 
+g++ 4013.cc 
+vi 4013.cc 
+g++ 4013.cc 
+./a.out 
+vi 4013.cc 
+g++ 4013.cc 
+./a.out 
+vi 4013.cc 
+g++ 4013.cc 
+./a.out 
+vi 4013.cc 
+g++ 4013.cc 
+./a.out 
+vi 4013.cc 
+g++ 4013.cc 
+./a.out 
+vi 4013.cc 
+g++ 4013.cc 
+./a.out 
+vi 4013.cc 
+g++ 4013.cc 
+./a.out 
+vi 4013.cc 
+g++ 4013.cc 
+./a.out 
+vi 4013.cc 
+vi in.in
+g++ 4013.cc 
+./a.out >> out.out
+vi out.out 
+vi 4013.cc 
+./a.out >> out.out
+g++ 4013.cc 
+./a.out 
+vi 4013.cc 
+g++ 4013.cc 
+./a.out 
+vi 4013.cc 
+g++ 4013.cc 
+./a.out  >> out.out 
+vi out.out 
+vi 4013.cc 
+./a.out  >> out.out 
+g++ 4013.cc 
+rm out.out 
+./a.out  >> out.out 
+vi 4013.cc 
+vi out.out 
+vi 4013.cc 
+git add .
+git commit -m 'asdf' 
+git push adkb master
+cd
+ll
+vi cf/
+cd cf/
+ll
+vi 962A.c
+gcc 962A.c 
+vi 962A.c
+gcc 962A.c 
+vi 962A.c
+gcc 962A.c 
+./a.out 
+vi 962A.c
+vi 962B.c
+mv 962B.c 962B.cc
+vi 962B.cc 
+g++ 962B.cc 
+vi 962B.cc 
+g++ 962B.cc 
+./a.out 
+vi 962B.cc 
+g++ 962B.cc 
+./a.out 
+vi 962B.cc 
+g++ 962B.cc 
+./a.out 
+vi 962B.cc 
+g++ 962B.cc 
+./a.out 
+vi 962B.cc 
+vi 962C.cc
+vi 962C.cc 
+g++ 962C.cc 
+vi 962C.cc 
+g++ 962C.cc 
+g++ 962C.cc -lm
+g++ 962C.cc 
+:w
+vi 962C.cc 
+g++ 962C.cc 
+vi 962C.cc 
+g++ 962C.cc -lm
+vi 962C.cc 
+g++ 962C.cc -lm
+./a.out 
+vi 962C.cc 
+g++ 962C.cc -lm
+./a.out 
+vi 962C.cc 
+g++ 962C.cc -lm
+./a.out 
+vi 962C.cc 
+g++ 962C.cc -lm
+./a.out 
+vi 962C.cc 
+g++ 962C.cc -lm
+./a.out 
+vi 962C.cc 
+g++ 962C.cc -lm
+./a.out 
+vi 962C.cc 
+g++ 962C.cc -lm
+vi 962C.cc 
+g++ 962C.cc -lm
+./a.out 
+vi 962C.cc 
+g++ 962C.cc -lm
+./a.out 
+vi 962C.cc 
+g++ 962C.cc -lm
+./a.out 
+vi 962C.cc 
+g++ 962C.cc -lm
+./a.out 
+vi 962C.cc 
+g++ 962C.cc -lm
+vi 962C.cc 
+g++ 962C.cc -lm
+./a.out 
+vi 962C.cc 
+g++ 962C.cc -lm
+./a.out 
+vi 962C.cc 
+g++ 962C.cc -lm
+./a.out 
+vi 962C.cc 
+g++ 962C.cc -lm
+./a.out 
+vi 962C.cc 
+g++ 962C.cc -lm
+./a.out 
+vi 962C.cc 
+g++ 962C.cc -lm
+./a.out 
+vi 962C.cc 
+g++ 962C.cc -lm
+./a.out 
+vi 962C.cc 
+g++ 962C.cc -lm
+./a.out 
+vi 962C.cc 
+g++ 962C.cc -lm
+./a.out 
+vi 962C.cc 
+g++ 962C.cc -lm
+./a.out 
+vi 962C.cc 
+g++ 962C.cc -lm
+./a.out 
+vi 962C.cc 
+g++ 962C.cc -lm
+./a.out 
+vi 962C.cc 
+g++ 962C.cc -lm
+./a.out 
+vi 962C.cc 
+g++ 962C.cc 
+vi 962C.cc 
+g++ 962C.cc 
+vi 962C.cc 
+g++ 962C.cc 
+vi 962C.cc 
+g++ 962C.cc 
+vi 962C.cc 
+g++ 962C.cc 
+vi 962C.cc 
+g++ 962C.cc 
+vi 962C.cc 
+g++ 962C.cc 
+./a.out 
+vi 962C.cc 
+g++ 962C.cc 
+./a.out 
+g++ 962C.cc 
+vi 962C.cc 
+g++ 962C.cc 
+./a.out 
+vi 962C.cc 
+g++ 962C.cc 
+./a.out 
+vi 962C.cc 
+vi 962D.cc
+vi 962D.cc 
+exit
+ls
+cd kmong/
+ll
+cd job4_BTree/
+ll
+vi LinkedBinaryTree.h 
+g++ LinkedBinaryTree.h 
+vi LinkedBinaryTree.h 
+g++ LinkedBinaryTree.h 
+vi LinkedBinaryTree.h 
+g++ LinkedBinaryTree.h 
+clear
+g++ LinkedBinaryTree.h 
+vi LinkedBinaryTree.h 
+g++ LinkedBinaryTree.h 
+vi LinkedBinaryTree.h 
+g++ LinkedBinaryTree.h 
+vi LinkedBinaryTree.h 
+g++ LinkedBinaryTree.h 
+vi LinkedBinaryTree.h 
+ll
+cd bj/
+ll
+cd
+ll
+cd kmong/
+ll
+cd
+ll
+cd sockprg/
+ll
+cd ch2/
+ll
+vi noth_hton.c 
+exit
+ll
+ls
+vi test.cc
+ll
+cd swex/
+ll
+vi 1234.cc
+gcc 1234.cc 
+g++ 1234.cc 
+./a.out 
+./a.out > out.out
+vi out.out 
+ll
+vi 1234.cc 
+g++ 1234.cc 
+./a.out > out.out
+#2 4123
+#3 123123
+#4 1234123123
+#5 12341
+#6 123535
+#7 123432141
+#8 231231321
+#9 12312323
+vi 1234.cc 
+g++ 1234.cc 
+./a.out 
+./a.out >out.out 
+vi out.out 
+vi 1234.cc 
+g++ 1234.cc 
+./a.out >out.out 
+vi 1234.cc 
+g++ 1234.cc 
+./a.out >out.out 
+vi out.out 
+vi 1234.cc 
+g++ 1234.cc 
+./a.out >out.out 
+vi out.out 
+vi 1234.cc 
+g++ 1234.cc 
+./a.out 
+vi 1234.cc 
+g++ 1234.cc 
+./a.out 
+vi 1234.cc 
+g++ 1234.cc 
+./a.out 
+vi 1234.cc 
+g++ 1234.cc 
+./a.out 
+vi 1234.cc 
+g++ 1234.cc 
+vi 1234.cc 
+g++ 1234.cc 
+vi 1234.cc 
+g++ 1234.cc 
+./a.out 
+vi 1234.cc 
+g++ 1234.cc 
+./a.out 
+vi 1234.cc 
+g++ 1234.cc 
+./a.out 
+vi 1234.cc 
+g++ 1234.cc 
+./a.out 
+vi 1234.cc 
+g++ 1234.cc 
+./a.out 
+./a.out > out.out
+vi out.out 
+ll
+vi 1234.cc 
+git add .
+git commit -m 'asdf'
+git push adkb master
+ll
+cd
+ll
+cd kmong/
+ll
+mkdir job6_float_to_bin_viceversa
+cd job6_float_to_bin_viceversa/
+ll
+vi floattobin.c
+gcc floattobin.c 
+vi floattobin.c
+gcc floattobin.c 
+vi floattobin.c
+gcc floattobin.c 
+./a.out 
+vi floattobin.c
+./a.out 
+vi floattobin.c
+g++ floattobin.c 
+./a.out 
+vi floattobin.c
+g++ floattobin.c 
+./a.out 
+vi floattobin.c
+g++ floattobin.c 
+vi floattobin.c
+g++ floattobin.c 
+./a.out 
+vi floattobin.c
+g++ floattobin.c 
+vi floattobin.c
+g++ floattobin.c 
+./a.out 
+g++ floattobin.c 
+vi floattobin.c
+g++ floattobin.c 
+./a.out 
+vi floattobin.c
+g++ floattobin.c 
+./a.out 
+vi floattobin.c
+g++ floattobin.c 
+./a.out 
+vi floattobin.c
+g++ floattobin.c 
+./a.out 
+vi floattobin.c
+g++ floattobin.c 
+vi floattobin.c
+g++ floattobin.c 
+./a.out 
+vi floattobin.c
+g++ floattobin.c 
+./a.out 
+vi floattobin.c
+g++ floattobin.c 
+./a.out 
+vi floattobin.c
+g++ floattobin.c 
+./a.out 
+vi floattobin.c
+g++ floattobin.c 
+./a.out 
+vi floattobin.c
+g++ floattobin.c 
+./a.out 
+vi floattobin.c
+g++ floattobin.c 
+./a.out 
+vi floattobin.c
+g++ floattobin.c 
+./a.out 
+vi floattobin.c
+g++ floattobin.c 
+./a.out 
+vi floattobin.c
+g++ floattobin.c 
+./a.out 
+vi floattobin.c
+g++ floattobin.c 
+./a.out 
+vi floattobin.c
+int test.c
+vi test.c
+gcc test.c 
+./a.out 
+vi test.c
+gcc test.c 
+./a.out 
+vi test.c
+gcc test.c 
+vi test.c
+gcc test.c 
+vi test.c
+gcc test.c 
+vi test.c
+gcc test.c 
+vi test.c
+gcc test.c 
+./a.out 
+vi test.c
+gcc test.c 
+./a.out 
+vi test.c
+gcc test.c 
+./a.out 
+vi test.c
+gcc test.c 
+./a.out 
+vi test.c
+gcc test.c 
+./a.out 
+vi test.c
+gcc test.c 
+./a.out 
+vi test.c
+gcc test.c 
+vi test.c
+gcc test.c 
+./a.out 
+vi test.c
+gcc test.c 
+./a.out 
+vi test.c
+gcc test.c 
+./a.out 
+vi test.c
+./a.out 
+vi test.c
+gcc test.c 
+./a.out 
+vi test.c
+gcc test.c 
+./a.out 
+vi test.c
+gcc test.c 
+./a.out 
+vi test.c
+vi test.c 
+ll
+vi floattobin.c 
+gcc floattobin.c 
+vi floattobin.c 
+gcc floattobin.c 
+vi floattobin.c 
+gcc floattobin.c 
+gcc floattobin.c -lm
+./a.out 
+vi floattobin.c 
+gcc floattobin.c -lm
+./a.out 
+vi floattobin.c 
+gcc floattobin.c -lm
+./a.out 
+vi floattobin.c 
+gcc floattobin.c -lm
+./a.out 
+vi floattobin.c 
+gcc floattobin.c -lm
+./a.out 
+vi floattobin.c 
+gcc floattobin.c -lm
+./a.out 
+vi floattobin.c 
+gcc floattobin.c -lm
+./a.out 
+vi floattobin.c 
+gcc floattobin.c -lm
+./a.out 
+vi floattobin.c 
+gcc floattobin.c -lm
+./a.out 
+vi floattobin.c 
+vi test.c 
+gcc test.c 
+./a.out 
+vi test.c 
+gcc test.c 
+./a.out 
+vi test.c 
+exit
+ll
+cd bj/
+ll
+cd p1000/
+ll
+cd
+ll
+cd kmong/
+ll
+cd job6_float_to_bin_viceversa/
+ll
+vi floattobin.c 
+gcc floattobin.c 
+gcc floattobin.c -lm
+./a.out 
+vi floattobin.c
+gcc floattobin.c -lm
+./a.out 
+vi floattobin.c
+gcc floattobin.c -lm
+./a.out 
+vi floattobin.c
+gcc floattobin.c -lm
+./a.out 
+vi floattobin.c
+gcc floattobin.c -lm
+./a.out 
+vi floattobin.c
+gcc floattobin.c -lm
+vi floattobin.c
+gcc floattobin.c -lm
+vi floattobin.c
+gcc floattobin.c -lm
+vi floattobin.c
+gcc floattobin.c -lm
+vi floattobin.c
+gcc floattobin.c -lm
+./a.out 
+vi floattobin.c
+gcc floattobin.c -lm
+./a.out 
+vi floattobin.c
+gcc floattobin.c -lm
+vi floattobin.c
+gcc floattobin.c -lm
+./a.out 
+vi floattobin.c
+gcc floattobin.c -lm
+./a.out 
+vi floattobin.c
+gcc floattobin.c -lm
+./a.out 
+vi floattobin.c
+gcc floattobin.c -lm
+./a.out 
+vi floattobin.c
+gcc floattobin.c -lm
+vi floattobin.c
+gcc floattobin.c -lm
+vi floattobin.c
+gcc floattobin.c -lm
+./a.out 
+vi floattobin.c
+gcc floattobin.c -lm
+./a.out 
+vi floattobin.c
+gcc floattobin.c -lm
+./a.out 
+vi floattobin.c
+gcc floattobin.c -lm
+./a.out 
+vi floattobin.c
+gcc floattobin.c -lm
+./a.out 
+vi floattobin.c
+gcc floattobin.c -lm
+./a.out 
+vi floattobin.c
+gcc floattobin.c -lm
+vi floattobin.c
+gcc floattobin.c -lm
+vi floattobin.c
+gcc floattobin.c -lm
+./a.out 
+vi floattobin.c
+./a.out 
+vi floattobin.c
+ll
+cd bj/
+ll
+cd p1000/
+ll
+vi 2357.c
+mv 2357.c 2357.cc
+vi 2357.cc 
+vi 9184.cc
+vi 13422.cc
+ll
+vi 2529.cc
+gcc 2529.cc 
+vi 2529.cc
+gcc 2529.cc 
+./a.out 
+vi 2529.cc
+gcc 2529.cc 
+./a.out 
+vi 2529.cc
+gcc 2529.cc 
+./a.out 
+vi 2529.cc
+gcc 2529.cc 
+./a.out 
+vi 2529.cc
+gcc 2529.cc 
+./a.out 
+vi 2529.cc
+gcc 2529.cc 
+./a.out 
+vi 2529.cc
+gcc 2529.cc 
+./a.out 
+vi 2529.cc
+gcc 2529.cc 
+./a.out 
+vi 2529.cc
+gcc 2529.cc 
+./a.out 
+vi 2529.cc
+gcc 2529.cc 
+./a.out 
+vi 2529.cc
+gcc 2529.cc 
+./a.out 
+vi 2529.cc
+gcc 2529.cc 
+./a.out 
+vi 2529.cc
+gcc 2529.cc 
+vi 2529.cc
+gcc 2529.cc 
+./a.out 
+vi 2529.cc
+gcc 2529.cc 
+./a.out 
+vi 2529.cc
+gcc 2529.cc 
+./a.out 
+vi 2529.cc
+gcc 2529.cc 
+./a.out 
+vi 2529.cc
+gcc 2529.cc 
+./a.out 
+vi 2529.cc
+gcc 2529.cc 
+./a.out 
+vi 2529.cc
+gcc 2529.cc 
+./a.out 
+gcc 2529.cc 
+./a.out 
+>
+vi 2529.cc
+gcc 2529.cc 
+./a.out 
+vi 2529.cc
+gcc 2529.cc 
+./a.out 
+gcc 2529.cc 
+9
+./a.out 
+vi 2529.cc
+9
+gcc 2529.cc 
+./a.out 
+9
+vi 2529.cc
+gcc 2529.cc 
+./a.out 
+vi 2529.cc
+gcc 2529.cc 
+./a.out 
+vi 2529.cc
+gcc 2529.cc 
+./a.out 
+vi 2529.cc
+gcc 2529.cc 
+./a.out 
+vi in.in
+./a.out  < in.in 
+vi in.in
+vi 2529.cc 
+gcc 2529.cc 
+./a.out  < in.in 
+./a.out  < in.in  > out.out
+vi out.out 
+vi 2529.cc 
+gcc 2529.cc 
+./a.out 
+vi 2529.cc 
+gcc 2529.cc 
+./a.out 
+vi 2529.cc 
+gcc 2529.cc 
+./a.out 
+vi 2529.cc 
+gcc 2529.cc 
+./a.out 
+vi 2529.cc 
+gcc 2529.cc 
+./a.out 
+vi 2529.cc 
+vi in.in 
+vi 2529.cc 
+gcc 2529.cc 
+vi 2529.cc 
+vi in.in 
+vi 2529.cc 
+gcc 2529.cc 
+./a.out < in.in 
+vi 2529.cc 
+gcc 2529.cc 
+./a.out < in.in 
+gcc 2529.cc 
+vi 2529.cc 
+./a.out 
+./a.out < in.in 
+./a.out 
+vi 2529.cc 
+./a.out < in.in 
+vi 2529.cc 
+gcc 252
+gcc 2529.cc 
+./a.out < in.in 
+vi 2529.cc 
+./a.out < in.in 
+gcc 2529.cc 
+./a.out < in.in 
+vi 2529.cc 
+gcc 2529.cc 
+./a.out 
+vi 2529.cc 
+gcc 2529.cc 
+./a.out 
+vi 2529.cc 
+gcc 2529.cc 
+./a.out 
+./a.out < in.in 
+vi 2529.cc 
+gcc 2529.cc 
+vi 2529.cc 
+./a.out < in.in 
+gcc 2529.cc 
+./a.out < in.in 
+vi 2529.cc 
+./a.out < in.in 
+vi 2529.cc 
+gcc 2529.cc 
+./a.out 
+./a.out
+vi 2529.cc 
+gcc 2529.cc 
+./a.out 
+<
+>
+./a.out 
+vi 2529.cc 
+gcc 2529.cc 
+./a.out 
+vi 2529.cc 
+gcc 2529.cc 
+./a.out 
+vi 2529.cc 
+gcc 2529.cc 
+./a.out 
+vi 2529.cc 
+gcc 2529.cc '
+./a.out 
+vi 2529.cc 
+gcc 2529.cc '
+gcc 2529.cc
+./a.out 
+vi 2529.cc 
+vi 9184.cc 
+gcc 9184.cc 
+./a.out 
+vi 9184.cc 
+gcc 9184.cc 
+./a.out 
+vi 9184.cc 
+vi 2529.cc 
+gcc 9184.cc 
+./a.out 
+gcc 2529.cc 
+./a.out 
+vi 2529.cc 
+gcc 2529.cc 
+./a.out 
+vi 2529.cc 
+gcc 2529.cc 
+./a.out 
+vi 2529.cc 
+./a.out 
+3
+<
+./a.out 
+vi 9184.cc 
+gcc 9184.cc 
+./a.out 
+vi 9184.cc 
+vi 10252.cc
+g++ 10252.cc 
+./a.out 
+vi 10252.cc
+g++ 10252.cc 
+./a.out 
+vi 10252.cc
+g++ 10252.cc 
+./a.out 
+vi 10252.cc
+g++ 10252.cc 
+./a.out 
+vi 10252.cc
+g++ 10252.cc 
+./a.out 
+vi 10252.cc
+g++ 10252.cc 
+./a.out 
+3 4
+./a.out 
+vi 10252.cc
+./a.out 
+vi 10252.cc
+vi 10252.cc 
+g++ 10252.cc 
+./a.out 
+vi 10252.cc 
+g++ 10252.cc 
+./a.out 
+vi 10252.cc 
+g++ 10252.cc 
+./a.out 
+g++ 10252.cc 
+./a.out 
+vi 10252.cc 
+g++ 10252.cc 
+./a.out 
+vi 10252.cc 
+g++ 10252.cc 
+./a.out 
+vi 10252.cc 
+g++ 10252.cc 
+./a.out 
+./a.out > out.out 
+vi out.out 
+vi 10252.cc 
+g++ 10252.cc 
+./a.out 
+vi 10252.cc 
+ll
+cd
+ll
+cd swex/
+ll
+vi 3376.cc
+gcc 3376.cc 
+./a.out 
+vi 3376.cc
+gcc 3376.cc 
+./a.out 
+vi 3376.cc
+gcc 3376.cc 
+./a.out 
+vi 3376.cc
+gcc 3376.cc 
+./a.out 
+vi 3376.cc
+git add .
+git commit -m 'asdf' 
+git push adkb master
+vi 1244.cc 
+gcc 1244.cc 
+vi 1244.cc 
+gcc 1244.cc 
+./a.out 
+vi 1244.cc 
+gcc 1244.cc 
+./a.out 
+vi 1244.cc 
+gcc 1244.cc 
+./a.out 
+vi 1244.cc 
+gcc 1244.cc 
+./a.out 
+vi 1244.cc 
+gcc 1244.cc 
+./a.out 
+vi 1244.cc 
+gcc 1244.cc 
+./a.out 
+vi 1244.cc 
+gcc 1244.cc 
+./a.out 
+vi 1244.cc 
+gcc 1244.cc 
+vi 1244.cc 
+gcc 1244.cc 
+vi 1244.cc 
+gcc 1244.cc 
+vi 1244.cc 
+gcc 1244.cc 
+vi 1244.cc 
+gcc 1244.cc 
+./a.out 
+vi 1244.cc 
+gcc 1244.cc 
+./a.out 
+vi 1244.cc 
+gcc 1244.cc 
+./a.out 
+vi 1244.cc 
+gcc 1244.cc 
+./a.out 
+vi 1244.cc 
+gcc 1244.cc 
+./a.out 
+vi 1244.cc 
+gcc 1244.cc 
+./a.out 
+vi 1244.cc 
+gcc 1244.cc 
+./a.out 
+gcc 1244.cc 
+./a.out 
+vi 1244.cc 
+gcc 1244.cc 
+./a.out 
+vi 1244.cc 
+gcc 1244.cc 
+./a.out 
+vi 1244.cc 
+gcc 1244.cc 
+./a.out 
+gcc 1244.cc 
+./a.out 
+vi 1244.cc 
+gcc 1244.cc 
+./a.out 
+vi 1244.cc 
+gcc 1244.cc 
+./a.out 
+vi 1244.cc 
+gcc 1244.cc 
+vi 1244.cc 
+gcc 1244.cc 
+./a.out 
+vi 1244.cc 
+gcc 1244.cc 
+./a.out 
+vi 1244.cc 
+gcc 1244.cc 
+./a.out 
+vi 1244.cc 
+gcc 1244.cc 
+./a.out 
+vi 1244.cc 
+gcc 1244.cc 
+./a.out 
+vi 1244.cc 
+gcc 1244.cc 
+./a.out 
+vi 1244.cc 
+gcc 1244.cc 
+./a.out 
+vi 1244.cc 
+gcc 1244.cc 
+./a.out 
+vi 1244.cc 
+gcc 1244.cc 
+./a.out 
+vi 1244.cc 
+gcc 1244.cc 
+./a.out 
+vi 1244.cc 
+gcc 1244.cc 
+./a.out 
+vi 1244.cc 
+gcc 1244.cc 
+./a.out 
+vi 1244.cc 
+gcc 1244.cc 
+./a.out 
+vi 1244.cc 
+gcc 1244.cc 
+./a.out 
+vi 1244.cc 
+gcc 1244.cc 
+./a.out 
+vi 1244.cc 
+vi 13422.cc
+exit
+ll
+cd bj/
+ll
+cd p1000/
+ll
+cd 4153.cc
+vi 4153.cc
+gcc 4153.cc 
+./a.out 
+vi 4153.cc
+vi 14646
+vi 14646.cc
+gcc 14646.cc 
+vi 14646.cc
+gcc 14646.cc 
+./a.out 
+vi 14646.cc
+vi 14726.cc
+gcc 14726.cc 
+./a.out 
+vi 14726.cc
+gcc 14726.cc 
+./a.out 
+vi 14726.cc
+gcc 14726.cc 
+./a.out 
+vi 14726.cc
+vi 1743.cc
+gcc 1743.cc 
+vi 1743.cc
+gcc 1743.cc 
+vi 1743.cc
+gcc 1743.cc 
+./a.out 
+vi 1743.cc
+gcc 1743.cc 
+vi 1743.cc
+gcc 1743.cc 
+./a.out 
+vi 1743.cc
+gcc 1743.cc 
+./a.out 
+vi 1743.cc
+./a.out 
+gcc 1743.cc 
+./a.out 
+vi 1743.cc 
+vi 8892.cc
+gcc 8892.cc 
+vi 8892.cc
+gcc 8892.cc 
+./a.out 
+vi 8892.cc
+gcc 8892.cc 
+./a.out 
+vi 8892.cc
+gcc 8892.cc 
+vi 8892.cc
+gcc 8892.cc 
+./a.out 
+vi 8892.cc
+gcc 8892.cc 
+./a.out 
+vi 8892.cc
+gcc 8892.cc 
+./a.out 
+vi 8892.cc
+gcc 8892.cc 
+./a.out 
+vi 8892.cc
+gcc 8892.cc 
+./a.out 
+vi 8892.cc
+gcc 8892.cc 
+./a.out 
+vi 8892.cc
+gcc 8892.cc 
+./a.out 
+vi 8892.cc
+gcc 8892.cc 
+./a.out 
+vi 8892.cc
+gcc 8892.cc 
+./a.out 
+vi 8892.cc
+gcc 8892.cc 
+./a.out 
+vi 8892.cc
+gcc 8892.cc 
+./a.out 
+vi 8892.cc
+ll
+vi 2357.cc 
+ll
+cd
+ll
+cd kmong/
+ll
+cd job2_linkedlist/
+ll
+vi job2_upgrade.c 
+cd ..
+ll
+cd job1/
+ll
+cd calc
+vi calc.c 
+exit
+ll
+cd bj/
+ll
+cd p1000/
+ll
+vi 2357.cc 
+ll
+cd bj/
+cd p1000/
+ll
+vi 2357.cc 
+gcc 2357.cc 
+vi 2557.cc
+vi 2357.cc 
+g++ 2357.cc 
+vi 2357.cc 
+g++ 2357.cc 
+vi 2357.cc 
+g++ 2357.cc 
+vi 2357.cc 
+g++ 2357.cc 
+vi 2357.cc 
+g++ 2357.cc 
+vi 2357.cc 
+g++ 2357.cc 
+clear
+g++ 2357.cc 
+vi 2357.cc 
+g++ 2357.cc 
+vi 2357.cc 
+g++ 2357.cc 
+clear
+vi 2357.cc 
+g++ 2357.cc 
+vi 2357.cc 
+g++ 2357.cc 
+vi 2357.cc 
+g++ 2357.cc 
+vi 2357.cc 
+g++ 2357.cc 
+vi 2357.cc 
+g++ 2357.cc 
+./a.out 
+1 10
+3 5
+6 9
+vi 2357.cc 
+g++ 2357.cc 
+./a.out 
+vi 2357.cc 
+g++ 2357.cc 
+./a.out 
+vi 2357.cc 
+g++ 2357.cc 
+./a.out 
+1 10
+3 5
+6 9
+./a.out 
+vi 2357.cc 
+g++ 2357.cc 
+./a.out 
+vi 2357.cc 
+g++ 2357.cc 
+./a.out 
+vi 2357.cc 
+g++ 2357.cc 
+./a.out 
+vi 2357.cc 
+g++ 2357.cc 
+./a.out 
+vi 2357.cc 
+g++ 2357.cc 
+./a.out 
+vi 2357.cc 
+g++ 2357.cc 
+./a.out 
+vi 2357.cc 
+g++ 2357.cc 
+./a.out 
+vi 2357.cc 
+g++ 2357.cc 
+vi 2357.cc 
+./a.out 
+g++ 2357.cc 
+:w
+vi 2357.cc 
+g++ 2357.cc 
+./a.out 
+vi 2357.cc 
+g++ 2357.cc 
+./a.out 
+vi 2357.cc 
+g++ 2357.cc 
+./a.out 
+vi 2357.cc 
+g++ 2357.cc 
+./a.out 
+vi 2357.cc 
+g++ 2357.cc 
+./a.out 
+vi 2357.cc 
+g++ 2357.cc 
+./a.out 
+vi 2357.cc 
+g++ 2357.cc 
+./a.out 
+vi 2357.cc 
+g++ 2357.cc 
+./a.out 
+vi 2357.cc 
+g++ 2357.cc 
+./a.out 
+vi 2357.cc 
+g++ 2357.cc 
+./a.out 
+vi 2357.cc 
+g++ 2357.cc 
+./a.out 
+vi 2357.cc 
+g++ 2357.cc 
+./a.out 
+vi 2357.cc 
+g++ 2357.cc 
+./a.out 
+vi 2357.cc 
+g++ 2357.cc 
+./a.out 
+vi 2357.cc 
+g++ 2357.cc 
+./a.out 
+vi 2357.cc 
+g++ 2357.cc 
+./a.out 
+vi 2357.cc 
+ll
+vi 2311.cc
+cd
+ll
+vi .vimrc 
+exit
+ll
+cd b
+cd bj/
+ll
+cd p1000/
+ll
+vi 2231.c 
+vi 2311.cc 
+g++ 2311.cc 
+vi 2311.cc 
+g++ 2311.cc 
+clear
+g++ 2311.cc 
+vi 2311.cc 
+g++ 2311.cc 
+vi 2311.cc 
+g++ 2311.cc 
+vi 2311.cc 
+g++ 2311.cc 
+./a.out 
+vi 2311.cc 
+g++ 2311.cc 
+./a.out 
+vi 2311.cc 
+g++ 2311.cc 
+./a.out 
+vi 2311.cc 
+g++ 2311.cc 
+./a.out 
+vi 2311.cc 
+g++ 2311.cc 
+./a.out 
+vi 2311.cc 
+g++ 2311.cc 
+./a.out 
+vi 2311.cc 
+g++ 2311.cc 
+./a.out 
+vi 2311.cc 
+vi 2311dijkstra.cc
+g++ 2311dijkstra.cc 
+vi 2311dijkstra.cc
+g++ 2311dijkstra.cc 
+clear
+g++ 2311dijkstra.cc 
+vi 2311dijkstra.cc
+g++ 2311dijkstra.cc 
+vi 2311dijkstra.cc
+g++ 2311dijkstra.cc 
+vi 2311dijkstra.cc
+g++ 2311dijkstra.cc 
+vi 2311dijkstra.cc
+g++ 2311dijkstra.cc 
+vi 2311dijkstra.cc
+g++ 2311dijkstra.cc 
+claer
+clear
+g++ 2311dijkstra.cc 
+vi 2311dijkstra.cc
+g++ 2311dijkstra.cc 
+vi 2311dijkstra.cc
+g++ 2311dijkstra.cc 
+clear
+g++ 2311dijkstra.cc 
+vi 2311dijkstra.cc
+g++ 2311dijkstra.cc 
+./a.out 
+vi 2311dijkstra.cc
+g++ 2311dijkstra.cc 
+./a.out 
+vi 2311dijkstra.cc
+g++ 2311dijkstra.cc 
+./a.out 
+vi 2311dijkstra.cc
+g++ 2311dijkstra.cc 
+./a.out 
+vi 2311dijkstra.cc
+g++ 2311dijkstra.cc 
+./a.out 
+vi 2311dijkstra.cc
+g++ 2311dijkstra.cc 
+./a.out 
+vi 2311dijkstra.cc
+g++ 2311dijkstra.cc 
+./a.out 
+vi 2311dijkstra.cc
+g++ 2311dijkstra.cc 
+./a.out 
+vi 2311dijkstra.cc
+g++ 2311dijkstra.cc 
+./a.out 
+vi 2311dijkstra.cc
+g++ 2311dijkstra.cc 
+./a.out 
+}
+./a.out 
+vi 2311dijkstra.cc
+g++ 2311dijkstra.cc 
+vi 2311dijkstra.cc
+g++ 2311dijkstra.cc 
+vi 2311dijkstra.cc
+g++ 2311dijkstra.cc 
+clear
+vi 2311dijkstra.cc
+clear
+g++ 2311dijkstra.cc 
+./a.out 
+clear
+vi 2311dijkstra.cc
+g++ 2311dijkstra.cc 
+./A
+./a.out 
+vi 2311dijkstra.cc
+g++ 2311dijkstra.cc 
+./a.out 
+vi 2311dijkstra.cc
+g++ 2311dijkstra.cc 
+./a.out 
+vi 2311dijkstra.cc
+ll
+vi 3640.cc
+vi 3640.cc 
+g++ 3640.cc 
+vi 3640.cc 
+g++ 3640.cc 
+./a.out 
+vi 3640.cc 
+g++ 3640.cc 
+./a.out 
+vi 3640.cc 
+g++ 3640.cc 
+./a.out 
+vi 3640.cc 
+g++ 3640.cc 
+./a.out 
+vi 3640.cc 
+g++ 3640.cc 
+./a.out 
+vi 3640.cc 

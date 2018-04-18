@@ -11,31 +11,55 @@ int mk(int* a){
 	return ret;
 }
 
-void dfs(int now, int cnt){
+void dfs(int cnt){
+//	printf("======%d\n", mk(a));
 
 	if (cnt == m){
 		int sum=mk(a);
 		mx =max(mx, sum);
 		return; 
 	}
-	if (cnt > m) return;
-	if (now ==len) return;
 
 	int chk=0;
-	for (int i=0; i<len; i++){
-		if (i==now) continue;
-		int cur = mk(a);
-		swap(a[now], a[i]);
-		int next = mk(a);
 
-		if (cur<=next) {
-			chk=1;
-			dfs(i, cnt+1);
+	for (int i=0; i<len; i++){
+		for (int j=0; j<len; j++){
+			if (i==j) continue;
+			int cur = mk(a);
+			swap(a[i], a[j]);
+			int next = mk(a);
+//			printf("mx %d now %d next %d %d\n", mx, cur, next, cnt);
+
+			if (cur<=next){
+				chk=1;
+				dfs(cnt+1);
+			}
+			swap(a[i],a[j]);
 		}
-		swap(a[i],a[now]);
 	}
-	if (!chk && 
-	dfs(now+1, cnt);
+
+	/*
+	if (!chk) {
+		if ( (m-cnt)%2==0) {
+			int sum = mk(a);
+			mx = max(mx,sum);
+			return;
+		}
+		else {
+			int mn=10, mn2=10, mni, mn2i;
+			for (int i=0; i< cnt; i++){
+				if (mn > a[i]) mn2=mn, mn2i=mni, mn=a[i], mni=i;
+				else if ( mn2 >a[i] ) mn2=a[i], mn2i=i;
+			}
+			swap(a[mn2i], a[mni]);
+			int sum= mk(a);
+			mx =max(mx, sum);
+			swap(a[mn2i], a[mni]);
+			return;
+		}
+	};
+	*/
+
 };
 
 int main(){
@@ -46,9 +70,12 @@ int main(){
 		memset(a, -1, sizeof(a));
 		len=0, mx=0;
 
-		for (int i=n; i; i/=10) a[len++] = i%10; 
+		for (int i=0; n; i++) {
+			a[len++] = n%10; 
+			n/=10; 
+		}
 
-		dfs(0, 0);
+		dfs(0);
 		printf("#%d %d\n", t, mx);
 	}
 }
