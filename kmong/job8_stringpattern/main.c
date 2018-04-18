@@ -2,7 +2,7 @@
 
 char s[1001];
 int main(){
-	fgets(s, 5001, stdin);
+	fgets(s, 1001, stdin);
 
 	int len=0;
 	while(s[len]) len++;
