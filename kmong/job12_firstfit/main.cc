@@ -10,13 +10,32 @@
 	 이 것을 vector를 이용하여 구현하였다.
 
 	 struct proc { int stime, rtime, sz, pid; }
-	 : 입력 되는 process 이다.
+	 : 입력 되는 process 이다. stime =실행시간, rtime = 요구시간, sz =요구 크기, pid =pid
 
 	 struct sector { int f, sz, pid, etime; } 
-	 : memory sector이다. 
+	 : memory sector이다. f=시작 메모리, sz =사이즈, pid = pid, etime = 끝나는 시간(only if pid>=0)
 
 	 void endchk(vector<sector>& sec, int time)
 	 : sector 에서 시간 다 된 sector를 pid -1 로 반환하고, 연결된 sector 끼리 합칩니다.
+
+	 void insert(process proc, vector<sector>& sec, int idx) 
+	 : 조건을 만족하는 sec[idx]에 process를 할당한다.
+	 이 때, 유념할것은 sec[idx].sz != proc.sz 이면 섹터가 늘어나야할 것이다.
+	 예: 300size "A" process가 들어오면
+	   	 sector sec <0, -1, 1000> ->  sec[0] <0, A, 300> sec[1] <0, -1, 700>
+			 가 되어야한다. 그렇기에 vector 에 제공하는 insert 함수를 써준다.(insert 정의는 구글링 ㄱ)
+			 (user define function 인 위 함수 insert와 혼동하지말자.)
+	
+	bool firstfit, bestfit, worstfit () ... 
+	: 이 논리 구조는 굉장히 달라보이지만.... 굉장히 비슷하다.
+	  왜냐하면 우리는 항상 time T(0->inf) 정보에 따라, process P(i) 를 기준으로 
+		모든 sector를 탐색해야하기때문이다. 그래서 나는 그 동일한 동작을 하는 wrapper function fit() ... 
+		을 정의해주었다. 그리고 임의의 P(i)는 각각의 fit 알고리즘에 따라 sec을 고를 뿐이다. 
+		마지막 문장만이 fit 알고리즘이 구별되는 것이다.
+	
+	fit(vector<process> process) 
+	: time T(0->inf) 에 따라, process P(i)를 기준으로 vector<sector> sec 을 순회하게끔 해준다.
+
 */
 #include <stdio.h>
 #include <vector>
