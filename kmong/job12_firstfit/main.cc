@@ -184,7 +184,7 @@ int fit(vector<process>& proc, int type){ // time complexity : time * proc * sec
 }
 
 int main(){
-	freopen("allocation.inp", "r", stdin);
+	FILE* fp = freopen("allocation.inp", "r", stdin);
 	int n; scanf("%d", &n);
 	vector<process> proc;
 
@@ -194,8 +194,10 @@ int main(){
 		process tmp(m, k, l, i);
 		proc.push_back(tmp);
 	}
-	freopen("allocation.out", "w", stdout);
+	fclose(fp);
+	fp = freopen("allocation.out", "w", stdout);
 	printf("%d\n", fit(proc, 0));
 	printf("%d\n", fit(proc, 1));
 	printf("%d\n", fit(proc, 2));
+	fclose(fp);
 }
