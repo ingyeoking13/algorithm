@@ -64,9 +64,9 @@ void endChk(vector<sector>& sec){ //all sectors will be checked (time)
 		}
 	}
 
- auto now = sec.begin();  // merge ~> pid == -1
+ vector<sector>::iterator now = sec.begin();  // merge ~> pid == -1
  while(now != sec.end()){
-	 auto next = now+1;
+	 vector<sector>::iterator next = now+1;
 
 	 if (next == sec.end()) break;
 
@@ -92,7 +92,7 @@ void endChk(vector<sector>& sec){ //all sectors will be checked (time)
 void insert_sec(process proc, vector<sector>& sec, int j){
 
 	if ( sec[j].sz > proc.sz){ // 만약 섹터가 나눠져야한다면 (proc sz가 좀 덜 필요하다면)
-		sec.insert(sec.begin()+j, {sec[j].f, proc.sz, -1, 0}); // j 번쨰 sector 생성!
+		sec.insert(sec.begin()+j, sector(sec[j].f, proc.sz, -1, 0)); // j 번쨰 sector 생성!
 		sec[j+1].sz= sec[j+1].sz - proc.sz; //sector가 나눠지는거야~
 		sec[j].sz = proc.sz;  
 		sec[j+1].f = sec[j].f + proc.sz;
@@ -157,7 +157,7 @@ bool worstfit(process proc, vector<sector>& sec, bool ansChk){  // find min diff
 int fit(vector<process>& proc, int type){ // time complexity : time * proc * sec(max... 1000) 
 																					// but expected complexity is better than array implement..
 	vector<sector> sec;
-	sec.push_back({0, 1000, -1, 0}); 
+	sec.push_back(sector(0, 1000, -1, 0)); 
 	ans =-1, time=0; //  global variable
 
 	int now=0, n = proc.size();
@@ -184,16 +184,16 @@ int fit(vector<process>& proc, int type){ // time complexity : time * proc * sec
 }
 
 int main(){
-	FILE* fp= freopen("allocation.inp", "r", stdin);
+	freopen("allocation.inp", "r", stdin);
 	int n; scanf("%d", &n);
 	vector<process> proc;
 
 	for (int i=0; i<n; i++) {
 		int m, k, l; // stime, rtime, size;
 		scanf("%d %d %d", &m, &k, &l);
-		proc.push_back({m, k, l, i});
+		process tmp(m, k, l, i);
+		proc.push_back(tmp);
 	}
-	fclose(fp);
 	freopen("allocation.out", "w", stdout);
 	printf("%d\n", fit(proc, 0));
 	printf("%d\n", fit(proc, 1));
