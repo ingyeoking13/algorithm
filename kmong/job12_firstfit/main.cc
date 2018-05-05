@@ -79,14 +79,12 @@ void endChk(vector<sector>& sec){ //all sectors will be checked (time)
  }
  if (!chk) return;
  // print...
- /*
  printf("========== time : %d\n", time);
  for (int i=0; i<sec.size(); i++){
 	 printf("sec from : %d, sec sz : %d, sec pid : %d, sec etime : %d\n", 
 			 sec[i].f, sec[i].sz, sec[i].pid, sec[i].etime);
  }
  printf("==========\n");
- */
 }
 
 void insert_sec(process proc, vector<sector>& sec, int j){
@@ -157,6 +155,9 @@ bool worstfit(process proc, vector<sector>& sec, bool ansChk){  // find min diff
 int fit(vector<process>& proc, int type){ // time complexity : time * proc * sec(max... 1000) 
 																					// but expected complexity is better than array implement..
 	vector<sector> sec;
+	vector<bool> pchk;
+	pchk.resize(proc.size(), 0);
+
 	sec.push_back(sector(0, 1000, -1, 0)); 
 	ans =-1, time=0; //  global variable
 
@@ -166,16 +167,16 @@ int fit(vector<process>& proc, int type){ // time complexity : time * proc * sec
 
 		endChk(sec); // sector end time chkeck. if we find it over. we make its pid "-1"
 		
-		for (int i=now; i<n; i++){ // in time t. we iterate over now -> n 
+		for (int i=0; i<n; i++){ // in time t. we iterate over now -> n 
 			if ( proc[i].stime > time) break; // if proc[i]. start time > nowtime then break;
+			if( pchk[i]) continue;
 
 			int chk=0;
 			if (type == 0) chk = firstfit(proc[i], sec, i==n-1);
 			else if (type==1) chk = bestfit(proc[i], sec, i==n-1);
 			else chk = worstfit(proc[i], sec, i==n-1);
 
-			if(!chk) break; // if one process cannot find fine sector, break and time ++
-			else now++;
+			if(chk) pchk[i]=1;
 		}
 
 		time++;
