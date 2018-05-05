@@ -154,6 +154,15 @@ bool worstfit(process proc, vector<sector>& sec, bool ansChk){  // find min diff
 	return 0;
 }
 
+bool fine(vector<bool>& pchk){
+	bool chk=0;
+	int n= pchk.size();
+	for (int i=0; i<n; i++){
+		if (!pchk[i]) chk=1;
+	}
+	return chk;
+}
+
 int fit(vector<process>& proc, int type){ // time complexity : time * proc * sec(max... 1000) 
 																					// but expected complexity is better than array implement..
 	vector<sector> sec;
@@ -165,7 +174,7 @@ int fit(vector<process>& proc, int type){ // time complexity : time * proc * sec
 
 	int now=0, n = proc.size();
 
-	while(time<=1000){ // while t ~> inf , until "now process iterator" != n...
+	while(fine(pchk)){ // while t ~> inf , until "now process iterator" != n...
 
 		endChk(sec); // sector end time chkeck. if we find it over. we make its pid "-1"
 		
