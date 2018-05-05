@@ -79,12 +79,14 @@ void endChk(vector<sector>& sec){ //all sectors will be checked (time)
  }
  if (!chk) return;
  // print...
+ /*
  printf("========== time : %d\n", time);
  for (int i=0; i<sec.size(); i++){
 	 printf("sec from : %d, sec sz : %d, sec pid : %d, sec etime : %d\n", 
 			 sec[i].f, sec[i].sz, sec[i].pid, sec[i].etime);
  }
  printf("==========\n");
+ */
 }
 
 void insert_sec(process proc, vector<sector>& sec, int j){
@@ -160,7 +162,7 @@ int fit(vector<process>& proc, int type){ // time complexity : time * proc * sec
 
 	int now=0, n = proc.size();
 
-	while(now!=n){ // while t ~> inf , until "now process iterator" != n...
+	while(time<=1000){ // while t ~> inf , until "now process iterator" != n...
 
 		endChk(sec); // sector end time chkeck. if we find it over. we make its pid "-1"
 		
@@ -182,6 +184,7 @@ int fit(vector<process>& proc, int type){ // time complexity : time * proc * sec
 }
 
 int main(){
+	FILE* fp= freopen("allocation.inp", "r", stdin);
 	int n; scanf("%d", &n);
 	vector<process> proc;
 
@@ -190,7 +193,8 @@ int main(){
 		scanf("%d %d %d", &m, &k, &l);
 		proc.push_back({m, k, l, i});
 	}
-
+	fclose(fp);
+	freopen("allocation.out", "w", stdout);
 	printf("%d\n", fit(proc, 0));
 	printf("%d\n", fit(proc, 1));
 	printf("%d\n", fit(proc, 2));

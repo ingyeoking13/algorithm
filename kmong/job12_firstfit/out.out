@@ -1,0 +1,180 @@
+========== time : 5
+sec from : 0, sec sz : 150, sec pid : 0, sec etime : 11
+sec from : 150, sec sz : 200, sec pid : -1, sec etime : 0
+sec from : 350, sec sz : 220, sec pid : 2, sec etime : 27
+sec from : 570, sec sz : 130, sec pid : 3, sec etime : 17
+sec from : 700, sec sz : 300, sec pid : -1, sec etime : 0
+==========
+========== time : 11
+sec from : 0, sec sz : 150, sec pid : -1, sec etime : 0
+sec from : 150, sec sz : 120, sec pid : 5, sec etime : 19
+sec from : 270, sec sz : 80, sec pid : -1, sec etime : 0
+sec from : 350, sec sz : 220, sec pid : 2, sec etime : 27
+sec from : 570, sec sz : 130, sec pid : 3, sec etime : 17
+sec from : 700, sec sz : 230, sec pid : 4, sec etime : 30
+sec from : 930, sec sz : 70, sec pid : -1, sec etime : 0
+==========
+========== time : 17
+sec from : 0, sec sz : 150, sec pid : -1, sec etime : 0
+sec from : 150, sec sz : 120, sec pid : 5, sec etime : 19
+sec from : 270, sec sz : 80, sec pid : -1, sec etime : 0
+sec from : 350, sec sz : 220, sec pid : 2, sec etime : 27
+sec from : 570, sec sz : 130, sec pid : -1, sec etime : 0
+sec from : 700, sec sz : 230, sec pid : 4, sec etime : 30
+sec from : 930, sec sz : 70, sec pid : -1, sec etime : 0
+==========
+========== time : 19
+sec from : 0, sec sz : 350, sec pid : -1, sec etime : 0
+sec from : 350, sec sz : 220, sec pid : 2, sec etime : 27
+sec from : 570, sec sz : 130, sec pid : -1, sec etime : 0
+sec from : 700, sec sz : 230, sec pid : 4, sec etime : 30
+sec from : 930, sec sz : 70, sec pid : -1, sec etime : 0
+==========
+========== time : 27
+sec from : 0, sec sz : 160, sec pid : 6, sec etime : 35
+sec from : 160, sec sz : 540, sec pid : -1, sec etime : 0
+sec from : 700, sec sz : 230, sec pid : 4, sec etime : 30
+sec from : 930, sec sz : 70, sec pid : -1, sec etime : 0
+==========
+========== time : 30
+sec from : 0, sec sz : 160, sec pid : 6, sec etime : 35
+sec from : 160, sec sz : 200, sec pid : 7, sec etime : 39
+sec from : 360, sec sz : 110, sec pid : 8, sec etime : 35
+sec from : 470, sec sz : 210, sec pid : 9, sec etime : 32
+sec from : 680, sec sz : 320, sec pid : -1, sec etime : 0
+==========
+========== time : 32
+sec from : 0, sec sz : 160, sec pid : 6, sec etime : 35
+sec from : 160, sec sz : 200, sec pid : 7, sec etime : 39
+sec from : 360, sec sz : 110, sec pid : 8, sec etime : 35
+sec from : 470, sec sz : 530, sec pid : -1, sec etime : 0
+==========
+========== time : 35
+sec from : 0, sec sz : 160, sec pid : -1, sec etime : 0
+sec from : 160, sec sz : 200, sec pid : 7, sec etime : 39
+sec from : 360, sec sz : 640, sec pid : -1, sec etime : 0
+==========
+========== time : 39
+sec from : 0, sec sz : 1000, sec pid : -1, sec etime : 0
+==========
+470
+========== time : 5
+sec from : 0, sec sz : 150, sec pid : 0, sec etime : 11
+sec from : 150, sec sz : 200, sec pid : -1, sec etime : 0
+sec from : 350, sec sz : 220, sec pid : 2, sec etime : 27
+sec from : 570, sec sz : 130, sec pid : 3, sec etime : 17
+sec from : 700, sec sz : 300, sec pid : -1, sec etime : 0
+==========
+========== time : 11
+sec from : 0, sec sz : 150, sec pid : -1, sec etime : 0
+sec from : 150, sec sz : 120, sec pid : 5, sec etime : 19
+sec from : 270, sec sz : 80, sec pid : -1, sec etime : 0
+sec from : 350, sec sz : 220, sec pid : 2, sec etime : 27
+sec from : 570, sec sz : 130, sec pid : 3, sec etime : 17
+sec from : 700, sec sz : 230, sec pid : 4, sec etime : 30
+sec from : 930, sec sz : 70, sec pid : -1, sec etime : 0
+==========
+========== time : 17
+sec from : 0, sec sz : 150, sec pid : -1, sec etime : 0
+sec from : 150, sec sz : 120, sec pid : 5, sec etime : 19
+sec from : 270, sec sz : 80, sec pid : -1, sec etime : 0
+sec from : 350, sec sz : 220, sec pid : 2, sec etime : 27
+sec from : 570, sec sz : 130, sec pid : -1, sec etime : 0
+sec from : 700, sec sz : 230, sec pid : 4, sec etime : 30
+sec from : 930, sec sz : 70, sec pid : -1, sec etime : 0
+==========
+========== time : 19
+sec from : 0, sec sz : 350, sec pid : -1, sec etime : 0
+sec from : 350, sec sz : 220, sec pid : 2, sec etime : 27
+sec from : 570, sec sz : 130, sec pid : -1, sec etime : 0
+sec from : 700, sec sz : 230, sec pid : 4, sec etime : 30
+sec from : 930, sec sz : 70, sec pid : -1, sec etime : 0
+==========
+========== time : 27
+sec from : 0, sec sz : 160, sec pid : 6, sec etime : 35
+sec from : 160, sec sz : 540, sec pid : -1, sec etime : 0
+sec from : 700, sec sz : 230, sec pid : 4, sec etime : 30
+sec from : 930, sec sz : 70, sec pid : -1, sec etime : 0
+==========
+========== time : 30
+sec from : 0, sec sz : 160, sec pid : 6, sec etime : 35
+sec from : 160, sec sz : 200, sec pid : 7, sec etime : 39
+sec from : 360, sec sz : 110, sec pid : 8, sec etime : 35
+sec from : 470, sec sz : 210, sec pid : 9, sec etime : 32
+sec from : 680, sec sz : 320, sec pid : -1, sec etime : 0
+==========
+========== time : 32
+sec from : 0, sec sz : 160, sec pid : 6, sec etime : 35
+sec from : 160, sec sz : 200, sec pid : 7, sec etime : 39
+sec from : 360, sec sz : 110, sec pid : 8, sec etime : 35
+sec from : 470, sec sz : 530, sec pid : -1, sec etime : 0
+==========
+========== time : 35
+sec from : 0, sec sz : 160, sec pid : -1, sec etime : 0
+sec from : 160, sec sz : 200, sec pid : 7, sec etime : 39
+sec from : 360, sec sz : 640, sec pid : -1, sec etime : 0
+==========
+========== time : 39
+sec from : 0, sec sz : 1000, sec pid : -1, sec etime : 0
+==========
+470
+========== time : 5
+sec from : 0, sec sz : 150, sec pid : 0, sec etime : 11
+sec from : 150, sec sz : 200, sec pid : -1, sec etime : 0
+sec from : 350, sec sz : 220, sec pid : 2, sec etime : 27
+sec from : 570, sec sz : 130, sec pid : 3, sec etime : 17
+sec from : 700, sec sz : 300, sec pid : -1, sec etime : 0
+==========
+========== time : 11
+sec from : 0, sec sz : 150, sec pid : -1, sec etime : 0
+sec from : 150, sec sz : 120, sec pid : 5, sec etime : 19
+sec from : 270, sec sz : 80, sec pid : -1, sec etime : 0
+sec from : 350, sec sz : 220, sec pid : 2, sec etime : 27
+sec from : 570, sec sz : 130, sec pid : 3, sec etime : 17
+sec from : 700, sec sz : 230, sec pid : 4, sec etime : 30
+sec from : 930, sec sz : 70, sec pid : -1, sec etime : 0
+==========
+========== time : 17
+sec from : 0, sec sz : 150, sec pid : -1, sec etime : 0
+sec from : 150, sec sz : 120, sec pid : 5, sec etime : 19
+sec from : 270, sec sz : 80, sec pid : -1, sec etime : 0
+sec from : 350, sec sz : 220, sec pid : 2, sec etime : 27
+sec from : 570, sec sz : 130, sec pid : -1, sec etime : 0
+sec from : 700, sec sz : 230, sec pid : 4, sec etime : 30
+sec from : 930, sec sz : 70, sec pid : -1, sec etime : 0
+==========
+========== time : 19
+sec from : 0, sec sz : 350, sec pid : -1, sec etime : 0
+sec from : 350, sec sz : 220, sec pid : 2, sec etime : 27
+sec from : 570, sec sz : 130, sec pid : -1, sec etime : 0
+sec from : 700, sec sz : 230, sec pid : 4, sec etime : 30
+sec from : 930, sec sz : 70, sec pid : -1, sec etime : 0
+==========
+========== time : 27
+sec from : 0, sec sz : 160, sec pid : 6, sec etime : 35
+sec from : 160, sec sz : 540, sec pid : -1, sec etime : 0
+sec from : 700, sec sz : 230, sec pid : 4, sec etime : 30
+sec from : 930, sec sz : 70, sec pid : -1, sec etime : 0
+==========
+========== time : 30
+sec from : 0, sec sz : 160, sec pid : 6, sec etime : 35
+sec from : 160, sec sz : 200, sec pid : 7, sec etime : 39
+sec from : 360, sec sz : 110, sec pid : 8, sec etime : 35
+sec from : 470, sec sz : 210, sec pid : 9, sec etime : 32
+sec from : 680, sec sz : 320, sec pid : -1, sec etime : 0
+==========
+========== time : 32
+sec from : 0, sec sz : 160, sec pid : 6, sec etime : 35
+sec from : 160, sec sz : 200, sec pid : 7, sec etime : 39
+sec from : 360, sec sz : 110, sec pid : 8, sec etime : 35
+sec from : 470, sec sz : 530, sec pid : -1, sec etime : 0
+==========
+========== time : 35
+sec from : 0, sec sz : 160, sec pid : -1, sec etime : 0
+sec from : 160, sec sz : 200, sec pid : 7, sec etime : 39
+sec from : 360, sec sz : 640, sec pid : -1, sec etime : 0
+==========
+========== time : 39
+sec from : 0, sec sz : 1000, sec pid : -1, sec etime : 0
+==========
+470
