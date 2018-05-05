@@ -78,6 +78,7 @@ void endChk(vector<sector>& sec){ //all sectors will be checked (time)
 	 else now++;
  }
  if (!chk) return;
+ /*
  // print...
  printf("========== time : %d\n", time);
  for (int i=0; i<sec.size(); i++){
@@ -85,6 +86,7 @@ void endChk(vector<sector>& sec){ //all sectors will be checked (time)
 			 sec[i].f, sec[i].sz, sec[i].pid, sec[i].etime);
  }
  printf("==========\n");
+ */
 }
 
 void insert_sec(process proc, vector<sector>& sec, int j){
