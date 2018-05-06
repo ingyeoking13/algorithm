@@ -78,8 +78,8 @@ void endChk(vector<sector>& sec){ //all sectors will be checked (time)
 	 else now++;
  }
  if (!chk) return;
- /*
  // print...
+ /*
  printf("========== time : %d\n", time);
  for (int i=0; i<sec.size(); i++){
 	 printf("sec from : %d, sec sz : %d, sec pid : %d, sec etime : %d\n", 
@@ -126,7 +126,7 @@ bool bestfit(process proc, vector<sector>& sec, bool ansChk){  // find min diff
 	for (int j=0; j<m; j++){
 		if (sec[j].pid>=0) continue;
 		if (sec[j].sz<proc.sz) continue; 
-		if (sec[j].sz - proc.sz <best) idx=j, best = sec[j].sz -proc.sz;
+		if (sec[j].sz - proc.sz <= best) idx=j, best = sec[j].sz -proc.sz;
 	}
 
 	if (idx>=0) {
@@ -143,7 +143,7 @@ bool worstfit(process proc, vector<sector>& sec, bool ansChk){  // find min diff
 	for (int j=0; j<m; j++){
 		if (sec[j].pid>=0) continue;
 		if (sec[j].sz<proc.sz) continue; 
-		if (sec[j].sz > big) idx=j, big = sec[j].sz;
+		if (sec[j].sz >= big) idx=j, big = sec[j].sz;
 	}
 
 	if (idx>=0) {
@@ -180,7 +180,7 @@ int fit(vector<process>& proc, int type){ // time complexity : time * proc * sec
 		
 		for (int i=0; i<n; i++){ // in time t. we iterate over now -> n 
 			if ( proc[i].stime > time) break; // if proc[i]. start time > nowtime then break;
-			if( pchk[i]) continue;
+			if ( pchk[i] ) continue;
 
 			int chk=0;
 			if (type == 0) chk = firstfit(proc[i], sec, i==n-1);
