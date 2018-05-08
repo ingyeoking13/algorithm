@@ -66,6 +66,7 @@ int oper(char c){ return c =='+' || c=='-' || c=='*' || c=='/'; }
 char* infix_to_postfix(char* str){
 	int len = strlen(str); 
 	char* ret = (char*)malloc(len); // 동적할당 !
+	memset(ret, 0, sizeof(ret));
 	int retlen=0;
 
 	for (int i=0; i<len; i++){ // S문자열 을 순회!
@@ -78,9 +79,7 @@ char* infix_to_postfix(char* str){
 			}
 			top--; //그리고 한번더 top을뺀다 (이건 여는괄호이다)
 		}
-		else {
-			ret[retlen++]=str[i]; //숫자나 뭐 다른 기호일경우 뺀다
-		}
+		else ret[retlen++]=str[i]; //숫자나 뭐 다른 기호일경우 뺀다
 	}
 
 	while(top>=0) ret[retlen++]=s[top--];
