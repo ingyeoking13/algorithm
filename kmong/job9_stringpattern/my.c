@@ -12,12 +12,10 @@ int main(){
   ori.len=0;
   while( ori.str[ori.len] != '\0' )  ori.len++; // cnt to end of string == ori string length
 
-	/*
   if ( ori.str[ori.len-1] =='\n' ){ //만약 키보드를 통해  입력파일 생성하면 newline 체크
     ori.str[ori.len-1] = '\0';
     ori.len--;
   }
-	*/
 
   while(1){
     string from; //from 문자열 받기
@@ -26,12 +24,10 @@ int main(){
     from.len=0;
 
     while(from.str[from.len] != '\0') from.len++;
-		/*
     if ( from.str[from.len-1] == '\n' ){ //입력 전처리 개행 삭제
       from.str[from.len-1]=0;
       from.len--;
     }
-		*/
 
     if ( from.str[0] == '0' && from.str[1] == '\0') break; // 0이면 프로그램 종료
 
@@ -41,12 +37,10 @@ int main(){
     to.len =0;
 
     while(to.str[to.len] != '\0') to.len++;
-		/*
     if ( to.str[to.len-1] == '\n'){
       to.str[to.len-1]=0;
       to.len--;
     }
-		*/
 
     int matching;
 

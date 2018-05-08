@@ -1,5 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =6
 let g:netrw_dirhist_1='/home/adkb/kmong'
 let g:netrw_dirhist_2='/home/adkb/cf'
 let g:netrw_dirhist_3='/home/adkb/kmong/job4_BTree'
+let g:netrw_dirhist_4='/home/adkb/algorithm/string'
+let g:netrw_dirhist_5='/home/adkb/algorithm'
+let g:netrw_dirhist_6='/home/adkb/kmong/job12_firstfit'
