@@ -154,16 +154,16 @@ int evalPostfix(char* str){
 				tmp=0;
 			}
 			chk=0;
-		}else{ tmp *= 10; tmp = str[i]-'0'; chk=1; }
+		}else{ tmp *= 10; tmp += str[i]-'0'; chk=1; }
 	}
 
 	return s[top--];
 }
 
 int main(){ // from the script
-//	char* infix = "(9-((4/2)+1))*((5*2)-1)";
+	char* infix = "(90-((40/2)+1))*((5*2)-1)";
 //	char* infix = "9-3*2+5";
-	char* infix = "9*9/1*1*5*3/3";
+	//char* infix = "9*9/1*1*5*3/3";
 	//char* infix = "9*9/9+9";
 	printf("중위 표기식: %s\n", infix);
 
