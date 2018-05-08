@@ -1,5 +1,59 @@
 /*
+	 infix 는 우리가 평소에 쓰는 수식을 쓰는 한 방식이다.
+	 infix 에서 postfix 로 바꾸면 다음과 같다.
+	 (A+B)*C -> AB+C*
+	 변환 방식은 다음과 같은 규칙을 따르면 된다.
 
+	 for (int i=0; i<len; i++){ ... 로 시작한다.
+	 문자열을 차례로 탐색하는데 일단 다 stack에 넣는다
+
+	 stack (.A.
+	 stack (.A.+.
+	 stack (.A.+.B.
+
+	 여기서 이제 다음 character가 ')' 인데 
+	 괄호연산자는 연산의 우선순위를 정하므로, 
+	 여기서 한번 '(' 까지의 stack 자료를 다 뱉어냄으로써
+	 postfix에서의 연산 우선순위를 지킬 수있다.
+
+	 ret B.+.A
+
+	 그리고 계속해서 문자열 순회를 하며, stack에 넣는다
+	 stack *.
+	 stack *.C.
+
+	 이제 문자열 순회가 끝났다.
+	 그렇다면 연산이 따로 없으므로, stack에 있는걸 다 뱉어내면된다.
+	 ret B.+.A.*.C.
+
+	 지금 따라온 것은 정확하게 수행하면 항상 valid 한 infix를 valid한 postfix 수식으로 바군다.
+	 이런 순차적인 행위를 알고리즘이라 하며, infix -> postfix 로 바꾸는 알고리즘이다.
+
+	 조금 더 전문적으로 기술하면, 사실 모든 수식은 tree형태로 그려질 수 있다. 
+	 (이미 수업시간에 들었을 수도 있지만...)
+
+	 (A+B)*C 는 다음과같다.
+
+
+	    *
+	 	+   C
+	 A B
+
+	 postfix는 이 tree를 traverse(돌아다니는)하는 한 방법에 불과하다.
+	 
+	 왼쪽부터 간뒤 바닥을 치면 부모노드의 그 우측 자식한테로간다. 그뒤 부모에게 간다.
+	 이것을 반복하는 것이다.
+
+	 그리고 이 tree 탐색을 stack을 이용해서 할 수 있는것이다. 그 성격이 같은 재귀로해도된다. 
+
+
+	 ps. 만약 당신이 어떠한 수에도 잘 동작하려고 한다면, 조금 더 복잡한 방법을 따라야한다.
+	 왜냐하면 char 형 stack은 오직 1byte만 담을수 있기 때문이다.
+	 만약 당신이 여러 바이트의 숫자를 다루려면 (즉, 2자리 이상의...)
+	 적절한 크기의 char형 tmp배열을 선언한뒤 일단 숫자가 오면 그걸 다 저장해놓고, 
+	 다른 연산자가 오면 그걸 거꾸로 stack에 넣어주면된다.
+
+	 구현하려고했는데 어떤 코어한 동작원리를 놓칠까봐 여기까지했습니다.
 */
 #include <stdio.h>
 #include <string.h>
@@ -15,6 +69,7 @@ char* infix_to_postfix(char* str){
 	int retlen=0;
 
 	for (int i=0; i<len; i++){ // S문자열 을 순회!
+		int chk=0;
 		if (oper(str[i])) s[++top] = str[i]; //S[i] 가 연산자일경우
 		else if(str[i] == '(') s[++top] = str[i]; //S[i] 가 괄호일경우
 		else if(str[i] == ')'){ // S[i]가 닫는 괄호일경우!
@@ -27,6 +82,7 @@ char* infix_to_postfix(char* str){
 			ret[retlen++]=str[i]; //숫자나 뭐 다른 기호일경우 뺀다
 		}
 	}
+
 	while(top>=0) ret[retlen++]=s[top--];
 	return ret;
 }
@@ -36,8 +92,8 @@ int evalPostfix(char* str){
 
 	for (int i=0; i<len; i++){
 		if (oper(str[i])){
-			int a = s[top--];
-			int b = s[top--];
+			int a=s[top--]; 
+			int b=s[top--];
 			if (str[i] == '-') s[++top] = b-a;
 			else if (str[i]=='+') s[++top] =b+a;
 			else if (str[i]=='*') s[++top] =b*a;
