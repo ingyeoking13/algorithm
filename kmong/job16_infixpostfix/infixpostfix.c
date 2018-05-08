@@ -93,14 +93,14 @@ char* infix_to_postfix(char* str){
 	for (int i=0; i<len; i++){ // S문자열 을 순회!
 		int chk=0;
 		if (oper(str[i])) {
-			if(str[i]=='*' || str[i]=='/') {
+			if(str[i]=='*' || str[i]=='/') { // *, / 인경우
 				while(top>=0 && (s[top]=='*' || s[top]=='/')){ //자신의 앞이 '*', '/'일경우 뱉어낸다
 					ret[retlen++] = s[top--];
 				}
-				s[++top] = str[i]; //S[i] 가 연산자일경우
+				s[++top] = str[i]; //그리고 해당녀석은 stack에 들어감
 			}
-			else{ // s[i] == '+', s[i] =='-' 이면, 앞의 연산자일 때까지 다 뱉어낸다.
-				while(top>=0 && oper(s[top])){
+			else{  // +, - 인경우
+				while(top>=0 && oper(s[top])){// s[i] == '+', s[i] =='-' 이면, 앞의 연산자일 때까지 다 뱉어낸다.
 					ret[retlen++] = s[top--]; 
 				}
 				s[++top] =str[i]; // 그리고 해당녀석은stack에 들어감 
