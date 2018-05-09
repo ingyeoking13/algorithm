@@ -2,36 +2,49 @@
 #include <string.h>
 #include <stdlib.h>
 
-int stack[50], top=-1;
+int stack[100], top=-1;
 int oper(char c){ return c == '/' || c=='*' || c=='+' || c=='-'; }
 
 char* in_to_post(char* str, int len){
-	char* post = (char *)malloc(len+1);
+	char* post = (char *)malloc(2*len+1);
 	int plen=0;
 
 	for (int i=0; i<len; i++){
 		if(oper(str[i])){
 			if (str[i] =='/' || str[i] =='*' ){
-				if (stack[top]=='/' || stack[top]=='*') post[plen++] =stack[top--];
+				if (stack[top]=='/' || stack[top]=='*'){
+					post[plen++] =stack[top--];
+					post[plen++] = ' ';
+				}
 				stack[++top]=str[i];
 			}
 			else{
-				if (oper(stack[top])) post[plen++] =stack[top--];
+				if (oper(stack[top])){
+					post[plen++] =stack[top--];
+					post[plen++] = ' ';
+				}
 				stack[++top]=str[i];
 			}
 		}
 		else if (str[i]=='(') stack[++top]=str[i];
 		else if (str[i]==')'){
-			while(stack[top]!=')'){
+			while(stack[top]!='('){
 				post[plen++] = stack[top--];
+				post[plen++] = ' ';
 			}
 			top--;
 		}
-		else post[plen++]=str[i];
+		else if ( str[i] == ' ' );
+		else {
+			for (;str[i]<='9' && str[i] >= '0'; i++) post[plen++]=str[i];
+			post[plen++] = ' ';
+		}
+
 	}
-	while(top>=0 ){
-		post[plen++] = ' ';
+
+	while(top>=0){
 		post[plen++] =stack[top--];
+		post[plen++] = ' ';
 	}
 	post[plen++]=0;
 	return post;
@@ -70,6 +83,6 @@ int main(){
 	if( str[len-1] =='\n') str[--len]=0;
 
 	char* post = in_to_post(str, len);
-	printf("%s\n", post);
+	printf("post fix %s\n", post);
 	printf("eval of \"%s\" = %d\n", post,  eval(post));
 }
