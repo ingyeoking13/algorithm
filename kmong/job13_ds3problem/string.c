@@ -7,9 +7,10 @@
 	 6. destroy all string  O..
 	 8. reverse string O..
 
-	 3. replace "A" with "B"   find pattern
-	 5. delete pattern string  find pattern
-	 10. palindromic ...chk 
+	 ps find pattern O
+	 5. delete pattern string  find pattern O
+	 3. replace "A" with "B"   find pattern O
+	 10. palindromic ...chk O
 */
 
 #include <stdio.h>
@@ -31,30 +32,32 @@ void append(string* str, const char* c){ // append  1func.
 	}
 }
 
-int insert(string* str, int pos, const char* s){ //2func
+string* create_str(const char* s){ // init 0 func.
+	string* newstr = (string*)malloc(sizeof(string));
+	newstr->front= newstr->rear= 0;
+	append(newstr, s);
+	return newstr;
+};
+
+void insert(string* str, int pos, const char* s){ //2func
 	node* now = str->front; 
+	int len = strlen(s), cnt=-1, i=0;
 
-	for (int i=0; i<pos; i++){
-		if ( !now ) return 0; // has no that pos
-		now = now->next;
+	node* before=0;
+	while(now || before){
+		if(cnt>= pos && i<len){
+			node* newN = (node*) malloc(sizeof(node));
+			newN->c = s[i++], newN->next=0;
+			if(before) before->next = newN;
+			newN->next= now;
+			if( now==str->front)  str->front = newN;
+			if( before==str->rear) str->rear = newN;
+			now = newN;
+		}
+		cnt++;
+		before=now;
+		if(now) now=now->next;
 	}
-
-	int len = strlen(s);
-	if (now == str->rear) { //pos is last pos 
-		append(str, s); 
-		return 1; 
-	}
-
-	node* before = now;
-	node* rest = now->next; 
-
-	for (int i=0; i<len; i++){
-		node* newN = (node*) malloc(sizeof(node));
-		newN->c = s[i], newN->next=0;
-		before->next = newN;
-		before = newN;
-	}
-	before->next = rest;
 }
  
 void print(string* str){ //7 func
@@ -67,14 +70,6 @@ void print(string* str){ //7 func
 	printf("\n");
 }
 
-string* create_str(const char* s){ // init 0 func.
-	string* newstr = (string*)malloc(sizeof(string));
-	newstr->front= newstr->rear= 0;
-
-	append(newstr, s);
-
-	return newstr;
-};
 
 void del_node(string* str, int pos){ // 4 func.
 	node *now = str->front;
@@ -93,17 +88,6 @@ void del_node(string* str, int pos){ // 4 func.
 	}
 	before->next = now->next;
 	free(now);
-}
-
-int go(node* now, const char* s, int idx){ 
-
-}
-
-int delete(string* str, const char* s){ // 5 func.
-	for (node* now= str->front; now; now=now->next){
-		if ( go(now, s, 0) ) return 1;
-	}
-	return 0;
 }
 
 void destroy(string* str){ //6 func.
@@ -139,28 +123,77 @@ int length(string* str){ //9 func.
 	return ret;
 }
 
-/*
-int replace(string* str, const char* f, const char* t){
-	node* now = str->front;
-	int i=0;
-	while(now){
-		if( match(now, 0, f) ){
-			del
-			insert(str, i, t);
-		};
-		i++;
-		now = now->next;
+int find(string* str, const char* f){
+	node* iter = str->front;
+	int flen = strlen(f), chk, pos=0;
+	while(iter){
+		chk=1;
+		node* now = iter;
+		for (int i=0; i<flen; i++, now=now->next){
+			if (now->c != f[i]){
+				chk=0;
+				break;
+			}
+		}
+		if (chk) return pos;
+		iter=iter->next;
+		pos++;
 	}
+	return pos=-1;
 }
-*/
 
+int replace(string* str, const char* f, const char* t){
+	int pos=find(str, f), flen= strlen(f);
+	if (pos>=0) {
+		for (int i=0; i<flen; i++) del_node(str, pos);
+		insert(str, pos-1, t);
+		return 1;
+	}
+	printf("No Match Found \"%s\".\n", f);
+	return 0;
+}
+
+int delete(string* str, const char* s){ // 5 func.
+	int pos=find(str, s), slen= strlen(s);
+	if (pos>=0) {
+		for (int i=0; i<slen; i++) del_node(str, pos);
+		return 1;
+	}
+	printf("No Match Found \"%s\".\n", s);
+	return 0;
+}
+
+void palindrome(string* str){
+	char s[1000];
+	node* now = str->front;
+	int slen=0, s2len=0;
+	while(now){
+		s[slen++]= now->c;
+		now=now->next;
+	}
+
+	int chk=1;
+	for (int i=0; i<slen/2; i++){
+		if (s[i] != s[slen-i-1]) {
+			chk=0;
+			break;
+		}
+	}
+
+	if (chk) printf("Palindrome\n");
+	else printf("NO Palindrome\n");
+}
 
 int main(){
 
-	string* str = create_str("data"); print(str);
-	append(str, "kimchi"); print(str);
-	insert(str, 2, " be "); print(str);
-	del_node(str, 2); print(str);
+	string* str = create_str("aba"); print(str);
+	//append(str, "kimchi"); print(str);
+	//insert(str, 9, " be "); print(str);
+	//del_node(str, 2); print(str);
+	//replace(str, "d", "dexsex"); print(str);
+	//delete(str, "dex"); print(str);
+	palindrome(str);
+
 	//destroy(str); print(str);
-	reverse(str);
+	//reverse(str);
 }

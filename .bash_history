@@ -1,829 +1,3 @@
-./a.out 
-vi 2311dijkstra.cc
-g++ 2311dijkstra.cc 
-./a.out 
-vi 2311dijkstra.cc
-ll
-vi 3640.cc
-vi 3640.cc 
-g++ 3640.cc 
-vi 3640.cc 
-g++ 3640.cc 
-./a.out 
-vi 3640.cc 
-g++ 3640.cc 
-./a.out 
-vi 3640.cc 
-g++ 3640.cc 
-./a.out 
-vi 3640.cc 
-g++ 3640.cc 
-./a.out 
-vi 3640.cc 
-g++ 3640.cc 
-./a.out 
-vi 3640.cc 
-ll
-cd bj/
-cd
-ll
-cd kmong/
-ll
-cd job8_stringpattern/
-ll
-vi in.in 
-./a.out < in.in 
-./a.out < in.in > out.out 
-vi out.out 
-vi in2.in
-./a.out < in2.in > out.out 
-vi out.out 
-vi main.c 
-ll
-cd ..
-ll
-mkdir job9_stringpattern
-ll
-cd job9_stringpattern/
-ll
-vi my.c
-gcc my.c 
-vi my.c
-gcc my.c 
-clear
-gcc my.c 
-vi my.c 
-gcc my.c 
-vi my.c 
-ll
-gcc my.c 
-vi my.c 
-gcc my.c 
-./a.out 
-vi my.c 
-gcc my.c 
-./a.out 
-vi my.c 
-gcc my.c 
-./a.out 
-vi my.c 
-gcc my.c 
-ll
-cd ..
-ll
-cd job8_stringpattern/
-ll
-cp in.in 1.txt ../job9_stringpattern/
-ll
-cd ..
-ll
-cd job9_stringpattern/
-ll
-ls
-./a.out < in.in > out.out
-diff out.out 1.txt 
-vi 1.txt 
-cd ..
-ll
-vi job8_stringpattern/
-cd job8_stringpattern/
-ll
-vi out.out 
-./a.out < in.in 
-./a.out < in.in > out.out 
-vi out.out 
-ll
-vi main.c 
-vi out.out 
-vi in
-rm in
-vi in.in 
-vi main.c 
-vi in.in 
-vi out.out 
-ll
-vi out.out 
-ll
-vi out.out 
-diff 1.txt out.out 
-vi in
-ll
-vi in.in 
-ll
-cd ..
-ll
-cd job9_stringpattern/
-ll
-vi my.c 
-git add .
-git commit -m 'asdf'
-git push adkb master
-ll
-cd ..
-ll
-cd job8_stringpattern/
-ll
-git rm -r --cached
-git rm -r --cached .
-ll
-git add .
-git commit -m 'asdf'
-git push adkb
-git push adkb master
-ll
-git rm -r cached .
-git rm -r --cached .
-git add .
-git commit -am 'git cached cleared'
-git push
-git push adkb master
-git rm --cached out.out 
-ll
-git commit -m 'asdf'
-git push adkb master
-git rm --cached out.out 
-ll
-git rm --cached .
-git rm -r --cached .
-ll
-git reset --hard
-ll
-git add .
-git commit -m 'asdf'
-git push adkb master
-ll
-git reset --hard HEAD~1
-ll
-git reset --hard
-ll
-git add .
-git commit -m 'asdf'
-git add .
-git commit -m 'asdf'
-git push adkb master
-cd ..
-ll
-cd job9_stringpattern/
-:w
-ll
-vi my.c 
-ll
-cd ..
-ll
-cd job8_stringpattern/
-ll
-git reset HEAD
-git commit -m 'asdf'
-cd
-git add .
-git commit -m 'asdf'
-git push adkb master
-git rm --cached kmong/job8_stringpattern/out.out
-git commit --amend -CHEAD
-git push
-git push adkb master
-git rm --cached kmong/job8_stringpattern/out.out
-git rm --cached kmong/job8_stringpattern/out.out 
-git rm --cached kmong/job8_stringpattern/out.out
-git rm --cached ./kmong/job8_stringpattern/out.out
-ll
-cd kmong/
-ll
-cd job9_stringpattern/
-ll
-cd ..
-ll
-cd job8_stringpattern/
-ll
-git rm --cached
-git rm --cached HEAD
-git 
-git checkout 
-git checkout .
-git checkout -- 1.txt
-git reset --hard
-git reset HEAD~
-cd 
-ll
-git add .
-git commit -m 'asdf'
-git push akdb master
-ll
-git init 
-git clone https://github.com/ingyeoking13/algorithm.git
-git reset --hard adkb/master 
-ll
-git add .
-git commit -m 'asdf'
-git push adkb master
-ll
-cd kmong/
-ll
-cd job9_stringpattern
-mkdir job9_stringpattern
-ll
-cd job9_stringpattern/
-ll
-vi my.c
-exit
-ll
-cd kmong/
-ll
-cd job9_stringpattern/
-ll
-vi my.c 
-git add .
-git commit -m 'asdf'
-git push adkb master
-ll
-vi my.c 
-r
-exit
-ll
-cd algorithm/
-ll
-vi string/
-cd string/
-ll
-vi kimp.c
-mv kimp.c kimp.cc
-mv kimp.cc kmp.cc
-g++ kmp.cc 
-g++ kmp.cc -std=c++11
-./a.out 
-ll
-cd
-ll
-cd leetcode/
-ll
-vi 824.cc
-vi 825.cc
-vi 826.cc
-vi 826.cc 
-vi 827.cc
-g++ 827.cc 
-vi 827.cc
-g++ 827.cc 
-vi 827.cc
-g++ 827.cc 
-clear
-vi 827.cc
-g++ 827.cc 
-vi 827.cc
-g++ 827.cc 
-vi 827.cc
-g++ 827.cc 
-vi 827.cc
-g++ 827.cc 
-clear
-vi 827.cc
-g++ 827.cc 
-vi 827.cc
-g++ 827.cc 
-vi 827.cc
-exit
-ll
-cd cf/
-ll
-vi 967A.c
-gcc 967A.c 
-vi 967A.c
-gcc 967A.c 
-./a.out 
-vi 967A.c
-gcc 967A.c 
-./a.out 
-vi 967B.c
-gcc 967B.c 
-./a.out 
-vi 967B.c
-./a.out 
-vi 967B.c
-gcc 967B.c 
-./a.out 
-vi 967B.c
-gcc 967B.c 
-vi 967B.c
-gcc 967B.c 
-./a.out 
-vi 967B.c
-gcc 967B.c 
-./a.out 
-./a.out 4 4 2
-./a.out
-vi 967B.c
-./a.out
-vi 967B.c
-./a.out 4 4 2
-gcc 967B.c 
-./a.out 
-vi 967B.c
-gcc 967B.c 
-./a.out 
-vi 967B.c
-vi 976E.cc
-vi 976C.cc
-ll
-cd cf/
-ll
-vi 976E.cc 
-vi 976EE.cc
-g++ 976EE.cc 
-vi 976EE.cc
-g++ 976EE.cc 
-vi 976EE.cc
-g++ 976EE.cc 
-vi 976EE.cc
-g++ 976EE.cc 
-vi 976EE.cc
-g++ 976EE.cc 
-vi 976EE.cc
-g++ 976EE.cc 
-clear
-g++ 976EE.cc 
-vi 976EE.cc
-g++ 976EE.cc 
-./a.out 
-vi 976EE.cc
-g++ 976EE.cc 
-./a.out 
-vi 976EE.cc
-vi 976E
-rm 976E
-vi 976E.cc 
-ll
-vi 967B.c 
-exit
-ll
-cd kmong/
-ll
-mkdir job11_rps_skku
-cd job11_rps_skku/
-ll
-vi my.cc
-g++ my.cc 
-vi my.cc
-g++ my.cc 
-vi my.cc
-g++ my.cc 
-clear
-g++ my.cc 
-vi my.cc
-g++ my.cc 
-vi my.cc
-g++ my.cc 
-./a.out 
-vi my.cc
-g++ my.cc 
-vi my.cc
-g++ my.cc 
-./a.out 
-vi my.cc
-g++ my.cc 
-./a.out 
-vi my.cc
-g++ my.cc 
-./a.out 
-vi my.cc
-g++ my.cc 
-./a.out 
-vi my.cc
-g++ my.cc 
-./a.out 
-vi my.cc
-g++ my.cc 
-./a.out 
-vi my.cc
-g++ my.cc 
-./a.out 
-vi my.cc
-g++ my.cc 
-./a.out 
-vi my.cc
-g++ my.cc 
-./a.out 
-vi my.cc
-g++ my.cc 
-./a.out 
-vi my.cc
-g++ my.cc 
-./a.out 
-vi my.cc
-g++ my.cc 
-./a.out 
-vi my.cc
-g++ my.cc 
-./a.out 
-vi my.cc
-g++ my.cc 
-./a.out 
-vi my.cc
-g++ my.cc 
-./a.out 
-vi my.cc
-g++ my.cc 
-./a.out 
-vi my.cc
-./a.out 
-vi my.cc
-g++ my.cc 
-./a.out 
-exit
-ll
-cd cf/
-ll
-cd
-ll
-cd bj/
-ll
-cd p1000/
-ll
-cd 
-ll
-cd kmong/
-cd job11_rps_skku/
-ll
-vi my.cc 
-g++ my.cc 
-./a.out 
-vi my.cc 
-g++ my.cc 
-./a.out 
-vi my.cc 
-g++ my.cc 
-./a.out 
-vi my.cc 
-ll
-cd cf/
-ll
-vi 976F.cc
-ll
-cd
-ll
-cd bj/
-ll
-cd p1000/
-ll
-vi 3938.cc
-exit
-ll
-cd kmong/
-ll
-cd job11_rps_skku/
-ll
-vi my.cc 
-cp my.cc main.cc
-vi main.cc 
-mv main.cc main.c
-vi main.c 
-mv main.cc main.c
-gcc main.c 
-vi main.c 
-gcc main.c 
-vi main.c 
-gcc main.c 
-vi main.c 
-gcc main.c 
-clear
-gcc main.c 
-vi main.c 
-gcc main.c 
-vi main.c 
-gcc main.c 
-clear
-gcc main.c 
-vi main.c ll
-vi main.c 
-gcc main.c 
-vi main.c 
-clear
-gcc main.c 
-vi main.c 
-gcc main.c 
-clear
-gcc main.c 
-vi main.c 
-gcc main.c 
-vi main.c 
-gcc main.c 
-vi main.c 
-gcc main.c 
-clear
-gcc main.c 
-vi main.c 
-gcc main.c 
-./a.out 
-vi main.c 
-./a.out 
-gcc main.c 
-./a.out 
-vi main.c 
-gcc main.c 
-./a.out 
-vi main.c 
-gcc main.c 
-./a.out 
-vi main.c 
-gcc main.c 
-./a.out 
-vi main.c 
-gcc main.c 
-./a.out 
-vi main.c 
-gcc main.c 
-vi main.c 
-gcc main.c 
-vi main.c 
-gcc main.c 
-./a.out 
-vi main.c 
-gcc main.c 
-./a.out 
-vi main.c 
-gcc main.c 
-./a.out 
-vi main.c 
-gcc main.c 
-./a.out 
-vi main.c 
-gcc main.c 
-./a.out 
-vi main.c 
-gcc main.c 
-./a.out 
-ulimit -s
-vi main.c 
-gcc main.c 
-./a.out 
-vi main.c 
-gcc main.c 
-git add .
-git commit -m 'asdf'
-git push adkb master
-./a.out 
-vi main.c 
-ll
-cd
-ll
-cd kmong/
-ll
-mkdir job12_firstfit
-cd job12_firstfit/
-ll
-vi main.cc
-exit
-ll
-cd kmong/
-ll
-ls
-cd job12_firstfit/
-ll
-vi main.cc 
-g++ main.cc 
-vi main.cc 
-g++ main.cc 
-vi main.cc 
-g++ main.cc 
-vi main.cc 
-g++ main.cc 
-vi main.cc 
-g++ main.cc 
-vi main.cc 
-g++ main.cc 
-vi main.cc 
-g++ main.cc 
-vi main.cc 
-g++ main.cc 
-vi main.cc 
-g++ main.cc 
-vi main.cc 
-g++ main.cc 
-vi main.cc 
-g++ main.cc 
-vi main.cc 
-g++ main.cc 
-vi main.cc 
-exit
-vi main.cc 
-rm main.cc 
-ll
-cd kmong/
-ll
-cd job12_firstfit/
-ll
-vi main.cc 
-ll
-cd bj/
-ll
-cd ..
-ll
-cd kmong/
-ll
-cd job12_firstfit/
-ll
-vi main.cc 
-mv main.cc main.cc
-mv main.cc main.c
-vi main.c 
-mv main.c main.cc
-vi main.cc 
-:wq
-vi main.cc 
-g++ main.cc 
-vi main.cc 
-g++ main.cc 
-clear
-g++ main.cc 
-g++ main.cc -std=c++11
-clear
-g++ main.cc -std=c++11
-vi main.cc 
-g++ main.cc -std=c++11
-clear
-g++ main.cc -std=c++11
-vi main.cc 
-g++ main.cc -std=c++11
-clear
-g++ main.cc -std=c++11
-vi main.cc 
-g++ main.cc -std=c++11
-clear
-./a.out 
-vi main.cc 
-clear
-./a.out 
-vi main.cc 
-g++ main.cc -std=c++11
-./a.out 
-vi main.cc 
-g++ main.cc -std=c++11
-vi main.cc 
-g++ main.cc -std=c++11
-./a.out 
-vi main.cc 
-g++ main.cc -std=c++11
-./a.out 
-vi main.cc 
-g++ main.cc -std=c++11
-./a.out 
-vi in.in
-g++ main.cc -std=c++11
-./a.out  < in.in 
-vi in.in
-vi main.cc 
-./a.out  < in.in 
-g++ main.cc -std=c++11
-./a.out  < in.in 
-vi main.cc 
-g++ main.cc -std=c++11
-./a.out  < in.in 
-vi main.cc 
-g++ main.cc -std=c++11
-./a.out 
-vi main.cc 
-vi in2.in
-vi in2.in 
-g++ main.cc -std=c++11
-./a.out  < in2.in 
-vi in2.in 
-vi main.cc 
-g++ main.cc -std=c++11
-./a.out  < in2.in 
-vi main.cc 
-g++ main.cc -std=c++11
-./a.out  < in2.in 
-vi main.cc 
-g++ main.cc -std=c++11
-./a.out  < in2.in 
-vi main.cc 
-g++ main.cc -std=c++11
-./a.out 
-./a.out  < in2.in 
-clear
-./a.out  < in2.in 
-vi main.cc 
-g++ main.cc -std=c++11
-./a.out  < in2.in 
-vi main.cc 
-g++ main.cc -std=c++11
-vi main.cc 
-g++ main.cc -std=c++11
-vi main.cc 
-g++ main.cc -std=c++11
-./a.out 
-./a.out  < in2.in 
-vi main.cc 
-g++ main.cc -std=c++11
-./a.out  < in2.in 
-vi main.cc 
-./a.out  < in2.in 
-g++ main.cc -std=c++11
-vi main.cc 
-g++ main.cc -std=c++11
-vi main.cc 
-g++ main.cc -std=c++11
-./a.out  < in2.in 
-vi main.cc 
-vi test.c
-gcc test.c 
-vi test.c
-gcc test.c 
-./a.out 
-vi test.c
-gcc test.c 
-./a.out 
-vi test.c
-gcc test.c 
-
-vi test.c
-gcc test.c 
-./a.out 
-vi test.c
-vi main.cc 
-g++ main.cc -std=c++11
-clear
-g++ main.cc -std=c++11
-vi main.cc 
-g++ main.cc -std=c++11
-vi main.cc 
-g++ main.cc -std=c++11
-clear
-vi main.cc 
-g++ main.cc -std=c++11
-vi main.cc 
-g++ main.cc -std=c++11
-vi main.cc 
-g++ main.cc -std=c++11
-clear
-vi main.cc 
-g++ main.cc -std=c++11
-./a.out  <in2.in 
-vi in2.in 
-vi main.cc 
-g++ main.cc -std=c++11
-./a.out  <in2.in 
-vi main.cc 
-vi in2.in 
-vi main.cc 
-g++ main.cc -std=c++11
-./a.out  <in2.in 
-vi main.cc 
-g++ main.cc -std=c++11
-./a.out  <in2.in 
-vi main.cc 
-:wq
-g++ main.cc -std=c++11
-vi main.cc 
-g++ main.cc -std=c++11
-./a.out  <in2.in 
-vi main.cc 
-g++ main.cc -std=c++11
-vi main.cc 
-g++ main.cc -std=c++11
-./a.out  <in2.in 
-vi main.cc 
-g++ main.cc -std=c++11
-./a.out  <in2.in 
-git add .
-git commit -m 'asdf'
-git push adkb master
-vi main.cc 
-git add .
-git commit -m 'asdf'
-git push adkb master 
-g++ main.cc -std=c++11
-./a.out  <in2.in 
-vi main.cc 
-ll
-cd..
-ll
-cd ..
-ll
-mkdir job13_ds3problem
-cd job13_ds3problem/
-exit
-ll
-cd kmong/
-ll
-cd job13_ds3problem/
-ll
-cd ..
-ll
-cd job12_firstfit/
-:w
-vi main.cc 
-g++ main.cc 
-ill
-cd ..
-ll
-cd ..
-ll
-cd bj/
-cd ..
-ll
-cd algo
-ll
-cd algorithm/
 ll
 cd permutation/
 ll
@@ -1998,3 +1172,829 @@ vi 977E.cc
 g++ 977E.cc 
 ./a.out 
 vi 977E.cc 
+g++ 977E.cc 
+./a.out 
+vi 977E.cc 
+ll
+cd kmong/
+ll
+cd job14_ds5problem/
+ll
+vi main.c 
+ll
+cd ..
+ll
+cd job13_ds3problem/
+ll
+cd ..
+ll
+cd 
+ll
+cd cf
+ll
+vi 977F.cc
+g++ 977F.cc 
+g++ 977F.cc -std=c++11
+clear
+g++ 977F.cc -std=c++11
+vi 977F.cc
+g++ 977F.cc -std=c++11
+clear
+g++ 977F.cc -std=c++11
+vi 977F.cc
+g++ 977F.cc -std=c++11
+clear
+g++ 977F.cc -std=c++11
+vi 977F.cc
+g++ 977F.cc -std=c++11
+clear
+g++ 977F.cc -std=c++11
+vi 977F.cc
+g++ 977F.cc -std=c++11
+vi 977F.cc
+g++ 977F.cc -std=c++11
+clear
+vi 977F.cc
+g++ 977F.cc -std=c++11
+vi 977F.cc
+g++ 977F.cc -std=c++11
+./a.out 
+vi 977F.cc
+g++ 977F.cc -std=c++11
+./a.out 
+vi 977F.cc
+g++ 977F.cc -std=c++11
+./a.out 
+vi 977F.cc
+g++ 977F.cc -std=c++11
+./a.out 
+vi 977F.cc
+g++ 977F.cc -std=c++11
+./a.out 
+vi 977F.cc
+g++ 977F.cc -std=c++11
+./a.out 
+vi 977F.cc
+g++ 977F.cc -std=c++11
+./a.out 
+vi 977F.cc
+g++ 977F.cc -std=c++11
+./a.out 
+vi 977F.cc
+g++ 977F.cc -std=c++11
+./a.out 
+vi 977F.cc
+cd ..
+ll
+cd cf/
+ll
+cd ..
+ll
+cd ..
+ll
+cd kmong
+cd adkb/
+ll
+cd kmong/
+ll
+cd job15_ds2problem/
+:w
+ll
+vi 2.c 
+cd ..ll
+cd ..
+ll
+cd job13_ds3problem/
+ll
+vi string.c 
+g++ string.c 
+gcc string.c 
+./a.out 
+g++ string.c 
+vi string.c 
+gcc string.c 
+./a.out 
+vi string.c 
+gcc string.c 
+./a.out 
+vi string.c 
+gcc string.c 
+./a.out 
+vi string.c 
+gcc string.c 
+./a.out 
+vi string.c 
+gcc string.c 
+./a.out 
+vi string.c 
+gcc string.c 
+./a.out 
+vi string.c 
+gcc string.c 
+./a.out 
+vi string.c 
+gcc string.c 
+./a.out 
+vi string.c 
+gcc string.c 
+./a.out 
+vi string.c 
+gcc string.c 
+./a.out 
+vi string.c 
+gcc string.c 
+./a.out 
+vi string.c 
+gcc string.c 
+./a.out 
+vi string.c 
+gcc string.c 
+./a.out 
+vi string.c 
+gcc string.c 
+./a.out 
+vi string.c 
+gcc string.c 
+./a.out 
+vi string.c 
+gcc string.c 
+./a.out 
+vi string.c 
+gcc string.c 
+./a.out 
+vi string.c 
+gcc string.c 
+./a.out 
+vi string.c 
+gcc string.c 
+./a.out 
+vi string.c 
+gcc string.c 
+./a.out 
+vi string.c 
+gcc string.c 
+./a.out 
+vi string.c 
+gcc string.c 
+./a.out 
+vi string.c
+gcc string.c 
+./a.out 
+vi string.c
+gcc string.c 
+./a.out 
+vi string.c
+gcc string.c 
+vi string.c
+gcc string.c 
+./a.out 
+vi string.c
+gcc string.c 
+./a.out 
+vi string.c
+gcc string.c 
+./a.out 
+vi string.c
+gcc string.c 
+./a.out 
+vi string.c
+gcc string.c 
+./a.out 
+vi string.c
+gcc string.c 
+./a.out 
+vi string.c
+ll
+cd ..
+ll
+mkdir job16_infixpostfix
+ll
+cd job16_infixpostfix/
+ll
+vi infixpostfix.c
+cd ..
+ll
+cd job15_ds2problem/
+ll
+cd ..
+ll
+cd job14_ds5problem/
+ll
+cd..
+cd ..
+ll
+cd job13_ds3problem/
+l
+ll
+vi string.c 
+cd ..
+ll
+cd job16_infixpostfix/
+ll
+vi infixpostfix.c 
+gcc infixpostfix.c 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+ll
+cd..
+ll
+cd b
+cd ..
+ll
+cd ..
+ll
+cd bj/
+ll
+cd p1000/
+ll
+vi 13623.cc
+g++ 13623.cc 
+./a.out 
+vi 13623.cc
+g++ 13623.cc 
+./a.out 
+vi 13623.cc
+g++ 13623.cc 
+./a.out 
+vi 13623.cc
+g++ 13623.cc 
+./a.out 
+vi 13623.cc
+g++ 13623.cc 
+./a.out 
+vi 13623.cc
+ll
+cd ..
+ll
+cd ..
+ll
+cd kmong/
+ll
+cd job16_infixpostfix/
+ll
+vi infixpostfix.c 
+cd job16_infixpostfix/
+gcc job16_inf
+ll
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+git add .
+git commit -m 'asdf'
+git push adkb master
+./a.out 
+
+ll
+cd ..
+l
+ll
+cd ..
+ll
+cd bj/
+
+
+ll
+cd kmong/
+ll
+cd job12_firstfit/
+ll
+vi main.cc 
+g++ main.cc 
+./a.out 
+vi allocation.inp 
+./a.out 
+vi allocation.out 
+vi main.cc 
+g++ main.cc 
+./a.out 
+vi allocation.out 
+vi main.cc 
+ll
+cd ..
+ll
+cd job13_ds3problem/
+ll
+cd ..
+ll
+cd job6_float_to_bin_viceversa/
+ll
+vi floattobin.c 
+./a.out 
+ll
+cd ..
+ll
+cd job16_infixpostfix/
+ll
+git add .
+git commit -m 'asdf'
+cd
+git add .
+git commit -m 'asdf'
+git push adkb master
+ll
+cd kmong/
+ll
+cd job15_ds2problem/
+cd ..
+l
+ll
+cd job16_infixpostfix/
+vi infixpostfix.c 
+gcc infixpostfix.c 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+git add .
+git commit -m 'asdf'
+git push adkb master
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+git add .
+git commit -m 'asdf'
+git push adkb master
+kk
+ll
+cd inf
+
+vi infixpostfix.c 
+gcc infixpostfix.c 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+/a
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+clear
+vi infixpostfix.c 
+./a.out 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+git add .
+git commit -m 'asdf'
+git push adkb master
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+clear
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+clear
+gcc infixpostfix.c 
+./a.out 
+clear
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+git add .
+git commit -m 'asdf'
+vi infixpostfix.c 
+git add .
+git commit -m 'asdf'
+git push adkb master
+vi infixpostfix.c 
+git add .
+git commit -m 'asdf'
+git push adkb master
+vi infixpostfix.c 
+ll
+cd ..
+ll
+mv job16_infixpostfix/ job18_infixpostfix
+ll
+mkdir job19_basicC+linkedlist
+ll
+cd job19_basicC+linkedlist/
+ll
+vi 1.c
+gcc 1.c 
+./a.out 
+vi 1.c 
+gcc 1.c 
+vi 1.c
+gcc 1.c 
+./a.out 
+vi 1.c
+gcc 1.c 
+vi 1.c
+gcc 1.c 
+./a.out 
+vi 1.c
+gcc 1.c 
+./a.out 
+vi 1.c
+gcc 1.c 
+./a.out 
+vi 1.c
+gcc 1.c 
+./a.out 
+vi 1.c
+gcc 1.c 
+./a.out 
+ll
+vi 2.c
+vi 1.c 
+gcc 1.c 
+vi 1.c 
+gcc 1.c 
+vi 1.c 
+gcc 1.c 
+vi 1.c 
+gcc 1.c 
+./a.out 
+vi 1.c 
+./a.out 
+gcc 1.c 
+./a.out 
+vi 1.c 
+vi 2.c 
+gcc 2.c 
+vi 2.c 
+gcc 2.c 
+./a.out 
+vi 2.c 
+./a.out 
+gcc 2.c 
+./a.out 
+vi 2.c 
+gcc 2.c 
+git add .
+git commit -m 'asdf'
+git push adkb master
+ll
+rm "\"
+rm "\\"
+ll
+vi 2.c 
+ll
+cd ..
+ll
+mkdir job20_linkedlist
+ll
+cd job20_linkedlist/
+ll
+vi 1.c
+ll
+cd ..
+ll
+cd job20_linkedlist/
+ll
+gcc 1.c 
+vi 1.c 
+gcc 1.c 
+clear
+gcc 1.c 
+clear
+
+vi 1.c 
+gcc 1.c 
+vi 1.c 
+gcc 1.c 
+clear
+gcc 1.c 
+vi 1.c 
+gcc 1.c 
+vi 1.c 
+gcc 1.c 
+vi 1.c 
+gcc 1.c 
+vi 1.c 
+gcc 1.c 
+vi 1.c 
+gcc 1.c 
+vi 1.c 
+gcc 1.c 
+./a.out 
+vi 1.c 
+gcc 1.c 
+./a.out 
+vi 1.c 
+gcc 1.c 
+./a.out 
+vi 1.c 
+gcc 1.c 
+./a.out 
+vi 1.c 
+gcc 1.c 
+./a.out 
+vi 1.c 
+gcc 1.c 
+./a.out 
+vi 1.c 
+gcc 1.c 
+./a.out 
+vi 1.c 
+gcc 1.c 
+./a.out 
+vi 1.c 
+gcc 1.c 
+./a.out 
+vi 1.c 
+gcc 1.c 
+./a.out 
+vi 1.c 
+gcc 1.c 
+./a.out 
+vi 1.c 
+gcc 1.c 
+./a.out 
+vi 1.c 
+gcc 1.c 
+./a.out 
+vi 1.c 
+gcc 1.c 
+./a.out 
+git add .
+git commit -m 'sadf'
+git push adkb master
+ll
+cd ..
+ll
+cd job18_infixpostfix/
+ll
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+git add .
+git commit -m ''asdf'
+vi infixpostfix.c 
+git add .
+git commit -m 'asdf'
+git push adkb master
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+git add .
+git commit -m 'asdf'
+git push adkb master
+ll
+cd ..
+cd job14_ds5problem/
+ll
+cd ..
+ll
+cd job13_ds3problem/
+ll
+vi string.c 
+gcc string.c 
+./a.out 
+vi string.c 
+gcc string.c 
+vi string.c 
+gcc string.c 
+./a.out 
+vi string.c 
+gcc string.c 
+./a.out 
+vi string.c 
+gcc string.c 
+vi string.c 
+gcc string.c 
+./a.out 
+vi string.c 
+gcc string.c 
+./a.out 
+vi string.c 
+gcc string.c 
+./a.out 
+vi string.c 
+gcc string.c 
+vi string.c 
+gcc string.c 
+./a.out 
+vi string.c 
+gcc string.c 
+./a.out 
+vi string.c 
+gcc string.c 
+./a.out 
+vi string.c 
+gcc string.c 
+./a.out 
+vi string.c 
+gcc string.c 
+./a.out 
+vi string.c 
+gcc string.c 
+./a.out 
+vi string.c 
+gcc string.c 
+./a.out 
+vi string.c 
+$ gcc string.c
+$ ./a.out
+data
+datakimchi
+dat be akimchi
+da be akimchi
+da be asexseximchi
+$ vi string.c
+$ gcc string.c
+$ ./a.out
