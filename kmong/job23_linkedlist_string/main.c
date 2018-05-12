@@ -136,29 +136,6 @@ void Sch(List* list, char* str){
 	}
 }
 
-void Sub(List* list, char* fstr, char* tstr){
-	Alpha* nowAlp = list->front;
-	int al = prec(fstr[0]);
-
-	while(nowAlp){
-
-		if ( nowAlp->al == al ){
-			
-			String* nowStr = nowAlp->front;
-
-			while(nowStr){
-
-				if( !strcmp(nowStr->str, fstr) ){
-					strcpy(nowStr->str, tstr);
-					return;
-				}
-			}
-		}
-		nowAlp  = nowAlp->next;
-	}
-
-}
-
 void Del(List* list, char* str){
 	Alpha* nowAlp = list->front;
 	int al = prec(str[0]);
@@ -184,6 +161,30 @@ void Del(List* list, char* str){
 		}
 		nowAlp = nowAlp->next;
 	}
+}
+
+void Sub(List* list, char* fstr, char* tstr){
+	Alpha* nowAlp = list->front;
+	int al = prec(fstr[0]);
+
+	while(nowAlp){
+
+		if ( nowAlp->al == al ){
+			
+			String* nowStr = nowAlp->front;
+
+			while(nowStr){
+
+				if( !strcmp(nowStr->str, fstr) ){
+					push(list, tstr, nowStr->id);
+					Del(list, fstr);
+					return;
+				}
+			}
+		}
+		nowAlp  = nowAlp->next;
+	}
+
 }
 
 void printAll(List* list){
