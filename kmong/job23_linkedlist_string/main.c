@@ -6,7 +6,7 @@ char s[1002], w[1002];
 char query[55];
 
 typedef struct Alpha{  // alphabet list "node"
-	char al; 
+	int al; 
 	struct Alpha *next; 
 	struct String* front;
 } Alpha;
@@ -18,6 +18,19 @@ typedef struct String{ // string list "node"
 }String;
 
 typedef struct { Alpha* front; }List; //List that I access
+
+int prec(char c){
+	if ('a' <=c && c<= 'z' ) return c-'a';
+	else if ( 'A' <= c && c<= 'Z' )  return c-'A'+26;
+	else return 52;
+}
+
+char retr(int n){
+	if (0 <=n && n<= 25 ) return n+'a';
+	else if ( 26 <= n && n<= 51 )  return n+'A'-26;
+	else return '.';
+
+}
 
 List* CreateList(){
 	List* list = (List*) malloc(sizeof(List));
@@ -32,17 +45,11 @@ Alpha* CreateAlpha(char c){
 }
 
 String* CreateString(char* str, int id){
-	String* string = (String*)malloc(sizeof(string));
+	String* string = (String*)malloc(sizeof(String));
 	strcpy(string->str, str);
 	string->id =id; 
 	string->next=0;
 	return string;
-}
-
-int prec(char c){
-	if ('a' <=c && c<= 'z' ) return c-'a';
-	else if ( 'A' <= c && c<= 'Z' )  return c-'A'+26;
-	else return 52;
 }
 
 void pushString(Alpha* alpha, char* str, int id){
@@ -69,8 +76,10 @@ void push(List* list, char* str, int id){
 	Alpha* before=0;
 	int chk=0; // chk variable for 
 
+	int al = prec(str[0]);
+
 	if ( alpha == 0){ // if list is empty
-		Alpha* newAlp =  CreateAlpha(str[0]);
+		Alpha* newAlp =  CreateAlpha(al);
 		list->front = newAlp;
 		pushString(newAlp, str, id);
 		return; 
@@ -78,13 +87,13 @@ void push(List* list, char* str, int id){
 
 	while(alpha){
 
-		if( alpha->al == str[0] ){
+		if( alpha->al == al ){
 			pushString(alpha, str, id);
 			chk=1;
 			break;
 		}
-		else if ( alpha->al  > str[0] ){
-			Alpha* newAlp =  CreateAlpha(str[0]);
+		else if ( alpha->al  > al ){
+			Alpha* newAlp =  CreateAlpha(al);
 			pushString(newAlp, str, id);
 
 			if(before) before->next = newAlp; // if before exist
@@ -101,7 +110,7 @@ void push(List* list, char* str, int id){
 	}
 
 	if (!chk){ // most big "char"
-		Alpha* newAlp =  CreateAlpha(str[0]);
+		Alpha* newAlp =  CreateAlpha(al);
 		before->next = newAlp;
 		pushString(newAlp, str, id);
 	}
@@ -110,10 +119,11 @@ void push(List* list, char* str, int id){
 
 void Sch(List* list, char* str){
 	Alpha* nowAlp = list->front;
+	int al = prec(str[0]);
 
 	while(nowAlp){
 
-		if(nowAlp->al == str[0] ) {
+		if(nowAlp->al == al ) {
 			String* nowStr = nowAlp->front;
 
 			while(nowStr){
@@ -121,18 +131,66 @@ void Sch(List* list, char* str){
 				if (!strcmp(nowStr->str,str)) break;
 				nowStr = nowStr->next;
 			}
-
 		}
 		nowAlp = nowAlp->next;
 	}
+}
 
+void Sub(List* list, char* fstr, char* tstr){
+	Alpha* nowAlp = list->front;
+	int al = prec(fstr[0]);
+
+	while(nowAlp){
+
+		if ( nowAlp->al == al ){
+			
+			String* nowStr = nowAlp->front;
+
+			while(nowStr){
+
+				if( !strcmp(nowStr->str, fstr) ){
+					strcpy(nowStr->str, tstr);
+					return;
+				}
+			}
+		}
+		nowAlp  = nowAlp->next;
+	}
+
+}
+
+void Del(List* list, char* str){
+	Alpha* nowAlp = list->front;
+	int al = prec(str[0]);
+
+	while(nowAlp){
+
+		if ( nowAlp->al == al){
+			String* nowStr = nowAlp->front;
+			String* before=0;
+
+			while(nowStr){
+
+				if(!strcmp(nowStr->str, str)){
+
+					if(before) before->next= nowStr->next;
+					else nowAlp->front = nowStr->next;
+
+					free(nowStr);
+					return;
+
+				}
+			}
+		}
+		nowAlp = nowAlp->next;
+	}
 }
 
 void printAll(List* list){
 	Alpha* nowAlp = list->front;
 
 	while(nowAlp){
-		printf("nowAlp: %c\n", nowAlp->al);
+		printf("nowAlp: %c\n", retr(nowAlp->al));
 
 		String* nowStr = nowAlp->front;
 
@@ -153,29 +211,39 @@ int main(){
 	fgets(s, 1002,stdin);
 	int len = strlen(s);
 	if (s[len-1] == '\n') s[--len]=0;
-	int start=1, id=0, wlen=0;
+	int start=1, id=0, wlen=0, wchk=0;
 
 	for (int i=0; i<len; i++){
 		if (s[i] == ' ' ){
-			w[wlen++]=0; push(list, w, id); id++;
-			wlen=0;
+			if(wchk){
+				w[wlen++]=0; push(list, w, id); id++;
+				wlen=0, wchk=0;
+			}
 		}
 		else if ( s[i] == '.' ){
-			w[wlen++]=0; push(list, w, id); id++;
+			if(wchk) {
+				w[wlen++]=0; push(list, w, id); id++, wchk=0;
+			}
 
 			w[0]='.', w[1]=0; push(list, w, id); id++, wlen=0;
 		}
-		else w[wlen++]=s[i]; 
+		else w[wlen++]=s[i], wchk=1; 
 	}
 
-	w[wlen++]=0; push(list, w, id);
+	if(wchk){
+		w[wlen++]=0; 
+		push(list, w, id);
+	}
 
 	printAll(list);
 
 	while(scanf("%s", query)){
 		if (query[0] == '0') break;
 		if ( !strcmp(query, "sub")){
-			scanf("%s", w);
+
+			char t[200];
+			scanf("%s %s", w, t);
+			Sub(list, w, t);
 
 		}
 		else if (!strcmp(query, "sch")){
@@ -185,6 +253,7 @@ int main(){
 		}
 		else if (!strcmp(query, "del")){
 			scanf("%s", w);
+			Del(list, w);
 		}
 	}
 
