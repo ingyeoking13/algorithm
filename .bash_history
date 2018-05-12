@@ -1,495 +1,3 @@
-ll
-cd permutation/
-ll
-vi next_perm.c
-exit
-ll
-cd kmong/
-ll
-cd job13_ds3problem/
-ll
-vi string.c
-gcc string.c 
-vi string.c
-gcc string.c 
-vi string.c
-gcc string.c 
-./a.out 
-vi string.c
-gcc string.c 
-vi string.c
-gcc string.c 
-vi string.c
-gcc string.c 
-./a.out 
-vi string.c
-gcc string.c 
-./a.out 
-vi string.c
-gcc string.c 
-./a.out 
-vi string.c
-gcc string.c 
-./a.out 
-vi string.c
-gcc string.c 
-vi string.c
-gcc string.c 
-vi string.c
-gcc string.c 
-./a.out 
-vi string.c
-cd ..
-ll
-cd job12_firstfit/
-ll
-./a.out 
-ll
-vi main.cc 
-gcc main.cc 
-g++ main.cc 
-g++ main.cc -std=c++11
-./a.out 
-vi main.cc 
-g++ main.cc -std=c++11
-./a.out 
-./a.out > out.out
-vi out.out 
-vi mian
-ll
-vi main.cc 
-g++ main.cc -std=c++11
-./a.out > out.out
-vi out.out 
-vi main.cc 
-git add .
-git commit -m 'asdf'
-git push adkb master
-./a.out 
-git commit -m 'asdf'
-vi main.cc 
-g++ main.cc -std=c++11
-./a.out 
-vi allocation.inp
-./a.out 
-vi allocation.out 
-./a.out 
-vi out.out 
-vi allocation.out 
-vi main.cc 
-g++ main.cc
-vi main.cc 
-g++ main.cc -std=c++11
-./a.out 
-vi allocation.out 
-g++ main.cc
-vi main.cc 
-g++ main.cc
-vi main.cc 
-g++ main.cc
-vi main.cc 
-g++ main.cc
-vi main.cc 
-g++ main.cc
-vi main.cc 
-g++ main.cc
-vi main.cc 
-g++ main.cc
-./a.out 
-vi allocation.out 
-vi main.cc 
-git add .
-git commit -m 'adsf'
-git push adkb master
-vi main.cc 
-g++ main.cc
-vi main.cc 
-g++ main.cc
-./a.out 
-vi allocation.out 
-rm allocation.out 
-./a.out 
-vi allocation.out 
-git add .
-git commit -m 'asdf'
-git push adkb master
-vi main.cc 
-git add .
-git commit -m 'asdf'
-git push adkb master
-git add .
-git commit -m 'asdf'
-git add .
-sudo rm -Rf .git
-ll
-sudo rm -Rf .git
-su
-git add .
-git commit -m 'asdf'
-git push
-git push adkb master
-git pull 
-git pull adkb master
-ll
-vi main.cc 
-git pull adkb master
-g++ main.cc 
-./a.out 
-rm allocation.out 
-./a.out 
-vi allocation.out 
-git add .
-git changes
-git change
-git whatchanged
-qq
-git add .
-git commit -m 'asdf'
-git push adkb master
-vi main.cc 
-./a.out 
-vi allocation.inp 
-./a.out 
-vi allocation.out 
-vi allocation.inp 
-./a.out 
-vi allocation.out 
-vi main.cc 
-g++ allocation.
-g++ main.cc 
-vi main.cc 
-vi allocation.inp 
-./a.out 
-vi allocation.out 
-vi main.cc 
-g++ main.cc 
-./a.out 
-vi allocation.
-vi allocation.out 
-vi main.cc 
-./a.out 
-vi allocation.out 
-vi main.cc 
-git add .
-git commit -m 'asdf'
-git push adkb master
-vi main.cc 
-vi allocation.inp 
-ll
-rm .allocation.inp.swp 
-vi allocation.inp 
-./a.out  
-vi allocation.out 
-vi mian
-vi main.cc 
-git add .
-git commit -m 'asdf'
-git push adkb master
-./a.out 
-vi main.cc 
-g++ main.cc 
-./a.out 
-vi main.cc 
-g++ main.cc 
-vi main.cc 
-g++ main.cc 
-./a.out 
-vi main.cc 
-vi out.out 
-vi allocation.out 
-vi allocation.inp 
-./a.out 
-vi allocation.out 
-git add .
-git commit -m 'asdf'
-git push adkb master
-vi main.cc 
-g++ main.cc 
-vi main.cc 
-vi allocation.inp 
-vi main.cc 
-g++ main.cc 
-./a.out 
-vi ouo
-vi out.out 
-vi allocation.inp 
-./a.out 
-vi allocation.out 
-vi main.cc 
-g++ main.cc 
-./a.out 
-vi main.cc 
-g++ main.cc 
-vi main.cc 
-cd ..
-ll
-cd ll
-cd ..
-ll
-cd bj/
-ll
-cd p1000/
-ll
-rm p1914.o 
-ll
-vi 1417.cc
-g++ 1417.cc 
-vi 1417.cc
-g++ 1417.cc 
-./a.out 
-vi 1417.cc
-vi 15654.cc
-g++ 15654.cc 
-vi 15654.cc
-g++ 15654.cc 
-vi 15654.cc
-g++ 15654.cc 
-vi 15654.cc
-./a.out 
-vi 15654.cc
-./a.out 
-vi 15654.cc
-./a.out 
-4
-./a.out 
-vi 15654.cc
-./a.out 
-gcc 15654.cc 
-./a.out 
-vi 15654.cc
-gcc 15654.cc 
-./a.out 
-vi 15654.cc
-gcc 15654.cc 
-./a.out 
-vi 15654.cc
-gcc 15654.cc 
-./a.out 
-vi 15654.cc
-gcc 15654.cc 
-./a.out 
-vi 15654.cc
-gcc 15654.cc 
-./a.out 
-vi 15654.cc
-gcc 15654.cc 
-./a.out 
-vi 15654.cc
-gcc 15654.cc 
-./a.out 
-vi 15654.cc
-gcc 15654.cc 
-./a.out 
-vi 15654.cc
-gcc 15654.cc 
-./a.out 
-vi 15654.cc
-gcc 15654.cc 
-./a.out 
-vi 15654.cc
-gcc 15654.cc 
-./a.out 
-vi 15654.cc
-gcc 15654.cc 
-./a.out 
-vi 15654.cc
-gcc 15654.cc 
-./a.out 
-vi 15654.cc
-gcc 15654.cc 
-./a.out 
-vi 15654.cc
-gcc 15654.cc 
-vi 15654.cc
-gcc 15654.cc 
-./a.out 
-vi 15654.cc
-./a.out 
-vi 15654.cc
-gcc 15654.cc 
-./a.out 
-vi 15654.cc
-gcc 15654.cc 
-./a.out 
-vi 15654.cc
-vi 9470.cc
-g++ 9470.cc 
-vi 9470.cc
-g++ 9470.cc 
-./a.out 
-vi 9470.cc
-g++ 9470.cc 
-./a.out 
-vi 9470.cc
-g++ 9470.cc 
-./a.out 
-vi 9470.cc
-./a.out 
-vi 9470.cc
-g++ 9470.cc 
-./a.out 
-#include <queue>
-using namespace std;
-int main(){
-}
-./a.out 
-vi 9470.cc 
-g++ 4740
-g++ 9470.cc 
-./a.out 
-vi 9470.cc 
-g++ 9470.cc 
-./a.out 
-vi 9470.cc 
-g++ 9470.cc 
-./a.out 
-vi 9470.cc 
-./a.out 
-g++ 9470.cc 
-./a.out 
-vi 9470.cc 
-vi 15654.cc 
-g++ 9470.cc 
-./a.out 
-vi 15654.cc 
-g++ 9470.cc 
-./a.out 
-g++ 15654.cc 
-./a.out 
-vi 15654.cc 
-g++ 15654.cc 
-./a.out 
-vi 15654.cc 
-g++ 15654.cc 
-./a.out 
-vi 15654.cc 
-g++ 15654.cc 
-./a.out 
-vi 15654.cc 
-g++ 15654.cc 
-./a.out 
-vi 15654.cc 
-g++ 15654.cc 
-./a.out 
-vi 15654.cc 
-g++ 15654.cc 
-./a.out 
-vi 15654.cc 
-./a.out 
-vi 15654.cc 
-g++ 15654.cc 
-vi 15654.cc 
-g++ 15654.cc 
-./a.out 
-vi 15654.cc 
-g++ 15654.cc 
-./a.out 
-vi 15654.cc 
-
-vi 15654.cc 
-vi 9470.cc 
-./a.out 
-g++ 9470.cc 
-./a.out 
-vi 9470.cc 
-g++ 9470.cc 
-./a.out 
-vi 9470.cc 
-g++ 9470.cc 
-./a.out 
-vi 9470.cc 
-g++ 9470.cc 
-./a.out 
-vi 9470.cc 
-g++ 9470.cc 
-./a.out 
-vi 9470.cc 
-./a.out 
-vi 9470.cc 
-vi 5676.cc
-vi 15654.cc 
-ll
-vi 15654.cc 
-ll
-cd ..
-ll
-cd ..
-ll
-cd kmong/
-ll
-mkdir job14_ds5problem
-ll
-cd job14_ds5problem/
-ll
-vi main.c
-gcc main.c 
-vi main.c
-gcc main.c 
-./a.out 
-vi main.c
-gcc main.c 
-./a.out 
-vi main.c
-gcc main.c 
-./a.out 
-vi main.c
-gcc main.c 
-./a.out 
-vi main.c
-gcc main.c 
-./a.out 
-vi main.c
-gcc main.c 
-./a.out 
-vi main.c
-gcc main.c 
-./a.out 
-vi main.c
-gcc main.c 
-./a.out 
-vi main.c
-gcc main.c 
-./a.out 
-vi main.c
-gcc main.c 
-./a.out 
-vi main.c
-gcc main.c 
-./a.out 
-vi main.c
-gcc main.c 
-./a.out 
-vi main.c
-gcc main.c 
-./a.out 
-vi main.c
-gcc main.c 
-./a.out 
-vi main.c
-gcc main.c 
-./a.out 
-vi main.c
-gcc main.c 
-./a.out 
-vi main.c
-gcc main.c 
-./a.out 
-vi main.c
-gcc main.c 
-./a.out 
-vi main.c
-gcc main.c 
-./a.out 
-vi main.c
-gcc main.c 
-vi main.c
-gcc main.c 
-./a.out 
-vi main.c
-gcc main.c 
-./a.out 
-vi main.c
-gcc main.c 
 ./a.out 
 vi main.c
 gcc main.c 
@@ -1998,3 +1506,495 @@ da be asexseximchi
 $ vi string.c
 $ gcc string.c
 $ ./a.out
+ll
+cd kmong/
+ll
+cd job13_ds3problem/
+ll
+vi string.c in
+ll
+gcc string.c 
+vi string.c 
+gcc string.c 
+./a.out 
+vi string.c 
+gcc string.c 
+./a.out 
+vi string.c 
+gcc string.c 
+./a.out 
+vi string.c 
+gcc string.c 
+./a.out 
+vi string.c 
+gcc string.c 
+./a.out 
+vi string.c 
+./a.out 
+gcc string.c 
+./a.out 
+vi string.c 
+gcc string.c 
+./a.out 
+ll
+vi infixpostfix.c
+gcc infixpostfix.c 
+vi infixpostfix.c
+gcc infixpostfix.c 
+vi infixpostfix.c
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c
+gcc infixpostfix.c 
+./a.out 
+13 + 2 * 4 / 3
+./a.out 
+vi infixpostfix.c
+13 + 2 * 4 / 3
+gcc infixpostfix.c 
+./a.out 
+13 + 2 * 4 / 3
+gcc infixpostfix.c 
+./a.out 
+13 + 2 * 4 / 3ddi
+./a.out 
+vi infixpostfix.c
+13 + 2 * 4 / 3
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+lofi hip hop radio - beats to relax/study to
+ChilledCow
+1.1만명 시청 중
+실시간 스트리밍 중
+[YTN LIVE] 대한민국 24시간 뉴스채널 YTN
+YTN NEWS
+8천명 시청 중
+실시간 스트리밍 중
+20:02
+브베 도네 레전드 모음 16
+브베라이프
+맞춤 동영상
+Relaxing Jazz & Bossa Nova Music Radio - 24/7 Chill Out Piano & Guitar Music Live Stream
+Cafe Music BGM channel
+5.1천명 시청 중
+실시간 스트리밍 중
+23:44
+Ian McKellen - Full Address
+OxfordUnion
+조회수 9만회
+[SBS LIVE] 새롭게 시작하는 SBS 뉴스
+./a.out 
+vi infixpostfix.c 
+[SBS LIVE] 새롭게 시작하는 SBS 뉴스
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+ll
+vi hanoi.c
+gcc hanoi.c 
+./a.out 
+vi hanoi.c
+gcc hanoi.c 
+./a.out 
+vi hanoi.c
+gcc hanoi.c 
+./a.out 
+vi hanoi.c
+gcc hanoi.c 
+./a.out 
+vi hanoi.c
+gcc hanoi.c 
+./a.out 
+vi hanoi.c
+gcc hanoi.c 
+./a.out 
+vi hanoi.c
+gcc hanoi.c 
+./a.out 
+vi hanoi.c
+gcc hanoi.c 
+./a.out 
+vi hanoi.c
+gcc hanoi.c 
+./a.out 
+vi hanoi.c
+gcc hanoi.c 
+./a.out 
+vi hanoi.c
+gcc hanoi.c 
+./a.out 
+vi hanoi.c
+gcc hanoi.c 
+./a.out 
+vi hanoi.c
+gcc hanoi.c 
+./a.out 
+vi hanoi.c
+gcc hanoi.c 
+./a.out 
+vi hanoi.c
+gcc hanoi.c 
+./a.out 
+vi hanoi.c
+gcc hanoi.c 
+./a.out 
+vi hanoi.c
+gcc hanoi.c 
+./a.out 
+vi hanoi.c
+gcc hanoi.c 
+./a.out 
+vi hanoi.c
+gcc hanoi.c 
+./a.out 
+vi hanoi.c
+gcc hanoi.c 
+./a.out 
+vi hanoi.c
+gcc hanoi.c 
+./a.out 
+vi hanoi.c
+gcc hanoi.c 
+./a.out 
+vi hanoi.c
+gcc hanoi.c 
+./a.out 
+vi hanoi.c
+gcc hanoi.c 
+vi hanoi.c
+gcc hanoi.c 
+./a.out 
+vi hanoi.c
+gcc hanoi.c 
+./a.out 
+vi hanoi.c
+gcc hanoi.c 
+vi hanoi.c
+gcc hanoi.c 
+./a.out 
+vi hanoi.c
+gcc hanoi.c 
+./a.out 
+vi hanoi.c
+gcc hanoi.c 
+./a.out 
+vi hanoi.c
+gcc hanoi.c 
+./a.out 
+vi hanoi.c
+gcc hanoi.c 
+./a.out 
+vi hanoi.c
+gcc hanoi.c 
+./
+vi hanoi.c
+gcc hanoi.c 
+./a.out 
+vi hanoi.c
+gcc hanoi.c 
+./a.out 
+vi hanoi.c
+gcc hanoi.c 
+./a.out 
+vi hanoi.c
+gcc hanoi.c 
+./a.out 
+vi hanoi.c
+gcc hanoi.c 
+vi hanoi.c
+gcc hanoi.c 
+./a.out 
+vi hanoi.c
+gcc hanoi.c 
+./a.out 
+vi hanoi.c
+gcc hanoi.c 
+./a.out 
+vi hanoi.c
+gcc hanoi.c 
+./a.out 
+vi hanoi.c
+gcc hanoi.c 
+./a.out 
+vi hanoi.c
+gcc hanoi.c 
+./a.out 
+vi hanoi.c
+gcc hanoi.c 
+./a.out 
+vi hanoi.c
+gcc hanoi.c 
+./a.out 
+vi hanoi.c
+gcc hanoi.c 
+./a.out 
+gcc hanoi.c 
+4
+./a.out 
+vi hanoi.c
+4
+gcc hanoi.c 
+./a.out 
+vi hanoi.c 
+gcc hanoi.c 
+./a.out 
+vi hanoi.c 
+gcc hanoi.c 
+./a.out 
+vi hanoi.c 
+gcc hanoi.c 
+./a.out 
+vi hanoi.c 
+gcc hanoi.c 
+./a.out 
+vi hanoi.c 
+gcc hanoi.c 
+./a.out 
+vi hanoi.c 
+gcc hanoi.c 
+./a.out 
+vi hanoi.c 
+gcc hanoi.c 
+./a.out 
+vi hanoi.c 
+gcc hanoi.c 
+./a.out 
+vi hanoi.c 
+gcc hanoi.c 
+./a.out 
+vi hanoi.c 
+./a.out 
+vi hanoi.c 
+gcc hanoi.c 
+./a.out 
+vi hanoi.c 
+gcc hanoi.c 
+./a.out 
+vi hanoi.c 
+gcc hanoi.c 
+./a.out 
+vi hanoi.c 
+gcc hanoi.c 
+./a.out 
+vi hanoi.c 
+gcc hanoi.c 
+./a.out 
+vi hanoi.c 
+gcc hanoi.c 
+./a.out 
+vi hanoi.c 
+gcc hanoi.c 
+./a.out 
+vi hanoi.c 
+gcc hanoi.c 
+./a.out 
+vi hanoi.c 
+gcc hanoi.c 
+./a.out 
+vi hanoi.c 
+gcc hanoi.c 
+./a.out 
+vi hanoi.c 
+gcc hanoi.c 
+./a.out 
+vi hanoi.c 
+gcc hanoi.c 
+./a.out 
+vi hanoi.c 
+gcc hanoi.c 
+./a.out 
+vi hanoi.c 
+gcc hanoi.c 
+./a.out 
+vi hanoi.c 
+gcc hanoi.c 
+./a.out 
+vi hanoi.c 
+gcc hanoi.c 
+./a.out 
+cd 
+ll
+git add .
+git commit -m 'asdf'
+git push adkb master
+cd kmong/
+cd job14_ds5problem/
+ll
+cd ..
+cd job13_ds3problem/
+ll
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+123 + ( 43 + 23 * 3 ) / 2
+./a.out 
+vi infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+clear
+./a.out 
+vi infixpostfix.c 
+clear
+./a.out 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+gcc infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+./a.out 
+vi infixpostfix.c 
+ll
+cd bj/
+ll
+cd p1000/
+ll
+vi 1958.cc
+g++ 1958.cc 
+vi 1958.cc
+g++ 1958.cc 
+./a.out 
+vi 1958.cc
+g++ 1958.cc 
+./a.out 
+vi 1958.cc
+g++ 1958.cc 
+g++ 1958.cc -std=c++11
+./a.out 
+g++ 1958.cc 
+vi 1958.cc
+g++ 1958.cc 
+g++ 1958.cc -std=c++11
+./a.out 
+vi 1958.cc
+g++ 1958.cc -std=c++11
+./a.out 
+vi 1958.cc
+g++ 1958.cc -std=c++11
+./a.out 
+vi 1958.cc
+g++ 1958.cc -std=c++11
+./a.out 
+vi 1958.cc
+g++ 1958.cc -std=c++11
+./a.out 
+vi 1958.cc
+g++ 1958.cc -std=c++11
+./a.out 
+vi 1958.cc
+ll
+cd kmong/
+ll
+mkdir job23_linkedlist_string
+cd job23_linkedlist_string/
+ll
+vi main.cc
+gcc main.cc 
+./a.out 
+vi main.cc
+gcc main.cc 
+./a.out 
+kim chi nyam nyam . sex machine....kkk
+./a.out 
+vi main.cc
+gcc main.cc 
+vi main.cc
+gcc main.cc 
+vi main.cc
+gcc main.cc 
+vi main.cc
+exit

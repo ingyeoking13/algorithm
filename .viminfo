@@ -8,7 +8,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/fgets
+~MSle0~/Sch
 
 # Last Substitute Search Pattern:
 ~MSle0&tot
@@ -19,8 +19,15 @@ $
 # Command Line History (newest to oldest):
 :wq
 :w
-:q
 :W
+:s
+:q
+:set nonu
+:qw
+:r main.c
+:wo
+:a
+:ã…ˆ
 :Wq
 :vi 2.c
 :cd job19_basicC+linkedlist/
@@ -29,15 +36,12 @@ $
 :ls
 :ll
 :cd job18_infixpostfix/
-:s
 :r
 :w\
 :set nopaste
 :set paste
-:ã…ˆ
 :set no
 :ã…ˆ:w
-:set nonu
 :est nonu
 :.wq
 :k
@@ -52,7 +56,6 @@ $
 :no number
 :no nu
 :nonu
-:a
 :vi echo_server.c
 :vi echo_client.c
 :vi client
@@ -64,11 +67,19 @@ $
 :\bword
 :d
 :wk:w
-:w:
-:;w
-:w:w
 
 # Search String History (newest to oldest):
+?/Sch
+?/push_String
+?/list->tail
+?/ret
+?/Q
+?/sch
+?/Sub
+?/prec
+?/Alpha
+?/print
+?/stack
 ?/fgets
 ?/kjk
 ?/create
@@ -86,7 +97,6 @@ $
 ?/quater
 ?/del_node
 ?/before
-?/print
 ?/swap
 ?/swp
 ?/time
@@ -109,16 +119,6 @@ $
 ?/file_data
 ?/178
 ?/pool
-?/thread
-?/ok
-?/dp
-?/d
-?/s
-?/go
-?/state
-?/mxx
-?/20
-?/er
 
 # Expression History (newest to oldest):
 
@@ -128,163 +128,1151 @@ $
 # Input Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-			printf("|              	   ||                  ||                  |\n");
+""0	LINE	0
+	void pushString(Alpha* alpha, char* str, int id){
 "1	LINE	0
-			printf("============================================================\n");
+						Sch
 "2	LINE	0
-	
+						strcpy(nowStr->str, tstr);
 "3	LINE	0
 	
 "4	LINE	0
+	void Del(List* list, char* str){
+		Alpha* nowAlp = list->front;
+		int al = prec(str[0]);
 	
+		while(nowAlp){
+	
+			if ( nowAlp->al == al){
+				String* nowStr = nowAlp->front;
+				String* before=0;
+	
+				while(nowStr){
+	
+					if(!strcmp(nowStr->str, str)){
+	
+						if(before) before->next= nowStr->next;
+						else nowAlp->front = nowStr->next;
+	
+						free(nowStr);
+						return;
+	
+					}
+				}
+			}
+			nowAlp = nowAlp->next;
+		}
+	}
 "5	LINE	0
-			if (i==0 )    printf("|    ");
-			else if(i==1) printf("|   ");
-			else if(i==2) printf("|  ");
-			else if(i==3) printf("| ");
-			else if(i==4) printf("|");
+	void Del(List* list, char* str)
+	{
+		Alphabet* alpha = list->head;
+	
+		while(alpha != NULL)
+		{
+	
+			if ( alpha->al == str[0])
+			{
+				String* string = alpha->head;
+				String* before=0;
+	
+				while(string){
+	
+					if(strcmp(string->word, str) == 0){
+	
+						if(before) before->next= string->next;
+						else       alpha->head = string->next;
+	
+						free(string);
+						return;
+	
+					}
+				}
+			}
+			alpha = alpha->next;
+		}
+	}
 "6	LINE	0
-			if (i==0 )    printf("    |");
-			else if(i==1) printf("   |");
-			else if(i==2) printf("  |");
-			else if(i==3) printf(" |");
-			else if(i==4) printf("|");
+	
 "7	LINE	0
-					for (int k=0; k<=j; k++) printf("*");
+						(to, string->id);
 "8	LINE	0
-			if (i==0 )    printf("    |");
-			else if(i==1) printf("   |");
-			else if(i==2) printf("  |");
-			else if(i==3) printf(" |");
-			else if(i==4) printf("|");
+						strcpy(string->word, to);
 "9	LINE	0
-			if (i==0 )    printf("|    ");
-			else if(i==1) printf("|   ");
-			else if(i==2) printf("|  ");
-			else if(i==3) printf("| ");
-			else if(i==4) printf("|");
+						return;
 "l	CHAR	0
 	w
 "u	CHAR	0
 	2955
 <stn €kb€kb€kb ë³€ìˆ˜ ã…ã…“ã…lllljla ìƒëŒ€ë°©ì˜ ì£¼ì†Œë¥¼ ë„£ì–´ì¤ë‹ˆë‹¤.jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkoì±„ã…•€kb€kbcoup->[€kb€kb€kbon->c[€kb€kbp[p€kbperson->num]=person;:wjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjddkyypcwpersonlllrnrcllcwcoupn€kbonllllllllcwcon€kbupon:wjjkkkJw;ko€kbko€kbint€kb€kb€kb€kb€kb	  int €kb€kb€kb€kb€kbint rmv(coup*, pers*) : ì´ í•¨ìˆ˜ëŠ” ep€kb€kbpersì™€ coup ê´€ê³„ì— ê°„ì„ ì„ ì œê±°í•©ë‹ˆë‹¤.  ì´ë¯¸ ì¡´ìž¬ €kb€kb€kbê´€ê³„ê°€ ì¡´ìž¬ €kbí•˜ì§€ ì•ŠëŠ”ë‹¤ë©´ ã…“jGkk:wkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkklllllllllllllllllllllllllljllll:w:ã…ˆã…:wkjjjkk1Gjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjkkkkkkkklllllllllljlllllllllllllllllllllllllllllllllllllllllllljjjjjjjjjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhha ëª¨ë“  :wx:wjjjjkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjljjjjjjjjjjjllllllllllllla1dmf €kb€kb€kb€kb€kb€kb 1ì„ ë¦¬í„´í•˜ã…ã…€kbì—¬ kjjGkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjj:wjjjjjj$ar€kb€kb€kb €kbì—¬ ê²½ê³ ë¥¼ ë„ì›ë‹ˆë‹¤.ë§Œì•½ í•´ë‹¹ ê°„ì„ ì´ ì¡´ìž¬í•œ€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb í•´ë‹¹ ê°„ì„ ì´ ì¡´ìž¬í•œë‹¤ë©´, ì´ €kb€kbí•´ë‹¹ í¬ì¸í„° ë³€ìˆ˜ ë°°ì—´€kbì—´ ì— ã…$a€kbdp €kb€kb€kbì— =0€kb€kb0€kbN€kb0dmf €kb€kb€kb€kbì„ ë„£ìŠµë‹ˆë‹¤.coupon->p[person->num=€kb]=0, per€kb€kb€kbperson->p€kbc[per€kb€kb€kbcoupon->num]=0;:wkkjjjdd:wGkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjkkjkkkkkkkkkkkkjjjjjjjjjjjjjjkkjkllo€kb€kb int S€kbshow_P(jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjkkhhhhhhhhhhcwovid€kb€kb€kb€kbvodillhhhxadllllllllllllapers*):wa : dl€kb€kbì´ í•¨ìˆ˜ëŠ” :wkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkã…kjw€kbã…€kb ì „ë‹¬ë°›ì€ í•´ë‹¹ personì´ ê°€ì§€ê³  ìžˆëŠ” ì¿ í°ì„ ë³´ì—¬ì¤ë‹ˆë‹¤.	€kb  for ë°˜ë³µë¬¸ì„ í†µí•´ì„œ ì –ã…‡€kb€kbperso€kb€kb€kb€kb€kbí•´ë‹¹ personì´ ê°€ì§€ê³  ìžˆì„ [nhic1G50Gjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkjkkkk$hla€kbNE+1]:wkj:wa a€kbë§Œí¼ì˜ ë°°ì—´ì„ ìˆœíšŒí•©ë‹ˆë‹¤.ë§Œì•½ ì¡´ìž¬í•œë‹¤ë©´ í•´ë‹¹ ì²¨ìž €kbë¥¼ ì¶œë ¥í•˜ë©´ ë˜ì£ ã…—ã…—ã…—ã…—ã…—ã…—ã…—ã…—ã…—ã…—ã…— 
-""-	CHAR	0
-	 
+"-	CHAR	0
+	to
 
 # File marks:
 'G  16  0  ~/kmong/job6_float_to_bin_viceversa/test.c
-'0  64  38  ~/kmong/job13_ds3problem/hanoi.c
-'1  60  61  ~/kmong/job13_ds3problem/hanoi.c
-'2  61  46  ~/kmong/job13_ds3problem/hanoi.c
-'3  34  1  ~/kmong/job13_ds3problem/hanoi.c
-'4  33  69  ~/kmong/job13_ds3problem/hanoi.c
-'5  7  68  ~/kmong/job13_ds3problem/hanoi.c
-'6  1  0  ~/kmong/job13_ds3problem/hanoi.c
-'7  23  25  ~/kmong/job13_ds3problem/hanoi.c
-'8  6  1  ~/kmong/job13_ds3problem/hanoi.c
-'9  44  9  ~/kmong/job13_ds3problem/hanoi.c
+'0  259  0  ~/kmong/job23_linkedlist_string/main.c
+'1  199  0  ~/kmong/job23_linkedlist_string/main.c
+'2  174  18  ~/kmong/job23_linkedlist_string/another.c
+'3  156  0  ~/kmong/job23_linkedlist_string/another.c
+'4  100  5  ~/kmong/job23_linkedlist_string/another.c
+'5  36  19  ~/bj/p1000/11585.cc
+'6  35  0  ~/bj/p1000/11585.cc
+'7  37  19  ~/bj/p1000/11585.cc
+'8  20  0  ~/bj/p1000/11585.cc
+'9  37  37  ~/bj/p1000/11585.cc
 
 # Jumplist (newest first):
--'  64  38  ~/kmong/job13_ds3problem/hanoi.c
--'  1  0  ~/kmong/job13_ds3problem/hanoi.c
--'  60  61  ~/kmong/job13_ds3problem/hanoi.c
--'  61  46  ~/kmong/job13_ds3problem/hanoi.c
--'  34  1  ~/kmong/job13_ds3problem/hanoi.c
--'  33  69  ~/kmong/job13_ds3problem/hanoi.c
--'  7  68  ~/kmong/job13_ds3problem/hanoi.c
--'  23  25  ~/kmong/job13_ds3problem/hanoi.c
--'  6  1  ~/kmong/job13_ds3problem/hanoi.c
--'  44  9  ~/kmong/job13_ds3problem/hanoi.c
--'  46  0  ~/kmong/job13_ds3problem/hanoi.c
--'  8  0  ~/kmong/job13_ds3problem/hanoi.c
--'  55  17  ~/kmong/job13_ds3problem/hanoi.c
--'  3  12  ~/kmong/job13_ds3problem/hanoi.c
--'  48  0  ~/kmong/job13_ds3problem/hanoi.c
--'  63  0  ~/kmong/job13_ds3problem/hanoi.c
--'  20  37  ~/kmong/job13_ds3problem/hanoi.c
--'  18  0  ~/kmong/job13_ds3problem/hanoi.c
--'  24  0  ~/kmong/job13_ds3problem/hanoi.c
--'  30  28  ~/kmong/job13_ds3problem/hanoi.c
--'  27  29  ~/kmong/job13_ds3problem/hanoi.c
--'  22  1  ~/kmong/job13_ds3problem/hanoi.c
--'  62  0  ~/kmong/job13_ds3problem/hanoi.c
--'  32  14  ~/kmong/job13_ds3problem/hanoi.c
--'  21  3  ~/kmong/job13_ds3problem/hanoi.c
--'  12  0  ~/kmong/job13_ds3problem/hanoi.c
--'  19  2  ~/kmong/job13_ds3problem/hanoi.c
--'  31  2  ~/kmong/job13_ds3problem/hanoi.c
--'  11  0  ~/kmong/job13_ds3problem/hanoi.c
--'  35  0  ~/kmong/job13_ds3problem/hanoi.c
--'  45  33  ~/kmong/job13_ds3problem/hanoi.c
--'  51  1  ~/kmong/job13_ds3problem/hanoi.c
--'  49  1  ~/kmong/job13_ds3problem/hanoi.c
--'  52  15  ~/kmong/job13_ds3problem/hanoi.c
--'  69  17  ~/kmong/job13_ds3problem/infixpostfix.c
--'  1  0  ~/kmong/job13_ds3problem/infixpostfix.c
--'  74  16  ~/kmong/job13_ds3problem/infixpostfix.c
--'  49  38  ~/kmong/job13_ds3problem/infixpostfix.c
--'  15  0  ~/kmong/job13_ds3problem/infixpostfix.c
--'  43  0  ~/kmong/job13_ds3problem/infixpostfix.c
--'  56  2  ~/kmong/job13_ds3problem/infixpostfix.c
--'  54  1  ~/kmong/job13_ds3problem/infixpostfix.c
--'  60  26  ~/kmong/job13_ds3problem/infixpostfix.c
--'  59  16  ~/kmong/job13_ds3problem/infixpostfix.c
--'  52  44  ~/kmong/job13_ds3problem/infixpostfix.c
--'  64  0  ~/kmong/job13_ds3problem/infixpostfix.c
--'  51  3  ~/kmong/job13_ds3problem/infixpostfix.c
--'  53  2  ~/kmong/job13_ds3problem/infixpostfix.c
--'  57  26  ~/kmong/job13_ds3problem/infixpostfix.c
--'  33  20  ~/kmong/job13_ds3problem/infixpostfix.c
--'  32  42  ~/kmong/job13_ds3problem/infixpostfix.c
--'  73  21  ~/kmong/job13_ds3problem/infixpostfix.c
--'  68  16  ~/kmong/job13_ds3problem/infixpostfix.c
--'  67  0  ~/kmong/job13_ds3problem/infixpostfix.c
--'  3  18  ~/kmong/job13_ds3problem/infixpostfix.c
--'  72  15  ~/kmong/job13_ds3problem/infixpostfix.c
--'  30  6  ~/kmong/job13_ds3problem/infixpostfix.c
--'  22  0  ~/kmong/job13_ds3problem/infixpostfix.c
--'  75  0  ~/kmong/job13_ds3problem/infixpostfix.c
--'  189  28  ~/kmong/job13_ds3problem/string.c
--'  1  0  ~/kmong/job13_ds3problem/string.c
--'  177  22  ~/kmong/job13_ds3problem/string.c
--'  195  16  ~/kmong/job13_ds3problem/string.c
--'  182  0  ~/kmong/job13_ds3problem/string.c
--'  136  3  ~/kmong/job13_ds3problem/string.c
--'  183  32  ~/kmong/job13_ds3problem/string.c
--'  38  0  ~/kmong/job13_ds3problem/string.c
--'  3  0  ~/kmong/job13_ds3problem/string.c
--'  185  1  ~/kmong/job13_ds3problem/string.c
--'  53  0  ~/kmong/job13_ds3problem/string.c
--'  35  0  ~/kmong/job13_ds3problem/string.c
--'  73  1  ~/kmong/job13_ds3problem/string.c
--'  27  0  ~/kmong/job13_ds3problem/string.c
--'  23  0  ~/kmong/job13_ds3problem/string.c
--'  166  17  ~/kmong/job13_ds3problem/string.c
--'  89  0  ~/kmong/job13_ds3problem/string.c
--'  13  25  ~/kmong/job13_ds3problem/string.c
--'  160  0  ~/kmong/job13_ds3problem/string.c
--'  194  17  ~/kmong/job13_ds3problem/string.c
--'  193  2  ~/kmong/job13_ds3problem/string.c
--'  159  47  ~/kmong/job13_ds3problem/string.c
--'  93  0  ~/kmong/job13_ds3problem/string.c
--'  92  0  ~/kmong/job13_ds3problem/string.c
--'  11  0  ~/kmong/job13_ds3problem/string.c
--'  121  10  ~/kmong/job13_ds3problem/string.c
--'  112  11  ~/kmong/job13_ds3problem/string.c
--'  199  0  ~/kmong/job13_ds3problem/string.c
--'  191  17  ~/kmong/job13_ds3problem/string.c
--'  56  2  ~/kmong/job13_ds3problem/string.c
--'  57  2  ~/kmong/job13_ds3problem/string.c
--'  188  0  ~/kmong/job13_ds3problem/string.c
--'  51  20  ~/kmong/job13_ds3problem/string.c
--'  149  2  ~/kmong/job13_ds3problem/string.c
--'  190  1  ~/kmong/job13_ds3problem/string.c
--'  42  3  ~/kmong/job13_ds3problem/string.c
--'  54  3  ~/kmong/job13_ds3problem/string.c
--'  58  16  ~/kmong/job13_ds3problem/string.c
+-'  259  0  ~/kmong/job23_linkedlist_string/main.c
+-'  169  0  ~/kmong/job23_linkedlist_string/main.c
+-'  1  0  ~/kmong/job23_linkedlist_string/main.c
+-'  199  0  ~/kmong/job23_linkedlist_string/main.c
+-'  178  6  ~/kmong/job23_linkedlist_string/main.c
+-'  189  0  ~/kmong/job23_linkedlist_string/main.c
+-'  174  18  ~/kmong/job23_linkedlist_string/another.c
+-'  1  0  ~/kmong/job23_linkedlist_string/another.c
+-'  156  0  ~/kmong/job23_linkedlist_string/another.c
+-'  183  0  ~/kmong/job23_linkedlist_string/another.c
+-'  5  0  ~/kmong/job23_linkedlist_string/another.c
+-'  284  0  ~/kmong/job23_linkedlist_string/another.c
+-'  17  0  ~/kmong/job23_linkedlist_string/another.c
+-'  173  27  ~/kmong/job23_linkedlist_string/another.c
+-'  175  5  ~/kmong/job23_linkedlist_string/another.c
+-'  14  0  ~/kmong/job23_linkedlist_string/another.c
+-'  100  5  ~/kmong/job23_linkedlist_string/another.c
+-'  62  0  ~/kmong/job23_linkedlist_string/another.c
+-'  2  0  ~/kmong/job23_linkedlist_string/another.c
+-'  36  19  ~/bj/p1000/11585.cc
+-'  1  0  ~/bj/p1000/11585.cc
+-'  35  0  ~/bj/p1000/11585.cc
+-'  34  1  ~/bj/p1000/11585.cc
+-'  37  19  ~/bj/p1000/11585.cc
+-'  20  0  ~/bj/p1000/11585.cc
+-'  10  0  ~/bj/p1000/11585.cc
+-'  33  0  ~/bj/p1000/11585.cc
+-'  38  0  ~/bj/p1000/11585.cc
+-'  17  1  ~/bj/p1000/11585.cc
+-'  27  7  ~/bj/p1000/11585.cc
+-'  29  7  ~/bj/p1000/11585.cc
+-'  24  27  ~/bj/p1000/11585.cc
+-'  30  4  ~/bj/p1000/11585.cc
+-'  21  2  ~/bj/p1000/11585.cc
+-'  19  14  ~/bj/p1000/11585.cc
+-'  3  19  ~/bj/p1000/11585.cc
+-'  5  3  ~/bj/p1000/11585.cc
+-'  14  17  ~/bj/p1000/11585.cc
+-'  12  1  ~/bj/p1000/2437.cc
+-'  14  0  ~/bj/p1000/2437.cc
+-'  1  0  ~/bj/p1000/2437.cc
+-'  7  21  ~/bj/p1000/13909.c
+-'  1  0  ~/bj/p1000/13909.c
+-'  2  0  ~/bj/p1000/1449.c
+-'  1  0  ~/bj/p1000/1449.c
+-'  16  1  ~/bj/p1000/1449.c
+-'  3  11  ~/bj/p1000/1449.c
+-'  24  0  ~/bj/p1000/1449.c
+-'  23  20  ~/bj/p1000/1449.c
+-'  8  5  ~/bj/p1000/1449.c
+-'  11  7  ~/kmong/job23_linkedlist_string/another.c
+-'  8  0  ~/kmong/job23_linkedlist_string/another.c
+-'  268  0  ~/kmong/job23_linkedlist_string/another.c
+-'  116  5  ~/kmong/job23_linkedlist_string/another.c
+-'  220  0  ~/kmong/job23_linkedlist_string/another.c
+-'  73  15  ~/kmong/job23_linkedlist_string/another.c
+-'  50  1  ~/kmong/job23_linkedlist_string/another.c
+-'  93  2  ~/kmong/job23_linkedlist_string/another.c
+-'  294  0  ~/kmong/job23_linkedlist_string/another.c
+-'  225  1  ~/kmong/job23_linkedlist_string/another.c
+-'  215  26  ~/kmong/job23_linkedlist_string/another.c
+-'  3  0  ~/kmong/job23_linkedlist_string/another.c
+-'  192  23  ~/kmong/job23_linkedlist_string/another.c
+-'  286  17  ~/kmong/job23_linkedlist_string/another.c
+-'  279  16  ~/kmong/job23_linkedlist_string/another.c
+-'  257  31  ~/kmong/job23_linkedlist_string/another.c
+-'  200  0  ~/kmong/job23_linkedlist_string/another.c
+-'  68  5  ~/kmong/job23_linkedlist_string/another.c
+-'  251  4  ~/kmong/job23_linkedlist_string/another.c
+-'  240  29  ~/kmong/job23_linkedlist_string/another.c
+-'  246  16  ~/kmong/job23_linkedlist_string/another.c
+-'  228  6  ~/kmong/job23_linkedlist_string/another.c
+-'  226  9  ~/kmong/job23_linkedlist_string/another.c
+-'  6  1  ~/kmong/job23_linkedlist_string/another.c
+-'  10  1  ~/kmong/job23_linkedlist_string/another.c
+-'  97  1  ~/kmong/job23_linkedlist_string/another.c
+-'  75  12  ~/kmong/job23_linkedlist_string/another.c
+-'  83  11  ~/kmong/job23_linkedlist_string/another.c
+-'  176  3  ~/kmong/job23_linkedlist_string/another.c
+-'  51  12  ~/kmong/job23_linkedlist_string/another.c
+-'  65  18  ~/kmong/job23_linkedlist_string/another.c
+-'  274  10  ~/kmong/job23_linkedlist_string/another.c
+-'  160  0  ~/kmong/job23_linkedlist_string/another.c
+-'  171  20  ~/kmong/job23_linkedlist_string/another.c
+-'  95  2  ~/kmong/job23_linkedlist_string/another.c
+-'  71  9  ~/kmong/job23_linkedlist_string/another.c
+-'  113  0  ~/kmong/job23_linkedlist_string/another.c
+-'  104  11  ~/kmong/job23_linkedlist_string/another.c
+-'  107  9  ~/kmong/job23_linkedlist_string/another.c
+-'  109  15  ~/kmong/job23_linkedlist_string/another.c
+-'  111  13  ~/kmong/job23_linkedlist_string/another.c
+-'  114  19  ~/kmong/job23_linkedlist_string/another.c
+-'  119  17  ~/kmong/job23_linkedlist_string/another.c
+-'  44  1  ~/kmong/job23_linkedlist_string/another.c
+-'  35  1  ~/kmong/job23_linkedlist_string/another.c
+-'  29  2  ~/kmong/job23_linkedlist_string/another.c
+-'  174  18  ~/kmong/job23_linkedlist_string/another.c
+-'  1  0  ~/kmong/job23_linkedlist_string/another.c
 
 # History of marks within files (newest to oldest):
+
+> ~/kmong/job23_linkedlist_string/main.c
+	"	259	0
+	^	180	21
+	.	180	20
+	+	235	15
+	+	235	11
+	+	215	33
+	+	231	28
+	+	225	55
+	+	221	16
+	+	55	0
+	+	235	0
+	+	234	9
+	+	226	0
+	+	227	0
+	+	219	11
+	+	220	0
+	+	222	0
+	+	137	0
+	+	134	0
+	+	188	0
+	+	187	0
+	+	186	0
+	+	170	13
+	+	186	0
+	+	168	0
+	+	186	0
+	+	188	0
+	+	186	0
+	+	186	0
+	+	186	0
+	+	186	0
+	+	168	0
+	+	167	27
+	+	186	0
+	+	172	20
+	+	168	0
+	+	169	0
+	+	168	13
+	+	168	0
+	+	184	0
+	+	185	24
+	+	186	0
+	+	184	0
+	+	172	23
+	+	174	33
+	+	183	0
+	+	184	0
+	+	175	0
+	+	183	0
+	+	166	42
+	+	245	14
+	+	246	21
+	+	247	12
+	+	244	0
+	+	183	0
+	+	178	29
+	+	181	30
+	+	183	0
+	+	181	11
+	+	182	0
+	+	183	0
+	+	184	0
+	+	185	0
+	+	189	5
+	+	257	6
+	+	189	0
+	+	189	28
+	+	189	22
+	+	189	0
+	+	189	23
+	+	189	0
+	+	189	0
+	+	189	33
+	+	189	0
+	+	189	19
+	+	189	0
+	+	189	0
+	+	189	34
+	+	189	0
+	+	189	15
+	+	189	0
+	+	189	0
+	+	189	42
+	+	189	38
+	+	189	0
+	+	189	17
+	+	189	11
+	+	189	0
+	+	189	0
+	+	189	0
+	+	168	15
+	+	247	12
+	+	257	15
+	+	122	22
+	+	126	20
+	+	189	0
+	+	139	0
+	+	165	0
+	+	189	0
+	+	181	0
+	+	181	0
+	+	179	33
+	+	180	20
+
+> ~/kmong/job23_linkedlist_string/another.c
+	"	174	18
+	^	174	19
+	.	174	18
+	+	183	14
+	+	183	0
+	+	183	11
+	+	183	14
+	+	183	25
+	+	183	29
+	+	183	35
+	+	183	15
+	+	183	15
+	+	183	6
+	+	294	0
+	+	71	0
+	+	184	0
+	+	205	0
+	+	186	15
+	+	188	11
+	+	192	15
+	+	190	29
+	+	194	13
+	+	197	39
+	+	198	16
+	+	201	13
+	+	274	10
+	+	60	32
+	+	64	24
+	+	65	18
+	+	94	0
+	+	73	10
+	+	75	12
+	+	166	30
+	+	175	23
+	+	171	26
+	+	175	17
+	+	96	5
+	+	96	6
+	+	97	0
+	+	97	0
+	+	97	0
+	+	183	19
+	+	257	8
+	+	226	9
+	+	228	6
+	+	246	16
+	+	197	30
+	+	240	32
+	+	251	32
+	+	257	31
+	+	285	18
+	+	290	18
+	+	291	16
+	+	286	17
+	+	50	24
+	+	192	23
+	+	8	15
+	+	225	2
+	+	294	2
+	+	270	0
+	+	220	0
+	+	215	27
+	+	225	0
+	+	294	0
+	+	104	19
+	+	161	19
+	+	183	19
+	+	188	19
+	+	93	1
+	+	73	15
+	+	220	0
+	+	270	0
+	+	268	0
+	+	126	0
+	+	117	0
+	+	118	0
+	+	116	0
+	+	8	0
+	+	14	0
+	+	28	0
+	+	8	0
+	+	10	7
+	+	11	7
+	+	204	0
+	+	125	13
+	+	175	0
+	+	173	37
+	+	175	0
+	+	173	24
+	+	173	49
+	+	173	30
+	+	173	0
+	+	173	30
+	+	173	34
+	+	175	0
+	+	173	35
+	+	174	13
+	+	175	0
+	+	174	14
+	+	183	0
+	+	128	0
+	+	156	0
+	+	174	18
+
+> ~/bj/p1000/11585.cc
+	"	36	19
+	^	36	23
+	.	36	22
+	+	1	18
+	+	11	11
+	+	38	0
+	+	11	0
+	+	5	0
+	+	5	0
+	+	5	0
+	+	13	14
+	+	12	23
+	+	15	0
+	+	14	17
+	+	15	0
+	+	13	0
+	+	14	14
+	+	38	9
+	+	16	7
+	+	38	0
+	+	17	23
+	+	16	9
+	+	17	37
+	+	38	0
+	+	19	18
+	+	23	16
+	+	21	9
+	+	22	8
+	+	23	27
+	+	32	0
+	+	24	32
+	+	26	0
+	+	25	14
+	+	26	0
+	+	32	0
+	+	27	9
+	+	23	16
+	+	29	0
+	+	28	14
+	+	29	6
+	+	29	8
+	+	31	0
+	+	30	10
+	+	31	0
+	+	32	0
+	+	38	0
+	+	37	44
+	+	37	13
+	+	14	17
+	+	5	3
+	+	2	16
+	+	3	19
+	+	11	0
+	+	19	14
+	+	21	2
+	+	19	14
+	+	21	2
+	+	30	4
+	+	37	40
+	+	27	16
+	+	24	27
+	+	29	0
+	+	28	14
+	+	20	18
+	+	17	2
+	+	24	25
+	+	27	7
+	+	17	1
+	+	37	28
+	+	38	0
+	+	4	0
+	+	5	0
+	+	10	0
+	+	8	19
+	+	9	24
+	+	10	0
+	+	37	39
+	+	34	25
+	+	37	39
+	+	38	0
+	+	37	31
+	+	9	22
+	+	37	37
+	+	20	0
+	+	37	0
+	+	35	0
+	+	36	22
+
+> ~/bj/p1000/2437.cc
+	"	12	1
+	.	12	0
+	+	4	19
+	+	15	0
+	+	8	10
+	+	9	23
+	+	12	0
+	+	10	24
+	+	11	20
+	+	6	5
+	+	9	0
+	+	11	0
+	+	6	9
+	+	12	0
+	+	14	13
+	+	14	32
+	+	15	0
+	+	7	0
+	+	14	0
+	+	14	0
+	+	14	0
+	+	15	0
+	+	14	0
+	+	14	0
+	+	3	13
+	+	3	0
+	+	7	15
+	+	14	7
+	+	14	0
+	+	14	2
+	+	14	2
+	+	14	0
+	+	14	0
+	+	14	30
+	+	14	0
+	+	14	0
+	+	14	13
+	+	14	42
+	+	14	2
+	+	14	0
+	+	14	4
+	+	14	0
+	+	14	29
+	+	14	22
+	+	14	0
+	+	14	4
+	+	14	0
+	+	14	27
+	+	14	0
+	+	14	0
+	+	14	0
+	+	14	41
+	+	14	3
+	+	14	0
+	+	14	33
+	+	14	39
+	+	14	22
+	+	14	42
+	+	14	4
+	+	14	4
+	+	14	0
+	+	14	0
+	+	14	0
+	+	14	0
+	+	14	0
+	+	14	0
+	+	14	16
+	+	10	24
+	+	7	14
+	+	14	0
+	+	14	0
+	+	14	0
+	+	14	0
+	+	14	8
+	+	7	6
+	+	14	0
+	+	12	13
+	+	14	0
+	+	14	0
+	+	14	0
+	+	14	24
+	+	14	0
+	+	14	18
+	+	14	15
+	+	7	14
+	+	14	0
+	+	3	0
+	+	2	18
+	+	14	0
+	+	14	25
+	+	13	0
+	+	14	0
+	+	14	21
+	+	6	9
+	+	14	30
+	+	14	0
+	+	14	0
+	+	7	0
+	+	14	0
+	+	14	0
+	+	14	0
+	+	12	0
+
+> ~/bj/p1000/13909.c
+	"	7	21
+	^	8	21
+	.	8	20
+	+	1	18
+	+	13	0
+	+	14	0
+	+	3	14
+	+	10	0
+	+	7	17
+	+	5	16
+	+	8	20
+
+> ~/bj/p1000/1449.c
+	"	2	0
+	^	23	21
+	.	14	0
+	+	25	0
+	+	5	33
+	+	24	0
+	+	12	0
+	+	8	0
+	+	12	20
+	+	3	11
+	+	12	0
+	+	24	9
+	+	9	9
+	+	10	19
+	+	12	0
+	+	3	9
+	+	11	10
+	+	24	0
+	+	15	11
+	+	11	10
+	+	15	25
+	+	21	0
+	+	15	22
+	+	21	18
+	+	14	10
+	+	21	0
+	+	21	8
+	+	15	21
+	+	7	0
+	+	14	0
+	+	23	34
+	+	24	0
+	+	23	20
+	+	5	11
+	+	23	12
+	+	23	21
+	+	24	0
+	+	14	4
+	+	17	24
+	+	14	0
+	+	21	0
+	+	16	12
+	+	17	0
+	+	19	0
+	+	20	0
+	+	17	35
+	+	18	8
+	+	23	20
+	+	14	0
+
+> ~/kmong/job24_shortestpath/main.c
+	"	42	0
+	^	43	70
+	.	3	0
+	+	32	17
+	+	29	1
+	+	32	22
+	+	33	12
+	+	47	0
+	+	46	0
+	+	39	37
+	+	45	0
+	+	42	30
+	+	44	15
+	+	45	0
+	+	46	0
+	+	47	0
+	+	45	0
+	+	31	25
+	+	44	42
+	+	45	0
+	+	46	0
+	+	46	0
+	+	46	0
+	+	48	0
+	+	74	25
+	+	74	0
+	+	74	0
+	+	43	9
+	+	6	43
+	+	6	16
+	+	43	24
+	+	6	11
+	+	6	30
+	+	7	0
+	+	6	29
+	+	7	0
+	+	6	28
+	+	7	0
+	+	3	5
+	+	3	9
+	+	3	0
+	+	3	0
+	+	8	0
+	+	6	57
+	+	7	0
+	+	43	29
+	+	3	0
+	+	6	40
+	+	7	0
+	+	6	39
+	+	43	28
+	+	43	5
+	+	43	15
+	+	43	14
+	+	46	26
+	+	39	15
+	+	43	0
+	+	40	35
+	+	46	0
+	+	41	0
+	+	50	7
+	+	7	0
+	+	8	0
+	+	16	0
+	+	15	0
+	+	11	27
+	+	14	0
+	+	15	0
+	+	11	0
+	+	11	25
+	+	13	16
+	+	14	0
+	+	27	22
+	+	13	0
+	+	13	0
+	+	12	23
+	+	13	0
+	+	10	24
+	+	52	0
+	+	51	0
+	+	53	0
+	+	54	14
+	+	66	0
+	+	65	15
+	+	63	18
+	+	50	23
+	+	44	29
+	+	69	29
+	+	75	46
+	+	77	0
+	+	75	26
+	+	77	0
+	+	76	13
+	+	75	25
+	+	76	6
+	+	76	6
+	+	77	0
+	+	75	40
+	+	6	16
+	+	31	62
+	+	9	37
+	+	43	69
+	+	3	0
+	m	48	1
+
+> ~/kmong/job24_shortestpath/main.cc
+	"	1	17
+	^	56	25
+	.	58	0
+	+	70	13
+	+	70	0
+	+	70	16
+	+	70	0
+	+	70	14
+	+	70	10
+	+	69	5
+	+	70	0
+	+	23	0
+	+	16	0
+	+	19	0
+	+	17	0
+	+	36	0
+	+	10	0
+	+	9	34
+	+	19	0
+	+	22	0
+	+	22	0
+	+	19	0
+	+	19	29
+	+	22	0
+	+	19	0
+	+	22	0
+	+	23	0
+	+	20	22
+	+	23	0
+	+	14	23
+	+	23	0
+	+	16	0
+	+	15	0
+	+	19	0
+	+	18	0
+	+	22	0
+	+	21	0
+	+	69	2
+	+	13	1
+	+	24	1
+	+	11	28
+	+	36	0
+	+	35	1
+	+	41	27
+	+	41	1
+	+	41	0
+	+	11	32
+	+	42	1
+	+	35	13
+	+	40	0
+	+	39	50
+	+	40	0
+	+	39	50
+	+	69	1
+	+	13	0
+	+	24	0
+	+	69	1
+	+	56	25
+	+	60	0
+	+	59	0
+	+	60	0
+	+	57	0
+	+	66	0
+	+	66	0
+	+	59	27
+	+	56	30
+	+	86	31
+	+	87	27
+	+	86	29
+	+	87	25
+	+	56	28
+	+	59	19
+	+	56	24
+	+	86	24
+	+	56	24
+	+	69	0
+	+	15	13
+	+	56	24
+	+	66	0
+	+	57	24
+	+	57	0
+	+	57	0
+	+	68	11
+	+	60	0
+	+	15	0
+	+	17	11
+	+	15	17
+	+	17	22
+	+	68	0
+	+	57	42
+	+	57	74
+	+	57	43
+	+	57	0
+	+	57	0
+	+	15	0
+	+	17	0
+	+	57	0
+	+	63	24
+	+	56	24
+	+	58	0
+	+	64	0
+	+	65	0
+	+	58	0
+
+> ~/kmong/job23_linkedlist_string/mian
+	"	1	0
+
+> ~/kmong/job23_linkedlist_string/main.cc
+	"	1	0
+	^	170	13
+	.	171	0
+	+	164	39
+	+	166	18
+	+	160	15
+	+	160	40
+	+	162	0
+	+	166	52
+	+	106	27
+	+	88	28
+	+	82	27
+	+	75	27
+	+	71	0
+	+	73	0
+	+	87	0
+	+	104	0
+	+	65	42
+	+	66	0
+	+	67	0
+	+	162	0
+	+	160	40
+	+	48	44
+	+	49	36
+	+	62	22
+	+	63	0
+	+	2	18
+	+	22	3
+	+	36	15
+	+	49	23
+	+	93	8
+	+	10	12
+	+	109	0
+	+	110	0
+	+	108	0
+	+	149	0
+	+	111	11
+	+	184	35
+	+	111	31
+	+	129	0
+	+	112	25
+	+	127	0
+	+	127	2
+	+	116	29
+	+	125	0
+	+	126	23
+	+	127	0
+	+	126	0
+	+	127	0
+	+	125	0
+	+	115	0
+	+	129	8
+	+	114	11
+	+	129	10
+	+	129	0
+	+	128	0
+	+	125	0
+	+	125	0
+	+	117	19
+	+	129	0
+	+	114	0
+	+	111	3
+	+	182	20
+	+	123	0
+	+	125	0
+	+	125	0
+	+	122	25
+	+	125	0
+	+	124	0
+	+	122	0
+	+	122	0
+	+	121	34
+	+	120	29
+	+	122	0
+	+	183	15
+	+	184	0
+	+	121	26
+	+	173	0
+	+	171	14
+	+	171	0
+	+	148	0
+	+	131	23
+	+	132	28
+	+	146	0
+	+	145	22
+	+	135	35
+	+	139	6
+	+	137	32
+	+	143	0
+	+	144	0
+	+	142	23
+	+	140	0
+	+	169	0
+	+	171	0
+	+	140	0
+	+	141	30
+	+	173	0
+	+	172	16
+	+	135	34
+	+	172	6
+	+	170	31
+	+	170	13
+	+	171	0
+
+> ~/bj/p1000/1958.cc
+	"	1	0
+	^	11	62
+	.	12	0
+	+	1	18
+	+	24	0
+	+	10	27
+	+	6	0
+	+	13	16
+	+	2	18
+	+	11	57
+	+	22	0
+	+	14	0
+	+	15	0
+	+	14	0
+	+	15	25
+	+	21	0
+	+	22	0
+	+	21	0
+	+	16	22
+	+	9	0
+	+	3	19
+	+	16	39
+	+	7	20
+	+	8	0
+	+	16	70
+	+	17	24
+	+	10	31
+	+	13	12
+	+	14	13
+	+	15	14
+	+	13	18
+	+	14	18
+	+	15	19
+	+	17	25
+	+	23	27
+	+	24	0
+	+	23	33
+	+	24	0
+	+	4	19
+	+	16	86
+	+	17	22
+	+	20	0
+	+	20	0
+	+	18	69
+	+	19	41
+	+	18	69
+	+	19	46
+	+	20	0
+	+	19	46
+	+	16	70
+	+	23	0
+	+	19	19
+	+	20	0
+	+	12	0
+	+	12	30
+	+	10	0
+	+	12	34
+	+	11	61
+	+	12	0
+
+> ~/kmong/job13_ds3problem/infixpostfix.c
+	"	31	0
+	.	50	0
+	+	71	30
+	+	77	26
+	+	9	13
+	+	71	23
+	+	73	0
+	+	73	0
+	+	71	30
+	+	71	33
+	+	73	2
+	+	73	0
+	+	77	0
+	+	71	24
+	+	73	1
+	+	71	0
+	+	91	16
+	+	5	12
+	+	16	0
+	+	14	0
+	+	24	8
+	+	17	8
+	+	24	8
+	+	17	5
+	+	24	5
+	+	48	0
+	+	49	13
+	+	9	30
+	+	12	0
+	+	13	24
+	+	51	17
+	+	47	49
+	+	47	14
+	+	33	9
+	+	51	0
+	+	18	0
+	+	20	0
+	+	18	0
+	+	18	0
+	+	47	0
+	+	43	4
+	+	43	7
+	+	47	0
+	+	40	25
+	+	47	0
+	+	47	0
+	+	18	23
+	+	25	0
+	+	27	0
+	+	25	0
+	+	34	0
+	+	10	17
+	+	42	0
+	+	42	0
+	+	42	2
+	+	41	33
+	+	42	0
+	+	15	8
+	+	31	49
+	+	33	8
+	+	41	12
+	+	41	7
+	+	42	0
+	+	43	32
+	+	31	24
+	+	34	0
+	+	41	10
+	+	42	2
+	+	42	0
+	+	33	0
+	+	34	7
+	+	36	9
+	+	18	0
+	+	25	0
+	+	34	0
+	+	11	0
+	+	11	9
+	+	43	6
+	+	47	0
+	+	43	11
+	+	44	0
+	+	44	20
+	+	47	0
+	+	11	0
+	+	18	0
+	+	19	0
+	+	25	0
+	+	26	0
+	+	34	0
+	+	34	0
+	+	36	0
+	+	51	0
+	+	52	0
+	+	36	0
+	+	34	0
+	+	52	0
+	+	51	0
+	+	34	0
+	+	35	0
+	+	51	0
+	+	52	0
+	+	50	0
 
 > ~/kmong/job13_ds3problem/hanoi.c
 	"	64	38
@@ -390,111 +1378,6 @@ $
 	+	64	14
 	+	58	29
 	+	64	38
-
-> ~/kmong/job13_ds3problem/infixpostfix.c
-	"	69	17
-	^	74	17
-	.	74	16
-	+	38	0
-	+	37	12
-	+	38	0
-	+	37	0
-	+	38	0
-	+	36	15
-	+	3	18
-	+	67	17
-	+	68	16
-	+	73	21
-	+	32	16
-	+	34	0
-	+	35	0
-	+	33	20
-	+	74	26
-	+	75	0
-	+	64	0
-	+	40	17
-	+	64	0
-	+	41	23
-	+	62	0
-	+	41	5
-	+	53	0
-	+	45	0
-	+	62	0
-	+	62	0
-	+	62	0
-	+	64	0
-	+	42	17
-	+	57	5
-	+	62	1
-	+	61	0
-	+	59	20
-	+	61	0
-	+	58	12
-	+	57	0
-	+	54	0
-	+	42	10
-	+	49	6
-	+	53	0
-	+	49	0
-	+	49	22
-	+	42	16
-	+	49	34
-	+	50	0
-	+	51	0
-	+	52	0
-	+	50	7
-	+	51	7
-	+	52	7
-	+	50	23
-	+	51	23
-	+	52	23
-	+	49	30
-	+	50	29
-	+	49	28
-	+	50	41
-	+	52	0
-	+	51	29
-	+	52	29
-	+	50	28
-	+	51	28
-	+	52	28
-	+	50	44
-	+	51	44
-	+	52	44
-	+	46	23
-	+	47	7
-	+	48	0
-	+	46	0
-	+	62	0
-	+	63	20
-	+	64	0
-	+	42	23
-	+	60	8
-	+	54	61
-	+	59	21
-	+	52	44
-	+	59	10
-	+	54	30
-	+	56	0
-	+	54	49
-	+	59	21
-	+	56	0
-	+	54	49
-	+	54	30
-	+	60	26
-	+	9	13
-	+	54	23
-	+	56	0
-	+	56	0
-	+	54	30
-	+	54	33
-	+	56	2
-	+	56	0
-	+	60	0
-	+	54	24
-	+	56	1
-	+	54	0
-	+	74	16
 
 > ~/kmong/job13_ds3problem/string.c
 	"	189	28
@@ -5014,478 +5897,3 @@ $
 
 > ~/bj/p1000/2557.cc
 	"	1	0
-
-> ~/kmong/job1/calc.c
-	"	23	39
-	^	107	0
-	.	124	0
-	+	124	0
-	+	52	13
-	+	33	0
-	+	41	0
-	+	49	0
-	+	44	0
-	+	44	0
-	+	41	0
-	+	41	0
-	+	41	0
-	+	124	0
-	+	123	0
-	+	41	0
-	+	124	0
-	+	63	0
-	+	124	0
-	+	65	0
-	+	65	0
-	+	64	0
-	+	107	0
-	+	124	0
-	m	99	3
-	u	99	3
-
-> ~/kmong/job2_linkedlist/job2_upgrade.c
-	"	189	0
-
-> ~/bj/p1000/8892.cc
-	"	4	0
-	^	3	0
-	.	3	0
-	+	39	0
-	+	37	0
-	+	13	0
-	+	41	36
-	+	41	0
-	+	33	0
-	+	40	11
-	+	33	14
-	+	34	0
-	+	36	0
-	+	35	10
-	+	40	25
-	+	41	0
-	+	32	0
-	+	14	30
-	+	23	50
-	+	23	56
-	+	23	9
-	+	23	9
-	+	23	88
-	+	23	100
-	+	32	0
-	+	23	102
-	+	23	48
-	+	32	0
-	+	23	33
-	+	23	44
-	+	23	88
-	+	25	0
-	+	31	36
-	+	32	0
-	+	15	28
-	+	15	0
-	+	30	12
-	+	23	33
-	+	23	47
-	+	23	44
-	+	23	87
-	+	25	3
-	+	25	0
-	+	23	44
-	+	27	0
-	+	30	0
-	+	25	0
-	+	26	0
-	+	27	61
-	+	28	67
-	+	27	58
-	+	28	72
-	+	29	13
-	+	27	38
-	+	28	48
-	+	14	30
-	+	16	3
-	+	16	0
-	+	14	34
-	+	16	0
-	+	18	0
-	+	30	0
-	+	31	0
-	+	26	21
-	+	23	114
-	+	28	85
-	+	26	0
-	+	27	40
-	+	23	40
-	+	31	47
-	+	16	14
-	+	31	1
-	+	14	41
-	+	35	10
-	+	38	10
-	+	35	0
-	+	14	35
-	+	38	17
-	+	34	16
-	+	31	0
-	+	20	27
-	+	23	0
-	+	20	44
-	+	23	47
-	+	23	9
-	+	22	9
-	+	21	0
-	+	24	45
-	+	27	47
-	+	28	19
-	+	17	24
-	+	5	0
-	+	5	0
-	+	40	0
-	+	27	26
-	+	28	52
-	+	20	0
-	+	13	0
-	+	14	36
-	+	42	0
-	+	4	0
-	+	5	0
-	+	3	0
-
-> ~/bj/p1000/1743.cc
-	"	1	0
-	^	18	16
-	.	42	0
-	+	48	0
-	+	4	19
-	+	28	43
-	+	47	0
-	+	5	8
-	+	29	0
-	+	32	34
-	+	33	12
-	+	47	0
-	+	34	0
-	+	45	0
-	+	38	11
-	+	44	0
-	+	45	0
-	+	44	0
-	+	43	0
-	+	43	0
-	+	41	12
-	+	43	0
-	+	43	0
-	+	26	0
-	+	26	0
-	+	9	6
-	+	41	13
-	+	43	0
-	+	42	23
-	+	43	0
-	+	44	0
-	+	46	20
-	+	47	0
-	+	25	2
-	+	9	20
-	+	25	0
-	+	26	0
-	+	23	0
-	+	10	8
-	+	23	1
-	+	6	43
-	+	22	0
-	+	23	0
-	+	22	0
-	+	17	10
-	+	16	33
-	+	17	19
-	+	41	27
-	+	9	33
-	+	17	37
-	+	21	0
-	+	22	0
-	+	18	36
-	+	12	10
-	+	24	11
-	+	19	3
-	+	20	0
-	+	19	9
-	+	36	10
-	+	2	19
-	+	25	0
-	+	42	30
-	+	13	0
-	+	15	0
-	+	17	26
-	+	18	15
-	+	42	0
-
-> ~/bj/p1000/14726.cc
-	"	2	0
-	^	21	25
-	.	12	14
-	+	28	0
-	+	3	19
-	+	6	23
-	+	27	0
-	+	26	0
-	+	8	28
-	+	26	0
-	+	22	0
-	+	8	10
-	+	11	19
-	+	8	27
-	+	11	27
-	+	12	16
-	+	10	11
-	+	20	4
-	+	20	0
-	+	10	8
-	+	13	11
-	+	20	0
-	+	13	21
-	+	15	10
-	+	16	17
-	+	18	0
-	+	16	0
-	+	20	0
-	+	17	28
-	+	18	0
-	+	19	12
-	+	20	0
-	+	22	0
-	+	26	0
-	+	24	33
-	+	24	33
-	+	25	20
-	+	28	0
-	+	21	7
-	+	20	3
-	+	21	24
-	+	12	14
-
-> ~/bj/p1000/14646.cc
-	"	2	0
-	^	5	4
-	.	5	3
-	+	1	17
-	+	3	0
-	+	4	9
-	+	19	0
-	+	7	23
-	+	19	0
-	+	17	0
-	+	17	0
-	+	17	0
-	+	11	28
-	+	11	9
-	+	5	13
-	+	17	0
-	+	9	16
-	+	12	24
-	+	13	8
-	+	14	0
-	+	16	0
-	+	15	22
-	+	19	0
-	+	18	20
-	+	19	0
-	+	18	18
-	+	20	0
-	+	5	2
-	+	2	19
-	+	5	3
-
-> ~/bj/p1000/14646
-	"	1	0
-
-> ~/bj/p1000/4153.cc
-	"	1	0
-	^	9	35
-	.	14	0
-	+	15	0
-	+	3	19
-	+	7	43
-	+	14	0
-	+	8	17
-	+	11	56
-	+	12	23
-	+	6	9
-	+	13	1
-	+	9	34
-	+	7	0
-	+	14	0
-	j	6	9
-	m	12	23
-
-> ~/swex/13422.cc
-	"	29	0
-	^	2	0
-	.	2	0
-	+	31	0
-	+	3	19
-	+	7	23
-	+	27	0
-	+	9	44
-	+	10	0
-	+	25	0
-	+	25	0
-	+	23	0
-	+	4	18
-	+	13	45
-	+	4	20
-	+	13	13
-	+	12	14
-	+	13	33
-	+	15	11
-	+	21	0
-	+	18	6
-	+	17	15
-	+	18	27
-	+	1	0
-	+	4	21
-	+	10	18
-	+	12	12
-	+	3	0
-	+	17	14
-	+	18	25
-	+	3	0
-	+	2	0
-	x	31	0
-
-> ~/swex/1244.cc
-	"	33	0
-	^	33	28
-	.	15	0
-	+	75	10
-	+	76	0
-	+	24	0
-	+	60	0
-	+	14	3
-	+	23	0
-	+	17	0
-	+	23	0
-	+	22	0
-	+	43	20
-	+	40	0
-	+	43	22
-	+	45	0
-	+	47	0
-	+	46	9
-	+	48	8
-	+	59	0
-	+	60	0
-	+	50	18
-	+	48	0
-	+	53	0
-	+	49	11
-	+	51	26
-	+	53	0
-	+	51	26
-	+	52	34
-	+	53	0
-	+	59	0
-	+	59	0
-	+	49	30
-	+	51	50
-	+	52	41
-	+	54	24
-	+	56	10
-	+	55	8
-	+	56	17
-	+	55	11
-	+	56	17
-	+	44	18
-	+	45	17
-	+	55	9
-	+	56	17
-	+	59	0
-	+	58	9
-	+	14	3
-	+	73	24
-	+	16	20
-	+	6	0
-	+	74	9
-	+	73	16
-	+	16	14
-	+	31	39
-	+	14	9
-	+	28	0
-	+	16	22
-	+	26	0
-	+	25	26
-	+	39	0
-	+	37	15
-	+	35	8
-	+	29	10
-	+	27	21
-	+	26	23
-	+	78	6
-	+	31	1
-	+	16	1
-	+	31	0
-	+	33	8
-	+	40	2
-	+	63	0
-	+	40	0
-	+	49	0
-	+	48	3
-	+	60	3
-	+	48	0
-	+	60	0
-	+	31	2
-	+	33	10
-	+	31	1
-	+	33	10
-	+	57	7
-	+	63	2
-	+	42	2
-	+	31	38
-	+	35	11
-	+	31	56
-	+	29	16
-	+	31	0
-	+	33	9
-	+	35	0
-	+	33	8
-	+	42	0
-	+	63	0
-	+	62	0
-	+	33	17
-	+	41	2
-	+	61	2
-	+	31	1
-	+	33	16
-	+	15	0
-	k	81	0
-	m	38	1
-
-> ~/swex/3376.cc
-	"	16	0
-	^	14	17
-	.	16	0
-	+	16	0
-	+	2	0
-	+	4	10
-	+	16	0
-	+	4	22
-	+	9	0
-	+	8	23
-	+	9	0
-	+	16	0
-	+	16	0
-	+	10	23
-	+	15	0
-	+	16	0
-	+	12	24
-	+	12	8
-	+	12	9
-	+	15	0
-	+	14	28
-	+	15	0
-	+	7	12
-	+	4	27
-	+	8	12
-	+	4	8
-	+	14	16
-	+	16	0
