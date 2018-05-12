@@ -5,6 +5,12 @@
 #define MX_BUF 100000
 #define MX_WSIZE 1000
 
+typedef struct 
+{ 
+	struct Alphabet* head; 
+	struct Alphabet* tail; 
+}List; 
+
 typedef struct Alphabet
 {
 	char al;
@@ -19,12 +25,6 @@ typedef struct String
 	char word[MX_WSIZE];
 	struct String* next;
 }String;
-
-typedef struct 
-{ 
-	Alphabet* head; 
-	Alphabet* tail; 
-}List; 
 
 String* create_String(char* word, int id)
 {
@@ -122,31 +122,7 @@ void Sch(List* list, char* str)
 		}
 		alpha = alpha->next;
 	}
-}
-
-void Sub(List* list, char* from, char* to)
-{
-	Alphabet* alpha = list->head;
-
-	while(alpha != NULL)
-	{
-
-		if ( alpha->al == from[0] )
-		{
-			String* string = alpha->head;
-
-			while(string)
-			{
-
-				if( strcmp(string->word, from) ==0)
-				{
-					strcpy(string->word, to);
-					return;
-				}
-			}
-		}
-		alpha  = alpha->next;
-	}
+	printf("\n");
 }
 
 void Del(List* list, char* str)
@@ -177,6 +153,33 @@ void Del(List* list, char* str)
 		alpha = alpha->next;
 	}
 }
+
+void Sub(List* list, char* from, char* to)
+{
+	Alphabet* alpha = list->head;
+
+	while(alpha != NULL)
+	{
+
+		if ( alpha->al == from[0] )
+		{
+			String* string = alpha->head;
+
+			while(string)
+			{
+
+				if( strcmp(string->word, from) ==0)
+				{
+					push_String_toList(list,  to, string->id);
+					Del(list, from);
+					return;
+				}
+			}
+		}
+		alpha  = alpha->next;
+	}
+}
+
 
 void printAll(List* list)
 {
