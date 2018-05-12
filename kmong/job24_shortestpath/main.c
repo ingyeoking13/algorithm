@@ -1,13 +1,12 @@
 #include <stdio.h>
 #include <string.h>
 
-
 int n, m, f, t;
 int head, tail;
-int d[500], inQ[500], q[100], pcnt[100], p[100][100];
+int d[500], inQ[100], q[500], pcnt[100], p[100][100];
 int e[500][500];
 
-void dfs(int now){
+void dfs(int now){ // <-- dfs destroy 
 	if ( now == -1 ) return;
 	for (int i=0; i<pcnt[now]; i++){
 		e[p[now][i]][now] =-1;
@@ -29,7 +28,7 @@ int main(){
 	d[f] =0;
 	q[tail++] = f;
 
-	while(head<tail){ // spfa
+	while(head<tail){ // spfa ... dijkstra implementation guichanda
 		int now = q[head++];
 		inQ[now]=0;
 
@@ -41,7 +40,7 @@ int main(){
 					if( d[i] > d[now]+ e[now][i] ) pcnt[i]=0;
 
 					d[i] = d[now] + e[now][i];
-					p[i][pcnt[i]++] = now;
+					p[i][pcnt[i]++] = now; // p [dest][cnt++] = now.. one of "parents of dest" is now
 					if ( !inQ[i]) inQ[i]=1, q[tail++] = i;
 				}
 			}
