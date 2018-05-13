@@ -1,577 +1,3 @@
-./a.out 
-vi main.c
-gcc main.c 
-./a.out 
-vi main.c
-gcc main.c 
-git add .
-git commit -m 'asdf'
-git push adkb master
-cd ..
-ll
-cd job13_ds3problem/
-ll
-vi string.c 
-vi string.c 
-ll
-cd leetcode/
-ll
-rm ":w"
-ll
-vi 829.cc
-g++ 829.cc 
-vi 829.cc
-g++ 829.cc 
-vi 829.cc
-g++ 829.cc 
-./a.out 
-vi 829.cc
-g++ 829.cc 
-./a.out 
-vi 829.cc
-g++ 829.cc 
-vi 829.cc
-g++ 829.cc 
-./a.out 
-vi 829.cc
-g++ 829.cc 
-./a.out 
-vi 829.cc
-g++ 829.cc 
-./a.out 
-vi 829.cc
-g++ 829.cc 
-./a.out 
-vi 829.cc
-g++ 829.cc 
-./a.out 
-vi 829.cc
-g++ 829.cc 
-./a.out 
-vi 829.cc
-g++ 829.cc 
-./a.out 
-vi 829.cc
-g++ 829.cc 
-./a.out 
-vi 829.cc
-g++ 829.cc 
-./a.out 
-vi 829.cc
-g++ 829.cc 
-./a.out 
-vi 829.cc
-g++ 829.cc 
-./a.out 
-vi 829.cc
-g++ 829.cc 
-./a.out 
-vi 829.cc
-g++ 829.cc 
-./a.out 
-vi 829.cc
-g++ 829.cc 
-./a.out 
-vi 829.cc
-g++ 829.cc 
-./a.out 
-vi 829.cc
-vi 829.cc 
-g++ 829.cc 
-./a.out 
-vi 829.cc 
-g++ 829.cc 
-./a.out 
-vi 829.cc 
-g++ 829.cc 
-./a.out 
-vi 829.cc 
-g++ 829.cc 
-./a.out 
-vi 829.cc 
-g++ 829.cc 
-./a.out 
-vi 829.cc 
-./a.out 
-vi 829.cc 
-./a.out 
-g++ 829.cc 
-./a.out 
-vi 829.cc 
-g++ 829.cc 
-./a.out 
-vi 829.cc 
-g++ 829.cc 
-./a.out 
-vi 829.cc 
-g++ 829.cc 
-./a.out 
-vi 829.cc 
-g++ 829.cc 
-./a.out 
-vi 829.cc 
-g++ 829.cc 
-./a.out 
-vi 829.cc 
-g++ 829.cc 
-./a.out 
-vi 829.cc 
-
-exit
-exit
-ll
-cd bj/
-ll
-cd ..
-ll
-cd bj/
-ll
-cd p1000/
-ll
-cd ..
-ll
-cd ..
-ll
-cd kmong/
-ll
-mkdir job15_ds2problem
-ll
-cd job15_ds2problem/
-kk
-ll
-vi 1.c
-gcc 1.c 
-vi 1.c
-gcc 1.c 
-vi 1.c
-gcc 1.c 
-vi 1.c
-gcc 1.c 
-./a.out 
-vi 1.c
-vi in.in
-./a.out  < in.in 
-./a.out 
-vi in.in
-vi 1.c 
-gcc 1.c 
-./a.out 
-vi 1.c 
-./a.out 
-gcc 1.c 
-./a.out 
-vi 1.c 
-gcc 1.c 
-./a.out 
-vi 1.c 
-gcc 1.c 
-./a.out 
-vi 1.c 
-gcc 1.c 
-./a.out 
-vi 1.c 
-:wq
-gcc 1.c 
-vi 1.c 
-gcc 1.c 
-./a.out 
-./a.out  < in.in 
-vi in.in 
-vi 1.c 
-gcc 1.c 
-./a.out  < in.in 
-vi 1.c 
-gcc 1.c 
-./a.out  < in.in 
-vin in.in 
-./a.out 
-vi 1.c 
-vin in.in 
-gcc 1c
-gcc 1.c 
-./a.out 
-./a.out  < in.in 
-vi in.in 
-vi 1.c 
-gcc 1.c 
-./a.out  < in.in 
-vi 1.c 
-gcc 1.c 
-./a.out 
-./a.out < in.in 
-gcc 1.c 
-vi in.in 
-vi 1.c 
-gcc 1.c 
-./a.out 
-./a.out  <in.in 
-./a.out 
-vi 1.c 
-gcc 1.c 
-./a.out 
-vi 1.c 
-gcc 1.c 
-./a.out 
-./a.out  < in.in 
-vi 1.c 
-gcc 1.c 
-./a.out < in.in 
-vi 1.c 
-gcc 1.c 
-./a.out  < in.in 
-vi 1.c 
-gcc 1.c 
-./a.out <in.in 
-vi 1.c 
-vi 2.c
-gcc 2.c 
-vi 2.c
-gcc 2.c 
-vi 2.c
-gcc 2.c 
-vi 2.c
-gcc 2.c 
-vi 2.c
-gcc 2.c 
-vi 2.c
-gcc 2.c 
-vi 2.c
-gcc 2.c 
-./a.out 
-vi 2.c
-ll
-cd ..
-ll
-cd job12_firstfit/
-ll
-vi main.cc 
-g++ main.cc 
-./a.out 
-vi allocation.out 
-vi allocation.inp 
-./a.out 
-ll
-./a.out 
-vi allocation.out 
-vi allocation.inp 
-./a.out 
-vi allocation.out 
-vi allocation.inp 
-./a.out 
-vi allocation.out 
-
-git add .
-git commit -m 'asdf'
-git push adkb master
-vi main.cc 
-vi allocation.inp 
-vi main.cc 
-g++ main.cc 
-./a.out 
-vi allocation.inp 
-./a.out 
-vi allocation.inp 
-./a.out 
-g++ main.cc 
-./a.out 
-vi allocation.inp 
-vi main.cc
-g++ main.cc 
-./a.out 
-vi main.cc
-vi allocation.inp 
-vi main.cc 
-g++ main.cc 
-vi main.cc 
-g++ main.cc 
-./a.out 
-vi main.cc 
-vi allocation.
-vi allocation.inp 
-./a.out 
-vi main.cc 
-vi allocation.inp 
-g++ main.cc 
-./a.out 
-vi main.cc 
-./a.out 
-vi allocation.inp 
-./a.out 
-vi main.cc 
-g++ main.cc 
-./a.out 
-vi main.cc 
-g++ main.cc 
-./a.out 
-./a.out > out.out 
-vi out.out 
-vi main.cc 
-g++ main.cc 
-./a.out > out.out 
-vi out.out 
-vi main.cc 
-vi out.out 
-vi allocation.inp 
-vi main.cc 
-g++ main.cc 
-./a.out > out.out 
-vi out.out 
-k:wq
-
-vi main.cc 
-g++ main.cc 
-./a.out 
-vi main.cc 
-g++ main.cc 
-./a.out  > out.out 
-vi out.out 
-vi allocation.out 
-vi main.cc 
-g++ main.cc 
-./a.out  > out.out 
-vi out.out 
-vi main.cc 
-g++ main.cc 
-./a.out  > out.out 
-vi out.out 
-vi main.cc 
-vi allocation.
-
-./a.out 
-vi allocation.out 
-vi allocation.inp 
-vi main.cc 
-vi allocation.inp 
-./a.out 
-vi allocation.out 
-vi allocation.inp 
-./a.out 
-vi allocation.out 
-vi allocation.
-vi allocation.inp 
-./a.out 
-vi allocation.inp 
-vi allocation.out 
-vi main.cc 
-./a.out 
-g++ main.cc 
-
-clear
-./a.out 
-vi main.cc 
-g++ main.cc 
-./a.out 
-vi allocation.inp 
-./a.out 
-vi allocation.inp 
-vi allocation.out 
-vi main.cc 
-g++ main.cc 
-./a.out 
-vi main.cc 
-g++ main.cc 
-./a.out 
-vi allocation.inp 
-g++ main.cc 
-./a.out 
-vi allocation.inp 
-vi allocation.out 
-vi allocation.inp 
-vi main.cc 
-ll
-cd ..
-ll
-cd job15_ds2problem/
-ll
-vi 2.c 
-gcc 2.c 
-vi 2.c 
-gcc 2.c 
-vi 2.c 
-gcc 2.c 
-./a.out 
-vi 2.c 
-gcc 2.c 
-./a.out 
-vi 2.c 
-gcc 2.c 
-./a.out 
-vi 2.c 
-gcc 2.c 
-./a.out 
-vi 2.c 
-gcc 2.c 
-./a.out 
-vi 2.c 
-ll
-cd
-ll
-cd cf/
-ll
-vi 977A.cc
-g++ 977A.cc 
-vi 977A.cc
-g++ 977A.cc 
-./a.out 
-vi 977A.cc
-vi 977C.cc
-vi 977A.cc 
-vi 977C.cc 
-vi 977B.cc
-g++ 977B.cc 
-vi 977B.cc
-g++ 977B.cc 
-clear
-g++ 977B.cc 
-vi 977B.cc
-g++ 977B.cc 
-./a.out 
-vi 977B.cc
-vi 977C.cc 
-g++ 977C.cc 
-vi 977C.cc 
-g++ 977C.cc 
-vi 977C.cc 
-g++ 977C.cc 
-clear
-g++ 977C.cc 
-vi 977C.cc 
-g++ 977C.cc 
-clear
-g++ 977C.cc 
-vi 977C.cc 
-g++ 977C.cc 
-g++ 977C.cc -std=c++11
-./a.out 
-vi 977C.cc 
-g++ 977C.cc -std=c++11
-./a.out 
-vi 977C.cc 
-g++ 977C.cc -std=c++11
-./a.out 
-vi 977C.cc 
-./a.out 
-g++ 977C.cc -std=c++11
-./a.out 
-vi 977C.cc 
-g++ 977C.cc -std=c++11
-./a.out 
-vi 977C.cc 
-g++ 977C.cc -std=c++11
-./a.out 
-vi 977C.cc 
-g++ 977C.cc 
-g++ 977C.cc -std=c++11
-./a.out 
-vi 977C.cc 
-g++ 977C.cc -std=c++11
-vi 977C.cc 
-g++ 977C.cc -std=c++11
-./a.out 
-vi 977C.cc 
-vi 977D.cc
-g++ 977D.cc 
-vi 977D.cc
-g++ 977D.cc 
-vi 977D.cc
-g++ 977D.cc 
-clear
-g++ 977D.cc 
-vi 977D.cc
-g++ 977D.cc 
-vi 977D.cc
-g++ 977D.cc 
-./a.out 
-vi 977D.cc
-g++ 977D.cc 
-./a.out 
-vi 977D.cc
-g++ 977D.cc 
-./a.out 
-vi 977D.cc
-g++ 977D.cc 
-./a.out 
-vi 977D.cc
-g++ 977D.cc 
-./a.out 
-vi 977D.cc
-g++ 977D.cc 
-./a.out 
-vi 977D.cc
-g++ 977D.cc 
-vi 977D.cc
-g++ 977D.cc 
-vi 977D.cc
-g++ 977D.cc 
-vi 977D.cc
-g++ 977D.cc 
-./a.out 
-vi 977D.cc
-g++ 977D.cc 
-./a.out 
-vi 977D.cc
-vi 977E.cc
-g++ 977E.cc 
-vi 977E.cc
-g++ 977E.cc 
-vi 977E.cc
-g++ 977E.cc 
-vi 977E.cc
-g++ 977E.cc 
-vi 977E.cc
-g++ 977E.cc 
-./a.out 
-vi 977E.cc
-g++ 977E.cc 
-./a.out 
-vi 977E.cc
-g++ 977E.cc 
-./a.out 
-vi 977E.cc
-vi 977F.cc
-g++ 977F.cc 
-vi 977F.cc
-g++ 977F.cc 
-./a.out 
-vi 977F.cc
-g++ 977F.cc 
-./a.out 
-vi 977F.cc
-g++ 977F.cc 
-./a.out 
-vi 977F.cc
-./a.out 
-vi 977F.cc
-g++ 977F.cc 
-vi 977F.cc
-g++ 977F.cc 
-./a.out 
-vi 977F.cc
-g++ 977F.cc 
-./a.out 
-vi 977F.cc
-g++ 977F.cc 
-./a.out 
-vi 977F.cc
-g++ 977F.cc 
-./a.out 
-vi 977F.cc
-g++ 977F.cc 
-./a.out 
-vi 977F.cc
-./a.out 
-vi 977F.cc
-g++ 977F.cc 
-./a.out 
-vi 977F.cc
-ll
-cd
-ll
-cd kmong/
-ll
-cd job15_ds2problem/
-:w
-ll
 vi 2.c 
 gcc 2.c 
 ./a.out 
@@ -1998,3 +1424,577 @@ vi main.cc
 gcc main.cc 
 vi main.cc
 exit
+ll
+cd kmong/
+ll
+cd job23_linkedlist_string/
+Lw
+;w
+ll
+vi main.c
+gcc main.c
+vi main.c
+gcc main.c
+./a.out 
+vi main.c
+gcc main.c
+vi main.c
+gcc main.c
+./a.out 
+vi main.c
+gcc main.c
+./a.out 
+vi main.c
+gcc main.c
+./a.out 
+vi main.c
+gcc main.c
+./a.out 
+vi main.c
+gcc main.c
+./a.out 
+vi main.c
+gcc main.c
+./a.out 
+vi main.c
+gcc main.c
+./a.out 
+vi main.c
+gcc main.c
+./a.out 
+vi main.c
+ll
+cd ..
+ll
+mkdir job24_shortestpath
+cd job24_shortestpath/
+ll
+vi main.c
+mv main.c main.cc
+vi main.cc 
+g++ main.cc 
+vi main.cc 
+g++ main.cc -std=c++11
+vi main.cc 
+g++ main.cc -std=c++11
+vi main.cc 
+g++ main.cc -std=c++11
+vi main.cc 
+g++ main.cc -std=c++11
+vi main.cc 
+g++ main.cc -std=c++11
+clear
+g++ main.cc -std=c++11
+vi main.cc 
+g++ main.cc -std=c++11
+./a.out 
+g++ main.cc -std=c++11
+vi main.cc 
+g++ main.cc -std=c++11
+./a.out 
+vi main.cc 
+g++ main.cc -std=c++11
+vi main.cc 
+g++ main.cc -std=c++11
+vi main.cc 
+g++ main.cc -std=c++11
+vi main.cc 
+g++ main.cc -std=c++11
+vi main.cc 
+g++ main.cc 
+vi main.cc 
+g++ main.cc 
+vi main.cc 
+g++ main.cc -std=c++11
+vi main.cc 
+g++ main.cc -std=c++11
+./a.out 
+vi main.cc 
+g++ main.cc -std=c++11
+./a.out 
+vi main.cc 
+g++ main.cc -std=c++11
+./a.out 
+vi main.cc 
+g++ main.cc -std=c++11
+./a.out 
+vi main.cc 
+g++ main.cc -std=c++11
+vi main.cc 
+g++ main.cc -std=c++11
+vi main.cc 
+g++ main.cc -std=c++11
+vi main.cc 
+g++ main.cc -std=c++11
+clear
+g++ main.cc -std=c++11
+vi main.cc 
+g++ main.cc -std=c++11
+clear
+vi main.cc 
+clear
+g++ main.cc -std=c++11
+vi main.cc 
+g++ main.cc -std=c++11
+vi main.cc 
+g++ main.cc -std=c++11
+vi main.cc 
+g++ main.cc -std=c++11
+vi main.cc 
+g++ main.cc -std=c++11
+vi main.cc 
+g++ main.cc -std=c++11
+vi main.cc 
+g++ main.cc -std=c++11
+vi main.cc 
+g++ main.cc -std=c++11
+./a.out 
+vi main.cc 
+g++ main.cc -std=c++11
+./a.out 
+vi main.cc 
+git add .
+git commit -m 'asdf'
+git push adkb master
+vi main.cc 
+g++ main.cc 
+g++ main.cc -std=c++11
+./a.out 
+ll
+cd 
+ll
+cd kmong/
+ll
+cd ..
+ll
+cd kmong/
+ll
+cd job23_linkedlist_string/
+ll
+vi mian
+ll
+vi main.c
+gcc main.c
+vi main.c
+gcc main.c
+vi main.c
+gcc main.c
+./a.out 
+vi main.c
+gcc main.c
+./a.out 
+vi main.c
+git add .
+git commit -m 'asdf'
+git push adkb master
+ll
+cd ..
+ll
+cd job24_shortestpath/
+ll
+./a.out 
+vi main.cc 
+g++ main.cc 
+g++ main.cc -std=c++11
+./a.out 
+vi main.cc 
+g++ main.cc -std=c++11
+./a.out 
+vi main.cc 
+g++ main.cc -std=c++11
+./a.out 
+vi main.cc 
+g++ main.cc -std=c++11
+./a.out 
+vi main.cc 
+g++ main.cc -std=c++11
+./a.out 
+vi main.cc 
+g++ main.cc -std=c++11
+./a.out 
+vi main.cc 
+g++ main.cc -std=c++11
+./a.out 
+vi main.cc 
+g++ main.cc -std=c++11
+./a.out 
+vi main.cc 
+g++ main.cc -std=c++11
+vi main.cc 
+g++ main.cc -std=c++11
+./a.out 
+vi main.cc 
+g++ main.cc -std=c++11
+./a.out 
+vi main.cc 
+g++ main.cc -std=c++11
+vi main.cc 
+g++ main.cc -std=c++11
+./a.out 
+vi main.cc 
+g++ main.cc -std=c++11
+./a.out 
+vi main.cc 
+g++ main.cc -std=c++11
+./a.out 
+vi main.cc 
+g++ main.cc -std=c++11
+./a.out 
+vi main.cc 
+g++ main.cc -std=c++11
+./a.out 
+vi main.cc 
+g++ main.cc -std=c++11
+./a.out 
+vi main.cc 
+g++ main.cc -std=c++11
+./a.out 
+vi main.cc 
+g++ main.cc -std=c++11
+./a.out 
+vi main.cc 
+g++ main.cc -std=c++11
+./a.out 
+vi main.cc 
+g++ main.cc -std=c++11
+./a.out 
+vi main.cc 
+g++ main.cc -std=c++11
+./a.out 
+git add .
+git commit -m 'asdf'
+git push adkb master
+vi main.cc 
+git push adkb master
+cd ..
+ll
+cd job23_linkedlist_string/
+ll
+rm main.cc 
+vi another.c
+cd 
+ll
+cd kmong/
+ll
+cd job24_shortestpath/
+ll
+vi main.c
+gcc main.c
+vi main.c
+gcc main.c
+./a.out 
+vi main.c
+gcc main.c
+./a.out 
+vi main.c
+./a.out 
+vi main.c
+gcc main.c
+./a.out 
+git add .
+
+git push adkb master
+vi main.c
+git add .
+git commit -m 'asdf'
+ll
+git push adkb master
+ll
+cd ..
+ll
+cd job23_linkedlist_string/
+ll
+vi another.c 
+ll
+cd ..
+ll
+cd job24_shortestpath/
+ll
+gcc main.c
+vi main.c
+ll
+cd ..
+ll
+cd job23_linkedlist_string/
+lw
+ll
+vi another.c 
+gcc another.c 
+vi another.c 
+gcc another.c 
+clear
+gcc another.c 
+vi another.c 
+gcc another.c 
+clear
+gcc another.c 
+vi another.c 
+gcc another.c 
+clear
+gcc another.c 
+vi another.c 
+gcc another.c 
+clear
+gcc another.c 
+vi another.c 
+gcc another.c 
+clear
+gcc another.c 
+clear
+gcc another.c 
+:w
+clear
+gcc another.c 
+vi another.c 
+gcc another.c 
+clear
+vi another.c 
+gcc another.c 
+vi another.c 
+gcc another.c 
+vi another.c 
+gcc another.c 
+clear
+vi another.c 
+gcc another.c 
+vi another.c 
+gcc another.c 
+:w
+vi another.c 
+gcc another.c 
+vi another.c 
+gcc another.c 
+vi another.c 
+gcc another.c 
+vi another.c 
+gcc another.c 
+vi another.c 
+gcc another.c 
+vi another.c 
+gcc another.c 
+vi another.c 
+gcc another.c 
+vi another.c 
+gcc another.c 
+vi another.c 
+gcc another.c 
+./a.out 
+sch can
+sch create
+./a.out 
+gcc another.c 
+vi another.c 
+gcc another.c 
+./a.out 
+vi another.c 
+gcc another.c 
+./a.out 
+vi another.c 
+gcc another.c 
+./a.out 
+vi another.c 
+gcc another.c 
+./a.out 
+vi another.c 
+gcc another.c 
+./a.out 
+vi another.c 
+gcc another.c 
+./a.out 
+vi another.c 
+gcc another.c 
+./a.out 
+vi another.c 
+gcc another.c 
+./a.out 
+vi another.c 
+gcc another.c 
+./a.out 
+vi another.c 
+gcc another.c 
+./a.out 
+vi another.c 
+git add .
+git commit -m 'asdf'
+git push adkb master
+vi another.c 
+gcc another.c 
+vi another.c 
+gcc another.c 
+ll
+cd 
+ll
+cd bj/
+ll
+cd p1000/
+ll
+vi 1449.c
+gcc 1449
+gcc 1449.c 
+./a.out 
+vi 1449.c
+gcc 1449.c 
+./a.out 
+vi 1449.c
+gcc 1449.c 
+./a.out 
+vi 1449.c
+gcc 1449.c 
+./a.out 
+vi 1449.c
+gcc 1449
+gcc 1449.c 
+./a.out 
+vi 1449.c
+gcc 1449.c 
+./a.out 
+vi 1449.c
+vi 13909.c
+vi 2437.cc
+g++ 2437.cc -std=c++11
+vi 2437.cc
+g++ 2437.cc -std=c++11
+vi 2437.cc
+g++ 2437.cc -std=c++11
+vi 2437.cc
+g++ 2437.cc -std=c++11
+vi 2437.cc
+g++ 2437.cc -std=c++11
+vi 2437.cc
+g++ 2437.cc -std=c++11
+vi 2437.cc
+g++ 2437.cc -std=c++11
+./a.out 
+vi 2437.cc
+g++ 2437.cc 
+vi 2437.cc
+g++ 2437.cc 
+g++ 2437.cc -std=c++11
+./a.out 
+vi 2437.cc
+g++ 2437.cc -std=c++11
+./a.out 
+vi 2437.cc
+g++ 2437.cc -std=c++11
+./a.out 
+vi 2437.cc
+g++ 2437.cc -std=c++11
+./a.out 
+vi 2437.cc
+g++ 2437.cc -std=c++11
+./a.out 
+vi 2437.cc
+g++ 2437.cc -std=c++11
+./a.out 
+vi 2437.cc
+g++ 2437.cc -std=c++11
+./a.out 
+vi 2437.cc
+ll
+vi 11585.cc
+g++ 11585.cc 
+vi 11585.cc
+g++ 11585.cc 
+vi 11585.cc
+g++ 11585.cc 
+vi 11585.cc
+g++ 11585.cc 
+vi 11585.cc
+g++ 11585.cc 
+vi 11585.cc
+g++ 11585.cc 
+./a.out 
+vi 11585.cc
+./a.out 
+g++ 11585.cc 
+./a.out 
+vi 11585.cc
+./a.out 
+g++ 11585.cc 
+./a.out 
+vi 11585.cc
+g++ 11585.cc 
+./a.out 
+vi 11585.cc
+g++ 11585.cc 
+./a.out 
+vi 11585.cc
+g++ 11585.cc 
+./a.out 
+vi 11585.cc
+g++ 11585.cc 
+vi 11585.cc
+g++ 11585.cc 
+./a.out 
+vi 11585.cc
+g++ 11585.cc 
+vi 11585.cc
+g++ 11585.cc 
+./a.out 
+vi 11585.cc
+g++ 11585.cc 
+./a.out 
+vi 11585.cc
+g++ 11585.cc 
+./a.out 
+vi 11585.cc
+g++ 11585.cc 
+./a.out 
+vi 11585.cc
+g++ 11585.cc 
+./a.out 
+vi 11585.cc
+g++ 11585.cc 
+./a.out 
+vi 11585.cc
+ll
+cd ..
+ll
+cd ..
+ll
+cd kmong/
+ll
+cd job23_linkedlist_string/
+ll
+vi another.c 
+gcc another.c 
+./a
+./a.out 
+gcc another.c 
+./a.out 
+vi another.c 
+gcc another.c 
+vi another.c 
+gcc another.c 
+vi another.c 
+gcc another.c 
+./a.out 
+vi another.c 
+gcc another.c 
+./a.out 
+git add .
+git commit -m 'asdf'
+git push adkb master
+vi main.c 
+gcc main.c 
+./a.out 
+git add .
+git commit -m 'asdf'
+vi main.c 
+gcc main.c 
+git add .
+git commit -m 'asdf'
+git push adkb master
+git add .
+git commit -m 'assd'
+cd
+git add .
+git commit -m 'asdf'
+git push adkb master
+ll
+cd kmong/
+ll
+cd job23_linkedlist_string/
+ll
+gcc another.c 
+./a.out 

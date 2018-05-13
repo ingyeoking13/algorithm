@@ -18,10 +18,10 @@ $
 
 # Command Line History (newest to oldest):
 :wq
+:q
 :w
 :W
 :s
-:q
 :set nonu
 :qw
 :r main.c
@@ -128,78 +128,31 @@ $
 # Input Line History (newest to oldest):
 
 # Registers:
-""0	LINE	0
+"0	LINE	0
 	void pushString(Alpha* alpha, char* str, int id){
-"1	LINE	0
-						Sch
+""1	LINE	0
+			}
 "2	LINE	0
-						strcpy(nowStr->str, tstr);
+				w[0]='.', w[1]=0; push(list, w, id); id++, wlen=0;
 "3	LINE	0
 	
 "4	LINE	0
-	void Del(List* list, char* str){
-		Alpha* nowAlp = list->front;
-		int al = prec(str[0]);
-	
-		while(nowAlp){
-	
-			if ( nowAlp->al == al){
-				String* nowStr = nowAlp->front;
-				String* before=0;
-	
-				while(nowStr){
-	
-					if(!strcmp(nowStr->str, str)){
-	
-						if(before) before->next= nowStr->next;
-						else nowAlp->front = nowStr->next;
-	
-						free(nowStr);
-						return;
-	
-					}
+					w[wlen++]=0; push(list, w, id); id++, wchk=0;
 				}
-			}
-			nowAlp = nowAlp->next;
-		}
-	}
 "5	LINE	0
-	void Del(List* list, char* str)
-	{
-		Alphabet* alpha = list->head;
-	
-		while(alpha != NULL)
-		{
-	
-			if ( alpha->al == str[0])
-			{
-				String* string = alpha->head;
-				String* before=0;
-	
-				while(string){
-	
-					if(strcmp(string->word, str) == 0){
-	
-						if(before) before->next= string->next;
-						else       alpha->head = string->next;
-	
-						free(string);
-						return;
-	
-					}
-				}
-			}
-			alpha = alpha->next;
-		}
-	}
+			else if ( s[i] == '.' ){
+				if(wchk) {
 "6	LINE	0
-	
+			}
 "7	LINE	0
-						(to, string->id);
+				id++; 
+				word_len=0;
 "8	LINE	0
-						strcpy(string->word, to);
+				word[0]='.'; word[1]=0; 
+				push_String_toList(list, word, id);
 "9	LINE	0
-						return;
+				}
+	
 "l	CHAR	0
 	w
 "u	CHAR	0
@@ -210,30 +163,36 @@ $
 
 # File marks:
 'G  16  0  ~/kmong/job6_float_to_bin_viceversa/test.c
-'0  259  0  ~/kmong/job23_linkedlist_string/main.c
-'1  199  0  ~/kmong/job23_linkedlist_string/main.c
-'2  174  18  ~/kmong/job23_linkedlist_string/another.c
-'3  156  0  ~/kmong/job23_linkedlist_string/another.c
-'4  100  5  ~/kmong/job23_linkedlist_string/another.c
-'5  36  19  ~/bj/p1000/11585.cc
-'6  35  0  ~/bj/p1000/11585.cc
-'7  37  19  ~/bj/p1000/11585.cc
-'8  20  0  ~/bj/p1000/11585.cc
-'9  37  37  ~/bj/p1000/11585.cc
+'0  145  0  ~/kmong/job23_linkedlist_string/another.c
+'1  119  1  ~/kmong/job23_linkedlist_string/another.c
+'2  90  0  ~/kmong/job23_linkedlist_string/main.c
+'3  228  0  ~/kmong/job23_linkedlist_string/another.c
+'4  254  0  ~/kmong/job23_linkedlist_string/main.c
+'5  260  2  ~/kmong/job23_linkedlist_string/another.c
+'6  252  0  ~/kmong/job23_linkedlist_string/main.c
+'7  199  0  ~/kmong/job23_linkedlist_string/main.c
+'8  174  18  ~/kmong/job23_linkedlist_string/another.c
+'9  156  0  ~/kmong/job23_linkedlist_string/another.c
 
 # Jumplist (newest first):
--'  259  0  ~/kmong/job23_linkedlist_string/main.c
--'  169  0  ~/kmong/job23_linkedlist_string/main.c
+-'  145  0  ~/kmong/job23_linkedlist_string/another.c
+-'  1  0  ~/kmong/job23_linkedlist_string/another.c
+-'  119  1  ~/kmong/job23_linkedlist_string/another.c
+-'  90  0  ~/kmong/job23_linkedlist_string/main.c
 -'  1  0  ~/kmong/job23_linkedlist_string/main.c
+-'  228  0  ~/kmong/job23_linkedlist_string/another.c
+-'  254  0  ~/kmong/job23_linkedlist_string/main.c
+-'  260  2  ~/kmong/job23_linkedlist_string/another.c
+-'  252  0  ~/kmong/job23_linkedlist_string/main.c
+-'  169  0  ~/kmong/job23_linkedlist_string/main.c
 -'  199  0  ~/kmong/job23_linkedlist_string/main.c
 -'  178  6  ~/kmong/job23_linkedlist_string/main.c
 -'  189  0  ~/kmong/job23_linkedlist_string/main.c
 -'  174  18  ~/kmong/job23_linkedlist_string/another.c
--'  1  0  ~/kmong/job23_linkedlist_string/another.c
 -'  156  0  ~/kmong/job23_linkedlist_string/another.c
 -'  183  0  ~/kmong/job23_linkedlist_string/another.c
 -'  5  0  ~/kmong/job23_linkedlist_string/another.c
--'  284  0  ~/kmong/job23_linkedlist_string/another.c
+-'  269  0  ~/kmong/job23_linkedlist_string/another.c
 -'  17  0  ~/kmong/job23_linkedlist_string/another.c
 -'  173  27  ~/kmong/job23_linkedlist_string/another.c
 -'  175  5  ~/kmong/job23_linkedlist_string/another.c
@@ -274,26 +233,23 @@ $
 -'  8  5  ~/bj/p1000/1449.c
 -'  11  7  ~/kmong/job23_linkedlist_string/another.c
 -'  8  0  ~/kmong/job23_linkedlist_string/another.c
--'  268  0  ~/kmong/job23_linkedlist_string/another.c
+-'  253  0  ~/kmong/job23_linkedlist_string/another.c
 -'  116  5  ~/kmong/job23_linkedlist_string/another.c
 -'  220  0  ~/kmong/job23_linkedlist_string/another.c
 -'  73  15  ~/kmong/job23_linkedlist_string/another.c
 -'  50  1  ~/kmong/job23_linkedlist_string/another.c
 -'  93  2  ~/kmong/job23_linkedlist_string/another.c
--'  294  0  ~/kmong/job23_linkedlist_string/another.c
+-'  279  0  ~/kmong/job23_linkedlist_string/another.c
 -'  225  1  ~/kmong/job23_linkedlist_string/another.c
 -'  215  26  ~/kmong/job23_linkedlist_string/another.c
 -'  3  0  ~/kmong/job23_linkedlist_string/another.c
 -'  192  23  ~/kmong/job23_linkedlist_string/another.c
--'  286  17  ~/kmong/job23_linkedlist_string/another.c
--'  279  16  ~/kmong/job23_linkedlist_string/another.c
--'  257  31  ~/kmong/job23_linkedlist_string/another.c
+-'  271  17  ~/kmong/job23_linkedlist_string/another.c
+-'  264  16  ~/kmong/job23_linkedlist_string/another.c
+-'  246  31  ~/kmong/job23_linkedlist_string/another.c
 -'  200  0  ~/kmong/job23_linkedlist_string/another.c
 -'  68  5  ~/kmong/job23_linkedlist_string/another.c
--'  251  4  ~/kmong/job23_linkedlist_string/another.c
 -'  240  29  ~/kmong/job23_linkedlist_string/another.c
--'  246  16  ~/kmong/job23_linkedlist_string/another.c
--'  228  6  ~/kmong/job23_linkedlist_string/another.c
 -'  226  9  ~/kmong/job23_linkedlist_string/another.c
 -'  6  1  ~/kmong/job23_linkedlist_string/another.c
 -'  10  1  ~/kmong/job23_linkedlist_string/another.c
@@ -303,7 +259,7 @@ $
 -'  176  3  ~/kmong/job23_linkedlist_string/another.c
 -'  51  12  ~/kmong/job23_linkedlist_string/another.c
 -'  65  18  ~/kmong/job23_linkedlist_string/another.c
--'  274  10  ~/kmong/job23_linkedlist_string/another.c
+-'  259  10  ~/kmong/job23_linkedlist_string/another.c
 -'  160  0  ~/kmong/job23_linkedlist_string/another.c
 -'  171  20  ~/kmong/job23_linkedlist_string/another.c
 -'  95  2  ~/kmong/job23_linkedlist_string/another.c
@@ -314,30 +270,131 @@ $
 -'  109  15  ~/kmong/job23_linkedlist_string/another.c
 -'  111  13  ~/kmong/job23_linkedlist_string/another.c
 -'  114  19  ~/kmong/job23_linkedlist_string/another.c
--'  119  17  ~/kmong/job23_linkedlist_string/another.c
 -'  44  1  ~/kmong/job23_linkedlist_string/another.c
 -'  35  1  ~/kmong/job23_linkedlist_string/another.c
 -'  29  2  ~/kmong/job23_linkedlist_string/another.c
--'  174  18  ~/kmong/job23_linkedlist_string/another.c
--'  1  0  ~/kmong/job23_linkedlist_string/another.c
 
 # History of marks within files (newest to oldest):
 
+> ~/kmong/job23_linkedlist_string/another.c
+	"	145	0
+	^	174	19
+	.	246	0
+	+	183	0
+	+	183	11
+	+	183	14
+	+	183	25
+	+	183	29
+	+	183	35
+	+	183	15
+	+	183	15
+	+	183	6
+	+	279	0
+	+	71	0
+	+	184	0
+	+	205	0
+	+	186	15
+	+	188	11
+	+	192	15
+	+	190	29
+	+	194	13
+	+	197	39
+	+	198	16
+	+	201	13
+	+	259	10
+	+	60	32
+	+	64	24
+	+	65	18
+	+	94	0
+	+	73	10
+	+	75	12
+	+	166	30
+	+	175	23
+	+	171	26
+	+	175	17
+	+	96	5
+	+	96	6
+	+	97	0
+	+	97	0
+	+	97	0
+	+	183	19
+	+	246	8
+	+	226	9
+	+	228	6
+	+	246	16
+	+	197	30
+	+	240	32
+	+	246	32
+	+	246	31
+	+	270	18
+	+	275	18
+	+	276	16
+	+	271	17
+	+	50	24
+	+	192	23
+	+	8	15
+	+	225	2
+	+	279	2
+	+	255	0
+	+	220	0
+	+	215	27
+	+	225	0
+	+	279	0
+	+	104	19
+	+	161	19
+	+	183	19
+	+	188	19
+	+	93	1
+	+	73	15
+	+	220	0
+	+	255	0
+	+	253	0
+	+	126	0
+	+	117	0
+	+	118	0
+	+	116	0
+	+	8	0
+	+	14	0
+	+	28	0
+	+	8	0
+	+	10	7
+	+	11	7
+	+	204	0
+	+	125	13
+	+	175	0
+	+	173	37
+	+	175	0
+	+	173	24
+	+	173	49
+	+	173	30
+	+	173	0
+	+	173	30
+	+	173	34
+	+	175	0
+	+	173	35
+	+	174	13
+	+	175	0
+	+	174	14
+	+	183	0
+	+	128	0
+	+	156	0
+	+	174	18
+	+	246	0
+
 > ~/kmong/job23_linkedlist_string/main.c
-	"	259	0
+	"	90	0
 	^	180	21
-	.	180	20
-	+	235	15
-	+	235	11
+	.	224	0
+	+	228	11
 	+	215	33
-	+	231	28
-	+	225	55
+	+	224	28
+	+	224	55
 	+	221	16
 	+	55	0
-	+	235	0
-	+	234	9
-	+	226	0
-	+	227	0
+	+	228	0
+	+	227	9
+	+	224	0
+	+	224	0
 	+	219	11
 	+	220	0
 	+	222	0
@@ -374,10 +431,10 @@ $
 	+	175	0
 	+	183	0
 	+	166	42
-	+	245	14
-	+	246	21
-	+	247	12
-	+	244	0
+	+	238	14
+	+	239	21
+	+	240	12
+	+	237	0
 	+	183	0
 	+	178	29
 	+	181	30
@@ -388,7 +445,7 @@ $
 	+	184	0
 	+	185	0
 	+	189	5
-	+	257	6
+	+	250	6
 	+	189	0
 	+	189	28
 	+	189	22
@@ -415,8 +472,8 @@ $
 	+	189	0
 	+	189	0
 	+	168	15
-	+	247	12
-	+	257	15
+	+	240	12
+	+	250	15
 	+	122	22
 	+	126	20
 	+	189	0
@@ -427,111 +484,7 @@ $
 	+	181	0
 	+	179	33
 	+	180	20
-
-> ~/kmong/job23_linkedlist_string/another.c
-	"	174	18
-	^	174	19
-	.	174	18
-	+	183	14
-	+	183	0
-	+	183	11
-	+	183	14
-	+	183	25
-	+	183	29
-	+	183	35
-	+	183	15
-	+	183	15
-	+	183	6
-	+	294	0
-	+	71	0
-	+	184	0
-	+	205	0
-	+	186	15
-	+	188	11
-	+	192	15
-	+	190	29
-	+	194	13
-	+	197	39
-	+	198	16
-	+	201	13
-	+	274	10
-	+	60	32
-	+	64	24
-	+	65	18
-	+	94	0
-	+	73	10
-	+	75	12
-	+	166	30
-	+	175	23
-	+	171	26
-	+	175	17
-	+	96	5
-	+	96	6
-	+	97	0
-	+	97	0
-	+	97	0
-	+	183	19
-	+	257	8
-	+	226	9
-	+	228	6
-	+	246	16
-	+	197	30
-	+	240	32
-	+	251	32
-	+	257	31
-	+	285	18
-	+	290	18
-	+	291	16
-	+	286	17
-	+	50	24
-	+	192	23
-	+	8	15
-	+	225	2
-	+	294	2
-	+	270	0
-	+	220	0
-	+	215	27
-	+	225	0
-	+	294	0
-	+	104	19
-	+	161	19
-	+	183	19
-	+	188	19
-	+	93	1
-	+	73	15
-	+	220	0
-	+	270	0
-	+	268	0
-	+	126	0
-	+	117	0
-	+	118	0
-	+	116	0
-	+	8	0
-	+	14	0
-	+	28	0
-	+	8	0
-	+	10	7
-	+	11	7
-	+	204	0
-	+	125	13
-	+	175	0
-	+	173	37
-	+	175	0
-	+	173	24
-	+	173	49
-	+	173	30
-	+	173	0
-	+	173	30
-	+	173	34
-	+	175	0
-	+	173	35
-	+	174	13
-	+	175	0
-	+	174	14
-	+	183	0
-	+	128	0
-	+	156	0
-	+	174	18
+	+	224	0
 
 > ~/bj/p1000/11585.cc
 	"	36	19
