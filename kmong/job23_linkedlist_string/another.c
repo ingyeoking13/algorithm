@@ -243,21 +243,6 @@ int main()
 				word_len=0; 
 			}
 		}
-		else if ( input[i] == '.' ) // if we get comma
-		{
-			if(chk)  // if we get word 
-			{
-				word[word_len++]='\0';  // insert null byte
-				push_String_toList(list, word, id); 
-				chk=0;
-				id++;  // string id up up 
-			}
-
-			word[0]='.'; word[1]=0; 
-			push_String_toList(list, word, id);
-			id++; 
-			word_len=0;
-		}
 		else  // if we have character 
 		{
 			word[word_len++]=input[i];  // store it 

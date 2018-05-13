@@ -221,13 +221,6 @@ int main(){
 				wlen=0, wchk=0;
 			}
 		}
-		else if ( s[i] == '.' ){
-			if(wchk) {
-				w[wlen++]=0; push(list, w, id); id++, wchk=0;
-			}
-
-			w[0]='.', w[1]=0; push(list, w, id); id++, wlen=0;
-		}
 		else w[wlen++]=s[i], wchk=1; 
 	}
 
