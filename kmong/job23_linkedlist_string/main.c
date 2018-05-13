@@ -183,8 +183,8 @@ void Sub(List* list, char* fstr, char* tstr){
 					Del(list, fstr);
 					return;
 				}
+				nowStr = nowStr->next;
 			}
-			nowStr = nowStr->next;
 		}
 		nowAlp  = nowAlp->next;
 	}

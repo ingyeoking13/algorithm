@@ -8,7 +8,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/Del
+~MSle0~/Sub
 
 # Last Substitute Search Pattern:
 ~MSle0&tot
@@ -69,8 +69,8 @@ $
 :wk:w
 
 # Search String History (newest to oldest):
-?/Del
 ?/Sub
+?/Del
 ?/sub
 ?/Sch
 ?/push_String
@@ -131,48 +131,51 @@ $
 "0	LINE	0
 		printAll(list);
 ""1	LINE	0
-	
+				nowStr = nowStr->next;
 "2	LINE	0
-						if(!nowStr->next) nowAl
+	
 "3	LINE	0
-					nowStr
+						if(!nowStr->next) nowAl
 "4	LINE	0
-	
+					nowStr
 "5	LINE	0
-			printAll(list);
-"6	LINE	0
-						else alpha->tail = string->next;
-"7	LINE	0
-			}
-"8	LINE	0
-				w[0]='.', w[1]=0; push(list, w, id); id++, wlen=0;
-"9	LINE	0
 	
+"6	LINE	0
+			printAll(list);
+"7	LINE	0
+						else alpha->tail = string->next;
+"8	LINE	0
+			}
+"9	LINE	0
+				w[0]='.', w[1]=0; push(list, w, id); id++, wlen=0;
 "l	CHAR	0
 	w
 "u	CHAR	0
 	2955
 <stn €kb€kb€kb ë³€ìˆ˜ ã…ã…“ã…lllljla ìƒëŒ€ë°©ì˜ ì£¼ì†Œë¥¼ ë„£ì–´ì¤ë‹ˆë‹¤.jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkoì±„ã…•€kb€kbcoup->[€kb€kb€kbon->c[€kb€kbp[p€kbperson->num]=person;:wjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjddkyypcwpersonlllrnrcllcwcoupn€kbonllllllllcwcon€kbupon:wjjkkkJw;ko€kbko€kbint€kb€kb€kb€kb€kb	  int €kb€kb€kb€kb€kbint rmv(coup*, pers*) : ì´ í•¨ìˆ˜ëŠ” ep€kb€kbpersì™€ coup ê´€ê³„ì— ê°„ì„ ì„ ì œê±°í•©ë‹ˆë‹¤.  ì´ë¯¸ ì¡´ìž¬ €kb€kb€kbê´€ê³„ê°€ ì¡´ìž¬ €kbí•˜ì§€ ì•ŠëŠ”ë‹¤ë©´ ã…“jGkk:wkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkklllllllllllllllllllllllllljllll:w:ã…ˆã…:wkjjjkk1Gjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjkkkkkkkklllllllllljlllllllllllllllllllllllllllllllllllllllllllljjjjjjjjjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhha ëª¨ë“  :wx:wjjjjkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjljjjjjjjjjjjllllllllllllla1dmf €kb€kb€kb€kb€kb€kb 1ì„ ë¦¬í„´í•˜ã…ã…€kbì—¬ kjjGkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjj:wjjjjjj$ar€kb€kb€kb €kbì—¬ ê²½ê³ ë¥¼ ë„ì›ë‹ˆë‹¤.ë§Œì•½ í•´ë‹¹ ê°„ì„ ì´ ì¡´ìž¬í•œ€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb í•´ë‹¹ ê°„ì„ ì´ ì¡´ìž¬í•œë‹¤ë©´, ì´ €kb€kbí•´ë‹¹ í¬ì¸í„° ë³€ìˆ˜ ë°°ì—´€kbì—´ ì— ã…$a€kbdp €kb€kb€kbì— =0€kb€kb0€kbN€kb0dmf €kb€kb€kb€kbì„ ë„£ìŠµë‹ˆë‹¤.coupon->p[person->num=€kb]=0, per€kb€kb€kbperson->p€kbc[per€kb€kb€kbcoupon->num]=0;:wkkjjjdd:wGkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjkkjkkkkkkkkkkkkjjjjjjjjjjjjjjkkjkllo€kb€kb int S€kbshow_P(jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjkkhhhhhhhhhhcwovid€kb€kb€kb€kbvodillhhhxadllllllllllllapers*):wa : dl€kb€kbì´ í•¨ìˆ˜ëŠ” :wkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkkkkkkkkkkã…kjw€kbã…€kb ì „ë‹¬ë°›ì€ í•´ë‹¹ personì´ ê°€ì§€ê³  ìžˆëŠ” ì¿ í°ì„ ë³´ì—¬ì¤ë‹ˆë‹¤.	€kb  for ë°˜ë³µë¬¸ì„ í†µí•´ì„œ ì –ã…‡€kb€kbperso€kb€kb€kb€kb€kbí•´ë‹¹ personì´ ê°€ì§€ê³  ìžˆì„ [nhic1G50Gjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkjkkkk$hla€kbNE+1]:wkj:wa a€kbë§Œí¼ì˜ ë°°ì—´ì„ ìˆœíšŒí•©ë‹ˆë‹¤.ë§Œì•½ ì¡´ìž¬í•œë‹¤ë©´ í•´ë‹¹ ì²¨ìž €kbë¥¼ ì¶œë ¥í•˜ë©´ ë˜ì£ ã…—ã…—ã…—ã…—ã…—ã…—ã…—ã…—ã…—ã…—ã…— 
 "-	CHAR	0
-	 
+	/
 
 # File marks:
 'G  16  0  ~/kmong/job6_float_to_bin_viceversa/test.c
-'0  19  0  ~/kmong/job23_linkedlist_string/main.c
-'1  1  0  ~/kmong/job23_linkedlist_string/another.c
-'2  275  1  ~/kmong/job23_linkedlist_string/another.c
-'3  153  17  ~/kmong/job23_linkedlist_string/another.c
-'4  284  2  ~/kmong/job23_linkedlist_string/another.c
-'5  182  25  ~/kmong/job23_linkedlist_string/another.c
-'6  136  2  ~/kmong/job23_linkedlist_string/another.c
-'7  163  0  ~/kmong/job23_linkedlist_string/another.c
-'8  145  73  ~/kmong/job23_linkedlist_string/another.c
-'9  119  1  ~/kmong/job23_linkedlist_string/another.c
+'0  186  4  ~/kmong/job23_linkedlist_string/main.c
+'1  183  4  ~/kmong/job23_linkedlist_string/main.c
+'2  182  0  ~/kmong/job23_linkedlist_string/main.c
+'3  19  0  ~/kmong/job23_linkedlist_string/main.c
+'4  1  0  ~/kmong/job23_linkedlist_string/another.c
+'5  275  1  ~/kmong/job23_linkedlist_string/another.c
+'6  153  17  ~/kmong/job23_linkedlist_string/another.c
+'7  284  2  ~/kmong/job23_linkedlist_string/another.c
+'8  182  25  ~/kmong/job23_linkedlist_string/another.c
+'9  136  2  ~/kmong/job23_linkedlist_string/another.c
 
 # Jumplist (newest first):
+-'  186  4  ~/kmong/job23_linkedlist_string/main.c
+-'  1  0  ~/kmong/job23_linkedlist_string/main.c
+-'  183  4  ~/kmong/job23_linkedlist_string/main.c
+-'  182  0  ~/kmong/job23_linkedlist_string/main.c
 -'  19  0  ~/kmong/job23_linkedlist_string/main.c
 -'  155  0  ~/kmong/job23_linkedlist_string/main.c
--'  1  0  ~/kmong/job23_linkedlist_string/main.c
 -'  1  0  ~/kmong/job23_linkedlist_string/another.c
 -'  275  1  ~/kmong/job23_linkedlist_string/another.c
 -'  153  17  ~/kmong/job23_linkedlist_string/another.c
@@ -264,19 +267,13 @@ $
 -'  75  12  ~/kmong/job23_linkedlist_string/another.c
 -'  83  11  ~/kmong/job23_linkedlist_string/another.c
 -'  180  3  ~/kmong/job23_linkedlist_string/another.c
--'  51  12  ~/kmong/job23_linkedlist_string/another.c
--'  65  18  ~/kmong/job23_linkedlist_string/another.c
--'  164  0  ~/kmong/job23_linkedlist_string/another.c
 
 # History of marks within files (newest to oldest):
 
 > ~/kmong/job23_linkedlist_string/main.c
-	"	19	0
-	.	156	0
-	+	232	0
-	+	231	9
-	+	228	0
-	+	228	0
+	"	186	4
+	^	183	5
+	.	186	0
 	+	223	11
 	+	224	0
 	+	226	0
@@ -308,22 +305,22 @@ $
 	+	188	0
 	+	175	23
 	+	177	33
-	+	186	0
+	+	187	0
 	+	188	0
 	+	178	0
-	+	186	0
+	+	187	0
 	+	169	42
 	+	242	14
 	+	243	21
 	+	244	12
 	+	241	0
-	+	186	0
+	+	187	0
 	+	181	29
 	+	184	30
-	+	186	0
+	+	187	0
 	+	184	11
 	+	185	0
-	+	186	0
+	+	187	0
 	+	188	0
 	+	189	0
 	+	193	5
@@ -367,12 +364,16 @@ $
 	+	182	33
 	+	183	20
 	+	228	0
-	+	187	24
+	+	188	24
 	+	162	23
 	+	162	9
 	+	162	0
 	+	161	17
 	+	156	0
+	+	1	0
+	+	183	3
+	+	188	0
+	+	186	0
 
 > ~/kmong/job23_linkedlist_string/another.c
 	"	1	0
