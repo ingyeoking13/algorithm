@@ -4,6 +4,7 @@
 
 #define MX_BUF 100000
 #define MX_WSIZE 1000
+
 int ID;
 
 typedef struct 
@@ -27,11 +28,11 @@ typedef struct String
 	struct String* next;
 }String;
 
-String* create_String(char* word, int id)
+String* create_String(char* word)
 {
 	String* string = (String*)malloc(sizeof(String));
 	strcpy(string->word, word);
-	string->id =id; 
+	string->id =ID;
 	string->next = NULL;
 	return string;
 }
@@ -69,7 +70,11 @@ void push_Alphabet(List* list, char c) // push Alphabet into List
 void push_String_toAlphabet(Alphabet* alpha, char* str, int id)
 {
 	//push string -> in to Alphabet List 
-	String* string = create_String(str, id);
+	String* string = create_String(str);
+	if ( id >= 0 ) 
+	{
+		string->id = id;
+	}
 
 	if (alpha->head == NULL)
 	{
@@ -81,7 +86,10 @@ void push_String_toAlphabet(Alphabet* alpha, char* str, int id)
 	while(nowstring)
 	{
 		if (strcmp(nowstring->word, str) == 0) {
-			ID--;
+			if(id== -1 )
+			{
+				ID--;
+			}
 			free(string);
 			return;
 		}
@@ -122,11 +130,15 @@ void Sch(List* list, char* str)
 
 			while(string)
 			{
-				printf("%d ", string->id);
+				printf("%d", string->id);
 				if (strcmp(string->word, str) == 0) 
 				{
 					printf("\n");
 					return;
+				}
+				if(string->next != NULL)
+				{
+					printf(" ");
 				}
 				string = string->next;
 			}
@@ -255,7 +267,7 @@ int main()
 			if(chk)  //chk if we get word
 			{ 
 				word[word_len++]='\0';  // insert null byte
-				push_String_toList(list, word, ID);
+				push_String_toList(list, word, -1);
 				ID++; // id up up ~
 				chk=0;
 				word_len=0; 

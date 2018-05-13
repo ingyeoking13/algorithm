@@ -4,6 +4,7 @@
 
 char s[1002], w[1002];
 char query[55];
+int ID;
 
 typedef struct Alpha{  // alphabet list "node"
 	int al; 
@@ -29,7 +30,6 @@ char retr(int n){
 	if (0 <=n && n<= 25 ) return n+'a';
 	else if ( 26 <= n && n<= 51 )  return n+'A'-26;
 	else return '.';
-
 }
 
 List* CreateList(){
@@ -44,18 +44,20 @@ Alpha* CreateAlpha(char c){
 	return alpha;
 }
 
-String* CreateString(char* str, int id){
+String* CreateString(char* str){
 	String* string = (String*)malloc(sizeof(String));
 	strcpy(string->str, str);
-	string->id =id; 
+	string->id =ID; 
 	string->next=0;
 	return string;
 }
 
-void pushString(Alpha* alpha, char* str, int id){
-	String* newStr = CreateString(str, id);
+void pushString(Alpha* alpha, char* str, int mode){ // push String -> to alpha
+	String* newStr = CreateString(str); // ID is global var
 	String* now = alpha->front;
 	String* before=0;
+
+	if( mode>=0) newStr->id = mode;
 
 	if (now == 0){
 		alpha->front = newStr;
@@ -63,42 +65,45 @@ void pushString(Alpha* alpha, char* str, int id){
 	}
 
 	while(now){
-		if (!strcmp(now->str,str)) {
-			free(newStr);
+
+		if (!strcmp(now->str,str)) { // if there exist same ...
+			free(newStr); // ID -- 
+			if(mode<0) ID--;
 			return;
 		}
 		before=now;
 		now= now->next;
 	}
-	before->next = newStr;
+	before->next = newStr; // append it at end
+
 }
 
-void push(List* list, char* str, int id){ 
+void push(List* list, char* str, int mode){
 	// push string -> in to List "Whole"
 
 	Alpha* alpha = list->front;
 	Alpha* before=0;
 	int chk=0; // chk variable for 
 
-	int al = prec(str[0]);
+	int al = prec(str[0]); // precalc 
 
 	if ( alpha == 0){ // if list is empty
-		Alpha* newAlp =  CreateAlpha(al);
+		Alpha* newAlp =  CreateAlpha(al); 
 		list->front = newAlp;
-		pushString(newAlp, str, id);
+		pushString(newAlp, str, mode); // we push string 
 		return; 
 	}
 
-	while(alpha){
+	while(alpha){ // if list exist 
 
-		if( alpha->al == al ){
-			pushString(alpha, str, id);
+		if( alpha->al == al ){   // alpha has same order
+			pushString(alpha, str, mode); //push It
 			chk=1;
 			break;
 		}
-		else if ( alpha->al  > al ){
+		else if ( alpha->al  > al ){ // small order
 			Alpha* newAlp =  CreateAlpha(al);
-			pushString(newAlp, str, id);
+			pushString(newAlp, str, mode);
 
 			if(before) before->next = newAlp; // if before exist
 			else list->front = newAlp;  // it means str[0] is most small char
@@ -113,12 +118,11 @@ void push(List* list, char* str, int id){
 		}
 	}
 
-	if (!chk){ // most big "char"
+	if (!chk){ //  biggest order
 		Alpha* newAlp =  CreateAlpha(al);
 		before->next = newAlp;
-		pushString(newAlp, str, id);
+		pushString(newAlp, str, mode);
 	}
-
 }
 
 void Sch(List* list, char* str){
@@ -131,8 +135,9 @@ void Sch(List* list, char* str){
 			String* nowStr = nowAlp->front;
 
 			while(nowStr){
-				printf("%d ", nowStr->id);
+				printf("%d", nowStr->id);
 				if (!strcmp(nowStr->str,str)) break;
+				if(nowStr->next) printf(" ");
 				nowStr = nowStr->next;
 			}
 		}
@@ -182,11 +187,12 @@ void Sub(List* list, char* fstr, char* tstr){
 
 			while(nowStr){
 
-				if( !strcmp(nowStr->str, fstr) ){
-					push(list, tstr, nowStr->id);
+				if( !strcmp(nowStr->str, fstr) ){ // we find that fstr!
+
+					push(list, tstr, nowStr->id); // mode >=0 (fstr->id)
 					Del(list, fstr);
 					return;
-				}
+				} 
 				nowStr = nowStr->next;
 			}
 		}
@@ -220,12 +226,14 @@ int main(){
 	fgets(s, 1002,stdin);
 	int len = strlen(s);
 	if (s[len-1] == '\n') s[--len]=0;
-	int start=1, id=0, wlen=0, wchk=0;
+	int start=1, wlen=0, wchk=0;
 
 	for (int i=0; i<len; i++){
 		if (s[i] == ' ' ){
 			if(wchk){
-				w[wlen++]=0; push(list, w, id); id++;
+				w[wlen++]=0; 
+				push(list, w, -1); // mode -1  totally new string
+				ID++;
 				wlen=0, wchk=0;
 			}
 		}
@@ -234,7 +242,7 @@ int main(){
 
 	if(wchk){
 		w[wlen++]=0; 
-		push(list, w, id);
+		push(list, w, -1); // mode -1
 	}
 
 	printAll(list);
