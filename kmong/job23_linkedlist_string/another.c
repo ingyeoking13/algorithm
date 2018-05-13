@@ -76,6 +76,16 @@ void push_String_toAlphabet(Alphabet* alpha, char* str, int id)
 		return;
 	}
 
+	String* nowstring = alpha->head;
+	while(nowstring)
+	{
+		if (strcmp(nowstring->word, str) == 0) {
+			free(string);
+			return;
+		}
+		nowstring= nowstring->next;
+	}
+
 	alpha->tail->next = string;
 	alpha->tail = string;
 }
