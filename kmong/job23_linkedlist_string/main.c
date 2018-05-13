@@ -157,6 +157,9 @@ void Del(List* list, char* str){
 					return;
 
 				}
+
+				before=nowStr;
+				nowStr=nowStr->next;
 			}
 		}
 		nowAlp = nowAlp->next;
@@ -181,6 +184,7 @@ void Sub(List* list, char* fstr, char* tstr){
 					return;
 				}
 			}
+			nowStr = nowStr->next;
 		}
 		nowAlp  = nowAlp->next;
 	}

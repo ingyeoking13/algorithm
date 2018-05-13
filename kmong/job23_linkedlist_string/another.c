@@ -141,13 +141,17 @@ void Del(List* list, char* str)
 
 				if(strcmp(string->word, str) == 0){
 
-					if(before) before->next= string->next;
-					else       alpha->head = string->next;
+					if(before) before->next= string->next; // if this string node is not head...
+					else       alpha->head = string->next; // if this string node is head
+
+					if(string->next == 0) alpha->tail =before; // if this string node is tail
 
 					free(string);
 					return;
 
 				}
+				before=string;
+				string= string->next;
 			}
 		}
 		alpha = alpha->next;
@@ -174,6 +178,8 @@ void Sub(List* list, char* from, char* to)
 					Del(list, from);
 					return;
 				}
+
+				string = string->next;
 			}
 		}
 		alpha  = alpha->next;
