@@ -4,6 +4,7 @@
 
 #define MX_BUF 100000
 #define MX_WSIZE 1000
+int ID;
 
 typedef struct 
 { 
@@ -80,6 +81,7 @@ void push_String_toAlphabet(Alphabet* alpha, char* str, int id)
 	while(nowstring)
 	{
 		if (strcmp(nowstring->word, str) == 0) {
+			ID--;
 			free(string);
 			return;
 		}
@@ -244,7 +246,7 @@ int main()
 		input[--len]=0;
 	}
 
-	int id=0, word_len=0, chk=0;
+	int word_len=0, chk=0;
 
 	for (int i=0; i<=len; i++){
 
@@ -253,8 +255,8 @@ int main()
 			if(chk)  //chk if we get word
 			{ 
 				word[word_len++]='\0';  // insert null byte
-				push_String_toList(list, word, id); 
-				id++; // id up up ~
+				push_String_toList(list, word, ID);
+				ID++; // id up up ~
 				chk=0;
 				word_len=0; 
 			}

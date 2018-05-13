@@ -63,6 +63,10 @@ void pushString(Alpha* alpha, char* str, int id){
 	}
 
 	while(now){
+		if (!strcmp(now->str,str)) {
+			free(newStr);
+			return;
+		}
 		before=now;
 		now= now->next;
 	}
