@@ -1,7 +1,13 @@
-#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+typedef struct animal{
+	char name[20];
+	int age;
+}ANIMAL;
 
 int main(){
-	freopen("in.in", "w+", stdout);
-	printf("50\n");
-	for (int i=1; i<=50; i++) printf("%d\n", i);
+	ANIMAL *two = (ANIMAL *)malloc(sizeof(ANIMAL));
+
+	strcpy((*two).name, "호랑이");
+	(*two).age = 30;
 }
