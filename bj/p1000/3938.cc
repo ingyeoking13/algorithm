@@ -4,7 +4,6 @@
 #include <algorithm>
 
 using namespace std;
-
 struct MCMF
 {
 	struct Edge
@@ -51,21 +50,20 @@ struct MCMF
 		while(!q.empty())
 		{
 			int now = q.front();
-//			printf("now: %d, size: %lu\n", now, e[now].size());
 			q.pop();
 			inQ[now]=0;
 
 			for (int i=0; i<e[now].size(); i++)
 			{
 				Edge* edge = e[now][i];
-//				printf("v: %d\n", edge->v);
 				if( edge->capa <=0) continue;
 
 				if ( d[edge->v] > d[now] + edge->w)
 				{
 					d[edge->v] = d[now]+edge->w;
 					p[edge->v] = make_pair(now, i);
-					if (!inQ[edge->v]) {
+					if (!inQ[edge->v]) 
+					{
 						q.push(edge->v); 
 						inQ[edge->v]=1;
 					}
@@ -111,7 +109,6 @@ int main()
 		if ( n==0 ) break;
 
 		MCMF mcmf(367,0,366);
-
 		while(n--)
 		{
 			int u, v, w; 
@@ -124,5 +121,4 @@ int main()
 		}
 		printf("%d\n", -mcmf.flow().first);
 	}
-
 }

@@ -68,6 +68,7 @@ student* search(List* list, char* name){
 
 	while(now){
 		if(!strcmp(now->name, name)) return now;
+		now=now->next;
 	}
 	return 0;
 }

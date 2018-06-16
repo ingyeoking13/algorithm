@@ -1,31 +1,49 @@
 #include <stdio.h>
-#define SZ 10
 
-int part(int* arr, int lo, int hi){
-	int now = arr[lo];
 
-	for (int j= hi-1; j > lo; j--){
-		if ( arr[j] <= now) 
+int a[]={1, 4, 9, 2, 8, 3, 6, 7, 5};
+int p(int l, int h)
+{
 
+	int piv = a[l];
+	int i = h+1;
+
+	for (int j = h; j>l; j--)
+	{
+
+		if ( a[j] > piv )
+		{
+			i--;
+
+			int tmp = a[i];
+			a[i] = a[j];
+			a[j] = tmp;
+		}
 	}
-
+	int tmp = a[i-1];
+	a[i-1] = a[l];
+	a[l] = tmp;
+	return i-1;
 }
 
-void qsort(int* arr, int lo, int hi){
-	if ( lo < hi ){
-		int pos = part(arr, lo, hi);
-		qsort(lo, pos-1);
-		qsort(pos+1, hi);
-		printf("[ ");
-		for (int i=0; i<SZ; i++) printf("%d ", arr[i]);
-		printf("]\n");
+void q(int l, int h)
+{
+	if ( l<h)
+	{
+		int piv = p(l, h);
+
+		q(l, piv-1);
+		q(piv+1, h);
+
+		for (int i=0; i<9; i++)
+		{
+			printf("%d ", a[i]);
+		}
+		printf("\n");
 	}
 }
 
-int main(){
-	int arr[] = {5, 8, 3, 4, 2, 9, 10, 6, 7, 1};
-	int n = 10;
-
-	qsort(arr, 0, n-1);
-
+int main()
+{
+	q(0, 8);
 }

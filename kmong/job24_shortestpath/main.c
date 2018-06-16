@@ -28,7 +28,7 @@ int main(){
 	d[f] =0;
 	q[tail++] = f;
 
-	while(head<tail){ // spfa ... dijkstra implementation guichanda
+	while(head<tail){ // spfa ... 
 		int now = q[head++];
 		inQ[now]=0;
 
