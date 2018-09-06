@@ -1,13 +1,11 @@
-#include <stdlib.h>
-#include <string.h>
-typedef struct animal{
-	char name[20];
-	int age;
-}ANIMAL;
+#include <stdio.h>
 
-int main(){
-	ANIMAL *two = (ANIMAL *)malloc(sizeof(ANIMAL));
+int main()
+{
+  printf("3000\n");
+  for (int i=0; i<3000; i++)
+  {
+    printf("1 ");
+  }
 
-	strcpy((*two).name, "호랑이");
-	(*two).age = 30;
 }

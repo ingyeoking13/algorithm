@@ -1,0 +1,81 @@
+#include <stdio.h>
+#include <queue>
+
+using namespace std;
+
+queue<pair<int, int>> q;
+char d[50][50];
+int v[50][50], v2[50][50];
+
+int dx[4]= {-1, 1, 0, 0};
+int dy[4]= {0, 0, -1, 1};
+
+int main()
+{
+  int n, m;
+  scanf("%d %d", &n, &m);
+
+  pair<int, int> w, s, e;
+  for (int i=0; i<n; i++)
+  {
+    scanf("%s", d[i]);
+    for (int j=0; j<m; j++)
+    {
+      if (d[i][j] == 'D') s.first = i, s.second=j;
+      else if (d[i][j] == 'S') e.first = i, e.second=j;
+      else if (d[i][j] == '*') w.first=i, w.second=j;
+    }
+  }
+
+  v[s.first][s.second]=1;
+  v2[w.first][w.second]=1;
+  printf("%d %d\n", w.first, w.second);
+
+  for (int j=0; j<2; j++)
+  {
+    if (j==1) q.push(s);
+    else if (j==0) q.push(w);
+
+    while(!q.empty())
+    {
+      pair<int, int> now = q.front();
+      q.pop();
+
+      int x = now.first, y = now.second;
+      printf("%d %d %d\n", j, x, y);
+      for (int i=0; i<4; i++)
+      {
+        int nx = x+dx[i], ny = y+dy[i];
+        if (0<= nx && 0<= ny && nx<n && ny <m)
+        {
+          if (j ==1)
+          {
+            if (!v[nx][ny] && d[nx][ny]!='X' )
+            {
+
+              if ( v[x][y]+1 <v2[nx][ny]-1 || v2[nx][ny]==0 )
+              {
+                v[nx][ny]=v[x][y]+1;
+                q.push({nx, ny});
+              }
+            }
+          }
+          else 
+          {
+            if (!v2[nx][ny] && d[nx][ny]!='X' && d[nx][ny] != 'S' )
+            {
+              v2[nx][ny] = v2[x][y]+1;
+              q.push({nx,ny});
+            }
+          }
+        }
+      }
+    }
+  }
+
+  int ans = v[e.first][e.second]-1;
+  //if (ans == 0 || ans >k ) printf("KAKTUS\n");
+  //else 
+  printf("%d\n",ans);
+  printf("%d\n", v2[e.first][e.second]-1);
+}
