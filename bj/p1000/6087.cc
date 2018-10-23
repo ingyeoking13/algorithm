@@ -67,19 +67,4 @@ int main()
     }
 
     printf("%d\n", vis[en.first][en.second]-1);
-    /*
-    int x= pre[en.first][en.second].first, y=pre[en.first][en.second].second;
-    int befx, befy;
-
-    while(x!=-1)
-    {
-        printf("%d %d\n", x, y);
-        befx=x, befy=y;
-        x = pre[befx][befy].first, y = pre[befx][befy].second;
-    }
-
-    printf("  ======  ");
-    printf("%d, %d\n", pre[1][12].first, pre[1][12].second);
-    printf("%d, %d\n", pre[2][12].first, pre[2][12].second);
-    */
 }
