@@ -53,6 +53,7 @@ Node* newNode(int key)
   Node* node =  (Node*)malloc(sizeof(Node));
   node->left = node->right = node->parent = 0;
   node->key = key;
+  return node;
 }
 
 Node* min(Node* now)
