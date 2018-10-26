@@ -15,24 +15,32 @@ void traverse(Node* now)
   traverse(now->right);
 };
 
-char search(Node* now, Node* find)
+Node* search(Node* now, Node* find)
 {
   if (now == 0) return 0;
-  if (now->key == find->key) return 1;
+  if (now->key == find->key) return now;
 
   if (find->key > now->key) return search(now->right, find);
   else return search(now->left, find);
 }
 
-char search_iter(Node* now, Node* find)
+Node* searchWithVal(Node* now, int key)
 {
-  char ret=0;
+  if (now == 0) return 0;
+  if (now->key == key) return now;
+
+  if (now->key > key) return searchWithVal(now->right, key);
+  else return searchWithVal(now->left, key);
+}
+
+Node* search_iter(Node* now, Node* find)
+{
+  Node* ret=0;
   while(now)
   {
     if ( now->key == find->key) 
     {
-      ret=1;
-      break;
+      ret = now;
     }
     if (find->key > now->key) now=now->right;
     else now=now->left;
@@ -92,7 +100,7 @@ void transParent(Node** root, Node* u, Node* v)
   if ( v != 0 ) v->parent = u->parent; 
 }
 
-void del(Node** root, Node* del)
+void delF(Node** root, Node* del)
 {
   if (del->left == 0) transParent(root, del, del->right);
   else if ( del->right == 0) transParent(root, del, del->left);
@@ -128,6 +136,11 @@ int main()
   insert(&treeRoot, newNode(10) );
   insert(&treeRoot, newNode(20) );
   insert(&treeRoot, newNode(30) );
+  printf("===== traverse START =====\n");
   traverse(treeRoot);
-
+  printf("===== traverse END =====\n");
+  delF(&treeRoot, searchWithVal(treeRoot,5) );
+  printf("===== traverse START =====\n");
+  traverse(treeRoot);
+  printf("===== traverse END =====\n");
 }
