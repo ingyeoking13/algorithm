@@ -1,39 +1,61 @@
-#include <bits/stdc++.h>
+#include <stdio.h>
+#include <algorithm>
+#include <queue>
+#include <vector>
 
 using namespace std;
-vector<int> e[10001];
-queue<int> q;
-int v[10001], cnt[10001], ans;
 
-int main(){
-	int n, m; scanf("%d %d", &n, &m);
-	while(m--){
-		int u, v; scanf("%d %d", &u, &v);
-		e[v].push_back(u);
-	}
+vector<int> e[(int)1e4+1];
 
-	for (int i=1; i<=n; i++){
-		memset(v, 0, sizeof(v));
-		q.push(i);
-		v[i]=1;
+int main()
+{
+  int n , m;
+  scanf("%d%d", &n, &m);
 
-		while(!q.empty()){
-			int now = q.front(); q.pop();
-			int sz = e[now].size();
+  while(m--)
+  {
+    int u, v;
+    scanf("%d%d", &u, &v);
+    e[v].push_back(u);
+  }
 
-			for (int j=0; j<sz; j++){
-				if (!v[ e[now][j] ]){
-					q.push(e[now][j]);
-					v[ e[now][j] ]=1;
-				}
-			}
-		}
+  int mx=0;
+  vector<int> ans;
 
-		for (int j=1; j<=n; j++) if ( v[j] ) cnt[i]++;
-		ans=max(ans, cnt[i]);
-	}
+  for (int i=1; i<=n; i++)
+  {
+    vector<bool> v(n+1, false);
+    queue<int> q;
+    q.push(i);
+    v[i]=true;
 
-	for (int i=1; i<=n; i++) 
-		if ( cnt[i] == ans) printf("%d ", i);
-	printf("\n");
+    int cnt=0;
+    while(!q.empty())
+    {
+      int now = q.front();
+      q.pop();
+      cnt++;
+
+      for (auto i : e[now])
+      {
+        if ( v[i] ) continue;
+        v[i]=true;
+        q.push(i);
+      }
+    }
+
+    if (cnt > mx) {
+      mx = cnt;
+      ans.clear(); 
+      ans.push_back(i);
+    }
+    else if (cnt == mx)
+    {
+      ans.push_back(i);
+    }
+  }
+  sort(ans.begin(), ans.end());
+  for (auto i: ans) printf("%d ", i);
+  printf("\n");
 }
+

@@ -2,8 +2,8 @@
 
 int main()
 {
-  while(1)
-  {
-    printf("%d\n", 1);
-  }
+  printf(".");
+  for (int i=0; i<33; i++) printf("*...");
+  printf("\n");
 }
+
