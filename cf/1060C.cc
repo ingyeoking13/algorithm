@@ -1,51 +1,57 @@
 #include <stdio.h>
 
-int a[2000], b[2000];
-int arr[2000][2000];
-int pre_arr[2000][2000];
+int a[2001], b[2001];
+int prea[2001], preb[2001];
+int row[2001], col[2001];
+int min(int x, int y ) { return x>y?y:x; }
 int main()
 {
   int n, m, x;
-  scanf("%d%d", &m, &n);
-  for (int i=0; i<n; i++) scanf("%d", &a[i]);
-  for (int i=0; i<m; i++) scanf("%d", &b[i]);
+  scanf("%d%d", &n, &m);
+  for (int i=1; i<=n; i++) scanf("%d", &a[i]);
+  for (int i=1; i<=m; i++) scanf("%d", &b[i]);
   scanf("%d", &x);
 
-  for (int i=0; i<n; i++)
+  for (int i=0; i<=n; i++)
   {
-    for (int j=0; j<m; j++)
+    prea[i] = prea[i-1]+a[i];
+  }
+  for (int i=0; i<=m; i++)
+  {
+    preb[i] = preb[i-1]+b[i];
+  }
+
+  for (int i=1; i<=n; i++ ) row[i] = 4e6;
+  for (int j=1; j<=m; j++) col[j] = 4e6;
+
+  for (int i=1; i<=n; i++)
+  {
+    for (int j=1; j<=i; j++)
     {
-      arr[i][j] = a[i]*b[j];
+      row[j] = min(row[j], prea[i] - prea[i-j]);
     }
   }
 
-  for (int i=0; i<n; i++)
+  for (int i=1; i<=m; i++)
   {
-    pre_arr[i][0] = arr[i][0];
-    for (int j=1; j<m; j++)
+    for (int j=1; j<=i; j++)
     {
-      pre_arr[i][j] = pre_arr[i][j-1] + arr[i][j];
+      col[j] = min(col[j], preb[i] - preb[i-j]);
     }
   }
 
-  for (int i=0; i<n; i++)
+
+  int ans=0;
+  for (int i=0; i<=n; i++)
   {
-    for (int j=0; j<m; j++)
+    for (int j=0; j<=m; j++)
     {
-      int l=j, r = m-1;
-      while(l<r)
+      if ( ans < i*j && (long long)row[i]*col[j] <=x ) 
       {
-        int mid = (l+r)/2;
-        if ( 
-
+        ans = i*j;
       }
-
     }
   }
-
-
-
-
-
+  printf("%d\n", ans);
 
 }
