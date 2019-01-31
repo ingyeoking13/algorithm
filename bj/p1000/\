@@ -1,0 +1,54 @@
+#include <iostream>
+#include <algorithm>
+#include <vector>
+#include <set>
+#include <string>
+
+using namespace std;
+vector<int> a;
+set<string> visit;
+vector<string> ans;
+
+void go(int cur, int total, string number)
+{
+  if ( cur > total )
+  {
+    if ( visit.find(number) == visit.end() )
+    {
+      visit.insert(number);
+      ans.push_back(number);
+    }
+
+    return ;
+  }
+
+  for (int i=0; i<a.size(); i++)
+  {
+
+    number+=to_string(a[i]);
+    number+= " ";
+
+    go(cur+1, total, number);
+  }
+
+}
+
+int main()
+{
+  int n, m;
+  cin >> n >> m;
+
+  a.resize(n);
+
+  for (int i=0; i<n; i++) cin >> a[i];
+  sort(a.begin(), a.end());
+
+  string number;
+  go( 1, m, number );
+  for (auto i: ans)
+  {
+    cout << i << "\n";
+
+  }
+
+}

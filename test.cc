@@ -2,8 +2,7 @@
 
 int main()
 {
-  printf(".");
-  for (int i=0; i<33; i++) printf("*...");
-  printf("\n");
+  int d;
+  printf("%d\n", d);
 }
 
