@@ -3,10 +3,9 @@
 int main()
 {
   freopen("in.txt", "w", stdout);
-  int n;
-  scanf("%d", &n);
-  for (int i=0; i<n; i++)
-     printf("a");
+  printf("5000 5000\n");
+  for (int i=0; i<5000; i++)
+     printf("1 ");
   printf("\n");
 
 }
