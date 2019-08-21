@@ -1,61 +1,58 @@
-#include <stdio.h>
-#include <algorithm>
+#include <iostream>
 #include <queue>
 #include <vector>
 
 using namespace std;
 
-vector<int> e[(int)1e4+1];
+vector<int> e[(int)1e4];
 
 int main()
 {
-  int n , m;
-  scanf("%d%d", &n, &m);
+  int n, m;
+  cin >> n >> m;
 
   while(m--)
   {
     int u, v;
-    scanf("%d%d", &u, &v);
+    cin >> u >> v;
+    u--, v--;
     e[v].push_back(u);
   }
 
-  int mx=0;
-  vector<int> ans;
-
-  for (int i=1; i<=n; i++)
-  {
-    vector<bool> v(n+1, false);
+  int ans = 0;
+  vector<int> cnt(n, 0);
+  for (int i=0; i<n; i++) 
+  { 
     queue<int> q;
+    vector<bool> visit(n, false);
     q.push(i);
-    v[i]=true;
+    visit[i]= true;
 
-    int cnt=0;
     while(!q.empty())
     {
-      int now = q.front();
+      int cur = q.front();
       q.pop();
-      cnt++;
 
-      for (auto i : e[now])
+      for (int j=0; j<e[cur].size(); j++)
       {
-        if ( v[i] ) continue;
-        v[i]=true;
-        q.push(i);
+        int next = e[cur][j];
+        if ( visit[next]) continue;
+        visit[next] = true;
+        q.push(next);
       }
     }
 
-    if (cnt > mx) {
-      mx = cnt;
-      ans.clear(); 
-      ans.push_back(i);
-    }
-    else if (cnt == mx)
+    for (int j=0; j<n; j++)
     {
-      ans.push_back(i);
+      if (visit[j]) cnt[i]++;
     }
+    if ( ans < cnt[i] )  ans = cnt[i];
   }
-  sort(ans.begin(), ans.end());
-  for (auto i: ans) printf("%d ", i);
-  printf("\n");
-}
 
+  for (int i = 0; i<n; i++)
+  {
+    if ( cnt[i] == ans) 
+      cout << i+1 << " ";
+  }
+  cout <<"\n";
+}

@@ -1,64 +1,99 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <string.h>
+#include <queue>
 
 using namespace std;
-typedef struct{ int x, y, sec; bool type; }pos;
-vector<pair<int, int>> fire;
 
-int dx[4] = {-1, 1, 0, 0}, dy[4] ={0, 0, 1, -1};
-int v[1000][1000];
-char a[1001][1001];
+char s[1000][1001];
+int dist[1000][1000], ddist[1000][1000];
+int dx[4]= {-1, 1, 0 , 0}, dy[4] ={0, 0, -1,1};
+int main()
+{
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cout.tie(0);
 
-int main(){
-	int T; scanf("%d", &T);
-	while(T--){
+    int T;
+    cin >>T;
+    while(T--)
+    {
+        int row, col;
+        cin >> col >> row;
+        for (int i=0; i <row; i++)
+        {
+            cin>> s[i];
+        }
 
-		memset(a, 0, sizeof(a));
-		memset(v, 0, sizeof(v));
-		fire.clear();
-		int col, row; scanf("%d %d", &col, &row);
-		int sx, sy;
+        queue<pair<int, int>> q;
+        int sx, sy;
 
-		for (int i=0; i<row; i++){
-			scanf("%s", a[i]);
-			int len= strlen(a[i]);
-			for (int j=0; j<col; j++) {
-				if (a[i][j] == '@')  sx=i, sy=j; 
-				if (a[i][j] == '*')  fire.push_back({i, j});
-			}
-		}
+        memset(dist, -1,sizeof(dist));
 
-		v[sx][sy]=1;
-		queue<pos> q;
-		for (int i=0; i<fire.size(); i++) 
-			q.push({fire[i].first, fire[i].second, 0, 0});
+        for (int i=0; i<row; i++)
+        {
+            for (int j=0; j<col; j++)
+            {
+                if(s[i][j] == '*') 
+                {
+                    dist[i][j] = 0;
+                    q.push({i, j});
+                }
+                else if ( s[i][j] =='@') sx = i, sy = j; 
+            }
+        }
 
-		q.push({sx, sy, 0, 1});
-		int ans=0;
+        while(!q.empty())
+        {
+            auto cur = q.front();
+            q.pop();
+            int x = cur.first, y = cur.second;
+            for (int i=0; i<4; i++)
+            {
+                int nx = x + dx[i] , ny = y+dy[i];
+                if (nx<0 || ny<0 || nx>=row || ny>=col) continue;
+                if (dist[nx][ny] >= 0 ) continue;
+                if (s[nx][ny] =='#') continue; 
 
-		while(!q.empty()){
-			pos now = q.front(); q.pop();
+                dist[nx][ny] = dist[x][y] +1;
+                q.push({nx,ny});
+            }
+        }
+        for (int i=0; i<row; i++)
+        {
+            for (int j=0; j<col; j++)
+            {
+                if (dist[i][j] <0) dist[i][j] =1e9;
+            }
+        }
 
-			int x = now.x, y = now.y, sec = now.sec;
-		  bool type = now.type;
+        q.push({sx, sy});
+        memset(ddist, -1, sizeof(ddist));
+        ddist[sx][sy] = 0;
 
-			if ( type && ( x==0 || x == row-1 || y ==0 || y== col-1 ))  {
-				 ans=printf("%d\n", sec+1);
-				 break;
-			}
+        int ans = 0;
+        while(!q.empty() && ans ==0) 
+        {
+            auto cur = q.front();
+            q.pop(); 
+            int x = cur.first, y = cur.second;
 
-			for (int i=0; i<4; i++){
-				int nx = x + dx[i], ny = y + dy[i];
-				if ( 0 <= nx && nx < row && 0 <= ny && ny < col ) {
-					if (a[nx][ny] != '#' && a[nx][ny] != '*'){
-						if (!v[nx][ny] ){
-							if (type) v[nx][ny]=1, a[nx][ny]= '@';
-							else a[nx][ny] = '*';
-							q.push({nx, ny, sec+1, type});
-						}
-					}
-				}
-			}
-		}
-		if (!ans) printf("IMPOSSIBLE\n");
-	}
+            for (int i=0; i<4; i++)
+            {
+                int nx = x+dx[i], ny = y +dy[i];
+                if ( nx< 0 || ny<0 || nx >= row || ny >= col ) 
+                {
+                    ans =  ddist[x][y]+1;
+                    break;
+                }
+                if ( ddist[x][y] +1>= dist[nx][ny] ) continue;
+                if ( s[nx][ny] == '#') continue;
+                if ( ddist[nx][ny] >= 0 ) continue;
+                ddist[nx][ny] = ddist[x][y] +1;
+                q.push({nx,ny});
+            }
+        }
+
+        if (ans == 0) cout <<"IMPOSSIBLE\n";
+        else cout << ans << "\n";
+    }
 }

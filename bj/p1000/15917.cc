@@ -1,3 +1,7 @@
+/*
+백준 15917 
+2의 승수 인지 체크합니다.
+*/
 #include <stdio.h>
 
 int main()
@@ -10,20 +14,16 @@ int main()
     int n;
     scanf("%d", &n);
 
-    int hit =0;
-    int ans = 1;
-    while(n)
+    bool ans = true;
+    while(n > 1)
     {
-      if (n%2) hit++;
-
-      if (hit >1 ) 
+      if (n%2) 
       {
-        ans=0;
+        ans = false;
         break;
       }
       n/=2;
     }
     printf("%d\n", ans);
   }
-
 }

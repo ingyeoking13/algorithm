@@ -19,10 +19,13 @@ int main(){
 		while(h<t){
 			int now=q[h++];
 			int x=now/n, y=now%n;
-			for (int i=0; i<8; i++){
+			for (int i=0; i<8; i++)
+			{
 				int nx=x+dx[i], ny= y+dy[i];
-				if (nx>=0 && ny>=0 && nx<n && ny<n){
-					if (!d[nx][ny]) {
+				if (nx>=0 && ny>=0 && nx<n && ny<n)
+				{
+					if (!d[nx][ny]) 
+					{
 						q[t++]=nx*n+ny; 
 						d[nx][ny]=d[x][y]+1;
 					}
