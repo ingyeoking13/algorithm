@@ -51,7 +51,6 @@ int main ()
         if (col[i][0]==1e9)  cnt++;
     }
 
-    int ans = 0;
     for (int i=0;i<n; i++)
     {
         int now = 0;
@@ -61,10 +60,11 @@ int main ()
             if ( col[j][0] != 1e9 && i<= col[j][0]  && col[j][1] <= i+k-1 ) now++;
             if ( j-k>=0 && col[j-k][0] != 1e9 && i<= col[j-k][0] && col[j-k][1] <= i+k-1 ) 
                 now--;
-            if ( j-k>=0 ) d[j-k][i] = now;
+            if ( j-k+1>=0 ) d[j-k+1][i] = now;
         }
     }
 
+    int ans =0;
     for (int i=0; i<n; i++)
     {
         int now = 0;
@@ -73,13 +73,13 @@ int main ()
 
             if ( row[j][0] != 1e9 && i<= row[j][0]  && row[j][1] <= i+k-1) now++;
             if( j>=k && row[j][0] != 1e9 && i<= row[j][0] && row[j][1] <=i+k-1) now--;
-
-            if (j>=k)
+            if (j-k+1 >=0 ) 
             {
-                d[i][j-k] += now;
+                d[i][j-k+1] += now;
+                ans = max(ans, d[i][j-k+1]);
             }
         }
-
     }
+    cout << ans+ cnt <<"\n";
 
 }
