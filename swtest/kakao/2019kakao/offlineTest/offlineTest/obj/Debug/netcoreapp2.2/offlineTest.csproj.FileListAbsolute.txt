@@ -1,0 +1,11 @@
+D:\source\algorithm\swtest\kakao\2019kakao\offlineTest\offlineTest\bin\Debug\netcoreapp2.2\offlineTest.deps.json
+D:\source\algorithm\swtest\kakao\2019kakao\offlineTest\offlineTest\bin\Debug\netcoreapp2.2\offlineTest.runtimeconfig.json
+D:\source\algorithm\swtest\kakao\2019kakao\offlineTest\offlineTest\bin\Debug\netcoreapp2.2\offlineTest.runtimeconfig.dev.json
+D:\source\algorithm\swtest\kakao\2019kakao\offlineTest\offlineTest\bin\Debug\netcoreapp2.2\offlineTest.dll
+D:\source\algorithm\swtest\kakao\2019kakao\offlineTest\offlineTest\obj\Debug\netcoreapp2.2\offlineTest.csprojAssemblyReference.cache
+D:\source\algorithm\swtest\kakao\2019kakao\offlineTest\offlineTest\obj\Debug\netcoreapp2.2\offlineTest.csproj.CoreCompileInputs.cache
+D:\source\algorithm\swtest\kakao\2019kakao\offlineTest\offlineTest\obj\Debug\netcoreapp2.2\offlineTest.AssemblyInfoInputs.cache
+D:\source\algorithm\swtest\kakao\2019kakao\offlineTest\offlineTest\obj\Debug\netcoreapp2.2\offlineTest.AssemblyInfo.cs
+D:\source\algorithm\swtest\kakao\2019kakao\offlineTest\offlineTest\bin\Debug\netcoreapp2.2\offlineTest.pdb
+D:\source\algorithm\swtest\kakao\2019kakao\offlineTest\offlineTest\obj\Debug\netcoreapp2.2\offlineTest.dll
+D:\source\algorithm\swtest\kakao\2019kakao\offlineTest\offlineTest\obj\Debug\netcoreapp2.2\offlineTest.pdb

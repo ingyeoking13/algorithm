@@ -35,23 +35,33 @@ int main ()
 
     sort(e.begin(), e.end());
     p.resize(n+1);
-    vector<long long>cnt((int)2e5+1);
+
+    vector<long long>cnt(n+1);
+    vector<long long>ans((int)2e5+1);
 
     for (int i=1; i<=n; i++) 
-        p[i] = i;
+        p[i] = i, cnt[i]=1;
 
     for (auto edge : e)
     {
         int u = edge.u, v = edge.v, w = edge.w;
         u = ufind(u), v = ufind(v);
-        cnt[w];
+        p[v] = u;
+        ans[w] += ((cnt[u]+cnt[v])*(cnt[u]+cnt[v]-1))/2;
+        ans[w] -= (cnt[u]*(cnt[u]-1))/2;
+        ans[w] -= (cnt[v]*(cnt[v]-1))/2;
+        cnt[u] += cnt[v];
+    } 
+
+    for (int i=1; i<=2e5; i++)
+    {
+        ans[i] += ans[i-1];
     }
 
     while ( m-- )
     {
         int cost;
         cin >> cost;
-        cout << cnt[cost] << " ";
-
+        cout << ans[cost] << " ";
     }
 }
