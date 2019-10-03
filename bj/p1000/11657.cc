@@ -35,6 +35,7 @@ int main(){
 			}
 		}
 	}
+
 	if (cycle) printf("-1\n");
 	else{
 		for (int i=2; i<=n; i++) printf("%d\n", (d[i]==5e6+1)?-1:d[i]);
