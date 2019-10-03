@@ -1,4 +1,8 @@
 #include <iostream>
+<<<<<<< HEAD
+
+using namespace std;
+=======
 #include <string.h>
 
 using namespace std;
@@ -13,11 +17,14 @@ int go(int idx)
     if ( v[a[idx]] == false) ret += go (a[idx]);
     return ret;
 }
+>>>>>>> origin/master
 int main()
 {
     ios::sync_with_stdio(false);
     cin.tie(0);
     cout.tie(0);
+<<<<<<< HEAD
+=======
 
     int n;
     cin>>n;
@@ -35,4 +42,5 @@ int main()
         if ( mx < val) ans =i, mx = val;
     }
     cout << ans +1 <<"\n";
+>>>>>>> origin/master
 }

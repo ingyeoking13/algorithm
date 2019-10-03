@@ -19,7 +19,10 @@ int main()
         if (col>0) col--;
         ans[0][col] = ans[0][col+1]=
         ans[0][col+3] = ans[0][col+4]= '.';
+<<<<<<< HEAD
+=======
         ans[0][col+2] = '#';
+>>>>>>> origin/master
 
         ans[1][col] = ans[1][col+2] = ans[1][col+4] ='.';
         ans[1][col+1] = ans[1][col+3] ='#';
@@ -34,7 +37,11 @@ int main()
 
         ans[4][col] = ans[4][col+1]=
         ans[4][col+3] = ans[4][col+4]= '.';
+<<<<<<< HEAD
+        ans[0][col+2] = ans[4][col+2] = '#';
+=======
         ans[4][col+2] = '#';
+>>>>>>> origin/master
         col+=5;
     }
     ans[0][col]= ans[4][col] = 0;

@@ -1,11 +1,18 @@
 {
     "files.associations": {
+<<<<<<< HEAD
+        "iostream": "cpp",
+        "queue": "cpp",
+        "xiosbase": "cpp",
+        "vector": "cpp"
+=======
         "*.class": "java",
         "iostream": "cpp",
         "queue": "cpp",
         "xiosbase": "cpp",
         "vector": "cpp",
         "xtree": "cpp"
+>>>>>>> origin/master
     },
     "code-runner.executorMap": { 
         "c": "cd $dirWithoutTrailingSlash gcc $fileName -g -o $fileNameWithoutExt && ./$fileNameWithoutExt.exe",
