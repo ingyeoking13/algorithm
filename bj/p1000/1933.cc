@@ -9,15 +9,14 @@ struct Input
     Input(){};
     bool operator<(const Input& o ) const
     {
+        if ( x == o.x ) return h <o.h;
         return x < o.x;
     }
 };
 
 Input input[(int)1e5];
-int field[(int)2e5];
 
 priority_queue<Input> pq, pq2;
-
 int main()
 {
     int n;
@@ -51,8 +50,12 @@ int main()
         Input ended_building = pq2.top();
         pq2.pop();
 
-        mm.erase(-ended_building.h);
-
+        mm.erase(mm.find(-ended_building.h));
+        while( !pq2.empty() && pq2.top().x == ended_building.x) 
+        {
+            mm.erase(mm.find(-pq2.top().h));
+            pq2.pop();
+        }
 
         int tmp; 
         if ( mm.size() ==0) tmp = 0;
@@ -61,17 +64,19 @@ int main()
 
         if ( ended_building.h == cur && tmp < cur )
         {
-            if ( !pq.empty() && pq.top().x == ended_building.x && pq.top().h >= ended_building.h)
+            if ( !pq.empty() && pq.top().x == ended_building.x)
             {
-
+                if( pq.top().h < ended_building.h) 
+                {
+                    cur = tmp;
+                    if ( cur > pq.top().h) 
+                        cout << -ended_building.x << " " << tmp << " ";
+                }
             }
             else 
             {
-                if ( latest != -ended_building.x)
-                     cout << -ended_building.x << " " << tmp << " ";
-
+                cout << -ended_building.x << " " << tmp << " ";
                 cur = tmp;
-                latest = -ended_building.x;
             }
         }
     }
