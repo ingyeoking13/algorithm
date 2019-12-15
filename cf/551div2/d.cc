@@ -2,26 +2,28 @@
 using ll = long long;
 using namespace std;
 
-int a[(int)3e5], p[(int)3e5], d[(int)3e5];
+int a[(int)3e5], d[(int)3e5];
+int leaf =0;
 vector<int> e[(int)3e5];
 int go(int now)
 {
     if ( e[now].size() == 0 )
+    {
+        leaf++;
         return d[now] = 1;
+    }
 
-    if ( d[now] ) return d[now];
+    if ( d[now] >=0 ) return d[now];
     
-    int mn = 1e9;
+    d[now] = 0;
+    if ( a[now] ==1 ) d[now] = 1e9;
+    else d[now] = 0;
+
     for (int i : e[now])
     {
-        mn = min(go(i), mn);
+        d[now] = a[now]?(min(go(i), d[now])):(d[now]+go(i));
     }
-    if ( a[now] == 0 )
-    {
-        d[now] = 
-
-    }
-    
+    return d[now];
 }
 
 int main ()
@@ -42,9 +44,12 @@ int main ()
     {
         int tmp;
         cin >> tmp;
-        p[i] = --tmp;
+        --tmp;
         e[tmp].push_back(i);
     }
 
-    go(0);
+    //go(0);
+    //cout << leaf + 1 - d[0] <<"\n";
+
+    cout << leaf + 1 - go(0) <<"\n";
 }
