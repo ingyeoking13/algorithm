@@ -1,50 +1,42 @@
-#include <stdio.h>
-#include <vector>
-#include <algorithm>
+#include <bits/stdc++.h>
 
 using namespace std;
+using ll = long long;
 
-vector<int> e[123457];
-vector<long long> cnt;
+vector<int> v[123456];
+bool wolf[123456];
+int num[123456];
 
-long long go(int now)
+ll go(int cur)
 {
-
-  long long curcnt = cnt[now];
-  long long wolf = 0;
-  if ( curcnt <0 ) 
+  ll ret = 0;
+  for (int i=0; i<v[cur].size(); i++)
   {
-    wolf = curcnt; 
-    curcnt =0;
+    int j = v[cur][i];
+    ret += go(j);
   }
+  if ( wolf[cur] ) ret = max( (ll)0, ret-num[cur]);
+  else ret += num[cur];
 
-  for (int i=0; i<e[now].size(); i++)
-  {
-    curcnt += go(e[now][i]); 
-  }
-
-  curcnt += wolf;
-  if (curcnt<0) return 0;
-  return curcnt;
+  return ret;
 }
 
 int main()
 {
-
   int n;
-  scanf("%d", &n);
-  cnt.resize(123456+1);
-
-  for (int i=0; i<n-1; i++)
+  cin >> n;
+  for (int i=1; i<n; i++)
   {
-    char w[3];
-    int num, v;
-    scanf("%s%d%d", w, &num, &v);
-    e[v].push_back(i+2);
+    char st[2];
+    int m, p;
 
-    if ( w[0] == 'W') num = -num;
-    cnt[i+2] = num;
+    cin >> st >> m >> p;
+
+    if (st[0] == 'W') wolf[i] = true;
+    p--;
+
+    num[i] += m;
+    v[p].push_back(i);
   }
-
-  printf("%lld\n", go(1));
+  cout<<  go(0);
 }
