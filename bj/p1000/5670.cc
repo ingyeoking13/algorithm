@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#include <stdio.h>
 using ll = long long;
 
 using namespace std;
@@ -10,7 +11,7 @@ struct trie
     trie(){}; 
 };
 
-trie t[(int)1e6+1];
+trie t[(int)1e6+3];
 int gidx = 0;
 int main()
 {
@@ -20,7 +21,7 @@ int main()
     int n;
     while(cin >> n)
     {
-        for (int i=0; i<=1e6; i++)
+        for (int i=0; i<=gidx; i++)
         {
             t[i].ccnt =0;
             t[i].word = false;
@@ -60,6 +61,7 @@ int main()
                 if ( i>0 && 
                      t[cur].ccnt == 1 && 
                      t[cur].word == false ) total--;
+
                 total++;
 
                 int idx = word[i] -'a';
@@ -67,6 +69,6 @@ int main()
                 cur = next;
             }
         }
-        cout << ((double)total/n) << "\n";
+        printf("%.2lf\n", ((double)total/n));
     }
 }
