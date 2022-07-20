@@ -13,7 +13,7 @@ int main ()
     vector<int> count(18);
     for (int i=0; i<=2^17; i++) {
         for (int j=0; j<=17; j++) {
-            count[j] += i & (1<<j)
+            count[j] += i & (1<<j);
         }
     }
     
