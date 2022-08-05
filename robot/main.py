@@ -1,8 +1,23 @@
 from copy import deepcopy
+import functools
 from pydantic import BaseModel
 from queue import Queue
 from typing import List, cast
 import time
+
+class Node:
+    state:List[List[str]]
+    px:int
+    py:int
+    grab:str
+    distance:int
+
+    def __init__(self, state, px, py, grab, distance) -> None:
+        self.state = state
+        self.px = px
+        self.py = py
+        self.grab = grab
+        self.distance = distance
 
 class Solver(BaseModel):
     dx = [-1, 1, 0, 0]
@@ -29,12 +44,13 @@ class Solver(BaseModel):
         queue  = Queue()
         visited = set()
         visited.add(state_str)
-        queue.put((state, px,py, '', 0))
+        queue.put(Node(state, px,py, '', 0))
 
         while not queue.empty():
-            _state, px, py, grab, distance = queue.get()
+            node: Node= queue.get()
+            state, px, py, grab, distance = (node.state , node.px, node.py, node.grab, node.distance)
             # print(_state, px, py, distance)
-            next_state = deepcopy(cast(List[List[str]], _state))
+            next_state = deepcopy(state)
             # put! 
             if grab and next_state[px][py] == '0':
                 next_state[px][py] = grab
@@ -43,7 +59,7 @@ class Solver(BaseModel):
                 if state_str not in visited:
                     visited.add(state_str)
                     if target_str.split(',')[:-2] == state_str.split(',')[:-2]: return distance+1
-                    queue.put((deepcopy(next_state), px, py, grab, distance+1))
+                    queue.put(Node(deepcopy(next_state), px, py, grab, distance+1))
                 grab = next_state[px][py]
                 next_state[px][py] = '0'
 
@@ -54,7 +70,7 @@ class Solver(BaseModel):
                 state_str = self.stringifyState(next_state, px, py)
                 if state_str not in visited:
                     visited.add(state_str)
-                    queue.put((deepcopy(next_state), px, py, grab, distance+1))
+                    queue.put(Node(deepcopy(next_state), px, py, grab, distance+1))
                 next_state[px][py] = grab
                 grab = ''
 
@@ -71,7 +87,7 @@ class Solver(BaseModel):
                 state_str = state_str = self.stringifyState(next_state, next_px, next_py)
                 if state_str not in visited:
                     visited.add(state_str)
-                    queue.put((deepcopy(next_state), next_px, next_py, grab, distance+1))
+                    queue.put(Node(deepcopy(next_state), next_px, next_py, grab, distance+1))
 
         return -1
 
