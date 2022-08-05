@@ -75,13 +75,41 @@ class Solver(BaseModel):
     queue: Optional[Any]
     solved_state: Optional[str]
     visited:Optional[Any]
+    adjacent = {}
+    row = 0
+    col = 0
 
     def __init__(self, **data) -> None:
         super().__init__(**data)
     
+    def adjacentfill(self, source:List[List[str]]):
+        count = 0
+        self.row = row = len(source)
+        self.col = col = len(source[0])
+        dd  = [[0]*col]*row
+        for i in range(row):
+            for j in range(col):
+                dd[i][j] = count
+                count += 1
+        
+        self.adjacent = {}
+        for i in range(row):
+            for j in range(col):
+                p = i*col + j
+                for dir in range(4):
+                    next_i = i + self.dx[dir]
+                    next_j = j + self.dy[dir]
+
+                    if next_i < 0 or next_j < 0  or next_i >= row or next_j >= col: 
+                        continue
+
+                    next_p = next_i*col+next_j
+                    _list = self.adjacent.get(p, []) 
+                    self.adjacent[p] = [*_list, next_p]
+    
     def solve(self, source: List[List[str]], target: List[List[str]]):
-        rows = len(source)
-        cols = len(source[0])
+        self.adjacentfill(source)
+
         p = 0
 
         source_state = tuple(char for row in source for char in row)
@@ -124,14 +152,7 @@ class Solver(BaseModel):
                     queue.put(Node(next_state, p, state[p], distance+1))
 
             # or... just move!
-            for dir in range(4):
-                next_px = int(p/cols) + self.dx[dir]
-                next_py = p%cols + self.dy[dir]
-
-                if next_px < 0 or next_py < 0  or next_px >= rows or next_py >= cols: 
-                    continue
-
-                next_p = next_px*cols + next_py
+            for next_p in self.adjacent[p]:
                 if grab and state[next_p] != '0':
                     continue
                     
@@ -143,8 +164,20 @@ class Solver(BaseModel):
         return -1
 
     def printPath(self):
-        # print(self.visited)
-        pass
+        prints = []
+        state = self.solved_state
+        while self.visited[state]:
+            grab = self.visited[state]['grab']
+            p = self.visited[state]['p']
+            prints.append((state[:-1], grab, p))
+            state = self.visited[state]['map'] + (p, )
+        
+        prints.reverse()
+        for state, grab, p in prints:
+            for i, c in enumerate(state):
+                print(c, end=', ' if i%self.col!=self.col-1  else '\n')
+            print(f'[grab: {grab}, p: {p}]')
+
 
 
 solver = Solver(queue=PriorityQueue())
@@ -152,11 +185,12 @@ solver = Solver(queue=PriorityQueue())
 
 st = time.time()
 result = solver.solve(source, target)
-print('solved: ', result, ' with times operator') if result >= 0 else print('unsolved')
-
-if result > 0:
-    solver.printPath()
-
 end = time.time()
+print('solved: ', result, ' with times operator') if result >= 0 else print('unsolved')
+print('Elapsed time: ', end- st, ' (sec)')
 
-print(end- st)
+# if result > 0:
+    # pass
+    # solver.printPath()
+
+
