@@ -1,10 +1,27 @@
 from copy import deepcopy
 import functools
 from pydantic import BaseModel
-from queue import Queue
+from queue import PriorityQueue, Queue
 from typing import List, cast
 import time
+# source = [[ '1', '2', '3'],
+#           ['4', '0', '6'], 
+#           ['7','5','8']
+#           ]
+# target = [[ '1', '2', '3'],
+#           ['4', '5', '0'],
+#           ['6', '7', '8'] ]
+source = [[ '0', '9', '7', '0', 'H'], 
+          ['4', '13', '1', '10', '5'],
+          ['11', '2', 'H', '0', '8'],
+          ['6', '0', '0', '12', '3']]
 
+target = [[ '1', '0', '3', '10', 'H'],
+          ['13', '8', '0', '4', '12' ],
+          ['6', '0', 'H', '7', '0'],
+          ['11', '5', '0', '9', '2' ]]
+
+@functools.total_ordering
 class Node:
     state:List[List[str]]
     px:int
@@ -12,12 +29,41 @@ class Node:
     grab:str
     distance:int
 
+    def ManhattanDistance(self):
+        result = 0
+        row = len(self.state)
+        col = len(self.state[0])
+
+        for i in range(row):
+            for j in range(col):
+                elem = self.state[i][j]
+                if elem == '0': 
+                    continue
+                # Variable to break the outer loop and avoid unnecessary processing
+                found = False
+                # Loop to find element in goal state and MD
+                for k in range(row):
+                    for l in range(col):
+                        if target[k][l] == elem:
+                            result += abs(k - i) + abs(j - l)
+                            found = True
+                            break
+                    if found: break
+
+        return result
+
     def __init__(self, state, px, py, grab, distance) -> None:
         self.state = state
         self.px = px
         self.py = py
         self.grab = grab
         self.distance = distance
+
+    def __gt__(self, other):
+        if not isinstance(other, Node):
+            raise NotImplemented
+        
+        return self.ManhattanDistance() > other.ManhattanDistance()
 
 class Solver(BaseModel):
     dx = [-1, 1, 0, 0]
@@ -41,7 +87,8 @@ class Solver(BaseModel):
         state = deepcopy(source)
         state_str = self.stringifyState(state, px, py)
         target_str = self.stringifyState(target, 0, 0)
-        queue  = Queue()
+        queue  = PriorityQueue()
+        # queue  = Queue()
         visited = set()
         visited.add(state_str)
         queue.put(Node(state, px,py, '', 0))
@@ -92,22 +139,6 @@ class Solver(BaseModel):
         return -1
 
 solver = Solver()
-# source = [[ '0', '9', '7', '0', 'H'], 
-#           ['4', '13', '1', '10', '5'],
-#           ['11', '2', 'H', '0', '8'],
-#           ['6', '0', '0', '12', '3']]
-# target = [[ '1', '0', '3', '10', 'H'],
-#           ['13', '8', '0', '4', '12' ],
-#           ['6', '0', 'H', '7', '0'],
-#           ['11', '5', '0', '9', '2' ]]
-
-source = [[ '1', '2', '3'],
-          ['4', '0', '5'], 
-          ['6','7','8']
-          ]
-target = [[ '1', '2', '3'],
-          ['4', '5', '0'],
-          ['6', '7', '8'] ]
 
 st = time.time()
 print(solver.solve(source, target))
