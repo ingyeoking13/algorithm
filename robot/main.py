@@ -1,25 +1,25 @@
 from copy import deepcopy
 import functools
 from pydantic import BaseModel
-from queue import PriorityQueue, Queue
-from typing import List, cast
+from queue import PriorityQueue, Queue 
+from typing import List, Optional, Any
 import time
-# source = [[ '1', '2', '3'],
-#           ['4', '0', '6'], 
-#           ['7','5','8']
-#           ]
-# target = [[ '1', '2', '3'],
-#           ['4', '5', '0'],
-#           ['6', '7', '8'] ]
-source = [[ '0', '9', '7', '0', 'H'], 
-          ['4', '13', '1', '10', '5'],
-          ['11', '2', 'H', '0', '8'],
-          ['6', '0', '0', '12', '3']]
+source = [[ '1', '2', '3'],
+          ['4', '0', '6'], 
+          ['7','5','8']
+          ]
+target = [[ '1', '2', '3'],
+          ['4', '5', '0'],
+          ['6', '7', '8'] ]
+# source = [[ '0', '9', '7', '0', 'H'], 
+#           ['4', '13', '1', '10', '5'],
+#           ['11', '2', 'H', '0', '8'],
+#           ['6', '0', '0', '12', '3']]
 
-target = [[ '1', '0', '3', '10', 'H'],
-          ['13', '8', '0', '4', '12' ],
-          ['6', '0', 'H', '7', '0'],
-          ['11', '5', '0', '9', '2' ]]
+# target = [[ '1', '0', '3', '10', 'H'],
+#           ['13', '8', '0', '4', '12' ],
+#           ['6', '0', 'H', '7', '0'],
+#           ['11', '5', '0', '9', '2' ]]
 
 @functools.total_ordering
 class Node:
@@ -65,13 +65,14 @@ class Node:
         
         return self.ManhattanDistance() > other.ManhattanDistance()
 
+
 class Solver(BaseModel):
     dx = [-1, 1, 0, 0]
     dy = [0, 0, -1, 1]
+    queue: Optional[Any]
 
-    def validate(self, source: List[List[str]], target: List[List[str]]):
-        if not source or not target:
-            raise RuntimeError()
+    def __init__(self, **data) -> None:
+        super().__init__(**data)
     
     def stringifyState(self, state:List[List[str]], px:int, py:int):
         state_str = ','.join([ char for  row in  state for char in row ])
@@ -87,7 +88,7 @@ class Solver(BaseModel):
         state = deepcopy(source)
         state_str = self.stringifyState(state, px, py)
         target_str = self.stringifyState(target, 0, 0)
-        queue  = PriorityQueue()
+        queue = self.queue
         # queue  = Queue()
         visited = set()
         visited.add(state_str)
@@ -138,7 +139,7 @@ class Solver(BaseModel):
 
         return -1
 
-solver = Solver()
+solver = Solver(queue=Queue())
 
 st = time.time()
 print(solver.solve(source, target))
