@@ -175,6 +175,8 @@ class Solver(BaseModel):
         for state in prints:
             for i, c in enumerate(state):
                 print(c, end=', ' if i%self.col!=self.col-1  else '\n')
+            print('-----------------------')
+
 
 
 
