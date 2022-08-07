@@ -70,19 +70,13 @@ def ManhattanDistance(state:Tuple):
 @functools.total_ordering
 class Node:
     state:Tuple[str]
-    p:int
-    just_put: bool
-    grab:str
     distance:int
     manhattan:int
 
-    def __init__(self, state:Tuple[str], p:int, just_put:bool, grab:str, distance:int) -> None:
+    def __init__(self, state:Tuple[str], distance:int) -> None:
         self.state = state
-        self.p = p
-        self.grab = grab
         self.distance = distance
         self.manhattan = ManhattanDistance(state)
-        self.just_put = just_put
 
     def __gt__(self, other):
         if not isinstance(other, Node):
@@ -133,80 +127,54 @@ class Solver(BaseModel):
     def solve(self, source: List[List[str]], target: List[List[str]]):
         self.adjacentfill(source)
 
-        p = 0
-        just_put = False
-
         source_state = tuple(char for row in source for char in row)
         tupled_target = tuple(char for row in target for char in row)
 
-        source_state_merged = source_state + (p,)
-        answer = tupled_target + (p,)
+        source_state_merged = source_state
+        answer = tupled_target
 
         queue = cast(Queue, self.queue)
         visited = self.visited = {}
         visited[source_state_merged] = ''
-        queue.put(Node(source_state, p, False, '', 0 ))
+        queue.put(Node(source_state, 0))
 
         while not queue.empty():
             self.hit += 1
             node: Node= queue.get()
-            state, p, grab, distance, just_put = (node.state , node.p, node.grab, node.distance, node.just_put)
-            # print(state, p, grab)
-
-            # put! 
-            if grab and state[p] == '0': 
-                next_state = state[:p] + (grab,) + state[p+1:]
-                state_merged = next_state + (p,)
-                if state_merged not in visited:
-                    visited[state_merged] = {'prev': state, 'grab': '', 'p': p }
-
-                    # we solve!
-                    if answer[:-1] == next_state: 
-                        self.solved_state = state_merged
-                        return distance+1
-
-                    queue.put(Node(next_state, p, True, '', distance+1))
-
-
-            # grab!
-            if not grab and state[p] != '0':
-                next_state = state[:p] +  ('0',) + state[p+1:]
-                state_merged = next_state  +(p,)
-                if state_merged not in visited:
-                    visited[state_merged] = {'prev': state, 'grab': state[p], 'p':p}
-                    queue.put(Node(next_state, p, False, state[p], distance+1))
-
-            # or... just move!
-            for next_p in self.adjacent[p]:
-                if grab and (state[next_p] != '0' or state[next_p] != 'H'):
+            state, distance = (node.state, node.distance)
+            # print(state, distance)
+            if answer == state:
+                self.solved_state = state
+                return distance+1
+            # ...^^
+            for p in self.adjacent.keys():
+                if state[p] == '0' or state[p] == 'H':
                     continue
 
-                if just_put is False and state[p] != '0':
-                    continue
-                    
-                state_merged =  state + (next_p,)
-                if state_merged not in visited:
-                    visited[state_merged] = {'prev': state, 'grab': grab, 'p': p}
-                    queue.put(Node(state, next_p, False, grab, distance+1))
+                for next_p in self.adjacent[p]:
+                    if state[next_p] == '0':
+                        c = state[p]
+
+                        next_state = state[:p] + ('0',) + state[p+1:]
+                        next_state = next_state[:next_p] + (c, ) + next_state[next_p+1:]
+
+                        if next_state not in visited:
+                            visited[next_state] = state
+                            queue.put(Node(next_state, distance+1))
 
         return -1
 
     def printPath(self):
         prints = []
         state = self.solved_state
-        while self.visited[state]:
-            grab = self.visited[state]['grab']
-            prints.append((state[:-1], grab, state[-1]))
-            p = self.visited[state]['p']
-            state = self.visited[state]['prev'] + (p, )
-
-        prints.append((state[:-1], '', state[-1]))
+        while state:
+            prints.append(state)
+            state = self.visited[state]
         
         prints.reverse()
-        for state, grab, p in prints:
+        for state in prints:
             for i, c in enumerate(state):
                 print(c, end=', ' if i%self.col!=self.col-1  else '\n')
-            print(f'[grab: {grab}, p: {p}]')
 
 
 
