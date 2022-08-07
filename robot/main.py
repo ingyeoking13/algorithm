@@ -5,15 +5,26 @@ from queue import PriorityQueue, Queue
 from typing import  Any, cast, List, Optional, Tuple
 import time
 
+# source = [[ '0', '9', '7', '0', 'H'], 
+#           ['4', '13', '1', '10', '5'],
+#           ['11', '2', 'H', '0', '8'],
+#           ['6', '0', '0', '12', '3']]
+
+# target = [[ '1', '0', '3', '10', 'H'],
+#           ['13', '8', '0', '4', '12' ],
+#           ['6', '0', 'H', '7', '0'],
+#           ['11', '5', '0', '9', '2' ]]
+
 source = [[ '0', '9', '7', '0', 'H'], 
           ['4', '13', '1', '10', '5'],
           ['11', '2', 'H', '0', '8'],
           ['6', '0', '0', '12', '3']]
 
-target = [[ '1', '0', '3', '10', 'H'],
-          ['13', '8', '0', '4', '12' ],
-          ['6', '0', 'H', '7', '0'],
-          ['11', '5', '0', '9', '2' ]]
+target = [[ '9', '0', '7', '0', 'H'], 
+          ['4', '13', '1', '10', '5'],
+          ['11', '2', 'H', '0', '8'],
+          ['6', '0', '0', '12', '3']]
+
 # source = [[ '1', '2', '3'],
 #           ['4', '0', '6'], 
 #           ['7','5','8']
@@ -144,7 +155,7 @@ class Solver(BaseModel):
                 next_state = state[:p] + (grab,) + state[p+1:]
                 state_merged = next_state + (p,)
                 if state_merged not in visited:
-                    visited[state_merged] = {'map': state, 'grab': grab, 'p': p }
+                    visited[state_merged] = {'prev': state, 'grab': '', 'p': p }
 
                     # we solve!
                     if answer[:-1] == next_state: 
@@ -159,7 +170,7 @@ class Solver(BaseModel):
                 next_state = state[:p] +  ('0',) + state[p+1:]
                 state_merged = next_state  +(p,)
                 if state_merged not in visited:
-                    visited[state_merged] = {'map': state, 'grab': grab, 'p':p}
+                    visited[state_merged] = {'prev': state, 'grab': state[p], 'p':p}
                     queue.put(Node(next_state, p, state[p], distance+1))
 
             # or... just move!
@@ -169,7 +180,7 @@ class Solver(BaseModel):
                     
                 state_merged =  state + (next_p,)
                 if state_merged not in visited:
-                    visited[state_merged] = {'map': state, 'grab': grab, 'p': p}
+                    visited[state_merged] = {'prev': state, 'grab': grab, 'p': p}
                     queue.put(Node(state, next_p, grab, distance+1))
 
         return -1
@@ -179,9 +190,11 @@ class Solver(BaseModel):
         state = self.solved_state
         while self.visited[state]:
             grab = self.visited[state]['grab']
+            prints.append((state[:-1], grab, state[-1]))
             p = self.visited[state]['p']
-            prints.append((state[:-1], grab, p))
-            state = self.visited[state]['map'] + (p, )
+            state = self.visited[state]['prev'] + (p, )
+
+        prints.append((state[:-1], 0, state[-1]))
         
         prints.reverse()
         for state, grab, p in prints:
