@@ -90,6 +90,7 @@ class Node:
         
         return self.manhattan > other.manhattan
 
+
 class Solver(BaseModel):
     dx = [-1, 1, 0, 0]
     dy = [0, 0, -1, 1]
@@ -144,7 +145,7 @@ class Solver(BaseModel):
         queue = cast(Queue, self.queue)
         visited = self.visited = {}
         visited[source_state_merged] = ''
-        queue.put(Node(source_state, p, False, '', 0))
+        queue.put(Node(source_state, p, False, '', 0 ))
 
         while not queue.empty():
             self.hit += 1
@@ -157,7 +158,7 @@ class Solver(BaseModel):
                 next_state = state[:p] + (grab,) + state[p+1:]
                 state_merged = next_state + (p,)
                 if state_merged not in visited:
-                    visited[state_merged] = {'prev': state, 'grab': '', 'p': p, 'operation': 'put' }
+                    visited[state_merged] = {'prev': state, 'grab': '', 'p': p }
 
                     # we solve!
                     if answer[:-1] == next_state: 
@@ -168,24 +169,24 @@ class Solver(BaseModel):
 
 
             # grab!
-            if not grab and (state[p] != '0' and state[p] != 'H'):
+            if not grab and state[p] != '0':
                 next_state = state[:p] +  ('0',) + state[p+1:]
                 state_merged = next_state  +(p,)
                 if state_merged not in visited:
-                    visited[state_merged] = {'prev': state, 'grab': state[p], 'p':p, 'operation': 'grab'}
+                    visited[state_merged] = {'prev': state, 'grab': state[p], 'p':p}
                     queue.put(Node(next_state, p, False, state[p], distance+1))
 
             # or... just move!
             for next_p in self.adjacent[p]:
-                if grab and (state[next_p] != '0' and state[next_p] !='H' ):
+                if grab and (state[next_p] != '0' or state[next_p] != 'H'):
                     continue
 
-                if just_put is False and (state[p] != '0' and state[p] != 'H'):
+                if just_put is False and state[p] != '0':
                     continue
                     
                 state_merged =  state + (next_p,)
                 if state_merged not in visited:
-                    visited[state_merged] = {'prev': state, 'grab': grab, 'p': p, 'operation': f'{p}->{next_p}'}
+                    visited[state_merged] = {'prev': state, 'grab': grab, 'p': p}
                     queue.put(Node(state, next_p, False, grab, distance+1))
 
         return -1
@@ -195,18 +196,17 @@ class Solver(BaseModel):
         state = self.solved_state
         while self.visited[state]:
             grab = self.visited[state]['grab']
-            move = self.visited[state]['operation']
-            prints.append((state[:-1], grab, state[-1], move))
+            prints.append((state[:-1], grab, state[-1]))
             p = self.visited[state]['p']
             state = self.visited[state]['prev'] + (p, )
 
-        prints.append((state[:-1], '', state[-1], ''))
+        prints.append((state[:-1], '', state[-1]))
         
         prints.reverse()
-        for state, grab, p, move in prints:
+        for state, grab, p in prints:
             for i, c in enumerate(state):
                 print(c, end=', ' if i%self.col!=self.col-1  else '\n')
-            print(f'[grab: {grab}, p: {p}, move: {move}]')
+            print(f'[grab: {grab}, p: {p}]')
 
 
 
@@ -222,5 +222,3 @@ print('hit', solver.hit)
 
 if result > 0:
     solver.printPath()
-
-

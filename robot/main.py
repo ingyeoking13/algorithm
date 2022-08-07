@@ -166,7 +166,7 @@ class Solver(BaseModel):
 
 
             # grab!
-            if not grab and state[p] != '0':
+            if not grab and (state[p] != '0' and state[p] != 'H'):
                 next_state = state[:p] +  ('0',) + state[p+1:]
                 state_merged = next_state  +(p,)
                 if state_merged not in visited:
@@ -175,7 +175,7 @@ class Solver(BaseModel):
 
             # or... just move!
             for next_p in self.adjacent[p]:
-                if grab and state[next_p] != '0':
+                if grab and (state[next_p] != '0' and state[next_p] != 'H'):
                     continue
                     
                 state_merged =  state + (next_p,)
