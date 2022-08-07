@@ -22,6 +22,13 @@ target = [[ '1', '0', '3', '10', 'H'],
 #           ['4', '5', '0'],
 #           ['6', '7', '8'] ]
 
+# source = [['0', '3', '5'], 
+#         ['4', '7', '1'], 
+#         ['8', '2', '6']]
+# target = [[ '1', '2', '3'],
+#           ['4', '5', '6'],
+#           ['7', '8', '0']]
+
 # source = [[ '1', '2', '3'],
 #           ['4', '0', '5'] ]
 # target = [[ '1', '2', '3'],
@@ -32,41 +39,43 @@ target = [[ '1', '0', '3', '10', 'H'],
 tupled_target = tuple(char for row in target for char in row)
 
 
+def ManhattanDistance(state:Tuple):
+    result = 0
+    col = len(source[0])
+    for i in range(len(state)):
+        elem = state[i]
+        if elem == '0': 
+            continue
+
+        for j in range(len(state)):
+            if tupled_target[j] == elem:
+                diff = abs(j-i)
+                diff = int(diff/col) + diff%col 
+                result += diff
+                break
+
+    return result
+
 @functools.total_ordering
 class Node:
     state:Tuple[str]
     p:int
     grab:str
     distance:int
-
-    def ManhattanDistance(self):
-        result = 0
-        col = len(source[0])
-        for i in range(len(self.state)):
-            elem = self.state[i]
-            if elem == '0': 
-                continue
-
-            for j in range(len(self.state)):
-                if tupled_target[j] == elem:
-                    diff = abs(j-i)
-                    diff = int(diff/col) + diff%col 
-                    result += diff
-                    break
-
-        return result
+    manhattan:int
 
     def __init__(self, state:Tuple[str], p:int, grab:str, distance:int) -> None:
         self.state = state
         self.p = p
         self.grab = grab
         self.distance = distance
+        self.manhattan = ManhattanDistance(state)
 
     def __gt__(self, other):
         if not isinstance(other, Node):
             raise NotImplemented
         
-        return self.ManhattanDistance() > other.ManhattanDistance()
+        return self.manhattan > other.manhattan
 
 
 class Solver(BaseModel):
@@ -78,6 +87,7 @@ class Solver(BaseModel):
     adjacent = {}
     row = 0
     col = 0
+    hit = 0
 
     def __init__(self, **data) -> None:
         super().__init__(**data)
@@ -124,6 +134,7 @@ class Solver(BaseModel):
         queue.put(Node(source_state, p, '', 0))
 
         while not queue.empty():
+            self.hit += 1
             node: Node= queue.get()
             state, p, grab, distance = (node.state , node.p, node.grab, node.distance)
             # print(state, p, grab)
@@ -136,7 +147,7 @@ class Solver(BaseModel):
                     visited[state_merged] = {'map': state, 'grab': grab, 'p': p }
 
                     # we solve!
-                    if answer[:-1] == state_merged[:-1]: 
+                    if answer[:-1] == next_state: 
                         self.solved_state = state_merged
                         return distance+1
 
@@ -184,13 +195,13 @@ solver = Solver(queue=PriorityQueue())
 # solver = Solver(queue=Queue())
 
 st = time.time()
-result = solver.solve(source, target)
+result =  solver.solve(source, target)
 end = time.time()
 print('solved: ', result, ' with times operator') if result >= 0 else print('unsolved')
 print('Elapsed time: ', end- st, ' (sec)')
+print('hit', solver.hit)
 
-# if result > 0:
-    # pass
-    # solver.printPath()
+if result > 0:
+    solver.printPath()
 
 
