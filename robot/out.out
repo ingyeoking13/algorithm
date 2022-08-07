@@ -1,11 +1,11 @@
 solved:  376  with times operator
-Elapsed time:  1.0793788433074951  (sec)
+Elapsed time:  1.0555460453033447  (sec)
 hit 26459
 0, 9, 7, 0, H
 4, 13, 1, 10, 5
 11, 2, H, 0, 8
 6, 0, 0, 12, 3
-[grab: 0, p: 0]
+[grab: , p: 0]
 0, 9, 7, 0, H
 4, 13, 1, 10, 5
 11, 2, H, 0, 8
