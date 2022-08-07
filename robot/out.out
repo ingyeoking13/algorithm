@@ -4,23 +4,1006 @@ rootdir: /Users/gaelim/Project/algorithm/robot
 collected 18 items
 
 tests/test_solver.py solved:  296  with times operator
-Elapsed time:  0.2775270938873291  (sec)
+Elapsed time:  1.4344441890716553  (sec)
 hit 6727
 .solved:  4  with times operator
-Elapsed time:  0.0002808570861816406  (sec)
+Elapsed time:  0.0007691383361816406  (sec)
 hit 4
 .unsolved
-Elapsed time:  6.413459777832031e-05  (sec)
+Elapsed time:  0.0002827644348144531  (sec)
 hit 2
 .solved:  119  with times operator
-Elapsed time:  0.006936073303222656  (sec)
+Elapsed time:  0.04353499412536621  (sec)
 hit 410
 .unsolved
-Elapsed time:  5.4836273193359375e-05  (sec)
+Elapsed time:  0.0002639293670654297  (sec)
 hit 2
 .solved:  3  with times operator
-Elapsed time:  5.1021575927734375e-05  (sec)
+Elapsed time:  0.00025177001953125  (sec)
 hit 3
-.............
+.solved:  80  with times operator
+Elapsed time:  0.576911211013794  (sec)
+hit 675
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+.solved:  2  with times operator
+Elapsed time:  0.0010449886322021484  (sec)
+hit 2
+-----------------------
+-----------------------
+.solved:  14  with times operator
+Elapsed time:  0.006036996841430664  (sec)
+hit 51
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+.solved:  47  with times operator
+Elapsed time:  0.015374183654785156  (sec)
+hit 106
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+-----------------------
+.solved:  2  with times operator
+Elapsed time:  0.00031495094299316406  (sec)
+hit 2
+-----------------------
+-----------------------
+.solved:  2  with times operator
+Elapsed time:  0.00018310546875  (sec)
+hit 2
+-----------------------
+-----------------------
+.solved:  288  with times operator
+Elapsed time:  0.7524709701538086  (sec)
+hit 3841
+[grab: , p: 0]
+[grab: , p: 1]
+[grab: , p: 2]
+[grab: 7, p: 2]
+[grab: 7, p: 3]
+[grab: , p: 3]
+[grab: , p: 4]
+[grab: , p: 9]
+[grab: , p: 14]
+[grab: 8, p: 14]
+[grab: 8, p: 13]
+[grab: 8, p: 12]
+[grab: 8, p: 17]
+[grab: 8, p: 16]
+[grab: , p: 16]
+[grab: , p: 17]
+[grab: , p: 18]
+[grab: 12, p: 18]
+[grab: 12, p: 13]
+[grab: 12, p: 14]
+[grab: , p: 14]
+[grab: , p: 13]
+[grab: , p: 12]
+[grab: , p: 11]
+[grab: 2, p: 11]
+[grab: 2, p: 12]
+[grab: 2, p: 13]
+[grab: 2, p: 18]
+[grab: , p: 18]
+[grab: , p: 19]
+[grab: , p: 14]
+[grab: , p: 9]
+[grab: , p: 8]
+[grab: , p: 3]
+[grab: , p: 2]
+[grab: , p: 1]
+[grab: 9, p: 1]
+[grab: 9, p: 2]
+[grab: , p: 2]
+[grab: , p: 1]
+[grab: , p: 0]
+[grab: , p: 5]
+[grab: 4, p: 5]
+[grab: 4, p: 0]
+[grab: 4, p: 1]
+[grab: , p: 1]
+[grab: , p: 2]
+[grab: , p: 7]
+[grab: 1, p: 7]
+[grab: 1, p: 12]
+[grab: 1, p: 11]
+[grab: , p: 11]
+[grab: , p: 12]
+[grab: , p: 13]
+[grab: , p: 14]
+[grab: , p: 9]
+[grab: , p: 4]
+[grab: , p: 3]
+[grab: , p: 2]
+[grab: 9, p: 2]
+[grab: 9, p: 7]
+[grab: 9, p: 12]
+[grab: 9, p: 17]
+[grab: , p: 17]
+[grab: , p: 18]
+[grab: , p: 19]
+[grab: , p: 14]
+[grab: , p: 9]
+[grab: , p: 8]
+[grab: , p: 3]
+[grab: 7, p: 3]
+[grab: 7, p: 2]
+[grab: 7, p: 7]
+[grab: 7, p: 12]
+[grab: 7, p: 13]
+[grab: , p: 13]
+[grab: , p: 14]
+[grab: , p: 9]
+[grab: , p: 4]
+[grab: , p: 3]
+[grab: , p: 2]
+[grab: , p: 1]
+[grab: 4, p: 1]
+[grab: 4, p: 2]
+[grab: 4, p: 7]
+[grab: , p: 7]
+[grab: , p: 8]
+[grab: 10, p: 8]
+[grab: 10, p: 3]
+[grab: , p: 3]
+[grab: , p: 4]
+[grab: , p: 9]
+[grab: , p: 14]
+[grab: , p: 13]
+[grab: , p: 12]
+[grab: , p: 7]
+[grab: 4, p: 7]
+[grab: 4, p: 8]
+[grab: , p: 8]
+[grab: , p: 9]
+[grab: , p: 14]
+[grab: , p: 19]
+[grab: , p: 18]
+[grab: , p: 17]
+[grab: , p: 16]
+[grab: , p: 15]
+[grab: , p: 10]
+[grab: , p: 5]
+[grab: , p: 6]
+[grab: 13, p: 6]
+[grab: 13, p: 5]
+[grab: , p: 5]
+[grab: , p: 6]
+[grab: , p: 11]
+[grab: 1, p: 11]
+[grab: 1, p: 12]
+[grab: 1, p: 7]
+[grab: 1, p: 2]
+[grab: 1, p: 1]
+[grab: 1, p: 0]
+[grab: , p: 0]
+[grab: , p: 1]
+[grab: , p: 2]
+[grab: , p: 3]
+[grab: , p: 4]
+[grab: , p: 9]
+[grab: , p: 14]
+[grab: , p: 13]
+[grab: , p: 12]
+[grab: , p: 17]
+[grab: , p: 16]
+[grab: 8, p: 16]
+[grab: 8, p: 11]
+[grab: 8, p: 6]
+[grab: , p: 6]
+[grab: , p: 11]
+[grab: , p: 10]
+[grab: , p: 15]
+[grab: 6, p: 15]
+[grab: 6, p: 16]
+[grab: 6, p: 11]
+[grab: , p: 11]
+[grab: , p: 10]
+[grab: 11, p: 10]
+[grab: 11, p: 15]
+[grab: , p: 15]
+[grab: , p: 16]
+[grab: , p: 11]
+[grab: 6, p: 11]
+[grab: 6, p: 10]
+[grab: , p: 10]
+[grab: , p: 11]
+[grab: , p: 6]
+[grab: , p: 1]
+[grab: , p: 2]
+[grab: , p: 3]
+[grab: 10, p: 3]
+[grab: 10, p: 2]
+[grab: 10, p: 1]
+[grab: , p: 1]
+[grab: , p: 2]
+[grab: , p: 3]
+[grab: , p: 4]
+[grab: , p: 9]
+[grab: 5, p: 9]
+[grab: 5, p: 4]
+[grab: 5, p: 3]
+[grab: 5, p: 2]
+[grab: 5, p: 7]
+[grab: 5, p: 12]
+[grab: 5, p: 11]
+[grab: 5, p: 16]
+[grab: , p: 16]
+[grab: , p: 17]
+[grab: , p: 18]
+[grab: , p: 19]
+[grab: , p: 14]
+[grab: 12, p: 14]
+[grab: 12, p: 9]
+[grab: , p: 9]
+[grab: , p: 8]
+[grab: , p: 7]
+[grab: , p: 6]
+[grab: , p: 1]
+[grab: 10, p: 1]
+[grab: 10, p: 2]
+[grab: 10, p: 3]
+[grab: , p: 3]
+[grab: , p: 4]
+[grab: , p: 9]
+[grab: , p: 14]
+[grab: , p: 19]
+[grab: 3, p: 19]
+[grab: 3, p: 14]
+[grab: , p: 14]
+[grab: , p: 13]
+[grab: , p: 18]
+[grab: 2, p: 18]
+[grab: 2, p: 19]
+[grab: , p: 19]
+[grab: , p: 18]
+[grab: , p: 17]
+[grab: 9, p: 17]
+[grab: 9, p: 18]
+[grab: , p: 18]
+[grab: , p: 19]
+[grab: , p: 14]
+[grab: , p: 9]
+[grab: , p: 8]
+[grab: 4, p: 8]
+[grab: 4, p: 7]
+[grab: , p: 7]
+[grab: , p: 8]
+[grab: , p: 9]
+[grab: 12, p: 9]
+[grab: 12, p: 8]
+[grab: , p: 8]
+[grab: , p: 9]
+[grab: , p: 14]
+[grab: 3, p: 14]
+[grab: 3, p: 9]
+[grab: , p: 9]
+[grab: , p: 8]
+[grab: , p: 3]
+[grab: 10, p: 3]
+[grab: 10, p: 2]
+[grab: , p: 2]
+[grab: , p: 3]
+[grab: , p: 4]
+[grab: , p: 9]
+[grab: 3, p: 9]
+[grab: 3, p: 4]
+[grab: 3, p: 3]
+[grab: , p: 3]
+[grab: , p: 8]
+[grab: 12, p: 8]
+[grab: 12, p: 9]
+[grab: , p: 9]
+[grab: , p: 8]
+[grab: , p: 7]
+[grab: 4, p: 7]
+[grab: 4, p: 8]
+[grab: , p: 8]
+[grab: , p: 9]
+[grab: , p: 14]
+[grab: , p: 19]
+[grab: , p: 18]
+[grab: , p: 17]
+[grab: , p: 16]
+[grab: , p: 15]
+[grab: , p: 10]
+[grab: , p: 5]
+[grab: , p: 6]
+[grab: , p: 1]
+[grab: , p: 2]
+[grab: 10, p: 2]
+[grab: 10, p: 1]
+[grab: , p: 1]
+[grab: , p: 2]
+[grab: , p: 3]
+[grab: 3, p: 3]
+[grab: 3, p: 2]
+[grab: 3, p: 7]
+[grab: , p: 7]
+[grab: , p: 8]
+[grab: , p: 9]
+[grab: , p: 14]
+[grab: , p: 19]
+[grab: , p: 18]
+[grab: , p: 17]
+[grab: , p: 16]
+[grab: , p: 15]
+[grab: , p: 10]
+[grab: , p: 5]
+[grab: , p: 0]
+[grab: , p: 1]
+[grab: 10, p: 1]
+[grab: 10, p: 2]
+[grab: 10, p: 3]
+[grab: , p: 3]
+[grab: , p: 4]
+[grab: , p: 9]
+[grab: , p: 14]
+[grab: , p: 13]
+[grab: , p: 12]
+[grab: , p: 7]
+[grab: 3, p: 7]
+[grab: 3, p: 2]
+[grab: , p: 2]
+.solved:  4  with times operator
+Elapsed time:  0.00075531005859375  (sec)
+hit 4
+[grab: , p: 0]
+[grab: , p: 1]
+[grab: 9, p: 1]
+[grab: 9, p: 0]
+[grab: , p: 0]
+.solved:  76  with times operator
+Elapsed time:  0.13456392288208008  (sec)
+hit 1608
+[grab: , p: 0]
+[grab: , p: 1]
+[grab: , p: 2]
+[grab: , p: 5]
+[grab: , p: 8]
+[grab: , p: 7]
+[grab: 5, p: 7]
+[grab: 5, p: 4]
+[grab: , p: 4]
+[grab: , p: 3]
+[grab: , p: 6]
+[grab: 7, p: 6]
+[grab: 7, p: 7]
+[grab: , p: 7]
+[grab: , p: 8]
+[grab: , p: 5]
+[grab: , p: 2]
+[grab: , p: 1]
+[grab: , p: 0]
+[grab: , p: 3]
+[grab: 4, p: 3]
+[grab: 4, p: 6]
+[grab: , p: 6]
+[grab: , p: 7]
+[grab: , p: 4]
+[grab: 5, p: 4]
+[grab: 5, p: 3]
+[grab: , p: 3]
+[grab: , p: 4]
+[grab: , p: 5]
+[grab: 6, p: 5]
+[grab: 6, p: 4]
+[grab: , p: 4]
+[grab: , p: 5]
+[grab: , p: 8]
+[grab: 8, p: 8]
+[grab: 8, p: 5]
+[grab: , p: 5]
+[grab: , p: 4]
+[grab: , p: 7]
+[grab: 7, p: 7]
+[grab: 7, p: 8]
+[grab: , p: 8]
+[grab: , p: 7]
+[grab: , p: 4]
+[grab: 6, p: 4]
+[grab: 6, p: 7]
+[grab: , p: 7]
+[grab: , p: 8]
+[grab: , p: 5]
+[grab: , p: 2]
+[grab: , p: 1]
+[grab: , p: 0]
+[grab: , p: 3]
+[grab: 5, p: 3]
+[grab: 5, p: 4]
+[grab: , p: 4]
+[grab: , p: 3]
+[grab: , p: 6]
+[grab: 4, p: 6]
+[grab: 4, p: 3]
+[grab: , p: 3]
+[grab: , p: 4]
+[grab: , p: 7]
+[grab: 6, p: 7]
+[grab: 6, p: 6]
+[grab: , p: 6]
+[grab: , p: 7]
+[grab: , p: 8]
+[grab: 7, p: 8]
+[grab: 7, p: 7]
+[grab: , p: 7]
+[grab: , p: 8]
+[grab: , p: 5]
+[grab: 8, p: 5]
+[grab: 8, p: 8]
+[grab: , p: 8]
+.solved:  417  with times operator
+Elapsed time:  0.2581782341003418  (sec)
+hit 3039
+[grab: , p: 0]
+[grab: , p: 1]
+[grab: 3, p: 1]
+[grab: 3, p: 0]
+[grab: , p: 0]
+[grab: , p: 1]
+[grab: , p: 2]
+[grab: 5, p: 2]
+[grab: 5, p: 1]
+[grab: , p: 1]
+[grab: , p: 2]
+[grab: , p: 5]
+[grab: 1, p: 5]
+[grab: 1, p: 2]
+[grab: , p: 2]
+[grab: , p: 1]
+[grab: , p: 4]
+[grab: 7, p: 4]
+[grab: 7, p: 5]
+[grab: , p: 5]
+[grab: , p: 4]
+[grab: , p: 7]
+[grab: 2, p: 7]
+[grab: 2, p: 4]
+[grab: , p: 4]
+[grab: , p: 7]
+[grab: , p: 6]
+[grab: 8, p: 6]
+[grab: 8, p: 7]
+[grab: , p: 7]
+[grab: , p: 8]
+[grab: , p: 5]
+[grab: , p: 2]
+[grab: , p: 1]
+[grab: , p: 0]
+[grab: , p: 3]
+[grab: 4, p: 3]
+[grab: 4, p: 6]
+[grab: , p: 6]
+[grab: , p: 3]
+[grab: , p: 0]
+[grab: 3, p: 0]
+[grab: 3, p: 3]
+[grab: , p: 3]
+[grab: , p: 4]
+[grab: , p: 1]
+[grab: 5, p: 1]
+[grab: 5, p: 0]
+[grab: , p: 0]
+[grab: , p: 1]
+[grab: , p: 4]
+[grab: 2, p: 4]
+[grab: 2, p: 1]
+[grab: , p: 1]
+[grab: , p: 2]
+[grab: , p: 5]
+[grab: , p: 8]
+[grab: , p: 7]
+[grab: , p: 6]
+[grab: , p: 3]
+[grab: 3, p: 3]
+[grab: 3, p: 4]
+[grab: , p: 4]
+[grab: , p: 3]
+[grab: , p: 0]
+[grab: 5, p: 0]
+[grab: 5, p: 3]
+[grab: , p: 3]
+[grab: , p: 4]
+[grab: , p: 1]
+[grab: 2, p: 1]
+[grab: 2, p: 0]
+[grab: , p: 0]
+[grab: , p: 1]
+[grab: , p: 2]
+[grab: 1, p: 2]
+[grab: 1, p: 1]
+[grab: , p: 1]
+[grab: , p: 2]
+[grab: , p: 5]
+[grab: 7, p: 5]
+[grab: 7, p: 2]
+[grab: , p: 2]
+[grab: , p: 1]
+[grab: , p: 4]
+[grab: 3, p: 4]
+[grab: 3, p: 5]
+[grab: , p: 5]
+[grab: , p: 4]
+[grab: , p: 3]
+[grab: 5, p: 3]
+[grab: 5, p: 4]
+[grab: , p: 4]
+[grab: , p: 3]
+[grab: , p: 0]
+[grab: 2, p: 0]
+[grab: 2, p: 3]
+[grab: , p: 3]
+[grab: , p: 4]
+[grab: , p: 1]
+[grab: 1, p: 1]
+[grab: 1, p: 0]
+[grab: , p: 0]
+[grab: , p: 1]
+[grab: , p: 2]
+[grab: 7, p: 2]
+[grab: 7, p: 1]
+[grab: , p: 1]
+[grab: , p: 2]
+[grab: , p: 5]
+[grab: 3, p: 5]
+[grab: 3, p: 2]
+[grab: , p: 2]
+[grab: , p: 1]
+[grab: , p: 4]
+[grab: 5, p: 4]
+[grab: 5, p: 5]
+[grab: , p: 5]
+[grab: , p: 4]
+[grab: , p: 3]
+[grab: 2, p: 3]
+[grab: 2, p: 4]
+[grab: , p: 4]
+[grab: , p: 1]
+[grab: , p: 0]
+[grab: 1, p: 0]
+[grab: 1, p: 3]
+[grab: , p: 3]
+[grab: , p: 4]
+[grab: , p: 1]
+[grab: 7, p: 1]
+[grab: 7, p: 0]
+[grab: , p: 0]
+[grab: , p: 1]
+[grab: , p: 4]
+[grab: 2, p: 4]
+[grab: 2, p: 1]
+[grab: , p: 1]
+[grab: , p: 2]
+[grab: , p: 5]
+[grab: 5, p: 5]
+[grab: 5, p: 4]
+[grab: , p: 4]
+[grab: , p: 5]
+[grab: , p: 8]
+[grab: 6, p: 8]
+[grab: 6, p: 5]
+[grab: , p: 5]
+[grab: , p: 4]
+[grab: , p: 7]
+[grab: 8, p: 7]
+[grab: 8, p: 8]
+[grab: , p: 8]
+[grab: , p: 7]
+[grab: , p: 4]
+[grab: 5, p: 4]
+[grab: 5, p: 7]
+[grab: , p: 7]
+[grab: , p: 8]
+[grab: , p: 5]
+[grab: , p: 2]
+[grab: , p: 1]
+[grab: , p: 0]
+[grab: , p: 3]
+[grab: 1, p: 3]
+[grab: 1, p: 4]
+[grab: , p: 4]
+[grab: , p: 3]
+[grab: , p: 0]
+[grab: 7, p: 0]
+[grab: 7, p: 3]
+[grab: , p: 3]
+[grab: , p: 4]
+[grab: , p: 1]
+[grab: 2, p: 1]
+[grab: 2, p: 0]
+[grab: , p: 0]
+[grab: , p: 1]
+[grab: , p: 4]
+[grab: 1, p: 4]
+[grab: 1, p: 1]
+[grab: , p: 1]
+[grab: , p: 2]
+[grab: , p: 5]
+[grab: , p: 8]
+[grab: , p: 7]
+[grab: 5, p: 7]
+[grab: 5, p: 4]
+[grab: , p: 4]
+[grab: , p: 7]
+[grab: , p: 6]
+[grab: 4, p: 6]
+[grab: 4, p: 7]
+[grab: , p: 7]
+[grab: , p: 4]
+[grab: , p: 3]
+[grab: 7, p: 3]
+[grab: 7, p: 6]
+[grab: , p: 6]
+[grab: , p: 7]
+[grab: , p: 8]
+[grab: , p: 5]
+[grab: , p: 2]
+[grab: , p: 1]
+[grab: , p: 0]
+[grab: 2, p: 0]
+[grab: 2, p: 3]
+[grab: , p: 3]
+[grab: , p: 4]
+[grab: , p: 1]
+[grab: 1, p: 1]
+[grab: 1, p: 0]
+[grab: , p: 0]
+[grab: , p: 1]
+[grab: , p: 4]
+[grab: 5, p: 4]
+[grab: 5, p: 1]
+[grab: , p: 1]
+[grab: , p: 0]
+[grab: , p: 3]
+[grab: 2, p: 3]
+[grab: 2, p: 4]
+[grab: , p: 4]
+[grab: , p: 3]
+[grab: , p: 6]
+[grab: 7, p: 6]
+[grab: 7, p: 3]
+[grab: , p: 3]
+[grab: , p: 4]
+[grab: , p: 7]
+[grab: 4, p: 7]
+[grab: 4, p: 6]
+[grab: , p: 6]
+[grab: , p: 7]
+[grab: , p: 8]
+[grab: 8, p: 8]
+[grab: 8, p: 7]
+[grab: , p: 7]
+[grab: , p: 8]
+[grab: , p: 5]
+[grab: 6, p: 5]
+[grab: 6, p: 8]
+[grab: , p: 8]
+[grab: , p: 7]
+[grab: , p: 4]
+[grab: 2, p: 4]
+[grab: 2, p: 5]
+[grab: , p: 5]
+[grab: , p: 4]
+[grab: , p: 1]
+[grab: 5, p: 1]
+[grab: 5, p: 4]
+[grab: , p: 4]
+[grab: , p: 5]
+[grab: , p: 2]
+[grab: 3, p: 2]
+[grab: 3, p: 1]
+[grab: , p: 1]
+[grab: , p: 2]
+[grab: , p: 5]
+[grab: 2, p: 5]
+[grab: 2, p: 2]
+[grab: , p: 2]
+[grab: , p: 1]
+[grab: , p: 0]
+[grab: , p: 3]
+[grab: , p: 6]
+[grab: , p: 7]
+[grab: , p: 8]
+[grab: 6, p: 8]
+[grab: 6, p: 5]
+[grab: , p: 5]
+[grab: , p: 4]
+[grab: , p: 7]
+[grab: 8, p: 7]
+[grab: 8, p: 8]
+[grab: , p: 8]
+[grab: , p: 7]
+[grab: , p: 6]
+[grab: 4, p: 6]
+[grab: 4, p: 7]
+[grab: , p: 7]
+[grab: , p: 8]
+[grab: , p: 5]
+[grab: , p: 2]
+[grab: , p: 1]
+[grab: , p: 0]
+[grab: , p: 3]
+[grab: 7, p: 3]
+[grab: 7, p: 6]
+[grab: , p: 6]
+[grab: , p: 7]
+[grab: , p: 4]
+[grab: 5, p: 4]
+[grab: 5, p: 3]
+[grab: , p: 3]
+[grab: , p: 4]
+[grab: , p: 7]
+[grab: 4, p: 7]
+[grab: 4, p: 4]
+[grab: , p: 4]
+[grab: , p: 5]
+[grab: , p: 8]
+[grab: 8, p: 8]
+[grab: 8, p: 7]
+[grab: , p: 7]
+[grab: , p: 8]
+[grab: , p: 5]
+[grab: 6, p: 5]
+[grab: 6, p: 8]
+[grab: , p: 8]
+[grab: , p: 7]
+[grab: , p: 6]
+[grab: , p: 3]
+[grab: , p: 0]
+[grab: , p: 1]
+[grab: , p: 2]
+[grab: 2, p: 2]
+[grab: 2, p: 5]
+[grab: , p: 5]
+[grab: , p: 4]
+[grab: , p: 1]
+[grab: 3, p: 1]
+[grab: 3, p: 2]
+[grab: , p: 2]
+[grab: , p: 1]
+[grab: , p: 4]
+[grab: 4, p: 4]
+[grab: 4, p: 1]
+[grab: , p: 1]
+[grab: , p: 2]
+[grab: , p: 5]
+[grab: 2, p: 5]
+[grab: 2, p: 4]
+[grab: , p: 4]
+[grab: , p: 5]
+[grab: , p: 2]
+[grab: 3, p: 2]
+[grab: 3, p: 5]
+[grab: , p: 5]
+[grab: , p: 4]
+[grab: , p: 1]
+[grab: 4, p: 1]
+[grab: 4, p: 2]
+[grab: , p: 2]
+[grab: , p: 1]
+[grab: , p: 4]
+[grab: 2, p: 4]
+[grab: 2, p: 1]
+[grab: , p: 1]
+[grab: , p: 2]
+[grab: , p: 5]
+[grab: , p: 8]
+[grab: , p: 7]
+[grab: , p: 6]
+[grab: , p: 3]
+[grab: 5, p: 3]
+[grab: 5, p: 4]
+[grab: , p: 4]
+[grab: , p: 1]
+[grab: , p: 0]
+[grab: 1, p: 0]
+[grab: 1, p: 3]
+[grab: , p: 3]
+[grab: , p: 4]
+[grab: , p: 1]
+[grab: 2, p: 1]
+[grab: 2, p: 0]
+[grab: , p: 0]
+[grab: , p: 1]
+[grab: , p: 2]
+[grab: 4, p: 2]
+[grab: 4, p: 1]
+[grab: , p: 1]
+[grab: , p: 2]
+[grab: , p: 5]
+[grab: 3, p: 5]
+[grab: 3, p: 2]
+[grab: , p: 2]
+[grab: , p: 1]
+[grab: , p: 4]
+[grab: 5, p: 4]
+[grab: 5, p: 5]
+[grab: , p: 5]
+[grab: , p: 4]
+[grab: , p: 1]
+[grab: 4, p: 1]
+[grab: 4, p: 4]
+[grab: , p: 4]
+[grab: , p: 3]
+[grab: , p: 0]
+[grab: 2, p: 0]
+[grab: 2, p: 1]
+[grab: , p: 1]
+[grab: , p: 2]
+[grab: , p: 5]
+[grab: , p: 8]
+[grab: , p: 7]
+[grab: , p: 6]
+[grab: , p: 3]
+[grab: 1, p: 3]
+[grab: 1, p: 0]
+[grab: , p: 0]
+[grab: , p: 1]
+[grab: , p: 4]
+[grab: 4, p: 4]
+[grab: 4, p: 3]
+[grab: , p: 3]
+[grab: , p: 4]
+[grab: , p: 5]
+[grab: 5, p: 5]
+[grab: 5, p: 4]
+[grab: , p: 4]
+[grab: , p: 5]
+[grab: , p: 8]
+[grab: 6, p: 8]
+[grab: 6, p: 5]
+[grab: , p: 5]
+.solved:  6  with times operator
+Elapsed time:  0.0005891323089599609  (sec)
+hit 6
+[grab: , p: 0]
+[grab: , p: 1]
+[grab: , p: 2]
+[grab: , p: 5]
+[grab: 5, p: 5]
+[grab: 5, p: 4]
+[grab: , p: 4]
+.solved:  3  with times operator
+Elapsed time:  0.0003819465637207031  (sec)
+hit 3
+[grab: , p: 0]
+[grab: 1, p: 0]
+[grab: 1, p: 1]
+[grab: , p: 1]
+.
 
-============================== 18 passed in 0.35s ==============================
+============================== 18 passed in 3.54s ==============================

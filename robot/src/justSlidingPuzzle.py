@@ -1,8 +1,7 @@
-from copy import deepcopy
 import functools
 from pydantic import BaseModel
 from queue import PriorityQueue
-from typing import  Any, cast, List, Optional, Tuple
+from typing import  Any, List, Optional, Tuple
 
 def ManhattanDistance(state:Tuple, tupled_target:Tuple, col:int):
     result = 0
