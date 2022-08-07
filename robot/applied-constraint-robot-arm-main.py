@@ -71,16 +71,18 @@ def ManhattanDistance(state:Tuple):
 class Node:
     state:Tuple[str]
     p:int
+    just_put: bool
     grab:str
     distance:int
     manhattan:int
 
-    def __init__(self, state:Tuple[str], p:int, grab:str, distance:int) -> None:
+    def __init__(self, state:Tuple[str], p:int, just_put:bool, grab:str, distance:int) -> None:
         self.state = state
         self.p = p
         self.grab = grab
         self.distance = distance
         self.manhattan = ManhattanDistance(state)
+        self.just_put = just_put
 
     def __gt__(self, other):
         if not isinstance(other, Node):
@@ -132,6 +134,7 @@ class Solver(BaseModel):
         self.adjacentfill(source)
 
         p = 0
+        just_put = False
 
         source_state = tuple(char for row in source for char in row)
         tupled_target = tuple(char for row in target for char in row)
@@ -142,12 +145,12 @@ class Solver(BaseModel):
         queue = cast(Queue, self.queue)
         visited = self.visited = {}
         visited[source_state_merged] = ''
-        queue.put(Node(source_state, p, '', 0))
+        queue.put(Node(source_state, p, False, '', 0 ))
 
         while not queue.empty():
             self.hit += 1
             node: Node= queue.get()
-            state, p, grab, distance = (node.state , node.p, node.grab, node.distance)
+            state, p, grab, distance, just_put = (node.state , node.p, node.grab, node.distance, node.just_put)
             # print(state, p, grab)
 
             # put! 
@@ -162,7 +165,7 @@ class Solver(BaseModel):
                         self.solved_state = state_merged
                         return distance+1
 
-                    queue.put(Node(next_state, p, '', distance+1))
+                    queue.put(Node(next_state, p, True, '', distance+1))
 
 
             # grab!
@@ -171,17 +174,20 @@ class Solver(BaseModel):
                 state_merged = next_state  +(p,)
                 if state_merged not in visited:
                     visited[state_merged] = {'prev': state, 'grab': state[p], 'p':p}
-                    queue.put(Node(next_state, p, state[p], distance+1))
+                    queue.put(Node(next_state, p, False, state[p], distance+1))
 
             # or... just move!
             for next_p in self.adjacent[p]:
                 if grab and state[next_p] != '0':
                     continue
+
+                if just_put is False and state[p] != '0':
+                    continue
                     
                 state_merged =  state + (next_p,)
                 if state_merged not in visited:
                     visited[state_merged] = {'prev': state, 'grab': grab, 'p': p}
-                    queue.put(Node(state, next_p, grab, distance+1))
+                    queue.put(Node(state, next_p, False, grab, distance+1))
 
         return -1
 
