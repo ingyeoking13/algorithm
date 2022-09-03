@@ -1,13 +1,13 @@
 import functools
 from pydantic import BaseModel
-from queue import PriorityQueue
+from queue import PriorityQueue, Queue
 from typing import Any, List, Optional, Tuple
 
 def ManhattanDistance(state:Tuple, tupled_target:Tuple, col: int):
     result = 0
     for i in range(len(state)):
         elem = state[i]
-        if elem == '0': 
+        if elem == '0' or elem == 'H': 
             continue
 
         for j in range(len(state)):
