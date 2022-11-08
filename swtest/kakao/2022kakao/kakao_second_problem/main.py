@@ -2,10 +2,8 @@ import api
 from typing import Deque, cast, List, Optional, Tuple
 from queue import PriorityQueue
 
-scenario1 = 200
-scenario2 = 1000
+scenarios = [200, 1000]
 auth_key = ''
-
 
 class Hotel():
     # 1: 한 층에 20개의 객실이 있는 3층 건물입니다.
@@ -49,7 +47,6 @@ class Hotel():
                 continue
 
             self.update_room_reservation_info(row_room, info, room_number[0])
-            # self.rooms[row][result[0]:result[0]+info.amount] = [info.check_out_date]*info.amount
             return 1000*(row+1) + room_number[0] +1
 
         return -1
@@ -107,29 +104,16 @@ pq = PriorityQueue()
 pq_2 = PriorityQueue()
 
 
-infos_history = {}
-replies_history = {} 
-request_history = {} 
-
 def main():
-    
 
     auth_key, problem, day = api.start_api(2)
     hotel = Hotel(problem)
-    print(auth_key)
-    for i in range(scenario2):
-        print('---------------------', day, '^^~~~~')
-        # hotel.cleanup(day)
-        # hotel.show(ver='min', day=day)
-
+    solve(auth_key, problem, scenarios[int(problem)])
+    for _ in range(scenario2):
         infos:List[api.ReservationInfo] = api.reservation_api(auth_key)
-        # all_queries += len(infos)
-        # all_queries_room_count += reduce(lambda prev, info: info.amount + prev, infos, 0)
-        # all_queries_expired_replies += reduce(lambda prev, info: (day - info.check_in_date + 1) + prev , infos, 0)
 
         for info in infos:
             info.day = day
-            infos_history[info.id] = info
             pq.put(info)
 
         while not pq.empty():
@@ -144,11 +128,9 @@ def main():
             if result == -1:
                 pq.get()
                 api.reply_api(auth_key, [{'id': info.id, 'reply': 'refused'}])
-                replies_history[info.id] = { 'r': 'refused', 'day' : day}
             else:
                 api.reply_api(auth_key, [{'id': info.id, 'reply': 'accepted'}])
                 pq_2.put(api.OrderReservationInfo(**{**dict(info), 'room_number': result}))
-                replies_history[info.id] = { 'r': 'accepted', 'day' : day}
                 pq.get()
 
         request = []
@@ -162,12 +144,9 @@ def main():
             else:
                 break
         
-
-        print('requesting',  request)
         day, fail_count = api.simulate_api(auth_key, request)
-        print(day, fail_count)
-        if fail_count > 0:
-            dd=0
+        # print('requesting',  request)
+        # print(day, fail_count)
 
 
 main()

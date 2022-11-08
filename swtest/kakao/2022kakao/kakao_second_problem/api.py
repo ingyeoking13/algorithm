@@ -4,11 +4,8 @@ from typing import Dict, Tuple, cast, List, Optional
 from pydantic import BaseModel
 import functools
 
-
 base_url = 'https://68ecj67379.execute-api.ap-northeast-2.amazonaws.com/api'
 x_token = '68bf2112d9082beba4d412c10d8f7c96'
-
-
 @functools.total_ordering
 class ReservationInfo(BaseModel):
     id: int
