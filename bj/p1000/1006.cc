@@ -8,7 +8,7 @@ int a[2][(int)1e4];
 bool occupied[2][(int)1e4];
 int d[2][(int)1e4][2];
 
-int dr[4] = { 1, 0, 0 , 0};
+int dr[4] = { 1, 0, 0 , -1};
 int dc[4] = { 0, 1, -1, 0};
 
 int go(int row, int col, int curChk, int &mxlen, int cnt, int &W)

@@ -47,11 +47,11 @@ int main ()
         }
 
         for (int d=1; d<=10; d++){
-            for (int j=0; j<=d; j++) {
+            for (int j=0; j<10; j++) {
                 int c = 0;
                 for (int i=j; i<=n; i+=d){
                     c += exists[d][i];
-                    if(c) ufind(v, sz, i, i+d);
+                    if(c>0) ufind(v, sz, i, i+d);
                 }
             }
         }
